@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:main(void)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+<summary >
+
+     This is the program entry point.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:RegisterHook(PHOOKTABLE,PFNHOOK)" source="c:\temp\Trc\BaseCode\main.c" type="BOOL">
+<summary >
+
+     This function registers a pre or post process hook function.
+     Pre-process hook functions will be called before the ProjProcessData
+     is called. Post-proces hook functions will be called after
+     ProjProcessData is called.
+ 
+</summary >
+<param name="HookTable" type="PHOOKTABLE" >
+
+     Points to the Hook table to add the registered processing function.
+ 
+</param >
+<param name="pfnHook" type="PFNHOOK" >
+
+     Specifies the hook function to be registered.
+ 
+</param >
+<returns >
+ Success: Returns TRUE. 
+</returns >
+<returns >
+ Failure: Returns FALSE (e.g. table is full). 
+</returns >
+</member>
+<member name="M:InitHookTable(PHOOKTABLE)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+<summary >
+
+     This function intializes the hook table.
+ 
+</summary >
+<param name="HookTable" type="PHOOKTABLE" >
+
+     Points to the Hook table.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ProcessHooks(PHOOKTABLE)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+<summary >
+
+     This function goes through the hook table and calls each hook function.
+ 
+</summary >
+<param name="HookTable" type="PHOOKTABLE" >
+
+     Points to the Hook table.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:BaseInitialization(void)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+<summary >
+
+     This function performs base code initializations which are not project specific.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

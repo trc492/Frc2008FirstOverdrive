@@ -1,0 +1,991 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADC_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	467;"	f	line:467	signature:(void)
+ADC_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	173;"	p	line:173	signature:(void)
+ADC_RANGE::1024L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	85;"	d	line:85
+ADC_RANGE::1024L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	91;"	d	line:91
+ADC_RANGE::16384L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	133;"	d	line:133
+ADC_RANGE::2048L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	103;"	d	line:103
+ADC_RANGE::2048L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	97;"	d	line:97
+ADC_RANGE::4096L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	109;"	d	line:109
+ADC_RANGE::4096L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	115;"	d	line:115
+ADC_RANGE::8192L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	121;"	d	line:121
+ADC_RANGE::8192L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	127;"	d	line:127
+ADC_RESULT_DIVISOR::0-0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	86;"	d	line:86
+ADC_RESULT_DIVISOR::1-0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	92;"	d	line:92
+ADC_RESULT_DIVISOR::2-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	98;"	d	line:98
+ADC_RESULT_DIVISOR::3-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	104;"	d	line:104
+ADC_RESULT_DIVISOR::4-2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	110;"	d	line:110
+ADC_RESULT_DIVISOR::5-2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	116;"	d	line:116
+ADC_RESULT_DIVISOR::6-3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	122;"	d	line:122
+ADC_RESULT_DIVISOR::7-3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	128;"	d	line:128
+ADC_RESULT_DIVISOR::8-4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	134;"	d	line:134
+ADC_SAMPLES_PER_UPDATE::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	84;"	d	line:84
+ADC_SAMPLES_PER_UPDATE::128	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	126;"	d	line:126
+ADC_SAMPLES_PER_UPDATE::16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	108;"	d	line:108
+ADC_SAMPLES_PER_UPDATE::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	90;"	d	line:90
+ADC_SAMPLES_PER_UPDATE::256	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	132;"	d	line:132
+ADC_SAMPLES_PER_UPDATE::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	114;"	d	line:114
+ADC_SAMPLES_PER_UPDATE::4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	96;"	d	line:96
+ADC_SAMPLES_PER_UPDATE::64	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	120;"	d	line:120
+ADC_SAMPLES_PER_UPDATE::8	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	102;"	d	line:102
+ADC_SAMPLES_PER_UPDATE_4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	72;"	d	line:72
+ADC_SAMPLE_RATE::1600	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	150;"	d	line:150
+ADC_SAMPLE_RATE::200	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	138;"	d	line:138
+ADC_SAMPLE_RATE::3200	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	154;"	d	line:154
+ADC_SAMPLE_RATE::400	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	142;"	d	line:142
+ADC_SAMPLE_RATE::6400	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	158;"	d	line:158
+ADC_SAMPLE_RATE::800	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	146;"	d	line:146
+ADC_SAMPLE_RATE_200HZ	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	44;"	d	line:44
+ADC_UPDATE_RATE::ADC_SAMPLE_RATE/(ADC_SAMPLES_P	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	165;"	d	line:165
+ADXRS150::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	75;"	d	line:75
+AEC_ADDRESS::0x10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	122;"	d	line:122
+AEC_DEFAULT::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	51;"	d	line:51
+AGC_ADDRESS::0x00	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	117;"	d	line:117
+AGC_DEFAULT::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	46;"	d	line:46
+BAUD_115200::21	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	65;"	d	line:65
+BAUD_14400::42	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	61;"	d	line:61
+BAUD_19200::129	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	62;"	d	line:62
+BAUD_230400::10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	66;"	d	line:66
+BAUD_38400::64	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	63;"	d	line:63
+BAUD_4800::129	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	59;"	d	line:59
+BAUD_57600::42	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	64;"	d	line:64
+BAUD_9600::64	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	60;"	d	line:60
+BLU_ADDRESS::0x01	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	118;"	d	line:118
+BLU_DEFAULT::128	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	47;"	d	line:47
+BRT_ADDRESS::0x06	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	121;"	d	line:121
+BRT_DEFAULT::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	50;"	d	line:50
+B_MAX_DEFAULT::145	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	44;"	d	line:44
+B_MIN_DEFAULT::100	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	43;"	d	line:43
+CAMERA_ON_TARGET::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	137;"	d	line:137
+CAMERA_SERIAL_PORT_2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	74;"	d	line:74
+CLOSED::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	41;"	d	line:41
+COMA_ADDRESS::0x12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	123;"	d	line:123
+COMA_DEFAULT::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	52;"	d	line:52
+COMB_ADDRESS::0x13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	124;"	d	line:124
+COMB_DEFAULT::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	53;"	d	line:53
+COMI_ADDRESS::0x29	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	125;"	d	line:125
+COMI_DEFAULT::128	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	54;"	d	line:54
+COMJ_ADDRESS::0x2D	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	128;"	d	line:128
+COMJ_DEFAULT::132	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	57;"	d	line:57
+CONFIDENCE_THRESHOLD_DEFAULT::20	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	64;"	d	line:64
+Camera_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	68;"	f	line:68	signature:(void)
+Camera_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	149;"	p	line:149	signature:(void)
+Camera_Idle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	581;"	f	line:581	signature:(void)
+Camera_Idle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	153;"	p	line:153	signature:(void)
+Camera_Serial_Port_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	761;"	f	line:761	signature:(void)
+Camera_Serial_Port_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	160;"	p	line:160	signature:(void)
+Camera_State_Machine	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	139;"	f	line:139	signature:(unsigned char byte)
+Camera_State_Machine	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	150;"	p	line:150	signature:(unsigned char)
+Clear_Memory	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	15;"	p	line:15	file:	signature:(void)
+Convert_ADC_to_mV	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	370;"	f	line:370	signature:(unsigned int adc)
+Convert_ADC_to_mV	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	175;"	p	line:175	signature:(unsigned int)
+DATA_SIZE::30	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	23;"	d	line:23
+DEBUG::(x)	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	78;"	d	line:78
+DEBUG::(x)printfx	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	76;"	d	line:76
+DETERMINING_PACKET_TYPE::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	90;"	d	line:90
+DRIVE_DEBUG::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	14;"	d	line:14
+Default_Routine	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	414;"	f	line:414	signature:(void)
+Default_Routine	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	101;"	p	line:101	signature:(void)
+Disable_ADC	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	160;"	f	line:160	signature:(void)
+Disable_ADC	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	169;"	p	line:169	signature:(void)
+Disable_Timer_2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	305;"	f	line:305	signature:(void)
+Disable_Timer_2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	171;"	p	line:171	signature:(void)
+DisplayBufr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	102;"	f	line:102	signature:(unsigned char *bufr)
+DisplayBufr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	77;"	p	line:77	signature:(unsigned char *bufr)
+Drive	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	28;"	l	line:28
+EHSH_ADDRESS::0x2A	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	126;"	d	line:126
+EHSH_DEFAULT::128	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	55;"	d	line:55
+EHSL_ADDRESS::0x2B	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	127;"	d	line:127
+EHSL_DEFAULT::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	56;"	d	line:56
+ENABLE_ENCODER_1::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	56;"	d	line:56
+ENABLE_ENCODER_1::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	51;"	d	line:51
+ENABLE_ENCODER_2::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	57;"	d	line:57
+ENABLE_ENCODER_2::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	52;"	d	line:52
+ENABLE_ENCODER_3_6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	83;"	d	line:83
+ENABLE_ENCODER_3_6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	88;"	d	line:88
+ENABLE_ENCODER_3_6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	93;"	d	line:93
+ENABLE_ENCODER_3_6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	98;"	d	line:98
+ENABLE_SERIAL_PORT_ONE_RX	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	41;"	d	line:41
+ENABLE_SERIAL_PORT_ONE_TX	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	45;"	d	line:45
+ENABLE_SERIAL_PORT_TWO_RX	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	49;"	d	line:49
+ENABLE_SERIAL_PORT_TWO_TX	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	53;"	d	line:53
+ENCODER_1_PHASE_B_PIN::rc_dig_in11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	60;"	d	line:60
+ENCODER_1_TICK_DELTA::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	72;"	d	line:72
+ENCODER_2_PHASE_B_PIN::rc_dig_in12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	61;"	d	line:61
+ENCODER_2_TICK_DELTA::-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	73;"	d	line:73
+ENCODER_3_PHASE_B_PIN::rc_dig_in13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	62;"	d	line:62
+ENCODER_3_TICK_DELTA::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	74;"	d	line:74
+ENCODER_4_PHASE_B_PIN::rc_dig_in14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	63;"	d	line:63
+ENCODER_4_TICK_DELTA::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	75;"	d	line:75
+ENCODER_5_PHASE_B_PIN::rc_dig_in15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	64;"	d	line:64
+ENCODER_5_TICK_DELTA::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	76;"	d	line:76
+ENCODER_6_PHASE_B_PIN::rc_dig_in16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	65;"	d	line:65
+ENCODER_6_TICK_DELTA::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	77;"	d	line:77
+ENCODER_CPR::64	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	31;"	d	line:31
+Encoder_1_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	53;"	v	line:53
+Encoder_1_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	254;"	f	line:254	signature:(void)
+Encoder_1_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	111;"	p	line:111	signature:(void)
+Encoder_2_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	57;"	v	line:57
+Encoder_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	361;"	f	line:361	signature:(void)
+Encoder_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	117;"	p	line:117	signature:(void)
+Encoder_3_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	62;"	v	line:62
+Encoder_3_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	467;"	f	line:467	signature:(unsigned char state)
+Encoder_3_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	123;"	p	line:123	signature:(unsigned char)
+Encoder_3_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	61;"	v	line:61
+Encoder_4_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	67;"	v	line:67
+Encoder_4_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	589;"	f	line:589	signature:(unsigned char state)
+Encoder_4_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	129;"	p	line:129	signature:(unsigned char)
+Encoder_4_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	66;"	v	line:66
+Encoder_5_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	72;"	v	line:72
+Encoder_5_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	711;"	f	line:711	signature:(unsigned char state)
+Encoder_5_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	135;"	p	line:135	signature:(unsigned char)
+Encoder_5_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	71;"	v	line:71
+Encoder_6_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	77;"	v	line:77
+Encoder_6_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	830;"	f	line:830	signature:(unsigned char state)
+Encoder_6_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	141;"	p	line:141	signature:(unsigned char)
+Encoder_6_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	76;"	v	line:76
+FALSE::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	27;"	d	line:27
+FALSE::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	98;"	d	line:98
+FIRST_TIME	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	166;"	m	line:166
+GEAR_RAITO::11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	27;"	d	line:27
+GYRO_BIAS::963	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	50;"	d	line:50
+GYRO_CAL::	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	51;"	d	line:51
+GYRO_CAL_FACTOR::1000/1000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	99;"	d	line:99
+GYRO_CHANNEL::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	52;"	d	line:52
+GYRO_DEADBAND::8	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	66;"	d	line:66
+GYRO_SENSITIVITY::GYRO_SENSITIVITY_DEG	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	159;"	d	line:159
+GYRO_SENSITIVITY::GYRO_SENSITIVITY_RAD	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	155;"	d	line:155
+GYRO_SENSITIVITY_DEG::2000L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	148;"	d	line:148
+GYRO_SENSITIVITY_DEG::286L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	112;"	d	line:112
+GYRO_SENSITIVITY_DEG::333L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	118;"	d	line:118
+GYRO_SENSITIVITY_DEG::400L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	124;"	d	line:124
+GYRO_SENSITIVITY_DEG::500L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	130;"	d	line:130
+GYRO_SENSITIVITY_DEG::667L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	136;"	d	line:136
+GYRO_SENSITIVITY_DEG::800L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	142;"	d	line:142
+GYRO_SENSITIVITY_RAD::1163L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	137;"	d	line:137
+GYRO_SENSITIVITY_RAD::1396L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	143;"	d	line:143
+GYRO_SENSITIVITY_RAD::3490L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	149;"	d	line:149
+GYRO_SENSITIVITY_RAD::499L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	113;"	d	line:113
+GYRO_SENSITIVITY_RAD::581L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	119;"	d	line:119
+GYRO_SENSITIVITY_RAD::698L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	125;"	d	line:125
+GYRO_SENSITIVITY_RAD::873L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	131;"	d	line:131
+G_MAX_DEFAULT::17	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	42;"	d	line:42
+G_MIN_DEFAULT::15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	41;"	d	line:41
+Generate_Pwms	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	63;"	p	line:63	signature:(unsigned char pwm_13,unsigned char pwm_14, unsigned char pwm_15,unsigned char pwm_16)
+Generate_Pwms	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	67;"	p	line:67	signature:(unsigned char pwm_1,unsigned char pwm_2, unsigned char pwm_3,unsigned char pwm_4, unsigned char pwm_5,unsigned char pwm_6, unsigned char pwm_7,unsigned char pwm_8)
+Get_ADC_Result	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	330;"	f	line:330	signature:(unsigned char channel)
+Get_ADC_Result	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	174;"	p	line:174	signature:(unsigned char)
+Get_ADC_Result_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	390;"	f	line:390
+Get_ADC_Result_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	176;"	p	line:176	signature:(void)
+Get_Analog_Value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	201;"	f	line:201	signature:(unsigned char ADC_channel)
+Get_Analog_Value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	81;"	p	line:81	signature:(unsigned char channel)
+Get_Camera_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	623;"	f	line:623	signature:(void)
+Get_Camera_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	155;"	p	line:155	signature:(void)
+Get_Encoder_1_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	182;"	f	line:182	signature:(void)
+Get_Encoder_1_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	109;"	p	line:109	signature:(void)
+Get_Encoder_2_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	289;"	f	line:289	signature:(void)
+Get_Encoder_2_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	115;"	p	line:115	signature:(void)
+Get_Encoder_3_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	395;"	f	line:395	signature:(void)
+Get_Encoder_3_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	121;"	p	line:121	signature:(void)
+Get_Encoder_4_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	517;"	f	line:517	signature:(void)
+Get_Encoder_4_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	127;"	p	line:127	signature:(void)
+Get_Encoder_5_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	639;"	f	line:639	signature:(void)
+Get_Encoder_5_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	133;"	p	line:133	signature:(void)
+Get_Encoder_6_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	758;"	f	line:758	signature:(void)
+Get_Encoder_6_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	139;"	p	line:139	signature:(void)
+Get_Gyro_Angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	132;"	f	line:132	signature:(void)
+Get_Gyro_Angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	166;"	p	line:166	signature:(void)
+Get_Gyro_Bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	219;"	f	line:219	signature:(void)
+Get_Gyro_Bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	169;"	p	line:169	signature:(void)
+Get_Gyro_Rate	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	111;"	f	line:111	signature:(void)
+Get_Gyro_Rate	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	165;"	p	line:165	signature:(void)
+Get_Tracking_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	406;"	f	line:406	signature:(void)
+Get_Tracking_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	142;"	p	line:142	signature:(void)
+Getdata	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	242;"	p	line:242	signature:(rx_data_ptr ptr)
+HIBYTE::(value)((unsignedchar)(((unsig	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	53;"	d	line:53
+HIGH_INT_VECTOR::0x008	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	32;"	d	line:32
+HIGH_INT_VECTOR::0x808	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	36;"	d	line:36
+Hex_output	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	59;"	p	line:59	signature:(unsigned char temp)
+IFI_Initialization	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	205;"	p	line:205	signature:(void)
+IFI_PWM::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	21;"	d	line:21
+IMAGE_HEIGHT::239	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	126;"	d	line:126
+IMAGE_WIDTH::159	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	125;"	d	line:125
+INCHESTOCLICKS::(x)((x/WHL_CIRCUM)*GEAR_RAITO)	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	33;"	d	line:33
+INPUT::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	84;"	d	line:84
+IN_CCP2::PORTEbits.RE7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	272;"	d	line:272
+IN_CCP3::PORTGbits.RG0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	273;"	d	line:273
+IN_CCP4::PORTGbits.RG3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	274;"	d	line:274
+IN_CCP5::PORTGbits.RG4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	275;"	d	line:275
+IO_CCP2::TRISEbits.TRISE7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	266;"	d	line:266
+IO_CCP3::TRISGbits.TRISG0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	267;"	d	line:267
+IO_CCP4::TRISGbits.TRISG3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	268;"	d	line:268
+IO_CCP5::TRISGbits.TRISG4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	269;"	d	line:269
+Ierr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	79;"	m	line:79
+Ierror	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	65;"	m	line:65
+Init_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	314;"	f	line:314	signature:(void)
+Init_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	109;"	p	line:109	signature:(void)
+Init_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	122;"	p	line:122	signature:(void)
+Init_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	446;"	f	line:446	signature:(void)
+Init_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	130;"	p	line:130	signature:(void)
+Init_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	143;"	p	line:143	signature:(void)
+Initialize_ADC	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	74;"	f	line:74	signature:(void)
+Initialize_ADC	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	168;"	p	line:168	signature:(void)
+Initialize_Camera	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	279;"	f	line:279	signature:(void)
+Initialize_Camera	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	151;"	p	line:151	signature:(void)
+Initialize_Encoders	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	102;"	f	line:102	signature:(void)
+Initialize_Encoders	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	105;"	p	line:105	signature:(void)
+Initialize_Gyro	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	87;"	f	line:87	signature:(void)
+Initialize_Gyro	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	164;"	p	line:164	signature:(void)
+Initialize_PWM	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.c	47;"	f	line:47	signature:(void)
+Initialize_PWM	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	57;"	p	line:57	signature:(void)
+Initialize_Registers	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	197;"	p	line:197	signature:(void)
+Initialize_Serial_Comms	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	159;"	f	line:159	signature:(void)
+Initialize_Serial_Comms	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	79;"	p	line:79	signature:(void)
+Initialize_Timer_2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	191;"	f	line:191	signature:(unsigned int adc_sample_rate)
+Initialize_Timer_2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	170;"	p	line:170	signature:(unsigned int)
+InterruptHandlerHigh	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	195;"	p	line:195	signature:(void)
+InterruptHandlerLow	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	104;"	p	line:104	signature:(void)
+InterruptHandlerLow	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	73;"	f	line:73
+InterruptVectorLow	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	49;"	f	line:49	signature:(void)
+KDDN::p2_sw_aux2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	47;"	d	line:47
+KDUP::p2_sw_aux1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	46;"	d	line:46
+KPDN::p2_sw_top	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	45;"	d	line:45
+KPUP::p2_sw_trig	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	44;"	d	line:44
+Kd	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	69;"	m	line:69
+Kd	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	89;"	m	line:89
+Ki	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	70;"	m	line:70
+Ko	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	71;"	m	line:71
+Ko	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	91;"	m	line:91
+Kp	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	28;"	l	line:28
+Kp	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	68;"	m	line:68
+KpL	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	113;"	l	line:113	file:
+KpR	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	114;"	l	line:114	file:
+KpSpeed	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	112;"	l	line:112	file:
+Kpp	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	85;"	m	line:85
+Kvi	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	88;"	m	line:88
+Kvphs	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	87;"	m	line:87
+Kvpls	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	86;"	m	line:86
+LED_byte1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	120;"	m	line:120
+LED_byte2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	125;"	m	line:125
+LOBYTE::(value)((unsignedchar)(value))	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	54;"	d	line:54
+LOW_INT_VECTOR::0x018	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	33;"	d	line:33
+LOW_INT_VECTOR::0x818	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	37;"	d	line:37
+L_CIM_1::pwm15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	15;"	d	line:15
+L_CIM_2::pwm16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	16;"	d	line:16
+L_ENC_COUNT::Get_Encoder_2_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	17;"	d	line:17
+L_MOTOR_DIR::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	24;"	d	line:24
+Left	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	46;"	v	line:46
+MAX_ACK_LOOP_COUNT::10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	61;"	d	line:61
+NEW_SPI_DATA	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	164;"	m	line:164
+NF_DEFAULT::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	45;"	d	line:45
+NUL::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	102;"	d	line:102
+NUM_ADC_CHANNELS::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	66;"	d	line:66
+Noise_Filter	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	677;"	f	line:677	signature:(unsigned char threshold)
+Noise_Filter	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	157;"	p	line:157	signature:(unsigned char)
+OPEN::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	40;"	d	line:40
+OUTPUT::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	85;"	d	line:85
+OUT_CCP2::LATEbits.LATE7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	278;"	d	line:278
+OUT_CCP3::LATGbits.LATG0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	279;"	d	line:279
+OUT_CCP4::LATGbits.LATG3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	280;"	d	line:280
+OUT_CCP5::LATGbits.LATG4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	281;"	d	line:281
+Old_Port_B	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	85;"	v	line:85
+OpenUSART::Open1USART	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	39;"	d	line:39
+OpenUSART::Open2USART	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	27;"	d	line:27
+PAN_ALLOWABLE_ERROR_DEFAULT::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	93;"	d	line:93
+PAN_CENTER_PWM_DEFAULT::124	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	110;"	d	line:110
+PAN_GAIN_DEFAULT::3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	70;"	d	line:70
+PAN_MAX_PWM_DEFAULT::248	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	99;"	d	line:99
+PAN_MIN_PWM_DEFAULT::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	98;"	d	line:98
+PAN_ROTATION_SIGN_DEFAULT::-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	76;"	d	line:76
+PAN_SEARCH_STEP_SIZE_DEFAULT::62	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	105;"	d	line:105
+PAN_SERVO::pwm01	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	48;"	d	line:48
+PAN_TARGET_PIXEL_DEFAULT::79	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	82;"	d	line:82
+PI_DENOM::10000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	29;"	d	line:29
+PI_NUMER::31415	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	28;"	d	line:28
+PWM	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.c	89;"	f	line:89	signature:(unsigned char pwm_13, unsigned char pwm_14, unsigned char pwm_15, unsigned char pwm_16)
+PWM	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	58;"	p	line:58	signature:(unsigned char,unsigned char,unsigned char,unsigned char)
+PWM_13_CENTER::15000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	48;"	d	line:48
+PWM_13_GAIN::50	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	39;"	d	line:39
+PWM_14_CENTER::15000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	49;"	d	line:49
+PWM_14_GAIN::50	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	40;"	d	line:40
+PWM_15_CENTER::15000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	50;"	d	line:50
+PWM_15_GAIN::50	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	41;"	d	line:41
+PWM_16_CENTER::15000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	51;"	d	line:51
+PWM_16_GAIN::50	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	42;"	d	line:42
+PacketNum_Check	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	121;"	f	line:121	signature:(void)
+PacketNum_Check	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	78;"	p	line:78	signature:(void)
+Port_B	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	75;"	l	line:75
+Port_B_Delta	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	76;"	l	line:76
+PosServo	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	72;"	t	line:72
+PrevErr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	64;"	m	line:64
+PrintByte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	64;"	f	line:64	signature:(unsigned char odata)
+PrintByte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	75;"	p	line:75	signature:(unsigned char odata)
+PrintWord	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	82;"	f	line:82	signature:(unsigned int odata)
+PrintWord	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	76;"	p	line:76	signature:(unsigned int odata)
+Process_Data_From_Local_IO	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	106;"	p	line:106	signature:(void)
+Process_Data_From_Local_IO	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	307;"	f	line:307	signature:(void)
+Process_Data_From_Master_uP	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	160;"	f	line:160	signature:(void)
+Process_Data_From_Master_uP	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	100;"	p	line:100	signature:(void)
+Process_Gyro_Data	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	282;"	f	line:282	signature:(void)
+Process_Gyro_Data	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	172;"	p	line:172	signature:(void)
+Psetpoint	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	63;"	m	line:63
+Psetpoint	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	77;"	m	line:77
+Putdata	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	229;"	p	line:229	signature:(tx_data_ptr ptr)
+Pwm1_green::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	229;"	d	line:229
+Pwm1_red::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	230;"	d	line:230
+Pwm2_green::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	231;"	d	line:231
+Pwm2_red::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	232;"	d	line:232
+RCREG::RCREG1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	37;"	d	line:37
+RCREG::RCREG2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	25;"	d	line:25
+RCSTA::RCSTA1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	34;"	d	line:34
+RCSTA::RCSTA2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	22;"	d	line:22
+RCSTAbits::RCSTA1bits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	33;"	d	line:33
+RCSTAbits::RCSTA2bits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	21;"	d	line:21
+RECEIVING_ACK::5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	93;"	d	line:93
+RECEIVING_NCK::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	94;"	d	line:94
+RECEIVING_T_PACKET::3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	91;"	d	line:91
+RECEIVING_T_PACKET_BITMAP::4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	92;"	d	line:92
+RED_ADDRESS::0x02	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	119;"	d	line:119
+RED_DEFAULT::128	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	48;"	d	line:48
+RESET_VECTOR::0x000	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	31;"	d	line:31
+RESET_VECTOR::0x800	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	35;"	d	line:35
+RND::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	25;"	d	line:25	file:
+RXINTE::PIE1bits.RCIE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	30;"	d	line:30
+RXINTE::PIE3bits.RC2IE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	18;"	d	line:18
+RXINTF::PIR1bits.RCIF	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	29;"	d	line:29
+RXINTF::PIR3bits.RC2IF	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	17;"	d	line:17
+RX_1_Framing_Errors	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	188;"	v	line:188
+RX_1_Overrun_Errors	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	184;"	v	line:184
+RX_1_QUEUE_INDEX_MASK::RX_1_QUEUE_SIZE-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	91;"	d	line:91
+RX_1_QUEUE_SIZE::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	85;"	d	line:85
+RX_2_Framing_Errors	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	248;"	v	line:248
+RX_2_Overrun_Errors	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	244;"	v	line:244
+RX_2_QUEUE_INDEX_MASK::RX_2_QUEUE_SIZE-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	93;"	d	line:93
+RX_2_QUEUE_SIZE::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	87;"	d	line:87
+RX_BUFFSELECT	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	168;"	m	line:168
+R_CIM_1::pwm13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	19;"	d	line:19
+R_CIM_2::pwm14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	20;"	d	line:20
+R_ENC_COUNT::Get_Encoder_1_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	21;"	d	line:21
+R_MAX_DEFAULT::115	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	40;"	d	line:40
+R_MIN_DEFAULT::85	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	39;"	d	line:39
+R_MOTOR_DIR::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	23;"	d	line:23
+Raw_Mode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	649;"	f	line:649	signature:(unsigned char mode)
+Raw_Mode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	156;"	p	line:156	signature:(unsigned char)
+Read_Camera_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	792;"	f	line:792	signature:(void)
+Read_Camera_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	161;"	p	line:161	signature:(void)
+Read_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	658;"	f	line:658	signature:(void)
+Read_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	111;"	p	line:111	signature:(void)
+Read_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	727;"	f	line:727	signature:(void)
+Read_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	132;"	p	line:132	signature:(void)
+Read_Terminal_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	874;"	f	line:874	signature:(void)
+Read_Terminal_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	164;"	p	line:164	signature:(void)
+Relay1_green::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	234;"	d	line:234
+Relay1_red::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	233;"	d	line:233
+Relay2_green::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	236;"	d	line:236
+Relay2_red::txdata.LED_byte1.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	235;"	d	line:235
+Reset_ADC_Result_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	420;"	f	line:420
+Reset_ADC_Result_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	177;"	p	line:177	signature:(void)
+Reset_Encoder_1_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	220;"	f	line:220	signature:(void)
+Reset_Encoder_1_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	110;"	p	line:110	signature:(void)
+Reset_Encoder_2_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	327;"	f	line:327	signature:(void)
+Reset_Encoder_2_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	116;"	p	line:116	signature:(void)
+Reset_Encoder_3_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	433;"	f	line:433	signature:(void)
+Reset_Encoder_3_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	122;"	p	line:122	signature:(void)
+Reset_Encoder_4_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	555;"	f	line:555	signature:(void)
+Reset_Encoder_4_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	128;"	p	line:128	signature:(void)
+Reset_Encoder_5_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	677;"	f	line:677	signature:(void)
+Reset_Encoder_5_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	134;"	p	line:134	signature:(void)
+Reset_Encoder_6_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	796;"	f	line:796	signature:(void)
+Reset_Encoder_6_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	140;"	p	line:140	signature:(void)
+Reset_Gyro_Angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	261;"	f	line:261	signature:(void)
+Reset_Gyro_Angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	171;"	p	line:171	signature:(void)
+Restart_Camera	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	601;"	f	line:601	signature:(void)
+Restart_Camera	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	154;"	p	line:154	signature:(void)
+Right	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	47;"	v	line:47
+Rx_1_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	934;"	f	line:934	signature:(void)
+Rx_1_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	112;"	p	line:112	signature:(void)
+Rx_1_Queue	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	165;"	v	line:165
+Rx_1_Queue_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	181;"	v	line:181
+Rx_1_Queue_Empty	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	171;"	v	line:171
+Rx_1_Queue_Full	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	167;"	v	line:167
+Rx_1_Queue_Read_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	175;"	v	line:175
+Rx_1_Queue_Write_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	178;"	v	line:178
+Rx_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	1021;"	f	line:1021	signature:(void)
+Rx_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	133;"	p	line:133	signature:(void)
+Rx_2_Queue	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	225;"	v	line:225
+Rx_2_Queue_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	241;"	v	line:241
+Rx_2_Queue_Empty	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	231;"	v	line:231
+Rx_2_Queue_Full	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	227;"	v	line:227
+Rx_2_Queue_Read_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	235;"	v	line:235
+Rx_2_Queue_Write_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	238;"	v	line:238
+SAT_ADDRESS::0x03	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	120;"	d	line:120
+SAT_DEFAULT::128	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	49;"	d	line:49
+SEARCHING::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	135;"	d	line:135
+SEARCH_DELAY_DEFAULT::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	59;"	d	line:59
+SERIAL_PORT_ONE::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	103;"	d	line:103
+SERIAL_PORT_TWO::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	104;"	d	line:104
+SERIAL_SPEED	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	52;"	t	line:52
+SIXTEEN_ANALOG::ADC_16ANA	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	219;"	d	line:219
+SPBRG::SPBRG1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	38;"	d	line:38
+SPBRG::SPBRG2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	26;"	d	line:26
+SPEED::p1_y	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	36;"	d	line:36
+SPEED_DB::9	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	38;"	d	line:38
+SPEED_OFFSET::-3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	37;"	d	line:37
+SPI_SEMAPHORE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	169;"	m	line:169
+SPI_TRAILER_SIZE::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	24;"	d	line:24
+SPI_XFER_SIZE::DATA_SIZE+SPI_TRAILER_SIZE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	25;"	d	line:25
+STATE_EIGHT::8	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	104;"	d	line:104
+STATE_EIGHTEEN::18	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	114;"	d	line:114
+STATE_ELEVEN::11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	107;"	d	line:107
+STATE_FIFTEEN::15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	111;"	d	line:111
+STATE_FIVE::5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	101;"	d	line:101
+STATE_FOUR::4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	100;"	d	line:100
+STATE_FOURTEEN::14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	110;"	d	line:110
+STATE_NINE::9	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	105;"	d	line:105
+STATE_ONE::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	97;"	d	line:97
+STATE_PAN_ON_TARGET::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	131;"	d	line:131
+STATE_SEARCHING::0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	129;"	d	line:129
+STATE_SEVEN::7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	103;"	d	line:103
+STATE_SEVENTEEN::17	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	113;"	d	line:113
+STATE_SIX::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	102;"	d	line:102
+STATE_SIXTEEN::16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	112;"	d	line:112
+STATE_TARGET_IN_VIEW::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	130;"	d	line:130
+STATE_TEN::10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	106;"	d	line:106
+STATE_THIRTEEN::13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	109;"	d	line:109
+STATE_THREE::3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	99;"	d	line:99
+STATE_TILT_ON_TARGET::4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	132;"	d	line:132
+STATE_TWELVE::12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	108;"	d	line:108
+STATE_TWO::2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	98;"	d	line:98
+Serial_Port_One_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	569;"	f	line:569	signature:(void)
+Serial_Port_One_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	110;"	p	line:110	signature:(void)
+Serial_Port_Two_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	617;"	f	line:617	signature:(void)
+Serial_Port_Two_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	131;"	p	line:131	signature:(void)
+Servo_Track	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	75;"	f	line:75	signature:(void)
+Servo_Track	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	141;"	p	line:141	signature:(void)
+Set_Gyro_Bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	240;"	f	line:240	signature:(int new_gyro_bias)
+Set_Gyro_Bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	170;"	p	line:170	signature:(int)
+Set_Number_of_Analog_Channels	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	184;"	f	line:184	signature:(unsigned char number_of_channels)
+Set_Number_of_Analog_Channels	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	80;"	p	line:80	signature:(unsigned char number_of_channels)
+Set_Pan_Servo_Position	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	441;"	f	line:441	signature:(unsigned char new_pan_position)
+Set_Pan_Servo_Position	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	143;"	p	line:143	signature:(unsigned char)
+Set_Tilt_Servo_Position	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	461;"	f	line:461	signature:(unsigned char new_tilt_position)
+Set_Tilt_Servo_Position	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	144;"	p	line:144	signature:(unsigned char)
+Setup_PWM_Output_Type	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	257;"	p	line:257	signature:(int pwmSpec1,int pwmSpec2,int pwmSpec3,int pwmSpec4)
+Start_Gyro_Bias_Calc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	159;"	f	line:159	signature:(void)
+Start_Gyro_Bias_Calc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	167;"	p	line:167	signature:(void)
+Stop_Gyro_Bias_Calc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	191;"	f	line:191	signature:(void)
+Stop_Gyro_Bias_Calc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	168;"	p	line:168	signature:(void)
+Switch1_LED::txdata.LED_byte2.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	238;"	d	line:238
+Switch2_LED::txdata.LED_byte2.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	239;"	d	line:239
+Switch3_LED::txdata.LED_byte2.bitselect.bit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	240;"	d	line:240
+TARGET_IN_VIEW::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	136;"	d	line:136
+TENTHS_OF_A_DEGREE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	54;"	d	line:54
+TERMINAL_SERIAL_PORT_1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	85;"	d	line:85
+TERMINAL_SERIAL_PORT_2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	83;"	d	line:83
+TILT_ALLOWABLE_ERROR_DEFAULT::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	94;"	d	line:94
+TILT_CENTER_PWM_DEFAULT::144	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	111;"	d	line:111
+TILT_GAIN_DEFAULT::8	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	71;"	d	line:71
+TILT_MAX_PWM_DEFAULT::194	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	116;"	d	line:116
+TILT_MIN_PWM_DEFAULT::94	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	115;"	d	line:115
+TILT_ROTATION_SIGN_DEFAULT::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	77;"	d	line:77
+TILT_SEARCH_STEP_SIZE_DEFAULT::50	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	122;"	d	line:122
+TILT_SERVO::pwm02	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	53;"	d	line:53
+TILT_TARGET_PIXEL_DEFAULT::119	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	83;"	d	line:83
+TRUE::!FALSE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	28;"	d	line:28
+TRUE::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	97;"	d	line:97
+TXINTE::PIE1bits.TXIE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	32;"	d	line:32
+TXINTE::PIE3bits.TX2IE	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	20;"	d	line:20
+TXINTF::PIR1bits.TXIF	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	31;"	d	line:31
+TXINTF::PIR3bits.TX2IF	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	19;"	d	line:19
+TXREG::TXREG1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	36;"	d	line:36
+TXREG::TXREG2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	24;"	d	line:24
+TXSTA::TXSTA1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	35;"	d	line:35
+TXSTA::TXSTA2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	23;"	d	line:23
+TX_1_QUEUE_INDEX_MASK::TX_1_QUEUE_SIZE-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	92;"	d	line:92
+TX_1_QUEUE_SIZE::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	86;"	d	line:86
+TX_2_QUEUE_INDEX_MASK::TX_2_QUEUE_SIZE-1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	94;"	d	line:94
+TX_2_QUEUE_SIZE::32	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	88;"	d	line:88
+TX_BUFFSELECT	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	167;"	m	line:167
+TX_UPDATED	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	165;"	m	line:165
+T_Packet_Data	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	47;"	v	line:47
+T_Packet_Data_Type	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	141;"	t	line:141
+Terminal_Serial_Port_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	843;"	f	line:843	signature:(void)
+Terminal_Serial_Port_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	163;"	p	line:163	signature:(void)
+Timer_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	446;"	f	line:446	signature:(void)
+Timer_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	172;"	p	line:172	signature:(void)
+Track_Color	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	550;"	f	line:550	signature:(unsigned char Rmin, unsigned char Rmax, unsigned char Gmin, unsigned char Gmax, unsigned char Bmin, unsigned char Bmax)
+Track_Color	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	152;"	p	line:152	signature:(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+Tracking_Info_Terminal	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\terminal.c	53;"	f	line:53	signature:(void)
+Tracking_Info_Terminal	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\terminal.h	32;"	p	line:32	signature:(void)
+Tracking_Initialized	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	77;"	l	line:77	file:
+Tracking_State	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	50;"	v	line:50
+Tx_1_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	1108;"	f	line:1108	signature:(void)
+Tx_1_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	124;"	p	line:124	signature:(void)
+Tx_1_Queue	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	199;"	v	line:199
+Tx_1_Queue_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	215;"	v	line:215
+Tx_1_Queue_Empty	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	205;"	v	line:205
+Tx_1_Queue_Full	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	201;"	v	line:201
+Tx_1_Queue_Read_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	209;"	v	line:209
+Tx_1_Queue_Write_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	212;"	v	line:212
+Tx_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	1168;"	f	line:1168	signature:(void)
+Tx_2_Int_Handler	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	145;"	p	line:145	signature:(void)
+Tx_2_Queue	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	259;"	v	line:259
+Tx_2_Queue_Byte_Count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	275;"	v	line:275
+Tx_2_Queue_Empty	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	265;"	v	line:265
+Tx_2_Queue_Full	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	261;"	v	line:261
+Tx_2_Queue_Read_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	269;"	v	line:269
+Tx_2_Queue_Write_Index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	272;"	v	line:272
+UNCHANGEABLE_DEFINITION_AREA::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	14;"	d	line:14
+UNSYNCHRONIZED::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	89;"	d	line:89
+USER_CCP::1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	22;"	d	line:22
+User_Autonomous_Code	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	105;"	p	line:105	signature:(void)
+User_Autonomous_Code	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	211;"	f	line:211	signature:(void)
+User_Byte1::txdata.user_byte1.allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	242;"	d	line:242
+User_Byte2::txdata.user_byte2.allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	243;"	d	line:243
+User_Byte3::txdata.user_byte3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	244;"	d	line:244
+User_Byte4::txdata.user_byte4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	245;"	d	line:245
+User_Byte5::txdata.user_byte5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	246;"	d	line:246
+User_Byte6::txdata.user_byte6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	247;"	d	line:247
+User_Initialization	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	57;"	f	line:57	signature:(void)
+User_Initialization	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	99;"	p	line:99	signature:(void)
+User_Mode_byte::txdata.LED_byte1.data	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	227;"	d	line:227
+User_Proc_Is_Ready	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	216;"	p	line:216	signature:(void)
+VREF_NEG_MV::0L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	162;"	d	line:162
+VREF_POS_MV::5000L	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	161;"	d	line:161
+VelServo	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	92;"	t	line:92
+Virtual_Window	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	705;"	f	line:705	signature:(unsigned char x, unsigned char y, unsigned char x2, unsigned char y2)
+Virtual_Window	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	158;"	p	line:158	signature:(unsigned char, unsigned char, unsigned char, unsigned char)
+Vsetpoint	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	78;"	m	line:78
+WHL_CIRCUM::(WHL_SIZE*PI_NUMER)/PI_DENOM	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	30;"	d	line:30
+WHL_SIZE::6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	26;"	d	line:26
+Wait4TXEmpty	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	43;"	f	line:43	signature:(void)
+Wait4TXEmpty	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	74;"	p	line:74	signature:(void)
+Write_Camera_Module_Register	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	735;"	f	line:735	signature:(unsigned char reg, unsigned char value)
+Write_Camera_Module_Register	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	159;"	p	line:159	signature:(unsigned char, unsigned char)
+Write_Camera_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	817;"	f	line:817	signature:(unsigned char value)
+Write_Camera_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	162;"	p	line:162	signature:(unsigned char)
+Write_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	804;"	f	line:804	signature:(unsigned char byte)
+Write_Serial_Port_One	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	123;"	p	line:123	signature:(unsigned char)
+Write_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	871;"	f	line:871	signature:(unsigned char byte)
+Write_Serial_Port_Two	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	144;"	p	line:144	signature:(unsigned char)
+Write_Terminal_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	899;"	f	line:899	signature:(unsigned char value)
+Write_Terminal_Serial_Port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	165;"	p	line:165	signature:(unsigned char)
+YAW::p2_x	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	40;"	d	line:40
+YAW_DB::10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	42;"	d	line:42
+YAW_OFFSET::-10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	41;"	d	line:41
+_CAMERA_H	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	32;"	d	line:32
+_PWM_H	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.h	29;"	d	line:29
+_SERIAL_PORTS_H	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	37;"	d	line:37
+_TERMINAL_H	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\terminal.h	29;"	d	line:29
+_TRACKING_H	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.h	43;"	d	line:43
+__ifi_aliases_h_	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	16;"	d	line:16
+__ifi_default_h_	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	11;"	d	line:11
+__ifi_utilities_h_	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	14;"	d	line:14
+__user_program_h_	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	15;"	d	line:15
+_adc_h	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.h	39;"	d	line:39
+_do_cinit	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	20;"	p	line:20	file:	signature:(void)
+_encoder_h	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.h	48;"	d	line:48
+_entry	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	18;"	p	line:18	file:	signature:(void)
+_entry	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	28;"	f	line:28	signature:(void)
+_gyro_h	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.h	50;"	d	line:50
+_startup	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	19;"	p	line:19	file:	signature:(void)
+_user_putc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	1222;"	f	line:1222	signature:(unsigned char byte)
+_user_putc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	121;"	p	line:121	signature:(unsigned char)
+_user_putc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.h	142;"	p	line:142	signature:(unsigned char)
+abs	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	67;"	f	line:67	signature:(int val)
+abs	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	81;"	p	line:81	signature:(int val)
+accum	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	50;"	v	line:50
+adc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	469;"	l	line:469
+adc_result	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	51;"	v	line:51
+adc_result_divisor	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	48;"	v	line:48
+adc_sample_rate	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	45;"	v	line:45
+adc_samples_per_update	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	46;"	v	line:46
+adc_update_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	54;"	v	line:54
+adcon0_temp	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	470;"	l	line:470
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	129;"	m	line:129
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	134;"	m	line:134
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	79;"	m	line:79
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	84;"	m	line:84
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	89;"	m	line:89
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	94;"	m	line:94
+allbits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	99;"	m	line:99
+angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	134;"	l	line:134
+autonomous	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	50;"	m	line:50
+autonomous_mode::rxdata.rc_mode_byte.mode.auton	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	312;"	d	line:312
+avg_accum	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	60;"	v	line:60
+avg_samples	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	61;"	v	line:61
+bEMF	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	90;"	m	line:90
+backup_voltage::rxdata.rc_backup_batt*15.64/25	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	301;"	d	line:301
+battery_voltage::rxdata.rc_main_batt*15.64/256	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	300;"	d	line:300
+baud_115	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	51;"	e	line:51
+baud_19	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	48;"	e	line:48
+baud_38	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	49;"	e	line:49
+baud_56	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.h	50;"	e	line:50
+bit0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	59;"	m	line:59
+bit1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	60;"	m	line:60
+bit2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	61;"	m	line:61
+bit3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	62;"	m	line:62
+bit4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	63;"	m	line:63
+bit5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	64;"	m	line:64
+bit6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	65;"	m	line:65
+bit7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	66;"	m	line:66
+bitid	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	67;"	t	line:67
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	118;"	m	line:118
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	123;"	m	line:123
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	128;"	m	line:128
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	133;"	m	line:133
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	77;"	m	line:77
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	83;"	m	line:83
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	88;"	m	line:88
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	93;"	m	line:93
+bitselect	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	98;"	m	line:98
+boot_initialization_flag	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	281;"	l	line:281	file:
+byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	72;"	l	line:72
+byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	660;"	l	line:660
+byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	729;"	l	line:729
+byte_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	71;"	l	line:71
+calc_gyro_bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	63;"	v	line:63
+camera_acks	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	43;"	v	line:43
+camera_initialized	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	40;"	v	line:40
+camera_menu_active	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	163;"	l	line:163	file:
+camera_ncks	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	44;"	v	line:44
+camera_t_packets	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	42;"	v	line:42
+channel	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	53;"	v	line:53
+character	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	108;"	l	line:108
+checkDistance	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	98;"	f	line:98	signature:(long dist, int db)
+checkDistance	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	83;"	p	line:83	signature:(long dist, int db)
+cmd_byte1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	142;"	m	line:142
+compMode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	174;"	l	line:174	file:
+confidence	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	140;"	m	line:140
+configTerminal	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	106;"	f	line:106	signature:(void)
+configTerminal	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	84;"	p	line:84	signature:(void)
+control	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	152;"	m	line:152
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	184;"	l	line:184
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	291;"	l	line:291
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	397;"	l	line:397
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	519;"	l	line:519
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	641;"	l	line:641
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\encoder.c	760;"	l	line:760
+count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	162;"	l	line:162	file:
+current_mode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	151;"	m	line:151
+data	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	119;"	m	line:119
+data	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	124;"	m	line:124
+deadBandInput	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	57;"	f	line:57	signature:(int in, int deadBand)
+deadBandInput	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	79;"	p	line:79	signature:(int in, int deadband)
+debugChar	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	110;"	l	line:110	file:
+debugMode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	109;"	l	line:109	file:
+delayCount	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	111;"	l	line:111	file:
+digital_io_01::TRISBbits.TRISB2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	89;"	d	line:89
+digital_io_02::TRISBbits.TRISB3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	90;"	d	line:90
+digital_io_03::TRISBbits.TRISB4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	91;"	d	line:91
+digital_io_04::TRISBbits.TRISB5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	92;"	d	line:92
+digital_io_05::TRISBbits.TRISB6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	93;"	d	line:93
+digital_io_06::TRISBbits.TRISB7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	94;"	d	line:94
+digital_io_07::TRISHbits.TRISH0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	95;"	d	line:95
+digital_io_08::TRISHbits.TRISH1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	96;"	d	line:96
+digital_io_09::TRISHbits.TRISH2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	97;"	d	line:97
+digital_io_10::TRISHbits.TRISH3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	98;"	d	line:98
+digital_io_11::TRISJbits.TRISJ1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	99;"	d	line:99
+digital_io_12::TRISJbits.TRISJ2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	100;"	d	line:100
+digital_io_13::TRISJbits.TRISJ3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	101;"	d	line:101
+digital_io_14::TRISCbits.TRISC0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	102;"	d	line:102
+digital_io_15::TRISJbits.TRISJ4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	103;"	d	line:103
+digital_io_16::TRISJbits.TRISJ5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	104;"	d	line:104
+digital_io_17::TRISJbits.TRISJ6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	105;"	d	line:105
+digital_io_18::TRISJbits.TRISJ7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	106;"	d	line:106
+disabled	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	51;"	m	line:51
+disabled_mode::rxdata.rc_mode_byte.mode.disab	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	313;"	d	line:313
+doPid	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	76;"	p	line:76	signature:(PosServo *p, long pos, int motor_direction)
+doVelPid	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	25;"	f	line:25	signature:(VelServo *p, long encoder, int motor_direction)
+doVelPid	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	77;"	p	line:77	signature:(VelServo *p, long vel, int motor_direction)
+emfSamples	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	170;"	l	line:170	file:
+encoder1Vel	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	36;"	v	line:36
+encoder2Vel	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	37;"	v	line:37
+encoder_check	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	78;"	p	line:78	signature:(void)
+error	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	84;"	l	line:84
+error_code	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	149;"	m	line:149
+firstRunFlag	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	173;"	l	line:173	file:
+gyro_angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	58;"	v	line:58
+gyro_bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	56;"	v	line:56
+gyro_rate	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	57;"	v	line:57
+h	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	190;"	l	line:190	file:
+i	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	162;"	l	line:162
+i	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	471;"	l	line:471
+i	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	76;"	l	line:76
+i	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	73;"	l	line:73
+i	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\terminal.c	55;"	l	line:55	file:
+i	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	184;"	l	line:184	file:
+ifi_analog_channels	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	32;"	v	line:32
+ifi_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	31;"	v	line:31
+ifi_last_packet1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	29;"	v	line:29
+ifi_packet_num1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	28;"	v	line:28
+initialize_flag	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	282;"	l	line:282	file:
+j	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\terminal.c	56;"	l	line:56	file:
+j	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	185;"	l	line:185	file:
+kddnPrev	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	181;"	l	line:181
+kdupPrev	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	180;"	l	line:180
+kpdnPrev	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	179;"	l	line:179
+kpupPrev	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	178;"	l	line:178
+lim	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	72;"	f	line:72	signature:(int input, int limit)
+lim	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	80;"	p	line:80	signature:(int input, int limit)
+loop_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	285;"	l	line:285	file:
+loop_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	80;"	l	line:80	file:
+main	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_startup.c	16;"	p	line:16	file:	signature:(void)
+main	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\main.c	31;"	f	line:31	signature:(void)
+mode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	78;"	m	line:78
+mode	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	76;"	m	line:76
+modebits	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	52;"	t	line:52
+mx	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	133;"	m	line:133
+my	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	134;"	m	line:134
+new_search	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	79;"	l	line:79	file:
+num_adc_channels	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	47;"	v	line:47
+oi_analog01	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	101;"	m	line:101
+oi_analog02	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	101;"	m	line:101
+oi_analog03	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	101;"	m	line:101
+oi_analog04	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	101;"	m	line:101
+oi_analog05	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	102;"	m	line:102
+oi_analog06	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	102;"	m	line:102
+oi_analog07	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	102;"	m	line:102
+oi_analog08	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	102;"	m	line:102
+oi_analog09	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	103;"	m	line:103
+oi_analog10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	103;"	m	line:103
+oi_analog11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	103;"	m	line:103
+oi_analog12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	103;"	m	line:103
+oi_analog13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	104;"	m	line:104
+oi_analog14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	104;"	m	line:104
+oi_analog15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	104;"	m	line:104
+oi_analog16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	104;"	m	line:104
+oi_swA_byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	85;"	m	line:85
+oi_swB_byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	90;"	m	line:90
+old_camera_t_packets	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\terminal.c	57;"	l	line:57	file:
+old_camera_t_packets	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	78;"	l	line:78	file:
+p1_aux::rxdata.oi_analog13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	42;"	d	line:42
+p1_sw_aux1::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	58;"	d	line:58
+p1_sw_aux2::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	59;"	d	line:59
+p1_sw_top::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	57;"	d	line:57
+p1_sw_trig::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	56;"	d	line:56
+p1_wheel::rxdata.oi_analog09	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	38;"	d	line:38
+p1_x::rxdata.oi_analog05	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	34;"	d	line:34
+p1_y::rxdata.oi_analog01	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	30;"	d	line:30
+p2_aux::rxdata.oi_analog14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	43;"	d	line:43
+p2_sw_aux1::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	68;"	d	line:68
+p2_sw_aux2::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	69;"	d	line:69
+p2_sw_top::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	67;"	d	line:67
+p2_sw_trig::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	66;"	d	line:66
+p2_wheel::rxdata.oi_analog10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	39;"	d	line:39
+p2_x::rxdata.oi_analog06	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	35;"	d	line:35
+p2_y::rxdata.oi_analog02	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	31;"	d	line:31
+p3_aux::rxdata.oi_analog15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	44;"	d	line:44
+p3_sw_aux1::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	63;"	d	line:63
+p3_sw_aux2::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	64;"	d	line:64
+p3_sw_top::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	62;"	d	line:62
+p3_sw_trig::rxdata.oi_swA_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	61;"	d	line:61
+p3_wheel::rxdata.oi_analog11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	40;"	d	line:40
+p3_x::rxdata.oi_analog07	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	36;"	d	line:36
+p3_y::rxdata.oi_analog03	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	32;"	d	line:32
+p4_aux::rxdata.oi_analog16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	45;"	d	line:45
+p4_sw_aux1::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	73;"	d	line:73
+p4_sw_aux2::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	74;"	d	line:74
+p4_sw_top::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	72;"	d	line:72
+p4_sw_trig::rxdata.oi_swB_byte.bitselect.b	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	71;"	d	line:71
+p4_wheel::rxdata.oi_analog12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	41;"	d	line:41
+p4_x::rxdata.oi_analog08	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	37;"	d	line:37
+p4_y::rxdata.oi_analog04	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	33;"	d	line:33
+packed_struct	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	171;"	t	line:171
+packet_buffer	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	142;"	l	line:142	file:
+packet_buffer_index	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	143;"	l	line:143	file:
+packet_char_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	144;"	l	line:144	file:
+packet_num	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	74;"	m	line:74
+packetnum	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	150;"	m	line:150
+pan_error	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	86;"	l	line:86
+pan_servo_position	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	81;"	l	line:81	file:
+pixels	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	139;"	m	line:139
+posMaxLim	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	67;"	m	line:67
+posMinLim	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	66;"	m	line:66
+prevEnc	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	80;"	m	line:80
+prevEnc1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	78;"	l	line:78	file:
+prevEnc2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	79;"	l	line:79	file:
+prevErr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	81;"	m	line:81
+prevTmr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	214;"	l	line:214	file:
+ptr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	30;"	v	line:30
+pwm01::txdata.rc_pwm01	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	154;"	d	line:154
+pwm02::txdata.rc_pwm02	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	155;"	d	line:155
+pwm03::txdata.rc_pwm03	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	156;"	d	line:156
+pwm04::txdata.rc_pwm04	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	157;"	d	line:157
+pwm05::txdata.rc_pwm05	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	158;"	d	line:158
+pwm06::txdata.rc_pwm06	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	159;"	d	line:159
+pwm07::txdata.rc_pwm07	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	160;"	d	line:160
+pwm08::txdata.rc_pwm08	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	161;"	d	line:161
+pwm09::txdata.rc_pwm09	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	162;"	d	line:162
+pwm10::txdata.rc_pwm10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	163;"	d	line:163
+pwm11::txdata.rc_pwm11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	164;"	d	line:164
+pwm12::txdata.rc_pwm12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	165;"	d	line:165
+pwm13::txdata.rc_pwm13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	166;"	d	line:166
+pwm14::txdata.rc_pwm14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	167;"	d	line:167
+pwm15::txdata.rc_pwm15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	168;"	d	line:168
+pwm16::txdata.rc_pwm16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	169;"	d	line:169
+pwm_mask	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	143;"	m	line:143
+rc_ana_in01::ADC_CH0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	202;"	d	line:202
+rc_ana_in02::ADC_CH1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	203;"	d	line:203
+rc_ana_in03::ADC_CH2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	204;"	d	line:204
+rc_ana_in04::ADC_CH3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	205;"	d	line:205
+rc_ana_in05::ADC_CH4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	206;"	d	line:206
+rc_ana_in06::ADC_CH5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	207;"	d	line:207
+rc_ana_in07::ADC_CH6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	208;"	d	line:208
+rc_ana_in08::ADC_CH7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	209;"	d	line:209
+rc_ana_in09::ADC_CH8	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	210;"	d	line:210
+rc_ana_in10::ADC_CH9	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	211;"	d	line:211
+rc_ana_in11::ADC_CH10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	212;"	d	line:212
+rc_ana_in12::ADC_CH11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	213;"	d	line:213
+rc_ana_in13::ADC_CH12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	214;"	d	line:214
+rc_ana_in14::ADC_CH13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	215;"	d	line:215
+rc_ana_in15::ADC_CH14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	216;"	d	line:216
+rc_ana_in16::ADC_CH15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	217;"	d	line:217
+rc_backup_batt	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	105;"	m	line:105
+rc_dig_in01::PORTBbits.RB2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	109;"	d	line:109
+rc_dig_in02::PORTBbits.RB3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	110;"	d	line:110
+rc_dig_in03::PORTBbits.RB4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	111;"	d	line:111
+rc_dig_in04::PORTBbits.RB5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	112;"	d	line:112
+rc_dig_in05::PORTBbits.RB6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	113;"	d	line:113
+rc_dig_in06::PORTBbits.RB7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	114;"	d	line:114
+rc_dig_in07::PORTHbits.RH0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	115;"	d	line:115
+rc_dig_in08::PORTHbits.RH1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	116;"	d	line:116
+rc_dig_in09::PORTHbits.RH2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	117;"	d	line:117
+rc_dig_in10::PORTHbits.RH3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	118;"	d	line:118
+rc_dig_in11::PORTJbits.RJ1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	119;"	d	line:119
+rc_dig_in12::PORTJbits.RJ2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	120;"	d	line:120
+rc_dig_in13::PORTJbits.RJ3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	121;"	d	line:121
+rc_dig_in14::PORTCbits.RC0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	122;"	d	line:122
+rc_dig_in15::PORTJbits.RJ4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	123;"	d	line:123
+rc_dig_in16::PORTJbits.RJ5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	124;"	d	line:124
+rc_dig_in17::PORTJbits.RJ6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	125;"	d	line:125
+rc_dig_in18::PORTJbits.RJ7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	126;"	d	line:126
+rc_dig_out01::LATBbits.LATB2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	129;"	d	line:129
+rc_dig_out02::LATBbits.LATB3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	130;"	d	line:130
+rc_dig_out03::LATBbits.LATB4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	131;"	d	line:131
+rc_dig_out04::LATBbits.LATB5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	132;"	d	line:132
+rc_dig_out05::LATBbits.LATB6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	133;"	d	line:133
+rc_dig_out06::LATBbits.LATB7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	134;"	d	line:134
+rc_dig_out07::LATHbits.LATH0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	135;"	d	line:135
+rc_dig_out08::LATHbits.LATH1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	136;"	d	line:136
+rc_dig_out09::LATHbits.LATH2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	137;"	d	line:137
+rc_dig_out10::LATHbits.LATH3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	138;"	d	line:138
+rc_dig_out11::LATJbits.LATJ1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	139;"	d	line:139
+rc_dig_out12::LATJbits.LATJ2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	140;"	d	line:140
+rc_dig_out13::LATJbits.LATJ3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	141;"	d	line:141
+rc_dig_out14::LATCbits.LATC0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	142;"	d	line:142
+rc_dig_out15::LATJbits.LATJ4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	143;"	d	line:143
+rc_dig_out16::LATJbits.LATJ5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	144;"	d	line:144
+rc_dig_out17::LATJbits.LATJ6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	145;"	d	line:145
+rc_dig_out18::LATJbits.LATJ7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	146;"	d	line:146
+rc_main_batt	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	105;"	m	line:105
+rc_mode_byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	80;"	m	line:80
+rc_pwm01	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	136;"	m	line:136
+rc_pwm02	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	136;"	m	line:136
+rc_pwm03	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	136;"	m	line:136
+rc_pwm04	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	136;"	m	line:136
+rc_pwm05	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	137;"	m	line:137
+rc_pwm06	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	137;"	m	line:137
+rc_pwm07	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	137;"	m	line:137
+rc_pwm08	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	137;"	m	line:137
+rc_pwm09	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	138;"	m	line:138
+rc_pwm10	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	138;"	m	line:138
+rc_pwm11	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	138;"	m	line:138
+rc_pwm12	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	138;"	m	line:138
+rc_pwm13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	139;"	m	line:139
+rc_pwm14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	139;"	m	line:139
+rc_pwm15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	139;"	m	line:139
+rc_pwm16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	139;"	m	line:139
+rc_swA_byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	95;"	m	line:95
+rc_swB_byte	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	100;"	m	line:100
+relay1_fwd::LATEbits.LATE0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	178;"	d	line:178
+relay1_rev::LATDbits.LATD0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	179;"	d	line:179
+relay2_fwd::LATEbits.LATE1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	180;"	d	line:180
+relay2_rev::LATDbits.LATD1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	181;"	d	line:181
+relay3_fwd::LATEbits.LATE2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	182;"	d	line:182
+relay3_rev::LATDbits.LATD2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	183;"	d	line:183
+relay4_fwd::LATEbits.LATE3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	184;"	d	line:184
+relay4_rev::LATDbits.LATD3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	185;"	d	line:185
+relay5_fwd::LATEbits.LATE4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	186;"	d	line:186
+relay5_rev::LATDbits.LATD4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	187;"	d	line:187
+relay6_fwd::LATEbits.LATE5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	188;"	d	line:188
+relay6_rev::LATDbits.LATD5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	189;"	d	line:189
+relay7_fwd::LATEbits.LATE6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	190;"	d	line:190
+relay7_rev::LATDbits.LATD6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	191;"	d	line:191
+relay8_fwd::LATJbits.LATJ0	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	192;"	d	line:192
+relay8_rev::LATDbits.LATD7	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	193;"	d	line:193
+reserve	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	106;"	m	line:106
+result	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_utilities.c	203;"	l	line:203
+return_value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	286;"	l	line:286	file:
+return_value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	70;"	l	line:70
+return_value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	408;"	l	line:408
+returned_value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	287;"	l	line:287
+returned_value	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	166;"	l	line:166
+rx_data_ptr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	109;"	t	line:109
+rx_data_record	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	107;"	t	line:107
+rxdata	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\main.c	20;"	v	line:20
+samples	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	52;"	v	line:52
+samplesCount	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	169;"	l	line:169	file:
+servo_step	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	85;"	l	line:85
+state	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	141;"	l	line:141	file:
+state	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	283;"	l	line:283	file:
+state	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	213;"	l	line:213	file:
+statusflag	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\main.c	21;"	v	line:21
+stdout_serial_port	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	157;"	v	line:157
+temp	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	571;"	l	line:571
+temp	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\serial_ports.c	619;"	l	line:619
+temp_adc_result	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	332;"	l	line:332
+temp_adc_update_count	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\adc.c	392;"	l	line:392
+temp_gyro_angle	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	187;"	l	line:187
+temp_gyro_bias	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	188;"	l	line:188
+temp_gyro_rate	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\gyro.c	284;"	l	line:284
+temp_gyro_rate	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	186;"	l	line:186
+temp_pan_servo	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	83;"	l	line:83
+temp_pwm_13	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.c	91;"	l	line:91
+temp_pwm_14	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.c	92;"	l	line:92
+temp_pwm_15	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.c	93;"	l	line:93
+temp_pwm_16	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\pwm.c	94;"	l	line:94
+temp_tilt_servo	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	84;"	l	line:84
+terminal_char	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	165;"	l	line:165
+ticks	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	215;"	l	line:215	file:
+tilt_error	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	87;"	l	line:87
+tilt_servo_position	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\tracking.c	82;"	l	line:82	file:
+timerTicks	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines_fast.c	35;"	v	line:35
+tqLim	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	84;"	m	line:84
+tracking_menu_active	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	164;"	l	line:164	file:
+turn	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	82;"	f	line:82	signature:(int degrees, int vel)
+turn	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.h	82;"	p	line:82	signature:(int degrees, int vel)
+tx_data_ptr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	155;"	t	line:155
+tx_data_record	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	153;"	t	line:153
+txdata	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\main.c	19;"	v	line:19
+usart2_RX::PORTGbits.RG2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	290;"	d	line:290
+usart2_TX::LATGbits.LATG1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	289;"	d	line:289
+user_byte1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	130;"	m	line:130
+user_byte2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	135;"	m	line:135
+user_byte3	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	145;"	m	line:145
+user_byte4	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	146;"	m	line:146
+user_byte5	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	147;"	m	line:147
+user_byte6	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	148;"	m	line:148
+user_cmd	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	141;"	m	line:141
+user_display	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	49;"	m	line:49
+user_display_mode::rxdata.rc_mode_byte.mode.user_	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_aliases.h	311;"	d	line:311
+vel	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	27;"	l	line:27
+velErr	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\TRCfunctions.c	28;"	l	line:28
+velLim	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	82;"	m	line:82
+velThresh	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.h	83;"	m	line:83
+wait_for_ack	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.c	284;"	l	line:284	file:
+warning_code	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\ifi_default.h	144;"	m	line:144
+x	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	177;"	l	line:177
+x1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	135;"	m	line:135
+x2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	137;"	m	line:137
+y	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	177;"	l	line:177
+y1	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	136;"	m	line:136
+y2	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\camera.h	138;"	m	line:138
+z	C:\Users\Paul\Projects\trcCode\Repository\Summer\Oceanus\user_routines.c	177;"	l	line:177

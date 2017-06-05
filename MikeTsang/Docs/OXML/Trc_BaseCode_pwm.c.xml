@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:PWMInitialize(void)" source="c:\temp\Trc\BaseCode\pwm.c" type="void">
+<summary >
+
+     This function initializes the pwm related hardware. It replaces
+     IFI's Generate_Pwms() function.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PWMSetValues(BYTE,BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\pwm.c" type="void">
+<summary >
+
+     This function sets the pwm values for channel 13-16.
+ 
+</summary >
+<param name="bPWM13" type="BYTE" >
+
+     Specifies the position/velocity value for PWM channel 13.
+ 
+</param >
+<param name="bPWM14" type="BYTE" >
+
+     Specifies the position/velocity value for PWM channel 14.
+ 
+</param >
+<param name="bPWM15" type="BYTE" >
+
+     Specifies the position/velocity value for PWM channel 15.
+ 
+</param >
+<param name="bPWM16" type="BYTE" >
+
+     Specifies the position/velocity value for PWM channel 16.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PWMPrintData(void)" source="c:\temp\Trc\BaseCode\pwm.c" type="void">
+<summary >
+
+     This function prints the state of the PWMs.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

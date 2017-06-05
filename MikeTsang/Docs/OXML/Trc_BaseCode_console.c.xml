@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="F:CMD_BUFF_LEN" source="c:\temp\Trc\BaseCode\console.c" >
+<summary >
+
+     Specifies the maximum length of the console command buffer.
+ 
+</summary >
+</member>
+<member name="F:MAX_ARGS" source="c:\temp\Trc\BaseCode\console.c" >
+<summary >
+
+     Specifies the maximum number of console command arguments.
+ 
+</summary >
+</member>
+<member name="T:_Console" source="c:\temp\Trc\BaseCode\console.c" >
+<summary >
+
+     This structure stores information about the console serial port.
+ 
+</summary >
+</member>
+<member name="F:_Console.bSerialPort" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+<summary >
+
+     Stores the serial port number used by the console (0-based).
+ 
+</summary >
+</member>
+<member name="F:_Console.bCmdLen" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+<summary >
+
+     Stores the number of characters in the command buffer.
+ 
+</summary >
+</member>
+<member name="F:_Console.CmdBuff" source="c:\temp\Trc\BaseCode\console.c" type="char []">
+<summary >
+
+     Command buffer.
+ 
+</summary >
+</member>
+<member name="F:_Console.bNumBaseCmds" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+<summary >
+
+     Specifies the number of entries in the BaseCmdTable.
+ 
+</summary >
+</member>
+<member name="F:_Console.BaseCmdTable" source="c:\temp\Trc\BaseCode\console.c" type="PCMDENTRY">
+<summary >
+
+     Stores the pointer to the Base Command table.
+ 
+</summary >
+</member>
+<member name="F:_Console.bNumProjCmds" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+<summary >
+
+     Specifies the number of entries in the ProjCmdTable.
+ 
+</summary >
+</member>
+<member name="F:_Console.ProjCmdTable" source="c:\temp\Trc\BaseCode\console.c" type="PCMDENTRY">
+<summary >
+
+     Stores the pointer to the Proj Command table.
+ 
+</summary >
+</member>
+<member name="M:ConsoleInitialize(BYTE,PCMDENTRY,BYTE,PCMDENTRY,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+<summary >
+
+     This function initializes the console using the given serial port.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies which serial port to get the console input from.
+ 
+</param >
+<param name="BaseCmdTable" type="PCMDENTRY" >
+
+     Points to the Base Command table.
+ 
+</param >
+<param name="bNumBaseCmds" type="BYTE" >
+
+     Specifies the number of command entries in the BaseCmdTable.
+ 
+</param >
+<param name="ProjCmdTable" type="PCMDENTRY" >
+
+     Points to the Proj Command table.
+ 
+</param >
+<param name="bNumProjCmds" type="BYTE" >
+
+     Specifies the number of command entries in the ProjCmdTable.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ConsoleProcessData(void)" source="c:\temp\Trc\BaseCode\console.c" type="BOOL">
+<summary >
+
+     This function processes the serial data as console commands.
+ 
+</summary >
+<returns >
+ Always returns TRUE so it will be called next time. 
+</returns >
+</member>
+<member name="M:ConsolePrintHelp(PCMDENTRY)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+<summary >
+
+     This function prints the help message for all console commands.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ConsoleQuit(PCMDENTRY)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+<summary >
+
+     This function terminates console mode.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ConsoleParseCommand(PSTR,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+<summary >
+
+     This function parses the console command.
+ 
+</summary >
+<param name="pszCmd" type="PSTR" >
+
+     Points to command buffer.
+ 
+</param >
+<param name="bCmdLen" type="BYTE" >
+
+     Specifies the length of the command in the buffer.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ConsoleProcessCmd(PSTR,PCMDENTRY,BYTE,PSTR *,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="BOOL">
+<summary >
+
+     This function looks up the command and process it.
+ 
+</summary >
+<param name="pszCmd" type="PSTR" >
+
+     Points to command buffer.
+ 
+</param >
+<param name="CmdTable" type="PCMDENTRY" >
+
+     Points to the command table to lookup the command.
+ 
+</param >
+<param name="bNumCmds" type="BYTE" >
+
+     Specifies the size of the command table.
+ 
+</param >
+<param name="apszArgs" type="PSTR *" >
+
+     Points to the command arguments.
+ 
+</param >
+<param name="bcArgs" type="BYTE" >
+
+     Specifies the number of command arguments.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ConsoleParseCmdArgs(PARGDEF,PSTR *,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="BOOL">
+<summary >
+
+     This function parses the console command arguments.
+ 
+</summary >
+<param name="ArgDefs" type="PARGDEF" >
+
+     Points to command buffer.
+ 
+</param >
+<param name="apszArgs" type="PSTR *" >
+
+     Points to the argument array.
+ 
+</param >
+<param name="bcArgs" type="BYTE" >
+
+     Specifies the number of arguments.
+ 
+</param >
+<returns >
+ Success: Returns TRUE. 
+</returns >
+<returns >
+ Failure: Returns FALSE. 
+</returns >
+</member>
+<member name="M:ConsolePrintCmdHelp(PCMDENTRY)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+<summary >
+
+     This function prints the help message for the console command.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:CopyPgmString(PSTR,BYTE,const rom char *)" source="c:\temp\Trc\BaseCode\console.c" type="PSTR">
+<summary >
+
+     This function copies a string from program memory to data memory.
+     String literals are allocated in program memory. A lot of library
+     functions can only access data memory.
+ 
+</summary >
+<param name="pszStr" type="PSTR" >
+
+     Points to string buffer in data memory.
+ 
+</param >
+<param name="bLen" type="BYTE" >
+
+     Specifies the size of the string buffer.
+ 
+</param >
+<param name="pszPgmStr" type="const rom char *" >
+
+     Points to string in program memory.
+ 
+</param >
+<returns >
+ Returns a copy of the string in data memory. 
+</returns >
+</member>
+</members>
+</doc>

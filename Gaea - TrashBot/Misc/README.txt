@@ -1,0 +1,1 @@
+Copy the p18f8722.h file in here to C:\mcc18\h and replace the old one. This file is the debugged version.

@@ -1,0 +1,87 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>ServoInitMoveTo Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>ServoInitMoveTo Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function initializes the MOVETO structure for autonomous drive.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">void ServoInitMoveTo(
+	<a href="PMOVETO.html" class="typeLink">PMOVETO</a> MoveTo,
+	<a href="PDRIVE.html" class="typeLink">PDRIVE</a> Drive,
+	<a href="long.html" class="typeLink">long</a> lHeading,
+	<a href="long.html" class="typeLink">long</a> lDistance,
+	<a href="int.html" class="typeLink">int</a> iTurnVel,
+	<a href="int.html" class="typeLink">int</a> iDriveVel,
+	<a href="int.html" class="typeLink">int</a> iEndVel,
+	<a href="long.html" class="typeLink">long</a> lTurnThreshold,
+	<a href="long.html" class="typeLink">long</a> lAngleTolerance
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>MoveTo</i></dt><dd>
+
+     Points to the MOVETO structure to be initialized.
+ 
+</dd></dl><dl><dt><i>Drive</i></dt><dd>
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</dd></dl><dl><dt><i>lHeading</i></dt><dd>
+
+     Specifies the absolute heading we should be at after the state machine
+     ended.
+ 
+</dd></dl><dl><dt><i>lDistance</i></dt><dd>
+
+     Specifies the absolute distance we should be at after the state machine
+     ended.
+ 
+</dd></dl><dl><dt><i>iTurnVel</i></dt><dd>
+
+     Specifies the turning velocity.
+ 
+</dd></dl><dl><dt><i>iDriveVel</i></dt><dd>
+
+     Specifies the velocity when driving in a straight line.
+ 
+</dd></dl><dl><dt><i>iEndVel</i></dt><dd>
+
+     Specifies the ending velocity when the state machine ended.
+ 
+</dd></dl><dl><dt><i>lTurnThreshold</i></dt><dd>
+
+     Specifies the amount of turn we need to exceed before we classify
+     it being a turn. This is to determine if we need to slow down to
+     turn velocity. If we are just adjusting our heading when driving
+     a straight line, that's not turning and we don't need to slow down.
+ 
+</dd></dl><dl><dt><i>lAngleTolerance</i></dt><dd>
+
+     Specifies the amount of angle tolerance we allow comparing to the
+     target heading. This is to prevent the oscillation caused by minor
+     angle variation.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ None. 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\servo.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

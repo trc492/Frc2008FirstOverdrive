@@ -1,0 +1,563 @@
+data/MikeTsang/Docs/OXML/Trc_BaseCode_servo.c.xml.i
+data/Mnemosyne - 2008/Bin/Mnemosyne - 2008.cof.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_console.h.xml.i
+data/Mnemosyne - 2008/encoder.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoInitialize.html.i
+data/Fresh Copy - 2008/ifi_aliases.h.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.cod.d
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoPrintPidParam.html.i
+data/MikeTsang/Docs/HTML/msdn.css.i
+data/Gaea - TrashBot/Lib/FRC_library_8722.lib.i
+data/MikeTsang/Obj/adc.o.i
+data/Gaea - TrashBot/ifi_utilities.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCIndex.html.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_basecmd.c.xml.i
+data/Mnemosyne - 2008/encoder.h.i
+data/Summer/Oceanus/Docs/camera_readme.txt.i
+data/Gaea - TrashBot/Lib/FRC_alltimers_8722.lib.i
+data/Summer/Oceanus/camera.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/MSVBVM60.DLL.d
+data/MikeTsang/Docs/HTML/NULL.NULL.main.html.i
+data/Mnemosyne - 2008/ifi_utilities.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCDisable.html.i
+data/Summer/Oceanus/user_routines.h.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/MSVBVM60.DLL.i
+data/Fresh Copy - 2008/gyro.c.i
+data/Fresh Copy - 2008/main.c.i
+data/Mnemosyne - 2008/Misc/delays.h.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_pwm.c.xml.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintEncoderData.html.i
+data/Software/Loader/Support/MSCOMM32.OCX.i
+data/Gaea - TrashBot/camera.h.i
+data/Gaea - TrashBot/pwm.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.BaseCmdConsoleTrace.html.i
+data/Gaea - TrashBot/ifi_default.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsoleProcessCmd.html.i
+data/Software/Loader/Support/IFI_Loader.BAT.i
+data/MikeTsang/Docs/classes.xslt.i
+data/MikeTsang/2008/Trc.mptags.i
+data/Mnemosyne - 2008/Trc2008.tagsrc.i
+data/MikeTsang/Docs/HTML/InternalSDK.chm.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/IFI_Loader.exe.i
+data/Summer/Oceanus/main.c.i
+data/Mnemosyne - 2008/Mnemosyne - 2008.mptags.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/COMDLG32.OCX.i
+data/MikeTsang/BaseCode/gyro.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoPrintData.html.i
+data/Fresh Copy - 2008/Bin/Mnemosyne - 2008.hex.i
+data/Fresh Copy - 2008/user_routines_fast.c.i
+data/Fresh Copy - 2008/Bin/Mnemosyne - 2008.cod.i
+data/MikeTsang/BaseCode/pwm.c.i
+data/Fresh Copy - 2008/Bin/Fresh Copy - 2008.hex.i
+data/Summer/Oceanus/Docs/LibReadMe.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InputCalibrate.html.i
+data/Mnemosyne - 2008/tracking.h.i
+data/Fresh Copy - 2008/user_routines.h.i
+data/Mnemosyne - 2008/Bin/Trc2008.lst.i
+data/MikeTsang/Docs/HTML/NULL.NULL.CalibrateInput.html.i
+data/MikeTsang/Docs/HTML/NULL._CmdEntry.html.i
+data/Summer/Oceanus/adc.c.i
+data/Mnemosyne - 2008/camera.c.i
+data/Mnemosyne - 2008/user_routines.c.i
+data/Mnemosyne - 2008/ifi_startup.c.i
+data/Summer/Oceanus/Oceanus - 2008.mptags.i
+data/Mnemosyne - 2008/TRCfunctions.c.i
+data/Fresh Copy - 2008/pwm.c.i
+data/Gaea - TrashBot/serial_ports.h.i
+data/Summer/Oceanus/encoder.c.i
+data/MikeTsang/Docs/HTML/NULL._Servo.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Encoder1_2IntHandler.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialInitPort.html.i
+data/Summer/Oceanus/ifi_startup.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/OLEAUT32.DLL.d
+data/Fresh Copy - 2008/Fresh Copy - 2008.mcp.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PWMPrintData.html.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/OLEAUT32.DLL.i
+data/Mnemosyne - 2008/Docs/LibReadMe.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InitHookTable.html.i
+data/Gaea - TrashBot/Docs/serial_ports_readme.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsolePrintCmdHelp.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.RegisterHook.html.i
+data/MikeTsang/BaseCode/rcio.h.i
+data/MikeTsang/2008/projcmd.c.i
+data/Summer/Oceanus/serial_ports.c.i
+data/MikeTsang/BaseCode/ifi_default.h.i
+data/MikeTsang/BaseCode/encoder.c.i
+data/Summer/Oceanus/pwm.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderPrintData.html.i
+data/Summer/Oceanus/Lib/FRC_library_8722.lib.i
+data/Mnemosyne - 2008/Lkr/18f8722.lkr.i
+data/MikeTsang/Docs/hhwproject.xslt.i
+data/Software/Loader/Support/Setup.Lst.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_ifi_startup.c.xml.i
+data/Summer/Oceanus/recordingAutonomous.h.i
+data/Fresh Copy - 2008/Docs/adc_readme.txt.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/IFI_Loader.INI.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Encoder3_6Int.html.i
+data/Gaea - TrashBot/camera.c.i
+data/MikeTsang/Docs/methods.xslt.i
+data/MikeTsang/BaseCode/tracking.h.i
+data/Software/Loader/Support/OLEAUT32.DLL.d
+data/Software/Loader/Support/OLEAUT32.DLL.i
+data/Fresh Copy - 2008/serial_ports.c.i
+data/Mnemosyne - 2008/gyro.c.i
+data/Mnemosyne - 2008/Mnemosyne - 2008.tagsrc.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/Edu_Default_Code.hex.i
+data/Mnemosyne - 2008/Docs/pwm_readme.txt.i
+data/Gaea - TrashBot/Lkr/18f8722.lkr.i
+data/Software/Loader/SETUP.LST.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/ASYCFILT.DLL.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ProcessHooks.html.i
+data/Mnemosyne - 2008/Misc/FRC_MASTER_V13.BIN.i
+data/Software/IDE (install first)/mplabcert.bmp.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderGetCount.html.i
+data/Mnemosyne - 2008/Misc/clearFiles.bat.backup.i
+data/Mnemosyne - 2008/Docs/encoder_readme.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Serial1Initialize.html.i
+data/MikeTsang/Docs/HTML/PFNPARSEARG_ns.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialWriteData.html.i
+data/Gaea - TrashBot/Misc/FRC_MASTER_V13.BIN.i
+data/MikeTsang/Obj/ifi_utilities.o.i
+data/Gaea - TrashBot/Oceanus - 2008.mcp.i
+data/Gaea - TrashBot/TRCfunctions.h.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_adc.c.xml.i
+data/Mnemosyne - 2008/recordingAutonomous.c.i
+data/Gaea - TrashBot/Oceanus - 2008.mptags.i
+data/Summer/Oceanus/ifi_utilities.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderResetCount.html.i
+data/MikeTsang/Docs/HTML/NULL._Drive.html.i
+data/Gaea - TrashBot/Misc/README.txt.i
+data/Summer/Oceanus/Misc/FRC_MASTER_V13.BIN.i
+data/Software/Loader/Support/VB6STKIT.DLL.i
+data/Summer/Oceanus/tracking.h.i
+data/MikeTsang/Obj/inthandler.o.i
+data/MikeTsang/Docs/HTML/NULL._ADCChannel.html.i
+data/Software/MPLAB 7.50 + C18/Loader/setup.exe.i
+data/Fresh Copy - 2008/Bin/Trc2008.lst.d
+data/MikeTsang/Lib/FRC_alltimers_8520.lib.i
+data/Gaea - TrashBot/recordingAutonomous.h.i
+data/MikeTsang/Docs/HTML/NULL._Encoder.html.i
+data/Fresh Copy - 2008/Bin/Trc2008.lst.i
+data/Software/Loader/IFI_Loader.CAB.i
+data/Software/Loader/IFI_Loader.CAB.d
+data/Summer/Oceanus/terminal.h.i
+data/Mnemosyne - 2008/Bin/Trc2008.cod.i
+data/MikeTsang/BaseCode/adc.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCInitialize.html.i
+data/Summer/Oceanus/serial_ports.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroInitialize.html.i
+data/MikeTsang/Docs/HTML/NULL._MoveTo.html.i
+data/Fresh Copy - 2008/Bin/Mnemosyne - 2008.map.i
+data/MikeTsang/Docs/hhwcontents.xslt.i
+data/Summer/Oceanus/Docs/tracking_readme.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderInitialize.html.i
+data/Summer/Oceanus/TRCfunctions.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/IFI_Loader.DDF.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/MPLAB Tools v7.50.msi.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsoleParseCmdArgs.html.i
+data/Fresh Copy - 2008/Lib/FRC_library_8722.lib.i
+data/Mnemosyne - 2008/Lib/FRC_alltimers_8520.lib.i
+data/Mnemosyne - 2008/Bin/Mnemosyne - 2008.map.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/MPLAB Tools v7.50.msi.d
+data/MikeTsang/Docs/HTML/NULL.NULL.Wait4TXEmpty.html.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.map.i
+data/MikeTsang/Docs/HTML/NULL.NULL._startup.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialRxInterrupt.html.i
+data/MikeTsang/Docs/HTML/PFNCMD_ns.html.i
+data/Mnemosyne - 2008/Mnemosyne - 2008.mcp.i
+data/Mnemosyne - 2008/Lib/FRC_library_8722.lib.i
+data/Fresh Copy - 2008/Docs/encoder_readme.txt.i
+data/MikeTsang/BaseCode/console.h.i
+data/Gaea - TrashBot/Lkr/18f8520.lkr.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderIndex.html.i
+data/Mnemosyne - 2008/Docs/Using_a_2005_FRC.txt.i
+data/Fresh Copy - 2008/Docs/tracking_readme.txt.i
+data/Fresh Copy - 2008/ifi_startup.c.i
+data/Fresh Copy - 2008/TRCfunctions.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroPrintData.html.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_rcio.c.xml.i
+data/MikeTsang/Docs/overview.xslt.i
+data/MikeTsang/Docs/HTML/namespaces.xml.i
+data/Mnemosyne - 2008/Bin/Trc2008.lst.d
+data/Fresh Copy - 2008/terminal.h.i
+data/MikeTsang/Obj/basecmd.o.i
+data/Fresh Copy - 2008/Misc/clearFiles.bat.backup.i
+data/MikeTsang/Docs/OXML/docbld.log.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroCalibrate.html.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/mplabcert.bmp.i
+data/MikeTsang/Bin/Trc.hex.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_input.c.xml.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCTimer2IntHandler.html.i
+data/Mnemosyne - 2008/Bin/Trc2008.cof.i
+data/Gaea - TrashBot/user_routines.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderGetVelocity.html.i
+data/MikeTsang/BaseCode/ifi_utilities.h.i
+data/Software/Loader/Support/MSVBVM60.DLL.i
+data/Gaea - TrashBot/encoder.h.i
+data/Software/Loader/Support/MSVBVM60.DLL.d
+data/Gaea - TrashBot/Docs/adc_readme.txt.i
+data/Mnemosyne - 2008/serial_ports.h.i
+data/MikeTsang/Docs/HTML/NULL._Console.html.i
+data/Mnemosyne - 2008/Bin/Mnemosyne - 2008.lst.i
+data/Software/Loader/Support/SETUP1.EXE.i
+data/Mnemosyne - 2008/Bin/Mnemosyne - 2008.lst.d
+data/Mnemosyne - 2008/Lkr/18f8520.lkr.i
+data/Gaea - TrashBot/Docs/gyro_readme.txt.i
+data/MikeTsang/Bin/Trc.lst.d
+data/Software/Loader/Support/rsdiag.txt.i
+data/MikeTsang/Bin/Trc.lst.i
+data/MikeTsang/Obj/console.o.i
+data/MikeTsang/Docs/HTML/NULL._Gyro.html.i
+data/Software/Loader/Support/IFI_Loader.DDF.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Timer2Initialize.html.i
+data/Summer/Oceanus/ifi_aliases.h.i
+data/Mnemosyne - 2008/ifi_utilities.c.i
+data/Mnemosyne - 2008/Docs/readme_first.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintGyroData.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsoleProcessData.html.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/SETUP1.EXE.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InterruptVectorLow.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialReadData.html.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/MSCOMM32.OCX.i
+data/Mnemosyne - 2008/pwm.c.i
+data/Software/MPLAB 7.50 + C18/Loader/SETUP.LST.i
+data/Gaea - TrashBot/Misc/kbemf-calc.py.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_encoder.c.xml.i
+data/Gaea - TrashBot/adc.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/PICBOOT.dll.i
+data/Software/Loader/Support/Edu_Default_Code.hex.i
+data/Mnemosyne - 2008/adc.c.i
+data/Fresh Copy - 2008/Misc/p18f8722.h.i
+data/Fresh Copy - 2008/Docs/readme.txt.i
+data/MikeTsang/2008/Trc.mcp.i
+data/Mnemosyne - 2008/terminal.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCGetValueRange.html.i
+data/Fresh Copy - 2008/Lib/FRC_library_8520.lib.i
+data/Gaea - TrashBot/Docs/tracking_readme.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.RCIOInitialize.html.i
+data/Mnemosyne - 2008/camera.h.i
+data/Summer/Oceanus/ifi_default.h.i
+data/MikeTsang/BaseCode/serial_ports.c.i
+data/Mnemosyne - 2008/Lib/FRC_alltimers_8722.lib.i
+data/MikeTsang/Obj/ifi_startup.o.i
+data/Mnemosyne - 2008/Docs/adc_readme.txt.i
+data/Summer/Oceanus/Oceanus - 2008.mcp.i
+data/Summer/Oceanus/Misc/README.txt.i
+data/Fresh Copy - 2008/user_routines.c.i
+data/MikeTsang/2008/project.h.i
+data/MikeTsang/Lkr/18f8520.lkr.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroResetAngle.html.i
+data/Fresh Copy - 2008/Docs/LibReadMe.txt.i
+data/Gaea - TrashBot/Misc/delays.h.i
+data/Fresh Copy - 2008/recordingAutonomous.h.i
+data/Gaea - TrashBot/ifi_utilities.c.i
+data/Fresh Copy - 2008/Docs/camera_readme.txt.i
+data/MikeTsang/Lib/FRC_library_8520.lib.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialTxIntHandler.html.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_servo.h.xml.i
+data/MikeTsang/BaseCode/terminal.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroGetAngle.html.i
+data/Software/Loader/setup.exe.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InputProcessData.html.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/OLEPRO32.DLL.i
+data/Gaea - TrashBot/gyro.h.i
+data/Fresh Copy - 2008/ifi_default.h.i
+data/Fresh Copy - 2008/encoder.c.i
+data/Mnemosyne - 2008/Misc/p18f8722.h.i
+data/MikeTsang/Docs/HTML/NULL._PidParam.html.i
+data/MikeTsang/BaseCode/inthandler.c.i
+data/Software/Loader/Support/OLEPRO32.DLL.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintInputData.html.i
+data/Fresh Copy - 2008/Bin/Fresh Copy - 2008.lst.d
+data/Software/Loader/Support/STDOLE2.TLB.i
+data/Fresh Copy - 2008/Bin/Fresh Copy - 2008.lst.i
+data/Gaea - TrashBot/terminal.c.i
+data/MikeTsang/Obj/rcio.o.i
+data/Software/Loader/Support/COMDLG32.OCX.i
+data/Gaea - TrashBot/Docs/readme.txt.i
+data/MikeTsang/BaseCode/pwm.h.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/MPLAB v7.50 Install.exe.d
+data/Software/MPLAB 7.50 + C18/IDE (install first)/MPLAB v7.50 Install.exe.i
+data/Mnemosyne - 2008/Bin/Trc2008.hex.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroGetRate.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCPrintData.html.i
+data/Gaea - TrashBot/Oceanus - 2008.mcw.i
+data/MikeTsang/BaseCode/servo.h.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/Setup.Lst.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_serial_ports.c.xml.i
+data/Summer/Oceanus/Lib/FRC_alltimers_8520.lib.i
+data/Summer/Oceanus/user_routines.c.i
+data/Fresh Copy - 2008/gyro.h.i
+data/MikeTsang/BaseCode/input.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Serial2Initialize.html.i
+data/MikeTsang/BaseCode/camera.h.i
+data/Summer/Oceanus/gyro.h.i
+data/Summer/Oceanus/ifi_utilities.h.i
+data/Mnemosyne - 2008/TRCfunctions.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCIntHandler.html.i
+data/Fresh Copy - 2008/Bin/Fresh Copy - 2008.map.i
+data/Mnemosyne - 2008/Docs/tracking_readme.txt.i
+data/MikeTsang/BaseCode/tracking.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/SETUP.EXE.i
+data/Summer/Oceanus/Lib/FRC_library_8520.lib.i
+data/Summer/Oceanus/adc.h.i
+data/Gaea - TrashBot/Misc/clearFiles.bat.backup.i
+data/Summer/Oceanus/Docs/adc_readme.txt.i
+data/Fresh Copy - 2008/Docs/gyro_readme.txt.i
+data/Software/Compiler/MPLAB-C18-v2_40-win32.exe.d
+data/Software/Compiler/MPLAB-C18-v2_40-win32.exe.i
+data/MikeTsang/Docs/HTML/InternalSDK.hhc.i
+data/Software/Loader/Support/PICBOOT.dll.i
+data/Gaea - TrashBot/tracking.h.i
+data/MikeTsang/Lib/FRC_library_8722.lib.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoMoveTo.html.i
+data/Fresh Copy - 2008/ifi_utilities.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/STDOLE2.TLB.i
+data/Software/Loader/Support/ST6UNST.EXE.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/Data1.cab.i
+data/MikeTsang/Obj/pwm.o.i
+data/MikeTsang/Obj/tracking.o.i
+data/Fresh Copy - 2008/camera.h.i
+data/Fresh Copy - 2008/Misc/FRC_MASTER_V13.BIN.i
+data/MikeTsang/Docs/HTML/NULL.NULL.RCIOPrintRelay.html.i
+data/Gaea - TrashBot/Docs/pwm_readme.txt.i
+data/MikeTsang/BaseCode/camera.c.i
+data/MikeTsang/Docs/HTML/InternalSDK.hhk.i
+data/MikeTsang/BaseCode/gyro.c.i
+data/MikeTsang/Docs/HTML/NULL._OiCalData.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintAdcData.html.i
+data/Fresh Copy - 2008/adc.c.i
+data/Fresh Copy - 2008/tracking.h.i
+data/Mnemosyne - 2008/user_routines_fast.c.i
+data/Mnemosyne - 2008/Docs/readme.txt.i
+data/Gaea - TrashBot/serial_ports.c.i
+data/Gaea - TrashBot/recordingAutonomous.c.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/instmsiw.exe.i
+data/Software/Loader/Support/SETUP.EXE.i
+data/Gaea - TrashBot/Lib/FRC_library_8520.lib.i
+data/MikeTsang/Obj/encoder.o.i
+data/Gaea - TrashBot/pwm.c.i
+data/Fresh Copy - 2008/Fresh Copy - 2008.mptags.i
+data/Software/MPLAB 7.50 + C18/Compiler/MPLAB-C18-v2_40-win32.exe.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoInitMoveTo.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.RCIOPrintDigitalIo.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PWMSetValues.html.i
+data/Summer/Oceanus/Misc/p18f8722.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL._entry.html.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/COMCAT.DLL.i
+data/Fresh Copy - 2008/ifi_utilities.h.i
+data/MikeTsang/Bin/Trc.map.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialGetByteCount.html.i
+data/Summer/Oceanus/tracking.c.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_console.c.xml.i
+data/Mnemosyne - 2008/Lib/FRC_library_8520.lib.i
+data/Summer/Oceanus/TRCfunctions.h.i
+data/MikeTsang/Docs/HTML/NULL._EncChannel.html.i
+data/Gaea - TrashBot/Docs/Using_a_2005_FRC.txt.i
+data/Summer/Oceanus/Docs/Using_a_2005_FRC.txt.i
+data/Mnemosyne - 2008/Docs/gyro_readme.txt.i
+data/Gaea - TrashBot/Oceanus - 2008.mcs.i
+data/Summer/Oceanus/Oceanus - 2008.mcs.i
+data/Mnemosyne - 2008/Bin/Mnemosyne - 2008.cod.i
+data/Gaea - TrashBot/Misc/p18f8722.h.i
+data/MikeTsang/BaseCode/main.c.i
+data/Fresh Copy - 2008/serial_ports.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InputInitialize.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.CopyPgmString.html.i
+data/Summer/Oceanus/recordingAutonomous.c.i
+data/Mnemosyne - 2008/user_routines.h.i
+data/MikeTsang/BaseCode/rcio.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InitializePort.html.i
+data/Software/IDE (install first)/instmsiw.exe.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_gyro.c.xml.i
+data/Software/IDE (install first)/instmsiw.exe.d
+data/Fresh Copy - 2008/pwm.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCValueToMillivolt.html.i
+data/Summer/Oceanus/Oceanus - 2008.mcw.i
+data/Fresh Copy - 2008/Lkr/18f8722.lkr.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.cof.i
+data/Summer/Oceanus/terminal.c.i
+data/Gaea - TrashBot/Docs/camera_readme.txt.i
+data/Software/IDE (install first)/MPLAB Tools v7.50.msi.i
+data/MikeTsang/Docs/HTML/NULL.NULL.CalibrateGyro.html.i
+data/Fresh Copy - 2008/Fresh Copy - 2008.mcs.i
+data/MikeTsang/BaseCode/ifi_utilities.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCGetUpdateCount.html.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/instmsiw.exe.d
+data/Software/MPLAB 7.50 + C18/Loader/Support/DefaultFiles.txt.i
+data/MikeTsang/Obj/camera.o.i
+data/Gaea - TrashBot/Lib/FRC_alltimers_8520.lib.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsolePrintHelp.html.i
+data/Fresh Copy - 2008/Fresh Copy - 2008.tagsrc.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InterruptHandlerLow.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroSetBias.html.i
+data/Summer/Oceanus/Misc/clearFiles.bat.backup.i
+data/Gaea - TrashBot/ifi_startup.c.i
+data/Fresh Copy - 2008/Misc/delays.h.i
+data/MikeTsang/BaseCode/basecode.h.i
+data/Summer/Oceanus/pwm.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL._user_putc.html.i
+data/Summer/Oceanus/Docs/pwm_readme.txt.i
+data/Software/Loader/Support/ASYCFILT.DLL.i
+data/Software/MPLAB 7.50 + C18/Compiler/MPLAB-C18-v2_40-win32.exe.d
+data/Summer/Oceanus/Misc/delays.h.i
+data/Fresh Copy - 2008/Lkr/18f8520.lkr.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.hex.i
+data/Mnemosyne - 2008/adc.h.i
+data/MikeTsang/Docs/hhwindex.xslt.i
+data/MikeTsang/Docs/namespace.xslt.i
+data/MikeTsang/Docs/OXML/docbld.err.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Timer2Disable.html.i
+data/Mnemosyne - 2008/serial_ports.c.i
+data/Gaea - TrashBot/Oceanus - 2008.tagsrc.i
+data/Software/Loader/Support/IFI_Loader.exe.i
+data/Gaea - TrashBot/user_routines_fast.c.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_ifi_utilities.c.xml.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintStatus.html.i
+data/Fresh Copy - 2008/Docs/pwm_readme.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoCalibrate.html.i
+data/Fresh Copy - 2008/Bin/Trc2008.cof.i
+data/Gaea - TrashBot/encoder.c.i
+data/Fresh Copy - 2008/encoder.h.i
+data/MikeTsang/BaseCode/ifi_aliases.h.i
+data/Fresh Copy - 2008/Lib/FRC_alltimers_8520.lib.i
+data/Summer/Oceanus/Oceanus - 2008.tagsrc.i
+data/Gaea - TrashBot/TRCfunctions.c.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.cod.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_main.c.xml.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.cof.d
+data/Software/MPLAB 7.50 + C18/Loader/Support/MSCOMCTL.OCX.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/MSCOMCTL.OCX.d
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialRxIntHandler.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCResetUpdateCount.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.InputPrintData.html.i
+data/Fresh Copy - 2008/TRCfunctions.h.i
+data/Summer/Oceanus/Lkr/18f8722.lkr.i
+data/MikeTsang/Obj/projcmd.o.i
+data/Fresh Copy - 2008/Fresh Copy - 2008.mcw.i
+data/Fresh Copy - 2008/Bin/Trc2008.cod.i
+data/MikeTsang/2008/Trc.mcs.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoPid.html.i
+data/MikeTsang/Docs/OXML/Trc_BaseCode_inthandler.c.xml.i
+data/MikeTsang/2008/Trc.tagsrc.i
+data/Summer/Oceanus/Docs/encoder_readme.txt.i
+data/Fresh Copy - 2008/Bin/Mnemosyne - 2008.lst.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ServoPidDrive.html.i
+data/Fresh Copy - 2008/Bin/Mnemosyne - 2008.lst.d
+data/Summer/Oceanus/Docs/readme.txt.i
+data/MikeTsang/BaseCode/ifi_startup.c.i
+data/Software/Loader/Support/COMCAT.DLL.i
+data/MikeTsang/BaseCode/adc.h.i
+data/MikeTsang/BaseCode/basecmd.c.i
+data/Fresh Copy - 2008/Docs/Using_a_2005_FRC.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL._do_cinit.html.i
+data/MikeTsang/Bin/Trc.cod.i
+data/Software/Loader/Support/MSCOMCTL.OCX.d
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintRCIoData.html.i
+data/Mnemosyne - 2008/Docs/camera_readme.txt.i
+data/Summer/Oceanus/Docs/serial_ports_readme.txt.i
+data/Gaea - TrashBot/Docs/readme_first.txt.i
+data/Gaea - TrashBot/Docs/LibReadMe.txt.i
+data/MikeTsang/Bin/Trc.cof.i
+data/MikeTsang/Docs/HTML/NULL._GyroCal.html.i
+data/Mnemosyne - 2008/tracking.c.i
+data/MikeTsang/BaseCode/encoder.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.SerialTxInterrupt.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.RCIOPrintData.html.i
+data/Gaea - TrashBot/adc.h.i
+data/Fresh Copy - 2008/Docs/readme_first.txt.i
+data/MikeTsang/BaseCode/console.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsoleQuit.html.i
+data/Mnemosyne - 2008/gyro.h.i
+data/MikeTsang/Obj/servo.o.i
+data/MikeTsang/Docs/HTML/NULL.NULL.BaseCmdConsoleInit.html.i
+data/MikeTsang/Docs/HTML/NULL._ADC.html.i
+data/Mnemosyne - 2008/Bin/Mnemosyne - 2008.hex.i
+data/MikeTsang/Obj/main.o.i
+data/MikeTsang/2008/Trc.mcw.i
+data/Software/MPLAB 7.50 + C18/Loader/IFI_Loader.CAB.i
+data/MikeTsang/Obj/serial_ports.o.i
+data/Fresh Copy - 2008/Lib/FRC_alltimers_8722.lib.i
+data/Mnemosyne - 2008/pwm.h.i
+data/Software/MPLAB 7.50 + C18/Loader/IFI_Loader.CAB.d
+data/Mnemosyne - 2008/main.c.i
+data/Summer/Oceanus/Misc/kbemf-calc.py.i
+data/Mnemosyne - 2008/ifi_aliases.h.i
+data/Summer/Oceanus/Docs/readme_first.txt.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroProcessData.html.i
+data/Fresh Copy - 2008/Bin/Trc2008.hex.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCGetValue.html.i
+data/MikeTsang/Docs/HTML/InternalSDK.hhp.i
+data/Mnemosyne - 2008/Mnemosyne - 2008.mcw.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsoleInitialize.html.i
+data/Summer/Oceanus/camera.h.i
+data/Fresh Copy - 2008/Docs/serial_ports_readme.txt.i
+data/Summer/Oceanus/Lib/FRC_alltimers_8722.lib.i
+data/Fresh Copy - 2008/terminal.c.i
+data/MikeTsang/BaseCode/input.h.i
+data/MikeTsang/Docs/HTML/NULL.NULL.GyroGetBias.html.i
+data/Gaea - TrashBot/gyro.c.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.lst.i
+data/Summer/Oceanus/Bin/Oceanus - 2008.lst.d
+data/MikeTsang/Docs/HTML/NULL.NULL.ADCGetUpdateRate.html.i
+data/Fresh Copy - 2008/Bin/Fresh Copy - 2008.cod.i
+data/Gaea - TrashBot/main.c.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/rsdiag.txt.i
+data/MikeTsang/Obj/project.o.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/ST6UNST.EXE.i
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderTimerTick.html.i
+data/MikeTsang/Lib/FRC_alltimers_8722.lib.i
+data/MikeTsang/BaseCode/servo.c.i
+data/MikeTsang/BaseCode/terminal.h.i
+data/Summer/Oceanus/user_routines_fast.c.i
+data/Gaea - TrashBot/ifi_aliases.h.i
+data/Software/IDE (install first)/instmsia.exe.i
+data/Software/Loader/Support/DefaultFiles.txt.i
+data/Mnemosyne - 2008/recordingAutonomous.h.i
+data/Software/IDE (install first)/instmsia.exe.d
+data/MikeTsang/Lkr/18f8722.lkr.i
+data/MikeTsang/Docs/HTML/namespaces.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PrintPwmData.html.i
+data/Mnemosyne - 2008/Mnemosyne - 2008.mcs.i
+data/MikeTsang/Docs/HTML/NULL._ArgDef.html.i
+data/MikeTsang/Obj/gyro.o.i
+data/MikeTsang/Docs/HTML/NULL.NULL.Encoder3_6IntHandler.html.i
+data/Fresh Copy - 2008/Bin/Mnemosyne - 2008.cof.i
+data/Fresh Copy - 2008/Bin/Fresh Copy - 2008.cof.i
+data/Software/Loader/Support/IFI_Loader.INI.i
+data/MikeTsang/Obj/input.o.i
+data/Mnemosyne - 2008/terminal.c.i
+data/Fresh Copy - 2008/camera.c.i
+data/Gaea - TrashBot/terminal.h.i
+data/Software/IDE (install first)/MPLAB Tools v7.50.msi.d
+data/MikeTsang/Docs/HTML/NULL.NULL.EncoderInterrupt.html.i
+data/MikeTsang/Docs/HTML/NULL.NULL.PWMInitialize.html.i
+data/Software/IDE (install first)/Data1.cab.i
+data/Summer/Oceanus/encoder.h.i
+data/Summer/Oceanus/Docs/gyro_readme.txt.i
+data/Software/IDE (install first)/Data1.cab.d
+data/Mnemosyne - 2008/Docs/serial_ports_readme.txt.i
+data/Fresh Copy - 2008/tracking.c.i
+data/Gaea - TrashBot/tracking.c.i
+data/Fresh Copy - 2008/recordingAutonomous.c.i
+data/MikeTsang/BaseCode/serial_ports.h.i
+data/Summer/Oceanus/Lkr/18f8520.lkr.i
+data/Gaea - TrashBot/user_routines.c.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/Data1.cab.d
+data/Gaea - TrashBot/Docs/encoder_readme.txt.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/IFI_Loader.BAT.i
+data/MikeTsang/Obj/terminal.o.i
+data/MikeTsang/2008/project.c.i
+data/Software/Loader/Support/MSCOMCTL.OCX.i
+data/MikeTsang/Docs/HTML/NULL.NULL.BaseInitialization.html.i
+data/Software/IDE (install first)/MPLAB v7.50 Install.exe.d
+data/Software/MPLAB 7.50 + C18/IDE (install first)/instmsia.exe.i
+data/Software/IDE (install first)/MPLAB v7.50 Install.exe.i
+data/Software/MPLAB 7.50 + C18/IDE (install first)/instmsia.exe.d
+data/Fresh Copy - 2008/adc.h.i
+data/Summer/Oceanus/Oceanus - 2008/adc.c.i
+data/MikeTsang/Docs/HTML/NULL.NULL.ConsoleParseCommand.html.i
+data/Summer/Oceanus/gyro.c.i
+data/Gaea - TrashBot/Misc/kbemf-calc-2.py.i
+data/Software/MPLAB 7.50 + C18/Loader/Support/VB6STKIT.DLL.i
+data/Mnemosyne - 2008/ifi_default.h.i

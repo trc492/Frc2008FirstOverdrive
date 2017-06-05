@@ -1,0 +1,50 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>RegisterHook Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>RegisterHook Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function registers a pre or post process hook function.
+     Pre-process hook functions will be called before the ProjProcessData
+     is called. Post-proces hook functions will be called after
+     ProjProcessData is called.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">BOOL RegisterHook(
+	<a href="PHOOKTABLE.html" class="typeLink">PHOOKTABLE</a> HookTable,
+	<a href="PFNHOOK.html" class="typeLink">PFNHOOK</a> pfnHook
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>HookTable</i></dt><dd>
+
+     Points to the Hook table to add the registered processing function.
+ 
+</dd></dl><dl><dt><i>pfnHook</i></dt><dd>
+
+     Specifies the hook function to be registered.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ Success: Returns TRUE. 
+</dd><dt><h4>Return Value</h4></dt><dd>
+ Failure: Returns FALSE (e.g. table is full). 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\main.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

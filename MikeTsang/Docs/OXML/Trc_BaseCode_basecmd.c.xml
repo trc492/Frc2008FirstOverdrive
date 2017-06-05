@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:BaseCmdConsoleInit(BYTE,PCMDENTRY,BYTE)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function initialize the command console.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port to use for the command console.
+ 
+</param >
+<param name="ProjCmdTable" type="PCMDENTRY" >
+
+     Points to the project specific console command table.
+ 
+</param >
+<param name="bNumCmds" type="BYTE" >
+
+     Specifies the size of the command table.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:BaseCmdConsoleTrace(void)" source="c:\temp\Trc\BaseCode\basecmd.c" type="BOOL">
+<summary >
+
+     This function processes the periodic traces.
+ 
+</summary >
+<returns >
+ Always returns TRUE so it will be called next time. 
+</returns >
+</member>
+<member name="M:PrintStatus(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints system status info.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PrintRCIoData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints the RC I/O data.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PrintPwmData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints the PWM data.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PrintAdcData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints the A/D converter data.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PrintEncoderData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints the Encoder data.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PrintGyroData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints the Gyro data.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:PrintInputData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function prints the OI input data.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:CalibrateGyro(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function initiates a gyro calibration.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:CalibrateInput(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+<summary >
+
+     This function initiates an input calibration.
+ 
+</summary >
+<param name="pCmdEntry" type="PCMDENTRY" >
+
+     Points to the command table entry (not used).
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

@@ -1,0 +1,483 @@
+<HTML><HEAD><TITLE>Namespaces</TITLE><link rel="stylesheet" type="text/css"href="msdn.css"></link></HEAD><BODY><dl><dt><br/></dt><dd><table><colgroup><col width='50%'><col width='50%'></colgroup><tr><th>Namespaces</th><th>Description</th></tr><tr><td><a href="PFNCMD_ns.html">PFNCMD</a></td><td></td></tr><tr><td><a href="PFNPARSEARG_ns.html">PFNPARSEARG</a></td><td></td></tr></table></dd><p><dd><table><colgroup><col width='50%'><col width='50%'></colgroup><tr><th>Classes</th><th>Description</th></tr><tr><td><a href="NULL._ADC.html">_ADC</a></td><td>
+
+     This structure stores information about all the A/D converter channels.
+ 
+</td></tr><tr><td><a href="NULL._ADCChannel.html">_ADCChannel</a></td><td>
+
+     This structure stores information about an A/D converter channel.
+ 
+</td></tr><tr><td><a href="NULL._ArgDef.html">_ArgDef</a></td><td>
+
+     This structure is used to describe a command argument.
+ 
+</td></tr><tr><td><a href="NULL._CmdEntry.html">_CmdEntry</a></td><td>
+
+     This structure is used to describe a command.
+ 
+</td></tr><tr><td><a href="NULL._Console.html">_Console</a></td><td>
+
+     This structure stores information about the console serial port.
+ 
+</td></tr><tr><td><a href="NULL._Drive.html">_Drive</a></td><td>
+
+     This structure describes the driving system.
+ 
+</td></tr><tr><td><a href="NULL._EncChannel.html">_EncChannel</a></td><td>
+
+     This structure stores the states of an encoder channel.
+ 
+</td></tr><tr><td><a href="NULL._Encoder.html">_Encoder</a></td><td>
+
+     This structure stores everything related to the encoders.
+ 
+</td></tr><tr><td><a href="NULL._Gyro.html">_Gyro</a></td><td>
+
+     This structure stores the states of the gyro sensor.
+ 
+</td></tr><tr><td><a href="NULL._GyroCal.html">_GyroCal</a></td><td>
+
+     This structure stores the calibration states of the gyro sensor.
+ 
+</td></tr><tr><td><a href="NULL._MoveTo.html">_MoveTo</a></td><td>
+
+     This structure contains the MoveTo state machine info.
+ 
+</td></tr><tr><td><a href="NULL._OiCalData.html">_OiCalData</a></td><td>
+
+     This structure stores the temporary data during input calibration.
+ 
+</td></tr><tr><td><a href="NULL._PidParam.html">_PidParam</a></td><td>
+
+     This structure contains the PID control constants.
+ 
+</td></tr><tr><td><a href="NULL._Servo.html">_Servo</a></td><td>
+
+     This structure contains the servo control data of a motor.
+ 
+</td></tr></table></dd><p><dd><table><colgroup><col width='50%'><col width='50%'></colgroup><tr><th>Functions</th><th>Description</th></tr><tr><td><a href="NULL.NULL._do_cinit.html">_do_cinit</a></td><td>
+
+     This function copies the ROM to memory blocks according to the
+     _ciniit table.
+ 
+</td></tr><tr><td><a href="NULL.NULL._entry.html">_entry</a></td><td>
+
+     This is the main entry point. After the processor is reset, it
+     jumps to the code located at RESET_VECTOR which is where this
+     code is located. This start up location contains only one
+     instruction. It immediately jumps to the _startup function
+     which is located in the _startup code section.
+ 
+</td></tr><tr><td><a href="NULL.NULL._startup.html">_startup</a></td><td>
+
+     This is the startup function. It initializes the processor
+     environment including setting up the stack and processor
+     flags. Then it goes into a loop clearing memory, copying
+     ROM to memory blocks and executing user's main code.
+ 
+</td></tr><tr><td><a href="NULL.NULL._user_putc.html">_user_putc</a></td><td>
+
+     This function overrides the putc() interface to C18 2.4 output
+     stream functions and writes a byte to the serial port's transmit
+     queue.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCDisable.html">ADCDisable</a></td><td>
+
+     This function disables the ADC hardware.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCGetUpdateCount.html">ADCGetUpdateCount</a></td><td>
+
+     This function returns the ADC update count.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCGetUpdateRate.html">ADCGetUpdateRate</a></td><td>
+
+     This function returns the ADC update rate.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCGetValue.html">ADCGetValue</a></td><td>
+
+     This function returns the last ADC value of a given channel.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCGetValueRange.html">ADCGetValueRange</a></td><td>
+
+     This function returns the ADC value range.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCIndex.html">ADCIndex</a></td><td>
+
+     This function finds the ADC channel from the ADC array and
+     returns the index to it.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCInitialize.html">ADCInitialize</a></td><td>
+
+     This function initializes the ADC hardware.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCIntHandler.html">ADCIntHandler</a></td><td>
+
+     This function handles ADC interrupts.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCPrintData.html">ADCPrintData</a></td><td>
+
+     This function prints the state of the ADC channels.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCResetUpdateCount.html">ADCResetUpdateCount</a></td><td>
+
+     This function resets the ADC update count.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCTimer2IntHandler.html">ADCTimer2IntHandler</a></td><td>
+
+     This function handles timer 2 interrupts.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ADCValueToMillivolt.html">ADCValueToMillivolt</a></td><td>
+
+     This function converts the ADC value into mV value.
+ 
+</td></tr><tr><td><a href="NULL.NULL.BaseCmdConsoleInit.html">BaseCmdConsoleInit</a></td><td>
+
+     This function initialize the command console.
+ 
+</td></tr><tr><td><a href="NULL.NULL.BaseCmdConsoleTrace.html">BaseCmdConsoleTrace</a></td><td>
+
+     This function processes the periodic traces.
+ 
+</td></tr><tr><td><a href="NULL.NULL.BaseInitialization.html">BaseInitialization</a></td><td>
+
+     This function performs base code initializations which are not project specific.
+ 
+</td></tr><tr><td><a href="NULL.NULL.CalibrateGyro.html">CalibrateGyro</a></td><td>
+
+     This function initiates a gyro calibration.
+ 
+</td></tr><tr><td><a href="NULL.NULL.CalibrateInput.html">CalibrateInput</a></td><td>
+
+     This function initiates an input calibration.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsoleInitialize.html">ConsoleInitialize</a></td><td>
+
+     This function initializes the console using the given serial port.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsoleParseCmdArgs.html">ConsoleParseCmdArgs</a></td><td>
+
+     This function parses the console command arguments.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsoleParseCommand.html">ConsoleParseCommand</a></td><td>
+
+     This function parses the console command.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsolePrintCmdHelp.html">ConsolePrintCmdHelp</a></td><td>
+
+     This function prints the help message for the console command.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsolePrintHelp.html">ConsolePrintHelp</a></td><td>
+
+     This function prints the help message for all console commands.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsoleProcessCmd.html">ConsoleProcessCmd</a></td><td>
+
+     This function looks up the command and process it.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsoleProcessData.html">ConsoleProcessData</a></td><td>
+
+     This function processes the serial data as console commands.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ConsoleQuit.html">ConsoleQuit</a></td><td>
+
+     This function terminates console mode.
+ 
+</td></tr><tr><td><a href="NULL.NULL.CopyPgmString.html">CopyPgmString</a></td><td>
+
+     This function copies a string from program memory to data memory.
+     String literals are allocated in program memory. A lot of library
+     functions can only access data memory.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Encoder1_2IntHandler.html">Encoder1_2IntHandler</a></td><td>
+
+     This function handles the encoder 1 interrupt. If enabled, it is
+     called when the interrupt pin changes from a logic 0 to a logic 1.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Encoder3_6Int.html">Encoder3_6Int</a></td><td>
+
+     This function handles the encoder 3 interrupt. If enabled, it is
+     called when the interrupt pin changes logical state.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Encoder3_6IntHandler.html">Encoder3_6IntHandler</a></td><td>
+
+     This function dispatches the encoder 3-6 interrupts.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderGetCount.html">EncoderGetCount</a></td><td>
+
+     This function gets the current count of the given encoder.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderGetVelocity.html">EncoderGetVelocity</a></td><td>
+
+     This function gets the current velocity of the given encoder.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderIndex.html">EncoderIndex</a></td><td>
+
+     This function finds the encoder channel from the Encoder array and
+     returns the index to it.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderInitialize.html">EncoderInitialize</a></td><td>
+
+     This function initializes the specified encoders.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderInterrupt.html">EncoderInterrupt</a></td><td>
+
+     This function enables or disable interrupt for the encoder channel.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderPrintData.html">EncoderPrintData</a></td><td>
+
+     This function prints the state of the encoders.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderResetCount.html">EncoderResetCount</a></td><td>
+
+     This function resets the current count of the given encoder.
+ 
+</td></tr><tr><td><a href="NULL.NULL.EncoderTimerTick.html">EncoderTimerTick</a></td><td>
+
+     This function is called by the system timer tick handler so that we can sample the
+     encoder velocities.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroCalibrate.html">GyroCalibrate</a></td><td>
+
+     This function initialize the gyro for calibration.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroGetAngle.html">GyroGetAngle</a></td><td>
+
+     This function returns the current heading angle of the given gyro
+     in unit of 0.1 degrees or milliradians depending on the gyro sensitivity
+     unit passed to the GyroInitialize function.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroGetBias.html">GyroGetBias</a></td><td>
+
+     This function returns the calibrated gyro bias.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroGetRate.html">GyroGetRate</a></td><td>
+
+     This function returns the current angular rate of change of the
+     given gyro in unit of 0.1 deg/sec or milliradians/sec depending
+     on the gyro sensitivity unit passed to the GyroInitialize function.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroInitialize.html">GyroInitialize</a></td><td>
+
+     This function initializes the gyro component.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroPrintData.html">GyroPrintData</a></td><td>
+
+     This function prints the gyro states.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroProcessData.html">GyroProcessData</a></td><td>
+
+     This function process the gyro data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroResetAngle.html">GyroResetAngle</a></td><td>
+
+     This function resets the gyro angle.
+ 
+</td></tr><tr><td><a href="NULL.NULL.GyroSetBias.html">GyroSetBias</a></td><td>
+
+     This function manually sets the gyro bias.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InitHookTable.html">InitHookTable</a></td><td>
+
+     This function intializes the hook table.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InitializePort.html">InitializePort</a></td><td>
+
+     This function initializes the joystick port and prepare for
+     calibration. It specifies which analog channels of the joystick
+     port are in use.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InputCalibrate.html">InputCalibrate</a></td><td>
+
+     This function initializes for joystick calibration.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InputInitialize.html">InputInitialize</a></td><td>
+
+     This function initializes the input data. This includes calibrating
+     all in-use analog channels. The Operator Interface has 4 joystick
+     ports and each has 4 analog channels totalling 16 analog channels.
+     This function allows specifying which joystick ports and which analog
+     channels are in used so that only those channels are initialized
+     and calibrated.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InputPrintData.html">InputPrintData</a></td><td>
+
+     This function prints the input data to the debug console.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InputProcessData.html">InputProcessData</a></td><td>
+
+     This function processes the input data from the Operator Interface.
+     If we are in calibration mode, it will perform the calibration cycle.
+     Otherwise, it will adjust the input data according to the calibration
+     data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InterruptHandlerLow.html">InterruptHandlerLow</a></td><td>
+
+     This function handles low priority interrupts.
+ 
+</td></tr><tr><td><a href="NULL.NULL.InterruptVectorLow.html">InterruptVectorLow</a></td><td>
+
+     This function contains the low priority interrupt vector.
+ 
+</td></tr><tr><td><a href="NULL.NULL.main.html">main</a></td><td>
+
+     This is the program entry point.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintAdcData.html">PrintAdcData</a></td><td>
+
+     This function prints the A/D converter data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintEncoderData.html">PrintEncoderData</a></td><td>
+
+     This function prints the Encoder data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintGyroData.html">PrintGyroData</a></td><td>
+
+     This function prints the Gyro data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintInputData.html">PrintInputData</a></td><td>
+
+     This function prints the OI input data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintPwmData.html">PrintPwmData</a></td><td>
+
+     This function prints the PWM data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintRCIoData.html">PrintRCIoData</a></td><td>
+
+     This function prints the RC I/O data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PrintStatus.html">PrintStatus</a></td><td>
+
+     This function prints system status info.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ProcessHooks.html">ProcessHooks</a></td><td>
+
+     This function goes through the hook table and calls each hook function.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PWMInitialize.html">PWMInitialize</a></td><td>
+
+     This function initializes the pwm related hardware. It replaces
+     IFI's Generate_Pwms() function.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PWMPrintData.html">PWMPrintData</a></td><td>
+
+     This function prints the state of the PWMs.
+ 
+</td></tr><tr><td><a href="NULL.NULL.PWMSetValues.html">PWMSetValues</a></td><td>
+
+     This function sets the pwm values for channel 13-16.
+ 
+</td></tr><tr><td><a href="NULL.NULL.RCIOInitialize.html">RCIOInitialize</a></td><td>
+
+     This function configures the RC I/O such as digital I/O and relays.
+ 
+</td></tr><tr><td><a href="NULL.NULL.RCIOPrintData.html">RCIOPrintData</a></td><td>
+
+     This function prints the state of the RC I/O.
+ 
+</td></tr><tr><td><a href="NULL.NULL.RCIOPrintDigitalIo.html">RCIOPrintDigitalIo</a></td><td>
+
+     This function prints the state of the RC digital IO.
+ 
+</td></tr><tr><td><a href="NULL.NULL.RCIOPrintRelay.html">RCIOPrintRelay</a></td><td>
+
+     This function prints the state of the RC relay.
+ 
+</td></tr><tr><td><a href="NULL.NULL.RegisterHook.html">RegisterHook</a></td><td>
+
+     This function registers a pre or post process hook function.
+     Pre-process hook functions will be called before the ProjProcessData
+     is called. Post-proces hook functions will be called after
+     ProjProcessData is called.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Serial1Initialize.html">Serial1Initialize</a></td><td>
+
+     This function initializes serial port one.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Serial2Initialize.html">Serial2Initialize</a></td><td>
+
+     This function initializes serial port two.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialGetByteCount.html">SerialGetByteCount</a></td><td>
+
+     This function returns the numbers of bytes in the receive queue.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialInitPort.html">SerialInitPort</a></td><td>
+
+     This function initializes serial port structure.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialReadData.html">SerialReadData</a></td><td>
+
+     This function returns the next byte in the serial port's receive
+     queue.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialRxInterrupt.html">SerialRxInterrupt</a></td><td>
+
+     This function enables or disable receive interrupt for the serial port.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialRxIntHandler.html">SerialRxIntHandler</a></td><td>
+
+     This function is called when there is a receive interrupt on
+     the serial port.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialTxInterrupt.html">SerialTxInterrupt</a></td><td>
+
+     This function enables or disable transmit interrupt for the serial port.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialTxIntHandler.html">SerialTxIntHandler</a></td><td>
+
+     This function is called when there is a transmit empty interrupt on
+     the serial port.
+ 
+</td></tr><tr><td><a href="NULL.NULL.SerialWriteData.html">SerialWriteData</a></td><td>
+
+     This function writes a byte to the serial port's transmit queue.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoCalibrate.html">ServoCalibrate</a></td><td>
+
+     This function calibrates the servo by determining the acceleration and deceleration rates.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoInitialize.html">ServoInitialize</a></td><td>
+
+     This function initializes a servo motor structure.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoInitMoveTo.html">ServoInitMoveTo</a></td><td>
+
+     This function initializes the MOVETO structure for autonomous drive.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoMoveTo.html">ServoMoveTo</a></td><td>
+
+     This function implements the state machine that turns the robot
+     to the target heading and drives it to the target position.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoPid.html">ServoPid</a></td><td>
+
+     This function applies the PID algorithm to calculate the new drive
+     value.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoPidDrive.html">ServoPidDrive</a></td><td>
+
+     This macro applies the PID algorithm to calculate the new drive
+     value and normalize it to the PWM value and adjust the motor direction.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoPrintData.html">ServoPrintData</a></td><td>
+
+     This function prints the servo motor data.
+ 
+</td></tr><tr><td><a href="NULL.NULL.ServoPrintPidParam.html">ServoPrintPidParam</a></td><td>
+
+     This function prints the PID control parameters.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Timer2Disable.html">Timer2Disable</a></td><td>
+
+     This function disables the timer 2 hardware.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Timer2Initialize.html">Timer2Initialize</a></td><td>
+
+     This function initializes timer 2 that is responsible for
+     periodically starting A/D conversions.
+ 
+</td></tr><tr><td><a href="NULL.NULL.Wait4TXEmpty.html">Wait4TXEmpty</a></td><td>
+
+     This function waits for serial transmit buffer to be empty.
+ 
+</td></tr></table></dd></BODY></HTML>

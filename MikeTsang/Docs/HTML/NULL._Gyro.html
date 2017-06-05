@@ -1,0 +1,92 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>_Gyro Class</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <h1>_Gyro</h1>
+        <dl>
+          <table>
+            <tr valign="top">
+              <td>
+
+     This structure stores the states of the gyro sensor.
+ 
+<dt><h4>Fields</h4></dt><dd><dl><dt><i>bFlags</i></dt><dd>
+
+     Stores flag values (see GYROF_* flags).
+ 
+</dd><dt><i>bADCChannel</i></dt><dd>
+
+     Specifies the ADC channel used by the gyro sensor.
+ 
+</dd><dt><i>wSensitivity</i></dt><dd>
+
+     Stores the gyro sensitivity value in unit of 0.1 degree/sec/volt.
+ 
+</dd><dt><i>wScaleFactor</i></dt><dd>
+
+     For optimum performance, you'll need to calibrate the scaling
+     factor to match that of your gyro's. One way to calibrate your
+     gyro is to mount it very securely to a hefty, square or
+     rectangular object. Mounting the gyro to a hefty object will
+     help dampen higher frequency vibrations that can adversly effect
+     your measurements. Place the mounted gyro against another
+     square object and start the included demonstration software.
+     To get good results, the mount must be absolutely still during
+     calibration. If the angle drifts rapidly while the mounted gyro
+     is motonless, you need to recalibrate. Again, gyros are
+     very sensitive and must be still during calibration. Once
+     the gyro is running with little drift, rotate the mount 180
+     degrees and note the reported angle. Ideally, reported angle
+     should be 1800. For every tenth of a percent that the angle
+     is high, decrease wScaleFactor by one. Conversly, for every
+     tenth of a percent low, increase wScaleFactor by one. Repeat
+     until you're satisfied with the accuracy.
+ 
+</dd><dt><i>wNoiseMargin</i></dt><dd>
+
+     Stores the noise margin value.
+ 
+</dd><dt><i>wADCValueRange</i></dt><dd>
+
+     Stores the range of the A/D converter used.
+ 
+</dd><dt><i>wADCUpdateRate</i></dt><dd>
+
+     Stores the A/D update rate.
+ 
+</dd><dt><i>wBias</i></dt><dd>
+
+     Stores the calibrated bias value.
+ 
+</dd><dt><i>wNoiseThreshold</i></dt><dd>
+
+     Stores the calibrated noise threshold.
+ 
+</dd><dt><i>iRate</i></dt><dd>
+
+     Stores the gyro rate value.
+ 
+</dd><dt><i>lAngle</i></dt><dd>
+
+     Stores the gyro angle value.
+ 
+</dd></dl></dd></td>
+            </tr>
+          </table>
+        </dl>
+        <p>
+          <font color="#888888">
+					Source File: c:\temp\Trc\BaseCode\gyro.c</font>
+        </p>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

@@ -1,0 +1,58 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>Serial2Initialize Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>Serial2Initialize Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function initializes serial port two.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">void Serial2Initialize(
+	<a href="BYTE.html" class="typeLink">BYTE</a> bBaudRate,
+	<a href="BYTE.html" class="typeLink">BYTE</a> bFlags
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>bBaudRate</i></dt><dd>
+
+     Specifies the baud rate to initialize the serial port.
+ 
+</dd></dl><dl><dt><i>bFlags</i></dt><dd>
+
+     Specifies the option flags for initializing the serial port.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ None. 
+</dd><dt><h4>Remarks</h4></dt><dd>
+
+     This function must be called before you try to use serial port two.
+     By default, this serial port is set to 9600 baud with the
+     transmitter and receiver enabled. The serial port's baud rate is
+     programmed by entering a value into the SPBRG2 register and possibly
+     changing the value of the BRGH bit. Several example values are included
+     in the serial_ports.h file. Numbers within brackets refer to the
+     PIC18F8722 data sheet page number where more information can be
+     found. This document can be found at microchip's website at
+     http://www.microchip.com or at the author's website at
+     http://www.kevin.org/frc.
+ 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\serial_ports.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

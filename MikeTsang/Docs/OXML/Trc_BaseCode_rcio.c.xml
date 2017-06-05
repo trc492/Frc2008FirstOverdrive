@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:RCIOInitialize(DWORD)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+<summary >
+
+     This function configures the RC I/O such as digital I/O and relays.
+ 
+</summary >
+<param name="dwOutChannelMask" type="DWORD" >
+
+     Specifies the bit mask of the digital out channels.
+     Note: The caller should OR the RC_DIGITAL_* values for this parameter.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:RCIOPrintData(void)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+<summary >
+
+     This function prints the state of the RC I/O.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:RCIOPrintDigitalIo(BYTE,BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+<summary >
+
+     This function prints the state of the RC digital IO.
+ 
+</summary >
+<param name="bIoChannel" type="BYTE" >
+
+     Specifies the digital I/O pin.
+ 
+</param >
+<param name="bIoConfig" type="BYTE" >
+
+     Specifies the I/O pin's configuration.
+ 
+</param >
+<param name="bInValue" type="BYTE" >
+
+     Specifies input state if the pin is configured as INPUT.
+ 
+</param >
+<param name="bOutValue" type="BYTE" >
+
+     Specifies output state if the pin is configured as OUTPUT.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:RCIOPrintRelay(BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+<summary >
+
+     This function prints the state of the RC relay.
+ 
+</summary >
+<param name="bRelayChannel" type="BYTE" >
+
+     Specifies the relay channel.
+ 
+</param >
+<param name="bFwd" type="BYTE" >
+
+     Specifies the Fwd state of the relay.
+ 
+</param >
+<param name="bRev" type="BYTE" >
+
+     Specifies the Rev state of the relay.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

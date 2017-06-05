@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="T:_EncChannel" source="c:\temp\Trc\BaseCode\encoder.c" >
+<summary >
+
+     This structure stores the states of an encoder channel.
+ 
+</summary >
+</member>
+<member name="F:_EncChannel.bChannel" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+<summary >
+
+     Stores the encoder channel number (0-based).
+ 
+</summary >
+</member>
+<member name="F:_EncChannel.bState" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+<summary >
+
+     Stores the phase A pin state. This field is only used for
+     encoder channels 3-6.
+ 
+</summary >
+</member>
+<member name="F:_EncChannel.fReverse" source="c:\temp\Trc\BaseCode\encoder.c" type="BOOL">
+<summary >
+
+     Specifies if the encoder direction is reversed.
+ 
+</summary >
+</member>
+<member name="F:_EncChannel.lPrevCount" source="c:\temp\Trc\BaseCode\encoder.c" type="volatile long">
+<summary >
+
+     Stores the previous encoder count. This field is used for
+     calculating the velocity by calculating the difference
+     between the current and previous encoder counts.
+ 
+</summary >
+</member>
+<member name="F:_EncChannel.lCount" source="c:\temp\Trc\BaseCode\encoder.c" type="volatile long">
+<summary >
+
+     Stores the current encoder count.
+ 
+</summary >
+</member>
+<member name="F:_EncChannel.lVelocity" source="c:\temp\Trc\BaseCode\encoder.c" type="volatile long">
+<summary >
+
+     Stores the calculated velocity for the current system timer tick.
+ 
+</summary >
+</member>
+<member name="T:_Encoder" source="c:\temp\Trc\BaseCode\encoder.c" >
+<summary >
+
+     This structure stores everything related to the encoders.
+ 
+</summary >
+</member>
+<member name="F:_Encoder.bNumChannels" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+<summary >
+
+     Stores the number of encoder channels in used.
+ 
+</summary >
+</member>
+<member name="F:_Encoder.bVelInterval" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+<summary >
+
+     Stores the interval in system timer ticks for sampling the encoder
+     velocity.
+ 
+</summary >
+</member>
+<member name="F:_Encoder.bOldPortB" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+<summary >
+
+     Stores the previous PortB state.
+ 
+</summary >
+</member>
+<member name="F:_Encoder.Channels" source="c:\temp\Trc\BaseCode\encoder.c" type="ENCCHANNEL []">
+<summary >
+
+     Stores the states of each encoder channel.
+ 
+</summary >
+</member>
+<member name="M:EncoderInitialize(BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function initializes the specified encoders.
+ 
+</summary >
+<param name="bChannelMask" type="BYTE" >
+
+     Specifies the bit map of in-use encoder channels.
+ 
+</param >
+<param name="bReverseMask" type="BYTE" >
+
+     Specifies the bit map of channels that are reversed.
+ 
+</param >
+<param name="bVelInterval" type="BYTE" >
+
+     Specifies the sampling interval of the encoder velocity.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:EncoderGetCount(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="long">
+<summary >
+
+     This function gets the current count of the given encoder.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to get its count.
+ 
+</param >
+<returns >
+ Returns the encoder count. 
+</returns >
+</member>
+<member name="M:EncoderResetCount(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function resets the current count of the given encoder.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to reset its count.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:EncoderGetVelocity(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="long">
+<summary >
+
+     This function gets the current velocity of the given encoder.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to get its velocity.
+ 
+</param >
+<returns >
+ Returns the encoder velocity. 
+</returns >
+</member>
+<member name="M:EncoderPrintData(BOOL)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function prints the state of the encoders.
+ 
+</summary >
+<param name="fVerbose" type="BOOL" >
+
+     Sepcifies whether to print verbose info.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:EncoderTimerTick(void)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function is called by the system timer tick handler so that we can sample the
+     encoder velocities.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:Encoder1_2IntHandler(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function handles the encoder 1 interrupt. If enabled, it is
+     called when the interrupt pin changes from a logic 0 to a logic 1.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to get its cound.
+ 
+</param >
+<param name="bPhaseBPin" type="BYTE" >
+
+     Specifies the state of the phase B pin.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:Encoder3_6IntHandler(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function dispatches the encoder 3-6 interrupts.
+ 
+</summary >
+<param name="bPortB" type="BYTE" >
+
+     Specifies the value read from Port B.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:Encoder3_6Int(BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function handles the encoder 3 interrupt. If enabled, it is
+     called when the interrupt pin changes logical state.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to get its cound.
+ 
+</param >
+<param name="bPhaseBPin" type="BYTE" >
+
+     Specifies the state of the phase B pin.
+ 
+</param >
+<param name="bState" type="BYTE" >
+
+     Specifies the phase A pin state.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:EncoderInterrupt(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+<summary >
+
+     This function enables or disable interrupt for the encoder channel.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to get its cound.
+ 
+</param >
+<param name="fEnable" type="BYTE" >
+
+     If 1, enable interrupt. If 0, disable interrupt.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:EncoderIndex(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="int">
+<summary >
+
+     This function finds the encoder channel from the Encoder array and
+     returns the index to it.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the encoder channel to look for.
+ 
+</param >
+<returns >
+ Success: Returns the channel index. 
+</returns >
+<returns >
+ Failure: Returns -1. 
+</returns >
+</member>
+</members>
+</doc>

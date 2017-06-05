@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:ServoInitialize(PSERVO,PPIDPARAM,BYTE,int,int)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+<summary >
+
+     This function initializes a servo motor structure.
+ 
+</summary >
+<param name="Servo" type="PSERVO" >
+
+     Points to the SERVO structure to be initialized.
+ 
+</param >
+<param name="PidParam" type="PPIDPARAM" >
+
+     Points to the PIDPARAM structure for use with this Servo.
+ 
+</param >
+<param name="bEncoder" type="BYTE" >
+
+     Specifies the encoder channel.
+ 
+</param >
+<param name="iVelLimit" type="int" >
+
+     Specifies velocity limit. If 0, it means no limit.
+ 
+</param >
+<param name="iMotorDir" type="int" >
+
+     Specifies the direction of the motor.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ServoPid(PSERVO,long,long,BOOL)" source="c:\temp\Trc\BaseCode\servo.c" type="int">
+<summary >
+
+     This function applies the PID algorithm to calculate the new drive
+     value.
+ 
+</summary >
+<param name="Servo" type="PSERVO" >
+
+     Points to the SERVO structure.
+ 
+</param >
+<param name="lPos" type="long" >
+
+     Specifies the current position. This is ignore if fPosPid is FALSE.
+ 
+</param >
+<param name="lVel" type="long" >
+
+     Specifies the current velocity.
+ 
+</param >
+<param name="fPosPid" type="BOOL" >
+
+     If TRUE, apply position PID, otherwise apply velocity PID.
+ 
+</param >
+<returns >
+ Returns the new drive value. 
+</returns >
+</member>
+<member name="M:ServoInitMoveTo(PMOVETO,PDRIVE,long,long,int,int,int,long,long)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+<summary >
+
+     This function initializes the MOVETO structure for autonomous drive.
+ 
+</summary >
+<param name="MoveTo" type="PMOVETO" >
+
+     Points to the MOVETO structure to be initialized.
+ 
+</param >
+<param name="Drive" type="PDRIVE" >
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</param >
+<param name="lHeading" type="long" >
+
+     Specifies the absolute heading we should be at after the state machine
+     ended.
+ 
+</param >
+<param name="lDistance" type="long" >
+
+     Specifies the absolute distance we should be at after the state machine
+     ended.
+ 
+</param >
+<param name="iTurnVel" type="int" >
+
+     Specifies the turning velocity.
+ 
+</param >
+<param name="iDriveVel" type="int" >
+
+     Specifies the velocity when driving in a straight line.
+ 
+</param >
+<param name="iEndVel" type="int" >
+
+     Specifies the ending velocity when the state machine ended.
+ 
+</param >
+<param name="lTurnThreshold" type="long" >
+
+     Specifies the amount of turn we need to exceed before we classify
+     it being a turn. This is to determine if we need to slow down to
+     turn velocity. If we are just adjusting our heading when driving
+     a straight line, that's not turning and we don't need to slow down.
+ 
+</param >
+<param name="lAngleTolerance" type="long" >
+
+     Specifies the amount of angle tolerance we allow comparing to the
+     target heading. This is to prevent the oscillation caused by minor
+     angle variation.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ServoMoveTo(PMOVETO,PDRIVE)" source="c:\temp\Trc\BaseCode\servo.c" type="BOOL">
+<summary >
+
+     This function implements the state machine that turns the robot
+     to the target heading and drives it to the target position.
+ 
+</summary >
+<param name="MoveTo" type="PMOVETO" >
+
+     Points to the MOVETO structure that contains the target and state
+     information.
+ 
+</param >
+<param name="Drive" type="PDRIVE" >
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</param >
+<returns >
+ Returns FALSE when the state machine is done. 
+</returns >
+</member>
+<member name="M:ServoCalibrate(PDRIVE)" source="c:\temp\Trc\BaseCode\servo.c" type="BOOL">
+<summary >
+
+     This function calibrates the servo by determining the acceleration and deceleration rates.
+ 
+</summary >
+<param name="Drive" type="PDRIVE" >
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</param >
+<returns >
+ Returns FALSE when the state machine is done. 
+</returns >
+</member>
+<member name="M:ServoPrintPidParam(PPIDPARAM)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+<summary >
+
+     This function prints the PID control parameters.
+ 
+</summary >
+<param name="PidParam" type="PPIDPARAM" >
+
+     Points to the PIDPARAM structure.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ServoPrintData(PSTR,PSERVO)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+<summary >
+
+     This function prints the servo motor data.
+ 
+</summary >
+<param name="pszName" type="PSTR" >
+
+     Points to the servo motor name string.
+ 
+</param >
+<param name="Servo" type="PSERVO" >
+
+     Points to the SERVO structure.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

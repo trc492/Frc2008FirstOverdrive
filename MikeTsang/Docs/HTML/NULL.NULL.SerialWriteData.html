@@ -1,0 +1,54 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>SerialWriteData Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>SerialWriteData Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function writes a byte to the serial port's transmit queue.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">void SerialWriteData(
+	<a href="BYTE.html" class="typeLink">BYTE</a> bSerialPort,
+	<a href="BYTE.html" class="typeLink">BYTE</a> bData
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>bSerialPort</i></dt><dd>
+
+     Specifies the serial port to get the byte count.
+ 
+</dd></dl><dl><dt><i>bData</i></dt><dd>
+
+     Specifies the data to write to the serial port.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ Returns the next bytes in the receive queue. 
+</dd><dt><h4>Remarks</h4></dt><dd>
+
+     If you don't initialize the serial port before calling this function,
+     the robot controller will stop functioning and you'll get the much
+     dreaded red-light-of-death. This is because the while() statement
+     below is waiting for the transmit circuitry to send another byte,
+     but if the serial port hasn't been configured, nothing will be
+     transmitted and we'll be stuck in the while() loop.
+ 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\serial_ports.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

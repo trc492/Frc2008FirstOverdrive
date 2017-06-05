@@ -1,0 +1,47 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>SerialGetByteCount Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>SerialGetByteCount Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function returns the numbers of bytes in the receive queue.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">BYTE SerialGetByteCount(
+	<a href="BYTE.html" class="typeLink">BYTE</a> bSerialPort
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>bSerialPort</i></dt><dd>
+
+     Specifies the serial port to get the byte count.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ Returns the number of bytes in the receive queue. 
+</dd><dt><h4>Remarks</h4></dt><dd>
+
+     This function must be called to determine how much data, if any,
+     is present in serial port's received data queue. If the returned
+     number is greater than zero, then a call to SerialGetData can be
+     made to retrieve the next byte.
+ 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\serial_ports.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

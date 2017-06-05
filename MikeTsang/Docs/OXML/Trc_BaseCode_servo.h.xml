@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:ServoPidDrive(macro_parameter,macro_parameter,macro_parameter,macro_parameter)" source="c:\temp\Trc\BaseCode\servo.h" >
+<summary >
+
+     This macro applies the PID algorithm to calculate the new drive
+     value and normalize it to the PWM value and adjust the motor direction.
+ 
+</summary >
+<param name="Servo" type="macro_parameter" >
+
+     Points to the SERVO structure.
+ 
+</param >
+<param name="lPos" type="macro_parameter" >
+
+     Specifies the current position. This is ignore if fPosPid is FALSE.
+ 
+</param >
+<param name="lVel" type="macro_parameter" >
+
+     Specifies the current velocity.
+ 
+</param >
+<param name="fPosPid" type="macro_parameter" >
+
+     If TRUE, apply position PID, otherwise apply velocity PID.
+ 
+</param >
+<returns >
+ Returns the new drive value. 
+</returns >
+</member>
+<member name="T:_PidParam" source="c:\temp\Trc\BaseCode\servo.h" >
+<summary >
+
+     This structure contains the PID control constants.
+ 
+</summary >
+</member>
+<member name="F:_PidParam.Kp" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Position gain constant.
+ 
+</summary >
+</member>
+<member name="F:_PidParam.Kv" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Velocity gain constant.
+ 
+</summary >
+</member>
+<member name="F:_PidParam.Ki" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Integral gain constant.
+ 
+</summary >
+</member>
+<member name="F:_PidParam.Ko" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Output scale factor.
+ 
+</summary >
+</member>
+<member name="T:_Servo" source="c:\temp\Trc\BaseCode\servo.h" >
+<summary >
+
+     This structure contains the servo control data of a motor.
+ 
+</summary >
+</member>
+<member name="F:_Servo.PidParam" source="c:\temp\Trc\BaseCode\servo.h" type="PPIDPARAM">
+<summary >
+
+     Points to the PIDPARAM structure.
+ 
+</summary >
+</member>
+<member name="F:_Servo.bEncoder" source="c:\temp\Trc\BaseCode\servo.h" type="BYTE">
+<summary >
+
+     Specifies the encoder channel.
+ 
+</summary >
+</member>
+<member name="F:_Servo.lPosSp" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the position setpoint.
+ 
+</summary >
+</member>
+<member name="F:_Servo.iVelSp" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the velocity setpoint in clicks/tick.
+ 
+</summary >
+</member>
+<member name="F:_Servo.lIntErr" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the Integral Error value.
+ 
+</summary >
+</member>
+<member name="F:_Servo.iVelLimit" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the velocity limit in clicks/tick.
+ 
+</summary >
+</member>
+<member name="F:_Servo.iMotorDir" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the drive output value.
+ 
+</summary >
+</member>
+<member name="T:_Drive" source="c:\temp\Trc\BaseCode\servo.h" >
+<summary >
+
+     This structure describes the driving system.
+ 
+</summary >
+</member>
+<member name="F:_Drive.Left" source="c:\temp\Trc\BaseCode\servo.h" type="PSERVO">
+<summary >
+
+     Points to the left motor servo structure.
+ 
+</summary >
+</member>
+<member name="F:_Drive.Right" source="c:\temp\Trc\BaseCode\servo.h" type="PSERVO">
+<summary >
+
+     Points to the right motor servo structure.
+ 
+</summary >
+</member>
+<member name="F:_Drive.Turn" source="c:\temp\Trc\BaseCode\servo.h" type="PSERVO">
+<summary >
+
+     Points to the turn servo structure.
+ 
+</summary >
+</member>
+<member name="F:_Drive.iAccelRate" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Specifies the robot's acceleration rate in clicks/(ticks^2).
+ 
+</summary >
+</member>
+<member name="F:_Drive.iDecelRate" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Specifies the robot's deceleration rate in clicks/(ticks^2).
+ 
+</summary >
+</member>
+<member name="T:_MoveTo" source="c:\temp\Trc\BaseCode\servo.h" >
+<summary >
+
+     This structure contains the MoveTo state machine info.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.bState" source="c:\temp\Trc\BaseCode\servo.h" type="BYTE">
+<summary >
+
+     Stores the state of the state machine.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.lTargetHeading" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the target heading.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.lTargetPos" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the target position.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.iTurnVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the turning velocity.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.iDriveVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the driving velocity.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.iEndVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the ending velocity.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.iTargetVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+<summary >
+
+     Stores the ending velocity.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.lTurnThreshold" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the current target velocity for PID calculation.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.lAngleTolerance" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the angle tolerance for which it will be
+     considered heading on target if we don't exceed it.
+ 
+</summary >
+</member>
+<member name="F:_MoveTo.lEndZonePos" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+<summary >
+
+     Stores the end zone position where we need to change
+     the velocity to EndVel allowing the distance to
+     accelerate or decelerate.
+ 
+</summary >
+</member>
+</members>
+</doc>

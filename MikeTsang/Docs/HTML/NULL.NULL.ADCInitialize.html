@@ -1,0 +1,102 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>ADCInitialize Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>ADCInitialize Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function initializes the ADC hardware.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">void ADCInitialize(
+	<a href="WORD.html" class="typeLink">WORD</a> wSampleRate,
+	<a href="WORD.html" class="typeLink">WORD</a> wSamplesPerUpdate,
+	<a href="WORD.html" class="typeLink">WORD</a> wChannelMask
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>wSampleRate</i></dt><dd>
+
+     Specifies the sample rates of all ADC channels.
+ 
+</dd></dl><dl><dt><i>wSamplesPerUpdate</i></dt><dd>
+
+     Specifies the number of samples per update (oversampling rate).
+     Must be a power of 2 from 1 to 256.
+ 
+</dd></dl><dl><dt><i>wChannelMask</i></dt><dd>
+
+     Specifies the bit map of in-use ADC channels.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ None. 
+</dd><dt><h4>Remarks</h4></dt><dd>
+
+     Number of ADC samples that will be averaged for each update. More will
+     generally give you more resolution and less noise (see chart below),
+     but your update rate will decrease proportionately.
+
+ 
+<p>
+
+     Samples/Update  ResolutionBits  ValueRange  Volt/Bit
+ 
+</p><p>
+
+     ==============  ==============  ==========  ========
+ 
+</p><p>
+
+           1               10           0-1023    4.88 mV
+ 
+</p><p>
+
+           2               10           0-1023    4.88 mV
+ 
+</p><p>
+
+           4               11           0-2047    2.44 mV
+ 
+</p><p>
+
+           8               11           0-2047    2.44 mV
+ 
+</p><p>
+
+          16               12           0-4095    1.22 mV
+ 
+</p><p>
+
+          32               12           0-4095    1.22 mV
+ 
+</p><p>
+
+          64               13           0-8191     610 uV
+ 
+</p><p>
+
+         128               13           0-8191     610 uV
+ 
+</p><p>
+
+         256               14           0-16383    305 uV
+ 
+</p></dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\adc.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

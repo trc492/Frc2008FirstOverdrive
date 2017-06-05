@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:Wait4TXEmpty(void)" source="c:\temp\Trc\BaseCode\ifi_utilities.c" type="void">
+<summary >
+
+     This function waits for serial transmit buffer to be empty.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     Used when transmitting data serially. It waits for each byte to finish.
+ 
+</remarks >
+</member>
+</members>
+</doc>

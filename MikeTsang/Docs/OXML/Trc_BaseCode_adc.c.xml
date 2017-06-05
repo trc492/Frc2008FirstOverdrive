@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="F:VREF_POS_MV" source="c:\temp\Trc\BaseCode\adc.c" >
+<summary >
+
+     ADC reference voltage (Vref+) in unit of mV.
+ 
+</summary >
+</member>
+<member name="F:VREF_NEG_MV" source="c:\temp\Trc\BaseCode\adc.c" >
+<summary >
+
+     ADC ground voltage (Vref-) in unit of mV.
+ 
+</summary >
+</member>
+<member name="F:VREF_RANGE_MV" source="c:\temp\Trc\BaseCode\adc.c" >
+<summary >
+
+     ADC reference voltage range in unit of mV.
+ 
+</summary >
+</member>
+<member name="T:_ADCChannel" source="c:\temp\Trc\BaseCode\adc.c" >
+<summary >
+
+     This structure stores information about an A/D converter channel.
+ 
+</summary >
+</member>
+<member name="F:_ADCChannel.bChannel" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+<summary >
+
+     Stores the A/D channel number (0-based).
+ 
+</summary >
+</member>
+<member name="F:_ADCChannel.dwAccum" source="c:\temp\Trc\BaseCode\adc.c" type="volatile DWORD">
+<summary >
+
+     Stores the accumulated value of the A/D channel for oversampling.
+ 
+</summary >
+</member>
+<member name="F:_ADCChannel.wValue" source="c:\temp\Trc\BaseCode\adc.c" type="volatile WORD">
+<summary >
+
+     Stores the final value of the A/D channel.
+ 
+</summary >
+</member>
+<member name="T:_ADC" source="c:\temp\Trc\BaseCode\adc.c" >
+<summary >
+
+     This structure stores information about all the A/D converter channels.
+ 
+</summary >
+</member>
+<member name="F:_ADC.wSampleRate" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     Stores the A/D converter sampling rate in Hz.
+ 
+</summary >
+</member>
+<member name="F:_ADC.wSamplesPerUpdate" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     Stores the A/D oversampling rate.
+ 
+</summary >
+</member>
+<member name="F:_ADC.wValueRange" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     Stores the A/D oversampling value range.
+ 
+</summary >
+</member>
+<member name="F:_ADC.bValueDivisor" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+<summary >
+
+     Stores the A/D oversampling divisor.
+ 
+</summary >
+</member>
+<member name="F:_ADC.bNumChannels" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+<summary >
+
+     Stores the number of A/D channels in used.
+ 
+</summary >
+</member>
+<member name="F:_ADC.wSamples" source="c:\temp\Trc\BaseCode\adc.c" type="volatile WORD">
+<summary >
+
+     Stores the number of samples accumulated so far for each channel.
+ 
+</summary >
+</member>
+<member name="F:_ADC.bUpdateCount" source="c:\temp\Trc\BaseCode\adc.c" type="volatile BYTE">
+<summary >
+
+     Stores the number of oversampled updates.
+ 
+</summary >
+</member>
+<member name="F:_ADC.bChannelIndex" source="c:\temp\Trc\BaseCode\adc.c" type="volatile BYTE">
+<summary >
+
+     Stores the next channel index for sampling.
+ 
+</summary >
+</member>
+<member name="F:_ADC.Channels" source="c:\temp\Trc\BaseCode\adc.c" type="ADC_CHANNEL []">
+<summary >
+
+     Stores the information of each A/D converter channel.
+ 
+</summary >
+</member>
+<member name="M:ADCInitialize(WORD,WORD,WORD)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function initializes the ADC hardware.
+ 
+</summary >
+<param name="wSampleRate" type="WORD" >
+
+     Specifies the sample rates of all ADC channels.
+ 
+</param >
+<param name="wSamplesPerUpdate" type="WORD" >
+
+     Specifies the number of samples per update (oversampling rate).
+     Must be a power of 2 from 1 to 256.
+ 
+</param >
+<param name="wChannelMask" type="WORD" >
+
+     Specifies the bit map of in-use ADC channels.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     Number of ADC samples that will be averaged for each update. More will
+     generally give you more resolution and less noise (see chart below),
+     but your update rate will decrease proportionately.
+
+ 
+<para >
+
+     Samples/Update  ResolutionBits  ValueRange  Volt/Bit
+ 
+</para >
+
+ 
+<para >
+
+     ==============  ==============  ==========  ========
+ 
+</para >
+
+ 
+<para >
+
+           1               10           0-1023    4.88 mV
+ 
+</para >
+
+ 
+<para >
+
+           2               10           0-1023    4.88 mV
+ 
+</para >
+
+ 
+<para >
+
+           4               11           0-2047    2.44 mV
+ 
+</para >
+
+ 
+<para >
+
+           8               11           0-2047    2.44 mV
+ 
+</para >
+
+ 
+<para >
+
+          16               12           0-4095    1.22 mV
+ 
+</para >
+
+ 
+<para >
+
+          32               12           0-4095    1.22 mV
+ 
+</para >
+
+ 
+<para >
+
+          64               13           0-8191     610 uV
+ 
+</para >
+
+ 
+<para >
+
+         128               13           0-8191     610 uV
+ 
+</para >
+
+ 
+<para >
+
+         256               14           0-16383    305 uV
+ 
+</para >
+
+ 
+</remarks >
+</member>
+<member name="M:ADCDisable(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function disables the ADC hardware.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ADCGetValue(BYTE)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     This function returns the last ADC value of a given channel.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the ADC channel. Channel number is 0-based.
+ 
+</param >
+<returns >
+ Returns ADC value of the channel. 
+</returns >
+</member>
+<member name="M:ADCValueToMillivolt(WORD)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     This function converts the ADC value into mV value.
+ 
+</summary >
+<param name="wADCValue" type="WORD" >
+
+     Specifies the ADC value.
+ 
+</param >
+<returns >
+ Returns a mV value. 
+</returns >
+</member>
+<member name="M:ADCGetValueRange(void)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     This function returns the ADC value range.
+ 
+</summary >
+<returns >
+ Returns ADC value range. 
+</returns >
+</member>
+<member name="M:ADCGetUpdateRate(void)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+<summary >
+
+     This function returns the ADC update rate.
+ 
+</summary >
+<returns >
+ Returns ADC update rate. 
+</returns >
+</member>
+<member name="M:ADCGetUpdateCount(void)" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+<summary >
+
+     This function returns the ADC update count.
+ 
+</summary >
+<returns >
+ Returns the ADC update count. 
+</returns >
+</member>
+<member name="M:ADCResetUpdateCount(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function resets the ADC update count.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ADCPrintData(BOOL)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function prints the state of the ADC channels.
+ 
+</summary >
+<param name="fVerbose" type="BOOL" >
+
+     Specifies whether to print verbose information.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ADCIntHandler(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function handles ADC interrupts.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ADCTimer2IntHandler(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function handles timer 2 interrupts.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:Timer2Initialize(WORD)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function initializes timer 2 that is responsible for
+     periodically starting A/D conversions.
+ 
+</summary >
+<param name="wSampleRate" type="WORD" >
+
+     Specifies the sample rates of all ADC channels.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:Timer2Disable(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+<summary >
+
+     This function disables the timer 2 hardware.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:ADCIndex(BYTE)" source="c:\temp\Trc\BaseCode\adc.c" type="int">
+<summary >
+
+     This function finds the ADC channel from the ADC array and
+     returns the index to it.
+ 
+</summary >
+<param name="bChannel" type="BYTE" >
+
+     Specifies the ADC channel to look for.
+ 
+</param >
+<returns >
+ Success: Returns the channel index. 
+</returns >
+<returns >
+ Failure: Returns -1. 
+</returns >
+</member>
+</members>
+</doc>

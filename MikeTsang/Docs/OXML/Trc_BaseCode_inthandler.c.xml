@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:InterruptVectorLow(void)" source="c:\temp\Trc\BaseCode\inthandler.c" type="void">
+<summary >
+
+     This function contains the low priority interrupt vector.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:InterruptHandlerLow(void)" source="c:\temp\Trc\BaseCode\inthandler.c" type="void">
+<summary >
+
+     This function handles low priority interrupts.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     If you want to use these external low priority interrupts or any of the
+     peripheral interrupts then you must enable them in your initialization
+     routine. Innovation First, Inc. will not provide support for using these
+     interrupts, so be careful. There is great potential for glitchy code if good
+     interrupt programming practices are not followed. Especially read p. 28 of
+     the "MPLAB(R) C18 C Compiler User's Guide" for information on context saving.
+ 
+</remarks >
+</member>
+</members>
+</doc>

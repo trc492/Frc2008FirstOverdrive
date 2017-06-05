@@ -1,0 +1,44 @@
+Cmd:0=Read,4=Remote_Read,5=Write_Verify,6=Remote_Write_Verify,7=PWM_Mask_Write,20=Write,21=FUNC_Write
+Total-1     29
+Test        Cmd         Port        Val         Mask     
+1           7           0           FF          0       master_controls_pwms
+1           6           4           0           0       write_zeros_to_master_portE  
+1           0           5           0           7F      read_user_portF_look4_0  
+1           0           7           0           10      read_user_portH_4_look4_0 
+1           0           6           0           19      read_user_portG_look4_0 
+1           6           4           FF          0       write_ones_to_master_portE  
+1           0           5           7F          7F      read_user_portF_look4_1  
+1           0           7           40          40      read_user_portH_4_look4_1 
+1           0           6           19          19      read_user_portG_look4_1 
+1           6           4           AA          0       write_alternating_ones_to_master_portE  
+1           0           5           2A          7F      read_user_portF_look4_alt  
+1           0           7           40          40      read_user_portH_4_look4_1 
+1           6           4           55          0       write_alternating_ones_to_master_portE  
+1           0           5           55          7F      read_user_portF_look4_alt  
+1           0           7           0           10      read_user_portH_4_look4_0 
+1           7           0           0           0       user_controls_pwms
+1           5           10          0           0      	make_user_portA_all_outputs(0-5)
+1           5           17          1F          0      	make_user_portH_outputs(5-7)
+1           5           0           10          0       write_zeros_to_user_portA(0-3,5) 
+1           5           7           C0          0       write_zeros_to_user_portH_5  
+1           0           1           0           FC      read_user_portB_look4_0(2-7) 
+1           5           0           3F          0       write_ones_to_user_portA(0-3,5) 
+1           5           7           E0          0       write_ones_to_user_portH_5  
+1           0           1           FC          FC      read_user_portB_look4_1(2-7) 
+1           5           0           35          0       write_alternating_ones_to_user_portA(0-3,5) 
+1           5           7           C0          0       write_alternating_ones_to_user_portH_5  
+1           0           1           54          FC      read_user_portB_look4_1(2-7) 
+1           5           0           1A          0       write_alternating_ones_to_user_portA(0-3,5) 
+1           5           7           E0          0       write_alternating_ones_to_user_portH_5  
+1           0           1           A8          FC      read_user_portB_look4_1(2-7) 
+1           5           16          04          0      	make_user_TX2_an_input(G2)
+1           5           7           20          0       write_zeros_to_user_portH(6-7) 
+2	    0		6	    0		04	read_user_portG_2
+3	    4		1	    0		04	read_master_portB_2
+2           5           7           E0          0       write_ones_to_user_portH(6-7) 
+2	    0		6	    04		04	read_user_portG_2
+1	    4		1	    04		04	read_master_portB_2
+1           5           6           04          0       write_zero_to_user_portG_1 
+4	    4		1	    0		08	read_master_portB_3
+4           5           6           06          0       write_one_to_user_portG_1 
+4	    4		1	    08		08	read_master_portB_3

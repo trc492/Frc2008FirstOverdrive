@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="M:_entry(void)" source="c:\temp\Trc\BaseCode\ifi_startup.c" type="void">
+<summary >
+
+     This is the main entry point. After the processor is reset, it
+     jumps to the code located at RESET_VECTOR which is where this
+     code is located. This start up location contains only one
+     instruction. It immediately jumps to the _startup function
+     which is located in the _startup code section.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:_startup(void)" source="c:\temp\Trc\BaseCode\ifi_startup.c" type="void">
+<summary >
+
+     This is the startup function. It initializes the processor
+     environment including setting up the stack and processor
+     flags. Then it goes into a loop clearing memory, copying
+     ROM to memory blocks and executing user's main code.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:_do_cinit(void)" source="c:\temp\Trc\BaseCode\ifi_startup.c" type="void">
+<summary >
+
+     This function copies the ROM to memory blocks according to the
+     _ciniit table.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

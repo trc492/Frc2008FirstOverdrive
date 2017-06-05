@@ -1,0 +1,3744 @@
+<Contents>
+  <owner name="NULL" fullname="NULL">
+    <Namespace name="T:NULL">
+      <Class name="NULL" id="T:NULL.NULL" ns="NULL">
+        <Docs>
+          <member name="T:NULL.NULL" />
+        </Docs>
+        <Method name="ADCInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCInitialize(WORD,WORD,WORD)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function initializes the ADC hardware.
+ 
+</summary>
+              <param name="wSampleRate" type="WORD">
+
+     Specifies the sample rates of all ADC channels.
+ 
+</param>
+              <param name="wSamplesPerUpdate" type="WORD">
+
+     Specifies the number of samples per update (oversampling rate).
+     Must be a power of 2 from 1 to 256.
+ 
+</param>
+              <param name="wChannelMask" type="WORD">
+
+     Specifies the bit map of in-use ADC channels.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     Number of ADC samples that will be averaged for each update. More will
+     generally give you more resolution and less noise (see chart below),
+     but your update rate will decrease proportionately.
+
+ 
+<para>
+
+     Samples/Update  ResolutionBits  ValueRange  Volt/Bit
+ 
+</para><para>
+
+     ==============  ==============  ==========  ========
+ 
+</para><para>
+
+           1               10           0-1023    4.88 mV
+ 
+</para><para>
+
+           2               10           0-1023    4.88 mV
+ 
+</para><para>
+
+           4               11           0-2047    2.44 mV
+ 
+</para><para>
+
+           8               11           0-2047    2.44 mV
+ 
+</para><para>
+
+          16               12           0-4095    1.22 mV
+ 
+</para><para>
+
+          32               12           0-4095    1.22 mV
+ 
+</para><para>
+
+          64               13           0-8191     610 uV
+ 
+</para><para>
+
+         128               13           0-8191     610 uV
+ 
+</para><para>
+
+         256               14           0-16383    305 uV
+ 
+</para></remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCDisable" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCDisable(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function disables the ADC hardware.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCGetValue" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCGetValue(BYTE)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     This function returns the last ADC value of a given channel.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the ADC channel. Channel number is 0-based.
+ 
+</param>
+              <returns>
+ Returns ADC value of the channel. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCValueToMillivolt" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCValueToMillivolt(WORD)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     This function converts the ADC value into mV value.
+ 
+</summary>
+              <param name="wADCValue" type="WORD">
+
+     Specifies the ADC value.
+ 
+</param>
+              <returns>
+ Returns a mV value. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCGetValueRange" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCGetValueRange(void)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     This function returns the ADC value range.
+ 
+</summary>
+              <returns>
+ Returns ADC value range. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCGetUpdateRate" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCGetUpdateRate(void)" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     This function returns the ADC update rate.
+ 
+</summary>
+              <returns>
+ Returns ADC update rate. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCGetUpdateCount" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCGetUpdateCount(void)" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+              <summary>
+
+     This function returns the ADC update count.
+ 
+</summary>
+              <returns>
+ Returns the ADC update count. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCResetUpdateCount" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCResetUpdateCount(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function resets the ADC update count.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCPrintData(BOOL)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function prints the state of the ADC channels.
+ 
+</summary>
+              <param name="fVerbose" type="BOOL">
+
+     Specifies whether to print verbose information.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCIntHandler" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCIntHandler(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function handles ADC interrupts.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCTimer2IntHandler" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCTimer2IntHandler(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function handles timer 2 interrupts.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Timer2Initialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Timer2Initialize(WORD)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function initializes timer 2 that is responsible for
+     periodically starting A/D conversions.
+ 
+</summary>
+              <param name="wSampleRate" type="WORD">
+
+     Specifies the sample rates of all ADC channels.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Timer2Disable" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Timer2Disable(void)" source="c:\temp\Trc\BaseCode\adc.c" type="void">
+              <summary>
+
+     This function disables the timer 2 hardware.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ADCIndex" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ADCIndex(BYTE)" source="c:\temp\Trc\BaseCode\adc.c" type="int">
+              <summary>
+
+     This function finds the ADC channel from the ADC array and
+     returns the index to it.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the ADC channel to look for.
+ 
+</param>
+              <returns>
+ Success: Returns the channel index. 
+</returns>
+              <returns>
+ Failure: Returns -1. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="BaseCmdConsoleInit" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.BaseCmdConsoleInit(BYTE,PCMDENTRY,BYTE)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function initialize the command console.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port to use for the command console.
+ 
+</param>
+              <param name="ProjCmdTable" type="PCMDENTRY">
+
+     Points to the project specific console command table.
+ 
+</param>
+              <param name="bNumCmds" type="BYTE">
+
+     Specifies the size of the command table.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="BaseCmdConsoleTrace" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.BaseCmdConsoleTrace(void)" source="c:\temp\Trc\BaseCode\basecmd.c" type="BOOL">
+              <summary>
+
+     This function processes the periodic traces.
+ 
+</summary>
+              <returns>
+ Always returns TRUE so it will be called next time. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintStatus" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintStatus(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints system status info.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintRCIoData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintRCIoData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints the RC I/O data.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintPwmData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintPwmData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints the PWM data.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintAdcData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintAdcData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints the A/D converter data.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintEncoderData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintEncoderData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints the Encoder data.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintGyroData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintGyroData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints the Gyro data.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PrintInputData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PrintInputData(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function prints the OI input data.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="CalibrateGyro" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.CalibrateGyro(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function initiates a gyro calibration.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="CalibrateInput" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.CalibrateInput(PCMDENTRY)" source="c:\temp\Trc\BaseCode\basecmd.c" type="void">
+              <summary>
+
+     This function initiates an input calibration.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsoleInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsoleInitialize(BYTE,PCMDENTRY,BYTE,PCMDENTRY,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+              <summary>
+
+     This function initializes the console using the given serial port.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies which serial port to get the console input from.
+ 
+</param>
+              <param name="BaseCmdTable" type="PCMDENTRY">
+
+     Points to the Base Command table.
+ 
+</param>
+              <param name="bNumBaseCmds" type="BYTE">
+
+     Specifies the number of command entries in the BaseCmdTable.
+ 
+</param>
+              <param name="ProjCmdTable" type="PCMDENTRY">
+
+     Points to the Proj Command table.
+ 
+</param>
+              <param name="bNumProjCmds" type="BYTE">
+
+     Specifies the number of command entries in the ProjCmdTable.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsoleProcessData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsoleProcessData(void)" source="c:\temp\Trc\BaseCode\console.c" type="BOOL">
+              <summary>
+
+     This function processes the serial data as console commands.
+ 
+</summary>
+              <returns>
+ Always returns TRUE so it will be called next time. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsolePrintHelp" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsolePrintHelp(PCMDENTRY)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+              <summary>
+
+     This function prints the help message for all console commands.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsoleQuit" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsoleQuit(PCMDENTRY)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+              <summary>
+
+     This function terminates console mode.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry (not used).
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsoleParseCommand" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsoleParseCommand(PSTR,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+              <summary>
+
+     This function parses the console command.
+ 
+</summary>
+              <param name="pszCmd" type="PSTR">
+
+     Points to command buffer.
+ 
+</param>
+              <param name="bCmdLen" type="BYTE">
+
+     Specifies the length of the command in the buffer.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsoleProcessCmd" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsoleProcessCmd(PSTR,PCMDENTRY,BYTE,PSTR *,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="BOOL">
+              <summary>
+
+     This function looks up the command and process it.
+ 
+</summary>
+              <param name="pszCmd" type="PSTR">
+
+     Points to command buffer.
+ 
+</param>
+              <param name="CmdTable" type="PCMDENTRY">
+
+     Points to the command table to lookup the command.
+ 
+</param>
+              <param name="bNumCmds" type="BYTE">
+
+     Specifies the size of the command table.
+ 
+</param>
+              <param name="apszArgs" type="PSTR *">
+
+     Points to the command arguments.
+ 
+</param>
+              <param name="bcArgs" type="BYTE">
+
+     Specifies the number of command arguments.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsoleParseCmdArgs" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsoleParseCmdArgs(PARGDEF,PSTR *,BYTE)" source="c:\temp\Trc\BaseCode\console.c" type="BOOL">
+              <summary>
+
+     This function parses the console command arguments.
+ 
+</summary>
+              <param name="ArgDefs" type="PARGDEF">
+
+     Points to command buffer.
+ 
+</param>
+              <param name="apszArgs" type="PSTR *">
+
+     Points to the argument array.
+ 
+</param>
+              <param name="bcArgs" type="BYTE">
+
+     Specifies the number of arguments.
+ 
+</param>
+              <returns>
+ Success: Returns TRUE. 
+</returns>
+              <returns>
+ Failure: Returns FALSE. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ConsolePrintCmdHelp" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ConsolePrintCmdHelp(PCMDENTRY)" source="c:\temp\Trc\BaseCode\console.c" type="void">
+              <summary>
+
+     This function prints the help message for the console command.
+ 
+</summary>
+              <param name="pCmdEntry" type="PCMDENTRY">
+
+     Points to the command table entry.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="CopyPgmString" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.CopyPgmString(PSTR,BYTE,const rom char *)" source="c:\temp\Trc\BaseCode\console.c" type="PSTR">
+              <summary>
+
+     This function copies a string from program memory to data memory.
+     String literals are allocated in program memory. A lot of library
+     functions can only access data memory.
+ 
+</summary>
+              <param name="pszStr" type="PSTR">
+
+     Points to string buffer in data memory.
+ 
+</param>
+              <param name="bLen" type="BYTE">
+
+     Specifies the size of the string buffer.
+ 
+</param>
+              <param name="pszPgmStr" type="const rom char *">
+
+     Points to string in program memory.
+ 
+</param>
+              <returns>
+ Returns a copy of the string in data memory. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderInitialize(BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function initializes the specified encoders.
+ 
+</summary>
+              <param name="bChannelMask" type="BYTE">
+
+     Specifies the bit map of in-use encoder channels.
+ 
+</param>
+              <param name="bReverseMask" type="BYTE">
+
+     Specifies the bit map of channels that are reversed.
+ 
+</param>
+              <param name="bVelInterval" type="BYTE">
+
+     Specifies the sampling interval of the encoder velocity.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderGetCount" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderGetCount(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="long">
+              <summary>
+
+     This function gets the current count of the given encoder.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to get its count.
+ 
+</param>
+              <returns>
+ Returns the encoder count. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderResetCount" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderResetCount(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function resets the current count of the given encoder.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to reset its count.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderGetVelocity" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderGetVelocity(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="long">
+              <summary>
+
+     This function gets the current velocity of the given encoder.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to get its velocity.
+ 
+</param>
+              <returns>
+ Returns the encoder velocity. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderPrintData(BOOL)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function prints the state of the encoders.
+ 
+</summary>
+              <param name="fVerbose" type="BOOL">
+
+     Sepcifies whether to print verbose info.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderTimerTick" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderTimerTick(void)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function is called by the system timer tick handler so that we can sample the
+     encoder velocities.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Encoder1_2IntHandler" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Encoder1_2IntHandler(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function handles the encoder 1 interrupt. If enabled, it is
+     called when the interrupt pin changes from a logic 0 to a logic 1.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to get its cound.
+ 
+</param>
+              <param name="bPhaseBPin" type="BYTE">
+
+     Specifies the state of the phase B pin.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Encoder3_6IntHandler" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Encoder3_6IntHandler(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function dispatches the encoder 3-6 interrupts.
+ 
+</summary>
+              <param name="bPortB" type="BYTE">
+
+     Specifies the value read from Port B.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Encoder3_6Int" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Encoder3_6Int(BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function handles the encoder 3 interrupt. If enabled, it is
+     called when the interrupt pin changes logical state.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to get its cound.
+ 
+</param>
+              <param name="bPhaseBPin" type="BYTE">
+
+     Specifies the state of the phase B pin.
+ 
+</param>
+              <param name="bState" type="BYTE">
+
+     Specifies the phase A pin state.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderInterrupt" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderInterrupt(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="void">
+              <summary>
+
+     This function enables or disable interrupt for the encoder channel.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to get its cound.
+ 
+</param>
+              <param name="fEnable" type="BYTE">
+
+     If 1, enable interrupt. If 0, disable interrupt.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="EncoderIndex" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.EncoderIndex(BYTE)" source="c:\temp\Trc\BaseCode\encoder.c" type="int">
+              <summary>
+
+     This function finds the encoder channel from the Encoder array and
+     returns the index to it.
+ 
+</summary>
+              <param name="bChannel" type="BYTE">
+
+     Specifies the encoder channel to look for.
+ 
+</param>
+              <returns>
+ Success: Returns the channel index. 
+</returns>
+              <returns>
+ Failure: Returns -1. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroInitialize(BYTE,WORD,WORD,WORD)" source="c:\temp\Trc\BaseCode\gyro.c" type="void">
+              <summary>
+
+     This function initializes the gyro component.
+ 
+</summary>
+              <param name="bADCChannel" type="BYTE">
+
+     Specifies the ADC channel the gyro is hooked up to.
+ 
+</param>
+              <param name="wSensitivity" type="WORD">
+
+     Specifies the gyro sensitivity in the unit of 0.1 degree/sec/volt or
+     milliradians/sec/volt. The unit of sensitivity affects the unit
+     returned by GyroGetRate.
+ 
+</param>
+              <param name="wScaleFactor" type="WORD">
+
+     Specifies the gyro scale factory. This is a manual calibration
+     constant. By default it starts with a value of 1000.
+ 
+</param>
+              <param name="wNoiseMargin" type="WORD">
+
+     Specifies the noise margin on top of the calibrated noise threshold.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroCalibrate" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroCalibrate(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="void">
+              <summary>
+
+     This function initialize the gyro for calibration.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     IMPORTANT: Only call this function when your robot will be
+     absolutely still and free of vibration (e.g. the air compressor
+     is off) until the call to GyroStopCal is made.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroGetRate" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroGetRate(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="int">
+              <summary>
+
+     This function returns the current angular rate of change of the
+     given gyro in unit of 0.1 deg/sec or milliradians/sec depending
+     on the gyro sensitivity unit passed to the GyroInitialize function.
+ 
+</summary>
+              <returns>
+ Returns the gyro rate. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroGetAngle" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroGetAngle(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="long">
+              <summary>
+
+     This function returns the current heading angle of the given gyro
+     in unit of 0.1 degrees or milliradians depending on the gyro sensitivity
+     unit passed to the GyroInitialize function.
+ 
+</summary>
+              <returns>
+ Returns the gyro heading. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroGetBias" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroGetBias(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     This function returns the calibrated gyro bias.
+ 
+</summary>
+              <returns>
+ Returns the gyro bias. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroSetBias" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroSetBias(WORD)" source="c:\temp\Trc\BaseCode\gyro.c" type="void">
+              <summary>
+
+     This function manually sets the gyro bias.
+ 
+</summary>
+              <param name="wBias" type="WORD">
+
+     Specifies the new gyro bias.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroResetAngle" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroResetAngle(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="void">
+              <summary>
+
+     This function resets the gyro angle.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroPrintData(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="void">
+              <summary>
+
+     This function prints the gyro states.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="GyroProcessData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.GyroProcessData(void)" source="c:\temp\Trc\BaseCode\gyro.c" type="void">
+              <summary>
+
+     This function process the gyro data.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="_entry" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL._entry(void)" source="c:\temp\Trc\BaseCode\ifi_startup.c" type="void">
+              <summary>
+
+     This is the main entry point. After the processor is reset, it
+     jumps to the code located at RESET_VECTOR which is where this
+     code is located. This start up location contains only one
+     instruction. It immediately jumps to the _startup function
+     which is located in the _startup code section.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="_startup" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL._startup(void)" source="c:\temp\Trc\BaseCode\ifi_startup.c" type="void">
+              <summary>
+
+     This is the startup function. It initializes the processor
+     environment including setting up the stack and processor
+     flags. Then it goes into a loop clearing memory, copying
+     ROM to memory blocks and executing user's main code.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="_do_cinit" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL._do_cinit(void)" source="c:\temp\Trc\BaseCode\ifi_startup.c" type="void">
+              <summary>
+
+     This function copies the ROM to memory blocks according to the
+     _ciniit table.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Wait4TXEmpty" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Wait4TXEmpty(void)" source="c:\temp\Trc\BaseCode\ifi_utilities.c" type="void">
+              <summary>
+
+     This function waits for serial transmit buffer to be empty.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     Used when transmitting data serially. It waits for each byte to finish.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InputInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InputInitialize(BYTE,BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+              <summary>
+
+     This function initializes the input data. This includes calibrating
+     all in-use analog channels. The Operator Interface has 4 joystick
+     ports and each has 4 analog channels totalling 16 analog channels.
+     This function allows specifying which joystick ports and which analog
+     channels are in used so that only those channels are initialized
+     and calibrated.
+ 
+</summary>
+              <param name="bPort1Flags" type="BYTE">
+
+     Specifies which analog channels of joystick 1 are in use.
+ 
+</param>
+              <param name="bPort2Flags" type="BYTE">
+
+     Specifies which analog channels of joystick 2 are in use.
+ 
+</param>
+              <param name="bPort3Flags" type="BYTE">
+
+     Specifies which analog channels of joystick 3 are in use.
+ 
+</param>
+              <param name="bPort4Flags" type="BYTE">
+
+     Specifies which analog channels of joystick 4 are in use.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InputCalibrate" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InputCalibrate(void)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+              <summary>
+
+     This function initializes for joystick calibration.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InputProcessData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InputProcessData(void)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+              <summary>
+
+     This function processes the input data from the Operator Interface.
+     If we are in calibration mode, it will perform the calibration cycle.
+     Otherwise, it will adjust the input data according to the calibration
+     data.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     After the Robot Controller is reset, the initialization routine should
+     initialize the InputData structure specifying which joystick ports are
+     in use and which analog channels of each port are in use. Then it
+     should set the OiCalData.bCalFlags to start the calibration
+     cycles.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InputPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InputPrintData(void)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+              <summary>
+
+     This function prints the input data to the debug console.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InitializePort" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InitializePort(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+              <summary>
+
+     This function initializes the joystick port and prepare for
+     calibration. It specifies which analog channels of the joystick
+     port are in use.
+ 
+</summary>
+              <param name="bPort" type="BYTE">
+
+     Specifies the joystick port for calibration.
+     Note: port number is 0-based.
+ 
+</param>
+              <param name="bPortFlags" type="BYTE">
+
+     Specifies which analog channels of the joystick port should be
+     calibrated.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InterruptVectorLow" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InterruptVectorLow(void)" source="c:\temp\Trc\BaseCode\inthandler.c" type="void">
+              <summary>
+
+     This function contains the low priority interrupt vector.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InterruptHandlerLow" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InterruptHandlerLow(void)" source="c:\temp\Trc\BaseCode\inthandler.c" type="void">
+              <summary>
+
+     This function handles low priority interrupts.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     If you want to use these external low priority interrupts or any of the
+     peripheral interrupts then you must enable them in your initialization
+     routine. Innovation First, Inc. will not provide support for using these
+     interrupts, so be careful. There is great potential for glitchy code if good
+     interrupt programming practices are not followed. Especially read p. 28 of
+     the "MPLAB(R) C18 C Compiler User's Guide" for information on context saving.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="main" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.main(void)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+              <summary>
+
+     This is the program entry point.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="RegisterHook" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.RegisterHook(PHOOKTABLE,PFNHOOK)" source="c:\temp\Trc\BaseCode\main.c" type="BOOL">
+              <summary>
+
+     This function registers a pre or post process hook function.
+     Pre-process hook functions will be called before the ProjProcessData
+     is called. Post-proces hook functions will be called after
+     ProjProcessData is called.
+ 
+</summary>
+              <param name="HookTable" type="PHOOKTABLE">
+
+     Points to the Hook table to add the registered processing function.
+ 
+</param>
+              <param name="pfnHook" type="PFNHOOK">
+
+     Specifies the hook function to be registered.
+ 
+</param>
+              <returns>
+ Success: Returns TRUE. 
+</returns>
+              <returns>
+ Failure: Returns FALSE (e.g. table is full). 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="InitHookTable" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.InitHookTable(PHOOKTABLE)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+              <summary>
+
+     This function intializes the hook table.
+ 
+</summary>
+              <param name="HookTable" type="PHOOKTABLE">
+
+     Points to the Hook table.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ProcessHooks" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ProcessHooks(PHOOKTABLE)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+              <summary>
+
+     This function goes through the hook table and calls each hook function.
+ 
+</summary>
+              <param name="HookTable" type="PHOOKTABLE">
+
+     Points to the Hook table.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="BaseInitialization" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.BaseInitialization(void)" source="c:\temp\Trc\BaseCode\main.c" type="void">
+              <summary>
+
+     This function performs base code initializations which are not project specific.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PWMInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PWMInitialize(void)" source="c:\temp\Trc\BaseCode\pwm.c" type="void">
+              <summary>
+
+     This function initializes the pwm related hardware. It replaces
+     IFI's Generate_Pwms() function.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PWMSetValues" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PWMSetValues(BYTE,BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\pwm.c" type="void">
+              <summary>
+
+     This function sets the pwm values for channel 13-16.
+ 
+</summary>
+              <param name="bPWM13" type="BYTE">
+
+     Specifies the position/velocity value for PWM channel 13.
+ 
+</param>
+              <param name="bPWM14" type="BYTE">
+
+     Specifies the position/velocity value for PWM channel 14.
+ 
+</param>
+              <param name="bPWM15" type="BYTE">
+
+     Specifies the position/velocity value for PWM channel 15.
+ 
+</param>
+              <param name="bPWM16" type="BYTE">
+
+     Specifies the position/velocity value for PWM channel 16.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="PWMPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.PWMPrintData(void)" source="c:\temp\Trc\BaseCode\pwm.c" type="void">
+              <summary>
+
+     This function prints the state of the PWMs.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="RCIOInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.RCIOInitialize(DWORD)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+              <summary>
+
+     This function configures the RC I/O such as digital I/O and relays.
+ 
+</summary>
+              <param name="dwOutChannelMask" type="DWORD">
+
+     Specifies the bit mask of the digital out channels.
+     Note: The caller should OR the RC_DIGITAL_* values for this parameter.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="RCIOPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.RCIOPrintData(void)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+              <summary>
+
+     This function prints the state of the RC I/O.
+ 
+</summary>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="RCIOPrintDigitalIo" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.RCIOPrintDigitalIo(BYTE,BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+              <summary>
+
+     This function prints the state of the RC digital IO.
+ 
+</summary>
+              <param name="bIoChannel" type="BYTE">
+
+     Specifies the digital I/O pin.
+ 
+</param>
+              <param name="bIoConfig" type="BYTE">
+
+     Specifies the I/O pin's configuration.
+ 
+</param>
+              <param name="bInValue" type="BYTE">
+
+     Specifies input state if the pin is configured as INPUT.
+ 
+</param>
+              <param name="bOutValue" type="BYTE">
+
+     Specifies output state if the pin is configured as OUTPUT.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="RCIOPrintRelay" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.RCIOPrintRelay(BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\rcio.c" type="void">
+              <summary>
+
+     This function prints the state of the RC relay.
+ 
+</summary>
+              <param name="bRelayChannel" type="BYTE">
+
+     Specifies the relay channel.
+ 
+</param>
+              <param name="bFwd" type="BYTE">
+
+     Specifies the Fwd state of the relay.
+ 
+</param>
+              <param name="bRev" type="BYTE">
+
+     Specifies the Rev state of the relay.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Serial1Initialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Serial1Initialize(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function initializes serial port one.
+ 
+</summary>
+              <param name="bBaudRate" type="BYTE">
+
+     Specifies the baud rate to initialize the serial port.
+ 
+</param>
+              <param name="bFlags" type="BYTE">
+
+     Specifies the option flags for initializing the serial port.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     This function must be called before you try to use serial port one.
+     By default, this serial port is set to 115200 baud with the
+     transmitter and receiver enabled. This is the rate IFI's terminal
+     program expects. The serial port's baud rate is programmed by
+     entering a value into the SPBRG1 register and possibly changing
+     the value of the BRGH bit. Several example values are included
+     in the serial_ports.h file. Numbers within brackets refer to the
+     PIC18F8722 data sheet page number where more information can be
+     found. This document can be found at microchip's website at
+     http://www.microchip.com or at the author's website at
+     http://www.kevin.org/frc.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="Serial2Initialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.Serial2Initialize(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function initializes serial port two.
+ 
+</summary>
+              <param name="bBaudRate" type="BYTE">
+
+     Specifies the baud rate to initialize the serial port.
+ 
+</param>
+              <param name="bFlags" type="BYTE">
+
+     Specifies the option flags for initializing the serial port.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     This function must be called before you try to use serial port two.
+     By default, this serial port is set to 9600 baud with the
+     transmitter and receiver enabled. The serial port's baud rate is
+     programmed by entering a value into the SPBRG2 register and possibly
+     changing the value of the BRGH bit. Several example values are included
+     in the serial_ports.h file. Numbers within brackets refer to the
+     PIC18F8722 data sheet page number where more information can be
+     found. This document can be found at microchip's website at
+     http://www.microchip.com or at the author's website at
+     http://www.kevin.org/frc.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialGetByteCount" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialGetByteCount(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="BYTE">
+              <summary>
+
+     This function returns the numbers of bytes in the receive queue.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port to get the byte count.
+ 
+</param>
+              <returns>
+ Returns the number of bytes in the receive queue. 
+</returns>
+              <remarks>
+
+     This function must be called to determine how much data, if any,
+     is present in serial port's received data queue. If the returned
+     number is greater than zero, then a call to SerialGetData can be
+     made to retrieve the next byte.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialReadData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialReadData(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="BYTE">
+              <summary>
+
+     This function returns the next byte in the serial port's receive
+     queue.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port to get the byte count.
+ 
+</param>
+              <returns>
+ Returns the next bytes in the receive queue. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialWriteData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialWriteData(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function writes a byte to the serial port's transmit queue.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port to get the byte count.
+ 
+</param>
+              <param name="bData" type="BYTE">
+
+     Specifies the data to write to the serial port.
+ 
+</param>
+              <returns>
+ Returns the next bytes in the receive queue. 
+</returns>
+              <remarks>
+
+     If you don't initialize the serial port before calling this function,
+     the robot controller will stop functioning and you'll get the much
+     dreaded red-light-of-death. This is because the while() statement
+     below is waiting for the transmit circuitry to send another byte,
+     but if the serial port hasn't been configured, nothing will be
+     transmitted and we'll be stuck in the while() loop.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="_user_putc" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL._user_putc(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function overrides the putc() interface to C18 2.4 output
+     stream functions and writes a byte to the serial port's transmit
+     queue.
+ 
+</summary>
+              <param name="bData" type="BYTE">
+
+     Specifies the data to write to the serial port.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialRxIntHandler" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialRxIntHandler(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function is called when there is a receive interrupt on
+     the serial port.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port to get the byte count.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     If the interrupt handler was installed correctly, this function will
+     be called every time a new byte of data is received by serial port.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialTxIntHandler" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialTxIntHandler(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function is called when there is a transmit empty interrupt on
+     the serial port.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port to get the byte count.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+              <remarks>
+
+     If the interrupt handler was installed correctly, this function will
+     be called every time the serial port is ready to start sending a byte
+     of data.
+ 
+</remarks>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialInitPort" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialInitPort(PSERIAL_PORT,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function initializes serial port structure.
+ 
+</summary>
+              <param name="SerialPort" type="PSERIAL_PORT">
+
+     Points to the SerialPort structure to be initialized.
+ 
+</param>
+              <param name="bFlags" type="BYTE">
+
+     Specifies the initialization flags.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialRxInterrupt" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialRxInterrupt(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function enables or disable receive interrupt for the serial port.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port.
+ 
+</param>
+              <param name="fEnable" type="BYTE">
+
+     If 1, enable interrupt. If 0, disable interrupt.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="SerialTxInterrupt" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.SerialTxInterrupt(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+              <summary>
+
+     This function enables or disable transmit interrupt for the serial port.
+ 
+</summary>
+              <param name="bSerialPort" type="BYTE">
+
+     Specifies the serial port.
+ 
+</param>
+              <param name="fEnable" type="BYTE">
+
+     If 1, enable interrupt. If 0, disable interrupt.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoInitialize" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoInitialize(PSERVO,PPIDPARAM,BYTE,int,int)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+              <summary>
+
+     This function initializes a servo motor structure.
+ 
+</summary>
+              <param name="Servo" type="PSERVO">
+
+     Points to the SERVO structure to be initialized.
+ 
+</param>
+              <param name="PidParam" type="PPIDPARAM">
+
+     Points to the PIDPARAM structure for use with this Servo.
+ 
+</param>
+              <param name="bEncoder" type="BYTE">
+
+     Specifies the encoder channel.
+ 
+</param>
+              <param name="iVelLimit" type="int">
+
+     Specifies velocity limit. If 0, it means no limit.
+ 
+</param>
+              <param name="iMotorDir" type="int">
+
+     Specifies the direction of the motor.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoPid" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoPid(PSERVO,long,long,BOOL)" source="c:\temp\Trc\BaseCode\servo.c" type="int">
+              <summary>
+
+     This function applies the PID algorithm to calculate the new drive
+     value.
+ 
+</summary>
+              <param name="Servo" type="PSERVO">
+
+     Points to the SERVO structure.
+ 
+</param>
+              <param name="lPos" type="long">
+
+     Specifies the current position. This is ignore if fPosPid is FALSE.
+ 
+</param>
+              <param name="lVel" type="long">
+
+     Specifies the current velocity.
+ 
+</param>
+              <param name="fPosPid" type="BOOL">
+
+     If TRUE, apply position PID, otherwise apply velocity PID.
+ 
+</param>
+              <returns>
+ Returns the new drive value. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoInitMoveTo" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoInitMoveTo(PMOVETO,PDRIVE,long,long,int,int,int,long,long)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+              <summary>
+
+     This function initializes the MOVETO structure for autonomous drive.
+ 
+</summary>
+              <param name="MoveTo" type="PMOVETO">
+
+     Points to the MOVETO structure to be initialized.
+ 
+</param>
+              <param name="Drive" type="PDRIVE">
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</param>
+              <param name="lHeading" type="long">
+
+     Specifies the absolute heading we should be at after the state machine
+     ended.
+ 
+</param>
+              <param name="lDistance" type="long">
+
+     Specifies the absolute distance we should be at after the state machine
+     ended.
+ 
+</param>
+              <param name="iTurnVel" type="int">
+
+     Specifies the turning velocity.
+ 
+</param>
+              <param name="iDriveVel" type="int">
+
+     Specifies the velocity when driving in a straight line.
+ 
+</param>
+              <param name="iEndVel" type="int">
+
+     Specifies the ending velocity when the state machine ended.
+ 
+</param>
+              <param name="lTurnThreshold" type="long">
+
+     Specifies the amount of turn we need to exceed before we classify
+     it being a turn. This is to determine if we need to slow down to
+     turn velocity. If we are just adjusting our heading when driving
+     a straight line, that's not turning and we don't need to slow down.
+ 
+</param>
+              <param name="lAngleTolerance" type="long">
+
+     Specifies the amount of angle tolerance we allow comparing to the
+     target heading. This is to prevent the oscillation caused by minor
+     angle variation.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoMoveTo" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoMoveTo(PMOVETO,PDRIVE)" source="c:\temp\Trc\BaseCode\servo.c" type="BOOL">
+              <summary>
+
+     This function implements the state machine that turns the robot
+     to the target heading and drives it to the target position.
+ 
+</summary>
+              <param name="MoveTo" type="PMOVETO">
+
+     Points to the MOVETO structure that contains the target and state
+     information.
+ 
+</param>
+              <param name="Drive" type="PDRIVE">
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</param>
+              <returns>
+ Returns FALSE when the state machine is done. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoCalibrate" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoCalibrate(PDRIVE)" source="c:\temp\Trc\BaseCode\servo.c" type="BOOL">
+              <summary>
+
+     This function calibrates the servo by determining the acceleration and deceleration rates.
+ 
+</summary>
+              <param name="Drive" type="PDRIVE">
+
+     Points to the DRIVE structure that contains the motor information.
+ 
+</param>
+              <returns>
+ Returns FALSE when the state machine is done. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoPrintPidParam" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoPrintPidParam(PPIDPARAM)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+              <summary>
+
+     This function prints the PID control parameters.
+ 
+</summary>
+              <param name="PidParam" type="PPIDPARAM">
+
+     Points to the PIDPARAM structure.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoPrintData" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoPrintData(PSTR,PSERVO)" source="c:\temp\Trc\BaseCode\servo.c" type="void">
+              <summary>
+
+     This function prints the servo motor data.
+ 
+</summary>
+              <param name="pszName" type="PSTR">
+
+     Points to the servo motor name string.
+ 
+</param>
+              <param name="Servo" type="PSERVO">
+
+     Points to the SERVO structure.
+ 
+</param>
+              <returns>
+ None. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Method name="ServoPidDrive" ns="NULL.NULL">
+          <Docs>
+            <member name="M:NULL.NULL.ServoPidDrive(macro_parameter,macro_parameter,macro_parameter,macro_parameter)" source="c:\temp\Trc\BaseCode\servo.h">
+              <summary>
+
+     This macro applies the PID algorithm to calculate the new drive
+     value and normalize it to the PWM value and adjust the motor direction.
+ 
+</summary>
+              <param name="Servo" type="macro_parameter">
+
+     Points to the SERVO structure.
+ 
+</param>
+              <param name="lPos" type="macro_parameter">
+
+     Specifies the current position. This is ignore if fPosPid is FALSE.
+ 
+</param>
+              <param name="lVel" type="macro_parameter">
+
+     Specifies the current velocity.
+ 
+</param>
+              <param name="fPosPid" type="macro_parameter">
+
+     If TRUE, apply position PID, otherwise apply velocity PID.
+ 
+</param>
+              <returns>
+ Returns the new drive value. 
+</returns>
+            </member>
+          </Docs>
+        </Method>
+        <Field name="VREF_POS_MV" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.VREF_POS_MV" source="c:\temp\Trc\BaseCode\adc.c">
+              <summary>
+
+     ADC reference voltage (Vref+) in unit of mV.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="VREF_NEG_MV" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.VREF_NEG_MV" source="c:\temp\Trc\BaseCode\adc.c">
+              <summary>
+
+     ADC ground voltage (Vref-) in unit of mV.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="VREF_RANGE_MV" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.VREF_RANGE_MV" source="c:\temp\Trc\BaseCode\adc.c">
+              <summary>
+
+     ADC reference voltage range in unit of mV.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="CMD_BUFF_LEN" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.CMD_BUFF_LEN" source="c:\temp\Trc\BaseCode\console.c">
+              <summary>
+
+     Specifies the maximum length of the console command buffer.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="MAX_ARGS" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.MAX_ARGS" source="c:\temp\Trc\BaseCode\console.c">
+              <summary>
+
+     Specifies the maximum number of console command arguments.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="CMD_ATTENTION" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.CMD_ATTENTION" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     This console key will enter the console mode.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="ARGTYPE_STRING" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.ARGTYPE_STRING" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     Specifies the argument is a string.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="ARGTYPE_NUM" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.ARGTYPE_NUM" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     Specifies the argument is numeric value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="ARGTYPE_FLAGS" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.ARGTYPE_FLAGS" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     Specifies the argument is to enable or disable the given bits of a flag variable.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="ARGTYPE_CUSTOM" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.ARGTYPE_CUSTOM" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     Specifies the caller is handling the argument parsing.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="DATAF_CHAR" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.DATAF_CHAR" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     The data flag specifies the data is an 8-bit byte.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="DATAF_SHORT" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.DATAF_SHORT" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     The data flag specifies the data is a 16-bit word.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="DATAF_LONG" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.DATAF_LONG" source="c:\temp\Trc\BaseCode\console.h">
+              <summary>
+
+     The data flag specifies the data is a 32-bit dword.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="GYRO_CAL_TICKS" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.GYRO_CAL_TICKS" source="c:\temp\Trc\BaseCode\gyro.c">
+              <summary>
+
+     Specifies the duration of gyro calibration in system ticks.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="GYROF_CALIBRATED" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.GYROF_CALIBRATED" source="c:\temp\Trc\BaseCode\gyro.c">
+              <summary>
+
+     This flag indicates the gyro sensor has been calibrated.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="GYROF_CALIBRATING" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.GYROF_CALIBRATING" source="c:\temp\Trc\BaseCode\gyro.c">
+              <summary>
+
+     This flag indicates the gyro sensor is being calibrated.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="MAX_JOYSTICK_PORTS" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.MAX_JOYSTICK_PORTS" source="c:\temp\Trc\BaseCode\input.c">
+              <summary>
+
+     The maximum number of joystick ports on the Operating Interface.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="MAX_INPUTCAL_SAMPLES" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.MAX_INPUTCAL_SAMPLES" source="c:\temp\Trc\BaseCode\input.c">
+              <summary>
+
+     The number of samples used for each joystick calibration.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="JOYSTICK_NOISE_MARGIN" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.JOYSTICK_NOISE_MARGIN" source="c:\temp\Trc\BaseCode\input.c">
+              <summary>
+
+     Noise margin value added to calibrated noise range.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="CALF_CALIBRATED" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.CALF_CALIBRATED" source="c:\temp\Trc\BaseCode\input.c">
+              <summary>
+
+     All inputs have been calibrated.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="CALF_CALIBRATING" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.CALF_CALIBRATING" source="c:\temp\Trc\BaseCode\input.c">
+              <summary>
+
+     Inputs are being calibrated.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="QSTATE_NORMAL" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.QSTATE_NORMAL" source="c:\temp\Trc\BaseCode\serial_ports.c">
+              <summary>
+
+     FIFO queue state: the queue has characters in it.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="QSTATE_EMPTY" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.QSTATE_EMPTY" source="c:\temp\Trc\BaseCode\serial_ports.c">
+              <summary>
+
+     FIFO queue state: the queue is empty.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="QSTATE_FULL" ns="NULL.NULL">
+          <Docs>
+            <member name="F:NULL.NULL.QSTATE_FULL" source="c:\temp\Trc\BaseCode\serial_ports.c">
+              <summary>
+
+     FIFO queue state: the queue is full.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_ADCChannel" id="T:NULL._ADCChannel" ns="NULL">
+        <Docs>
+          <member name="T:NULL._ADCChannel" source="c:\temp\Trc\BaseCode\adc.c">
+            <summary>
+
+     This structure stores information about an A/D converter channel.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bChannel" ns="NULL._ADCChannel">
+          <Docs>
+            <member name="F:NULL._ADCChannel.bChannel" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+              <summary>
+
+     Stores the A/D channel number (0-based).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="dwAccum" ns="NULL._ADCChannel">
+          <Docs>
+            <member name="F:NULL._ADCChannel.dwAccum" source="c:\temp\Trc\BaseCode\adc.c" type="volatile DWORD">
+              <summary>
+
+     Stores the accumulated value of the A/D channel for oversampling.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wValue" ns="NULL._ADCChannel">
+          <Docs>
+            <member name="F:NULL._ADCChannel.wValue" source="c:\temp\Trc\BaseCode\adc.c" type="volatile WORD">
+              <summary>
+
+     Stores the final value of the A/D channel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_ADC" id="T:NULL._ADC" ns="NULL">
+        <Docs>
+          <member name="T:NULL._ADC" source="c:\temp\Trc\BaseCode\adc.c">
+            <summary>
+
+     This structure stores information about all the A/D converter channels.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="wSampleRate" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.wSampleRate" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     Stores the A/D converter sampling rate in Hz.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wSamplesPerUpdate" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.wSamplesPerUpdate" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     Stores the A/D oversampling rate.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wValueRange" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.wValueRange" source="c:\temp\Trc\BaseCode\adc.c" type="WORD">
+              <summary>
+
+     Stores the A/D oversampling value range.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bValueDivisor" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.bValueDivisor" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+              <summary>
+
+     Stores the A/D oversampling divisor.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bNumChannels" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.bNumChannels" source="c:\temp\Trc\BaseCode\adc.c" type="BYTE">
+              <summary>
+
+     Stores the number of A/D channels in used.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wSamples" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.wSamples" source="c:\temp\Trc\BaseCode\adc.c" type="volatile WORD">
+              <summary>
+
+     Stores the number of samples accumulated so far for each channel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bUpdateCount" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.bUpdateCount" source="c:\temp\Trc\BaseCode\adc.c" type="volatile BYTE">
+              <summary>
+
+     Stores the number of oversampled updates.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bChannelIndex" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.bChannelIndex" source="c:\temp\Trc\BaseCode\adc.c" type="volatile BYTE">
+              <summary>
+
+     Stores the next channel index for sampling.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Channels" ns="NULL._ADC">
+          <Docs>
+            <member name="F:NULL._ADC.Channels" source="c:\temp\Trc\BaseCode\adc.c" type="ADC_CHANNEL []">
+              <summary>
+
+     Stores the information of each A/D converter channel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_Console" id="T:NULL._Console" ns="NULL">
+        <Docs>
+          <member name="T:NULL._Console" source="c:\temp\Trc\BaseCode\console.c">
+            <summary>
+
+     This structure stores information about the console serial port.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bSerialPort" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.bSerialPort" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+              <summary>
+
+     Stores the serial port number used by the console (0-based).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bCmdLen" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.bCmdLen" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+              <summary>
+
+     Stores the number of characters in the command buffer.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="CmdBuff" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.CmdBuff" source="c:\temp\Trc\BaseCode\console.c" type="char []">
+              <summary>
+
+     Command buffer.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bNumBaseCmds" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.bNumBaseCmds" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+              <summary>
+
+     Specifies the number of entries in the BaseCmdTable.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="BaseCmdTable" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.BaseCmdTable" source="c:\temp\Trc\BaseCode\console.c" type="PCMDENTRY">
+              <summary>
+
+     Stores the pointer to the Base Command table.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bNumProjCmds" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.bNumProjCmds" source="c:\temp\Trc\BaseCode\console.c" type="BYTE">
+              <summary>
+
+     Specifies the number of entries in the ProjCmdTable.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="ProjCmdTable" ns="NULL._Console">
+          <Docs>
+            <member name="F:NULL._Console.ProjCmdTable" source="c:\temp\Trc\BaseCode\console.c" type="PCMDENTRY">
+              <summary>
+
+     Stores the pointer to the Proj Command table.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_ArgDef" id="T:NULL._ArgDef" ns="NULL">
+        <Docs>
+          <member name="T:NULL._ArgDef" source="c:\temp\Trc\BaseCode\console.h">
+            <summary>
+
+     This structure is used to describe a command argument.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bType" ns="NULL._ArgDef">
+          <Docs>
+            <member name="F:NULL._ArgDef.bType" source="c:\temp\Trc\BaseCode\console.h" type="BYTE">
+              <summary>
+
+     Specifies the argument type (see ARGTYPE_* flags for details).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="pvData" ns="NULL._ArgDef">
+          <Docs>
+            <member name="F:NULL._ArgDef.pvData" source="c:\temp\Trc\BaseCode\console.h" type="void">
+              <summary>
+
+     Points to a variable to hold the parsed data.
+ 
+<para>
+
+       ARGTYPE_STRING: pvData points to a string pointer.
+ 
+</para><para>
+
+       ARGTYPE_NUM: pvData points to a variable to hold the numeric value.
+ 
+</para><para>
+
+       ARGTYPE_FLAGS: pvData points to a variable containing the flag bits.
+ 
+</para><para>
+
+       ARGTYPE_CUSTOM: pvData points to the function for parsing the arguments.
+ 
+</para></summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bParam" ns="NULL._ArgDef">
+          <Docs>
+            <member name="F:NULL._ArgDef.bParam" source="c:\temp\Trc\BaseCode\console.h" type="BYTE">
+              <summary>
+
+     Specifies the parameter for parsing the argument.
+ 
+<para>
+
+       ARGTYPE_STRING: none.
+ 
+</para><para>
+
+       ARGTYPE_NUM: specifies the size of the value variable.
+ 
+</para><para>
+
+       ARGTYPE_FLAGS: specifies the bit mask of the flag variable.
+ 
+</para><para>
+
+       ARGTYPE_CUSTOM: none.
+ 
+</para></summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="pszArgHelp" ns="NULL._ArgDef">
+          <Docs>
+            <member name="F:NULL._ArgDef.pszArgHelp" source="c:\temp\Trc\BaseCode\console.h" type="const rom char">
+              <summary>
+
+     Points to the help message for the argument.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_CmdEntry" id="T:NULL._CmdEntry" ns="NULL">
+        <Docs>
+          <member name="T:NULL._CmdEntry" source="c:\temp\Trc\BaseCode\console.h">
+            <summary>
+
+     This structure is used to describe a command.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="pszCmdString" ns="NULL._CmdEntry">
+          <Docs>
+            <member name="F:NULL._CmdEntry.pszCmdString" source="c:\temp\Trc\BaseCode\console.h" type="const rom char">
+              <summary>
+
+     Specifies the command string.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bNumArgDefs" ns="NULL._CmdEntry">
+          <Docs>
+            <member name="F:NULL._CmdEntry.bNumArgDefs" source="c:\temp\Trc\BaseCode\console.h" type="BYTE">
+              <summary>
+
+     Specifies the number of arguments for the command.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="ArgDefs" ns="NULL._CmdEntry">
+          <Docs>
+            <member name="F:NULL._CmdEntry.ArgDefs" source="c:\temp\Trc\BaseCode\console.h" type="PARGDEF">
+              <summary>
+
+     Points to the table of argument definitions.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="pfnCmd" ns="NULL._CmdEntry">
+          <Docs>
+            <member name="F:NULL._CmdEntry.pfnCmd" source="c:\temp\Trc\BaseCode\console.h" type="PFNCMD">
+              <summary>
+
+     Points to callback function to process the command.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="pszCmdHelp" ns="NULL._CmdEntry">
+          <Docs>
+            <member name="F:NULL._CmdEntry.pszCmdHelp" source="c:\temp\Trc\BaseCode\console.h" type="const rom char">
+              <summary>
+
+     Points to the help message for the command.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_EncChannel" id="T:NULL._EncChannel" ns="NULL">
+        <Docs>
+          <member name="T:NULL._EncChannel" source="c:\temp\Trc\BaseCode\encoder.c">
+            <summary>
+
+     This structure stores the states of an encoder channel.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bChannel" ns="NULL._EncChannel">
+          <Docs>
+            <member name="F:NULL._EncChannel.bChannel" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+              <summary>
+
+     Stores the encoder channel number (0-based).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bState" ns="NULL._EncChannel">
+          <Docs>
+            <member name="F:NULL._EncChannel.bState" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+              <summary>
+
+     Stores the phase A pin state. This field is only used for
+     encoder channels 3-6.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="fReverse" ns="NULL._EncChannel">
+          <Docs>
+            <member name="F:NULL._EncChannel.fReverse" source="c:\temp\Trc\BaseCode\encoder.c" type="BOOL">
+              <summary>
+
+     Specifies if the encoder direction is reversed.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lPrevCount" ns="NULL._EncChannel">
+          <Docs>
+            <member name="F:NULL._EncChannel.lPrevCount" source="c:\temp\Trc\BaseCode\encoder.c" type="volatile long">
+              <summary>
+
+     Stores the previous encoder count. This field is used for
+     calculating the velocity by calculating the difference
+     between the current and previous encoder counts.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lCount" ns="NULL._EncChannel">
+          <Docs>
+            <member name="F:NULL._EncChannel.lCount" source="c:\temp\Trc\BaseCode\encoder.c" type="volatile long">
+              <summary>
+
+     Stores the current encoder count.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lVelocity" ns="NULL._EncChannel">
+          <Docs>
+            <member name="F:NULL._EncChannel.lVelocity" source="c:\temp\Trc\BaseCode\encoder.c" type="volatile long">
+              <summary>
+
+     Stores the calculated velocity for the current system timer tick.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_Encoder" id="T:NULL._Encoder" ns="NULL">
+        <Docs>
+          <member name="T:NULL._Encoder" source="c:\temp\Trc\BaseCode\encoder.c">
+            <summary>
+
+     This structure stores everything related to the encoders.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bNumChannels" ns="NULL._Encoder">
+          <Docs>
+            <member name="F:NULL._Encoder.bNumChannels" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+              <summary>
+
+     Stores the number of encoder channels in used.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bVelInterval" ns="NULL._Encoder">
+          <Docs>
+            <member name="F:NULL._Encoder.bVelInterval" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+              <summary>
+
+     Stores the interval in system timer ticks for sampling the encoder
+     velocity.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bOldPortB" ns="NULL._Encoder">
+          <Docs>
+            <member name="F:NULL._Encoder.bOldPortB" source="c:\temp\Trc\BaseCode\encoder.c" type="BYTE">
+              <summary>
+
+     Stores the previous PortB state.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Channels" ns="NULL._Encoder">
+          <Docs>
+            <member name="F:NULL._Encoder.Channels" source="c:\temp\Trc\BaseCode\encoder.c" type="ENCCHANNEL []">
+              <summary>
+
+     Stores the states of each encoder channel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_Gyro" id="T:NULL._Gyro" ns="NULL">
+        <Docs>
+          <member name="T:NULL._Gyro" source="c:\temp\Trc\BaseCode\gyro.c">
+            <summary>
+
+     This structure stores the states of the gyro sensor.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bFlags" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.bFlags" source="c:\temp\Trc\BaseCode\gyro.c" type="BYTE">
+              <summary>
+
+     Stores flag values (see GYROF_* flags).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bADCChannel" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.bADCChannel" source="c:\temp\Trc\BaseCode\gyro.c" type="BYTE">
+              <summary>
+
+     Specifies the ADC channel used by the gyro sensor.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wSensitivity" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wSensitivity" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the gyro sensitivity value in unit of 0.1 degree/sec/volt.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wScaleFactor" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wScaleFactor" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     For optimum performance, you'll need to calibrate the scaling
+     factor to match that of your gyro's. One way to calibrate your
+     gyro is to mount it very securely to a hefty, square or
+     rectangular object. Mounting the gyro to a hefty object will
+     help dampen higher frequency vibrations that can adversly effect
+     your measurements. Place the mounted gyro against another
+     square object and start the included demonstration software.
+     To get good results, the mount must be absolutely still during
+     calibration. If the angle drifts rapidly while the mounted gyro
+     is motonless, you need to recalibrate. Again, gyros are
+     very sensitive and must be still during calibration. Once
+     the gyro is running with little drift, rotate the mount 180
+     degrees and note the reported angle. Ideally, reported angle
+     should be 1800. For every tenth of a percent that the angle
+     is high, decrease wScaleFactor by one. Conversly, for every
+     tenth of a percent low, increase wScaleFactor by one. Repeat
+     until you're satisfied with the accuracy.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wNoiseMargin" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wNoiseMargin" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the noise margin value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wADCValueRange" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wADCValueRange" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the range of the A/D converter used.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wADCUpdateRate" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wADCUpdateRate" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the A/D update rate.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wBias" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wBias" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the calibrated bias value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wNoiseThreshold" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.wNoiseThreshold" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the calibrated noise threshold.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iRate" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.iRate" source="c:\temp\Trc\BaseCode\gyro.c" type="int">
+              <summary>
+
+     Stores the gyro rate value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lAngle" ns="NULL._Gyro">
+          <Docs>
+            <member name="F:NULL._Gyro.lAngle" source="c:\temp\Trc\BaseCode\gyro.c" type="long">
+              <summary>
+
+     Stores the gyro angle value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_GyroCal" id="T:NULL._GyroCal" ns="NULL">
+        <Docs>
+          <member name="T:NULL._GyroCal" source="c:\temp\Trc\BaseCode\gyro.c">
+            <summary>
+
+     This structure stores the calibration states of the gyro sensor.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="wNoiseMinValue" ns="NULL._GyroCal">
+          <Docs>
+            <member name="F:NULL._GyroCal.wNoiseMinValue" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the minimum noise value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wNoiseMaxValue" ns="NULL._GyroCal">
+          <Docs>
+            <member name="F:NULL._GyroCal.wNoiseMaxValue" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the maximum noise value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="dwPrevTicks" ns="NULL._GyroCal">
+          <Docs>
+            <member name="F:NULL._GyroCal.dwPrevTicks" source="c:\temp\Trc\BaseCode\gyro.c" type="DWORD">
+              <summary>
+
+     Stores the system time stamp of the previous sample.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wCalTicksLeft" ns="NULL._GyroCal">
+          <Docs>
+            <member name="F:NULL._GyroCal.wCalTicksLeft" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the number of system ticks left for exiting calibration.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="dwAccum" ns="NULL._GyroCal">
+          <Docs>
+            <member name="F:NULL._GyroCal.dwAccum" source="c:\temp\Trc\BaseCode\gyro.c" type="DWORD">
+              <summary>
+
+     Stores the accumulated value for averaging the bias.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="wSamples" ns="NULL._GyroCal">
+          <Docs>
+            <member name="F:NULL._GyroCal.wSamples" source="c:\temp\Trc\BaseCode\gyro.c" type="WORD">
+              <summary>
+
+     Stores the number of samples taken for calibration.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_OiCalData" id="T:NULL._OiCalData" ns="NULL">
+        <Docs>
+          <member name="T:NULL._OiCalData" source="c:\temp\Trc\BaseCode\input.c">
+            <summary>
+
+     This structure stores the temporary data during input calibration.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bCalFlags" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bCalFlags" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Indicates whether we are in calibration mode or we are done
+     with calibration.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bCalPortIndex" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bCalPortIndex" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the current calibrating port index.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="icCalSamples" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.icCalSamples" source="c:\temp\Trc\BaseCode\input.c" type="int">
+              <summary>
+
+     Stores the number of calibration sample accumulated so far.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lxAccum" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.lxAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+              <summary>
+
+     Accumulates the input X value for averaging.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lyAccum" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.lyAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+              <summary>
+
+     Accumulates the input Y value for averaging.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lwheelAccum" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.lwheelAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+              <summary>
+
+     Accumulates the input Wheel value for averaging.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lauxAccum" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.lauxAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+              <summary>
+
+     Accumulates the input Aux value for averaging.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bxNoiseMin" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bxNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the minimum noise value for X.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bxNoiseMax" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bxNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the maximum noise value for X.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="byNoiseMin" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.byNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the minimum noise value for Y.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="byNoiseMax" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.byNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the maximum noise value for Y.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bwheelNoiseMin" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bwheelNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the minimum noise value for Wheel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bwheelNoiseMax" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bwheelNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the maximum noise value for Wheel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bauxNoiseMin" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bauxNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the minimum noise value for Aux.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bauxNoiseMax" ns="NULL._OiCalData">
+          <Docs>
+            <member name="F:NULL._OiCalData.bauxNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+              <summary>
+
+     Stores the maximum noise value for Aux.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_PidParam" id="T:NULL._PidParam" ns="NULL">
+        <Docs>
+          <member name="T:NULL._PidParam" source="c:\temp\Trc\BaseCode\servo.h">
+            <summary>
+
+     This structure contains the PID control constants.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="Kp" ns="NULL._PidParam">
+          <Docs>
+            <member name="F:NULL._PidParam.Kp" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Position gain constant.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Kv" ns="NULL._PidParam">
+          <Docs>
+            <member name="F:NULL._PidParam.Kv" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Velocity gain constant.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Ki" ns="NULL._PidParam">
+          <Docs>
+            <member name="F:NULL._PidParam.Ki" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Integral gain constant.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Ko" ns="NULL._PidParam">
+          <Docs>
+            <member name="F:NULL._PidParam.Ko" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Output scale factor.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_Servo" id="T:NULL._Servo" ns="NULL">
+        <Docs>
+          <member name="T:NULL._Servo" source="c:\temp\Trc\BaseCode\servo.h">
+            <summary>
+
+     This structure contains the servo control data of a motor.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="PidParam" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.PidParam" source="c:\temp\Trc\BaseCode\servo.h" type="PPIDPARAM">
+              <summary>
+
+     Points to the PIDPARAM structure.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="bEncoder" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.bEncoder" source="c:\temp\Trc\BaseCode\servo.h" type="BYTE">
+              <summary>
+
+     Specifies the encoder channel.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lPosSp" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.lPosSp" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the position setpoint.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iVelSp" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.iVelSp" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the velocity setpoint in clicks/tick.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lIntErr" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.lIntErr" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the Integral Error value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iVelLimit" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.iVelLimit" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the velocity limit in clicks/tick.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iMotorDir" ns="NULL._Servo">
+          <Docs>
+            <member name="F:NULL._Servo.iMotorDir" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the drive output value.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_Drive" id="T:NULL._Drive" ns="NULL">
+        <Docs>
+          <member name="T:NULL._Drive" source="c:\temp\Trc\BaseCode\servo.h">
+            <summary>
+
+     This structure describes the driving system.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="Left" ns="NULL._Drive">
+          <Docs>
+            <member name="F:NULL._Drive.Left" source="c:\temp\Trc\BaseCode\servo.h" type="PSERVO">
+              <summary>
+
+     Points to the left motor servo structure.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Right" ns="NULL._Drive">
+          <Docs>
+            <member name="F:NULL._Drive.Right" source="c:\temp\Trc\BaseCode\servo.h" type="PSERVO">
+              <summary>
+
+     Points to the right motor servo structure.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="Turn" ns="NULL._Drive">
+          <Docs>
+            <member name="F:NULL._Drive.Turn" source="c:\temp\Trc\BaseCode\servo.h" type="PSERVO">
+              <summary>
+
+     Points to the turn servo structure.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iAccelRate" ns="NULL._Drive">
+          <Docs>
+            <member name="F:NULL._Drive.iAccelRate" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Specifies the robot's acceleration rate in clicks/(ticks^2).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iDecelRate" ns="NULL._Drive">
+          <Docs>
+            <member name="F:NULL._Drive.iDecelRate" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Specifies the robot's deceleration rate in clicks/(ticks^2).
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+      <Class name="_MoveTo" id="T:NULL._MoveTo" ns="NULL">
+        <Docs>
+          <member name="T:NULL._MoveTo" source="c:\temp\Trc\BaseCode\servo.h">
+            <summary>
+
+     This structure contains the MoveTo state machine info.
+ 
+</summary>
+          </member>
+        </Docs>
+        <Field name="bState" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.bState" source="c:\temp\Trc\BaseCode\servo.h" type="BYTE">
+              <summary>
+
+     Stores the state of the state machine.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lTargetHeading" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.lTargetHeading" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the target heading.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lTargetPos" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.lTargetPos" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the target position.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iTurnVel" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.iTurnVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the turning velocity.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iDriveVel" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.iDriveVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the driving velocity.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iEndVel" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.iEndVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the ending velocity.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="iTargetVel" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.iTargetVel" source="c:\temp\Trc\BaseCode\servo.h" type="int">
+              <summary>
+
+     Stores the ending velocity.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lTurnThreshold" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.lTurnThreshold" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the current target velocity for PID calculation.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lAngleTolerance" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.lAngleTolerance" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the angle tolerance for which it will be
+     considered heading on target if we don't exceed it.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+        <Field name="lEndZonePos" ns="NULL._MoveTo">
+          <Docs>
+            <member name="F:NULL._MoveTo.lEndZonePos" source="c:\temp\Trc\BaseCode\servo.h" type="long">
+              <summary>
+
+     Stores the end zone position where we need to change
+     the velocity to EndVel allowing the distance to
+     accelerate or decelerate.
+ 
+</summary>
+            </member>
+          </Docs>
+        </Field>
+      </Class>
+    </Namespace>
+    <Namespace name="T:PFNCMD" />
+    <Namespace name="T:PFNPARSEARG" />
+  </owner>
+</Contents>

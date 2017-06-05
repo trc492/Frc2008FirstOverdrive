@@ -1,0 +1,615 @@
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\DocBld_DocBld_TOCBasic.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   C:\Tools\DocBld\DocBld\TOCBasic.h
+
+
+SUMMARY for C:\Tools\DocBld\DocBld:  0 files had errors when parsed by Src2Xml.exe.
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_adc.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\adc.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_adc.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\adc.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_basecmd.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\basecmd.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_basecode.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\basecode.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_camera.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\camera.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_camera.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\camera.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_console.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\console.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_console.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\console.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_encoder.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\encoder.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_encoder.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\encoder.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_gyro.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\gyro.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_gyro.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\gyro.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_ifi_aliases.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\ifi_aliases.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_ifi_default.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\ifi_default.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_ifi_startup.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\ifi_startup.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_ifi_utilities.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\ifi_utilities.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_ifi_utilities.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\ifi_utilities.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_input.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\input.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_input.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\input.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_inthandler.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\inthandler.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_main.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\main.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_pwm.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\pwm.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_pwm.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\pwm.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_rcio.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\rcio.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_rcio.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\rcio.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_serial_ports.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\serial_ports.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_serial_ports.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\serial_ports.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_servo.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\servo.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_servo.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\servo.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_terminal.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\terminal.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_terminal.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\terminal.h
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_tracking.c.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\tracking.c
+
+
+Executing Src2Xml.exe -oc:\temp\Trc\Docs\OXML\Trc_BaseCode_tracking.h.xml -ec:\temp\Trc\Docs\OXML\docbld.err   c:\temp\Trc\BaseCode\tracking.h
+
+
+SUMMARY for c:\temp\Trc\BaseCode:  0 files had errors when parsed by Src2Xml.exe.
+
+[XMLDoc] Info: Starting with input of OXML and output of HTML
+[XMLDoc] Info: Logging to file:OXML\docbld.log
+[XMLDoc] Info: Reading XML files from OXML
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_adc.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_basecmd.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_console.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_console.h.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_encoder.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_gyro.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_ifi_startup.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_ifi_utilities.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_input.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_inthandler.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_main.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_pwm.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_rcio.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_serial_ports.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_servo.c.xml
+[XMLDoc] Info: Reading in: OXML\Trc_BaseCode_servo.h.xml
+[XMLDoc] Info: Normalizing object names...
+[XMLDoc] Info: normalizing to F:NULL.NULL.VREF_POS_MV
+[XMLDoc] Info: normalizing to F:NULL.NULL.VREF_NEG_MV
+[XMLDoc] Info: normalizing to F:NULL.NULL.VREF_RANGE_MV
+[XMLDoc] Info: normalizing to T:NULL._ADCChannel
+[XMLDoc] Info: normalizing to F:NULL._ADCChannel.bChannel
+[XMLDoc] Info: normalizing to F:NULL._ADCChannel.dwAccum
+[XMLDoc] Info: normalizing to F:NULL._ADCChannel.wValue
+[XMLDoc] Info: normalizing to T:NULL._ADC
+[XMLDoc] Info: normalizing to F:NULL._ADC.wSampleRate
+[XMLDoc] Info: normalizing to F:NULL._ADC.wSamplesPerUpdate
+[XMLDoc] Info: normalizing to F:NULL._ADC.wValueRange
+[XMLDoc] Info: normalizing to F:NULL._ADC.bValueDivisor
+[XMLDoc] Info: normalizing to F:NULL._ADC.bNumChannels
+[XMLDoc] Info: normalizing to F:NULL._ADC.wSamples
+[XMLDoc] Info: normalizing to F:NULL._ADC.bUpdateCount
+[XMLDoc] Info: normalizing to F:NULL._ADC.bChannelIndex
+[XMLDoc] Info: normalizing to F:NULL._ADC.Channels
+[XMLDoc] Info: normalizing class T:NULL.NULL
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCInitialize(WORD,WORD,WORD)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCDisable(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCGetValue(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCValueToMillivolt(WORD)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCGetValueRange(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCGetUpdateRate(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCGetUpdateCount(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCResetUpdateCount(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCPrintData(BOOL)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCIntHandler(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCTimer2IntHandler(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Timer2Initialize(WORD)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Timer2Disable(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ADCIndex(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.BaseCmdConsoleInit(BYTE,PCMDENTRY,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.BaseCmdConsoleTrace(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintStatus(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintRCIoData(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintPwmData(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintAdcData(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintEncoderData(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintGyroData(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PrintInputData(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.CalibrateGyro(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.CalibrateInput(PCMDENTRY)
+[XMLDoc] Info: normalizing to F:NULL.NULL.CMD_BUFF_LEN
+[XMLDoc] Info: normalizing to F:NULL.NULL.MAX_ARGS
+[XMLDoc] Info: normalizing to T:NULL._Console
+[XMLDoc] Info: normalizing to F:NULL._Console.bSerialPort
+[XMLDoc] Info: normalizing to F:NULL._Console.bCmdLen
+[XMLDoc] Info: normalizing to F:NULL._Console.CmdBuff
+[XMLDoc] Info: normalizing to F:NULL._Console.bNumBaseCmds
+[XMLDoc] Info: normalizing to F:NULL._Console.BaseCmdTable
+[XMLDoc] Info: normalizing to F:NULL._Console.bNumProjCmds
+[XMLDoc] Info: normalizing to F:NULL._Console.ProjCmdTable
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsoleInitialize(BYTE,PCMDENTRY,BYTE,PCMDENTRY,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsoleProcessData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsolePrintHelp(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsoleQuit(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsoleParseCommand(PSTR,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsoleProcessCmd(PSTR,PCMDENTRY,BYTE,PSTR *,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsoleParseCmdArgs(PARGDEF,PSTR *,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ConsolePrintCmdHelp(PCMDENTRY)
+[XMLDoc] Info: normalizing to M:NULL.NULL.CopyPgmString(PSTR,BYTE,const rom char *)
+[XMLDoc] Info: normalizing to F:NULL.NULL.CMD_ATTENTION
+[XMLDoc] Info: normalizing to F:NULL.NULL.ARGTYPE_STRING
+[XMLDoc] Info: normalizing to F:NULL.NULL.ARGTYPE_NUM
+[XMLDoc] Info: normalizing to F:NULL.NULL.ARGTYPE_FLAGS
+[XMLDoc] Info: normalizing to F:NULL.NULL.ARGTYPE_CUSTOM
+[XMLDoc] Info: normalizing to F:NULL.NULL.DATAF_CHAR
+[XMLDoc] Info: normalizing to F:NULL.NULL.DATAF_SHORT
+[XMLDoc] Info: normalizing to F:NULL.NULL.DATAF_LONG
+[XMLDoc] Info: normalizing to T:PFNCMD
+[XMLDoc] Info: normalizing to T:PFNPARSEARG
+[XMLDoc] Info: normalizing to T:NULL._ArgDef
+[XMLDoc] Info: normalizing to F:NULL._ArgDef.bType
+[XMLDoc] Info: normalizing to F:NULL._ArgDef.pvData
+[XMLDoc] Info: normalizing to F:NULL._ArgDef.bParam
+[XMLDoc] Info: normalizing to F:NULL._ArgDef.pszArgHelp
+[XMLDoc] Info: normalizing to T:NULL._CmdEntry
+[XMLDoc] Info: normalizing to F:NULL._CmdEntry.pszCmdString
+[XMLDoc] Info: normalizing to F:NULL._CmdEntry.bNumArgDefs
+[XMLDoc] Info: normalizing to F:NULL._CmdEntry.ArgDefs
+[XMLDoc] Info: normalizing to F:NULL._CmdEntry.pfnCmd
+[XMLDoc] Info: normalizing to F:NULL._CmdEntry.pszCmdHelp
+[XMLDoc] Info: normalizing to T:NULL._EncChannel
+[XMLDoc] Info: normalizing to F:NULL._EncChannel.bChannel
+[XMLDoc] Info: normalizing to F:NULL._EncChannel.bState
+[XMLDoc] Info: normalizing to F:NULL._EncChannel.fReverse
+[XMLDoc] Info: normalizing to F:NULL._EncChannel.lPrevCount
+[XMLDoc] Info: normalizing to F:NULL._EncChannel.lCount
+[XMLDoc] Info: normalizing to F:NULL._EncChannel.lVelocity
+[XMLDoc] Info: normalizing to T:NULL._Encoder
+[XMLDoc] Info: normalizing to F:NULL._Encoder.bNumChannels
+[XMLDoc] Info: normalizing to F:NULL._Encoder.bVelInterval
+[XMLDoc] Info: normalizing to F:NULL._Encoder.bOldPortB
+[XMLDoc] Info: normalizing to F:NULL._Encoder.Channels
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderInitialize(BYTE,BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderGetCount(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderResetCount(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderGetVelocity(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderPrintData(BOOL)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderTimerTick(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Encoder1_2IntHandler(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Encoder3_6IntHandler(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Encoder3_6Int(BYTE,BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderInterrupt(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.EncoderIndex(BYTE)
+[XMLDoc] Info: normalizing to F:NULL.NULL.GYRO_CAL_TICKS
+[XMLDoc] Info: normalizing to F:NULL.NULL.GYROF_CALIBRATED
+[XMLDoc] Info: normalizing to F:NULL.NULL.GYROF_CALIBRATING
+[XMLDoc] Info: normalizing to T:NULL._Gyro
+[XMLDoc] Info: normalizing to F:NULL._Gyro.bFlags
+[XMLDoc] Info: normalizing to F:NULL._Gyro.bADCChannel
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wSensitivity
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wScaleFactor
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wNoiseMargin
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wADCValueRange
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wADCUpdateRate
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wBias
+[XMLDoc] Info: normalizing to F:NULL._Gyro.wNoiseThreshold
+[XMLDoc] Info: normalizing to F:NULL._Gyro.iRate
+[XMLDoc] Info: normalizing to F:NULL._Gyro.lAngle
+[XMLDoc] Info: normalizing to T:NULL._GyroCal
+[XMLDoc] Info: normalizing to F:NULL._GyroCal.wNoiseMinValue
+[XMLDoc] Info: normalizing to F:NULL._GyroCal.wNoiseMaxValue
+[XMLDoc] Info: normalizing to F:NULL._GyroCal.dwPrevTicks
+[XMLDoc] Info: normalizing to F:NULL._GyroCal.wCalTicksLeft
+[XMLDoc] Info: normalizing to F:NULL._GyroCal.dwAccum
+[XMLDoc] Info: normalizing to F:NULL._GyroCal.wSamples
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroInitialize(BYTE,WORD,WORD,WORD)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroCalibrate(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroGetRate(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroGetAngle(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroGetBias(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroSetBias(WORD)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroResetAngle(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroPrintData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.GyroProcessData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL._entry(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL._startup(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL._do_cinit(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Wait4TXEmpty(void)
+[XMLDoc] Info: normalizing to F:NULL.NULL.MAX_JOYSTICK_PORTS
+[XMLDoc] Info: normalizing to F:NULL.NULL.MAX_INPUTCAL_SAMPLES
+[XMLDoc] Info: normalizing to F:NULL.NULL.JOYSTICK_NOISE_MARGIN
+[XMLDoc] Info: normalizing to F:NULL.NULL.CALF_CALIBRATED
+[XMLDoc] Info: normalizing to F:NULL.NULL.CALF_CALIBRATING
+[XMLDoc] Info: normalizing to T:NULL._OiCalData
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bCalFlags
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bCalPortIndex
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.icCalSamples
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.lxAccum
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.lyAccum
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.lwheelAccum
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.lauxAccum
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bxNoiseMin
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bxNoiseMax
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.byNoiseMin
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.byNoiseMax
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bwheelNoiseMin
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bwheelNoiseMax
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bauxNoiseMin
+[XMLDoc] Info: normalizing to F:NULL._OiCalData.bauxNoiseMax
+[XMLDoc] Info: normalizing to M:NULL.NULL.InputInitialize(BYTE,BYTE,BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InputCalibrate(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InputProcessData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InputPrintData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InitializePort(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InterruptVectorLow(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InterruptHandlerLow(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.main(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.RegisterHook(PHOOKTABLE,PFNHOOK)
+[XMLDoc] Info: normalizing to M:NULL.NULL.InitHookTable(PHOOKTABLE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ProcessHooks(PHOOKTABLE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.BaseInitialization(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PWMInitialize(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PWMSetValues(BYTE,BYTE,BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.PWMPrintData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.RCIOInitialize(DWORD)
+[XMLDoc] Info: normalizing to M:NULL.NULL.RCIOPrintData(void)
+[XMLDoc] Info: normalizing to M:NULL.NULL.RCIOPrintDigitalIo(BYTE,BYTE,BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.RCIOPrintRelay(BYTE,BYTE,BYTE)
+[XMLDoc] Info: normalizing to F:NULL.NULL.QSTATE_NORMAL
+[XMLDoc] Info: normalizing to F:NULL.NULL.QSTATE_EMPTY
+[XMLDoc] Info: normalizing to F:NULL.NULL.QSTATE_FULL
+[XMLDoc] Info: normalizing to M:NULL.NULL.Serial1Initialize(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.Serial2Initialize(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialGetByteCount(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialReadData(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialWriteData(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL._user_putc(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialRxIntHandler(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialTxIntHandler(BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialInitPort(PSERIAL_PORT,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialRxInterrupt(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.SerialTxInterrupt(BYTE,BYTE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoInitialize(PSERVO,PPIDPARAM,BYTE,int,int)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoPid(PSERVO,long,long,BOOL)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoInitMoveTo(PMOVETO,PDRIVE,long,long,int,int,int,long,long)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoMoveTo(PMOVETO,PDRIVE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoCalibrate(PDRIVE)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoPrintPidParam(PPIDPARAM)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoPrintData(PSTR,PSERVO)
+[XMLDoc] Info: normalizing to M:NULL.NULL.ServoPidDrive(macro_parameter,macro_parameter,macro_parameter,macro_parameter)
+[XMLDoc] Info: normalizing to T:NULL._PidParam
+[XMLDoc] Info: normalizing to F:NULL._PidParam.Kp
+[XMLDoc] Info: normalizing to F:NULL._PidParam.Kv
+[XMLDoc] Info: normalizing to F:NULL._PidParam.Ki
+[XMLDoc] Info: normalizing to F:NULL._PidParam.Ko
+[XMLDoc] Info: normalizing to T:NULL._Servo
+[XMLDoc] Info: normalizing to F:NULL._Servo.PidParam
+[XMLDoc] Info: normalizing to F:NULL._Servo.bEncoder
+[XMLDoc] Info: normalizing to F:NULL._Servo.lPosSp
+[XMLDoc] Info: normalizing to F:NULL._Servo.iVelSp
+[XMLDoc] Info: normalizing to F:NULL._Servo.lIntErr
+[XMLDoc] Info: normalizing to F:NULL._Servo.iVelLimit
+[XMLDoc] Info: normalizing to F:NULL._Servo.iMotorDir
+[XMLDoc] Info: normalizing to T:NULL._Drive
+[XMLDoc] Info: normalizing to F:NULL._Drive.Left
+[XMLDoc] Info: normalizing to F:NULL._Drive.Right
+[XMLDoc] Info: normalizing to F:NULL._Drive.Turn
+[XMLDoc] Info: normalizing to F:NULL._Drive.iAccelRate
+[XMLDoc] Info: normalizing to F:NULL._Drive.iDecelRate
+[XMLDoc] Info: normalizing to T:NULL._MoveTo
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.bState
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.lTargetHeading
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.lTargetPos
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.iTurnVel
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.iDriveVel
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.iEndVel
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.iTargetVel
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.lTurnThreshold
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.lAngleTolerance
+[XMLDoc] Info: normalizing to F:NULL._MoveTo.lEndZonePos
+[XMLDoc] Info: Resolving references...
+[XMLDoc] Info: Generating complete documentation...
+[XMLDoc] Info: adding owner NULL under
+[XMLDoc] Info: adding namespace T:NULL
+[XMLDoc] Info: adding class NULL
+[XMLDoc] Info: adding class _ADCChannel
+[XMLDoc] Info: adding class _ADC
+[XMLDoc] Info: adding class _Console
+[XMLDoc] Info: adding class _ArgDef
+[XMLDoc] Info: adding class _CmdEntry
+[XMLDoc] Info: adding class _EncChannel
+[XMLDoc] Info: adding class _Encoder
+[XMLDoc] Info: adding class _Gyro
+[XMLDoc] Info: adding class _GyroCal
+[XMLDoc] Info: adding class _OiCalData
+[XMLDoc] Info: adding class _PidParam
+[XMLDoc] Info: adding class _Servo
+[XMLDoc] Info: adding class _Drive
+[XMLDoc] Info: adding class _MoveTo
+[XMLDoc] Info: adding namespace T:PFNCMD
+[XMLDoc] Info: adding namespace T:PFNPARSEARG
+[XMLDoc] Info: Resolving topic references...
+[XMLDoc] Info: Converted input files from OXML
+[XMLDoc] Info: Creating Xml output file in HTML
+[XMLDoc] Info: Generating HTML output files in HTML...
+[XMLDoc] Info: Loading stylesheets
+[XMLDoc] Info: Using Base Namespace of PFNCMD
+[XMLDoc] Info: Creating NULL.NULL.ADCInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.ADCDisable.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetValue.html
+[XMLDoc] Info: Creating NULL.NULL.ADCValueToMillivolt.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetValueRange.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetUpdateRate.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetUpdateCount.html
+[XMLDoc] Info: Creating NULL.NULL.ADCResetUpdateCount.html
+[XMLDoc] Info: Creating NULL.NULL.ADCPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.ADCIntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.ADCTimer2IntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.Timer2Initialize.html
+[XMLDoc] Info: Creating NULL.NULL.Timer2Disable.html
+[XMLDoc] Info: Creating NULL.NULL.ADCIndex.html
+[XMLDoc] Info: Creating NULL.NULL.BaseCmdConsoleInit.html
+[XMLDoc] Info: Creating NULL.NULL.BaseCmdConsoleTrace.html
+[XMLDoc] Info: Creating NULL.NULL.PrintStatus.html
+[XMLDoc] Info: Creating NULL.NULL.PrintRCIoData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintPwmData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintAdcData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintEncoderData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintGyroData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintInputData.html
+[XMLDoc] Info: Creating NULL.NULL.CalibrateGyro.html
+[XMLDoc] Info: Creating NULL.NULL.CalibrateInput.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleProcessData.html
+[XMLDoc] Info: Creating NULL.NULL.ConsolePrintHelp.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleQuit.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleParseCommand.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleProcessCmd.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleParseCmdArgs.html
+[XMLDoc] Info: Creating NULL.NULL.ConsolePrintCmdHelp.html
+[XMLDoc] Info: Creating NULL.NULL.CopyPgmString.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderGetCount.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderResetCount.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderGetVelocity.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderTimerTick.html
+[XMLDoc] Info: Creating NULL.NULL.Encoder1_2IntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.Encoder3_6IntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.Encoder3_6Int.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderInterrupt.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderIndex.html
+[XMLDoc] Info: Creating NULL.NULL.GyroInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.GyroCalibrate.html
+[XMLDoc] Info: Creating NULL.NULL.GyroGetRate.html
+[XMLDoc] Info: Creating NULL.NULL.GyroGetAngle.html
+[XMLDoc] Info: Creating NULL.NULL.GyroGetBias.html
+[XMLDoc] Info: Creating NULL.NULL.GyroSetBias.html
+[XMLDoc] Info: Creating NULL.NULL.GyroResetAngle.html
+[XMLDoc] Info: Creating NULL.NULL.GyroPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.GyroProcessData.html
+[XMLDoc] Info: Creating NULL.NULL._entry.html
+[XMLDoc] Info: Creating NULL.NULL._startup.html
+[XMLDoc] Info: Creating NULL.NULL._do_cinit.html
+[XMLDoc] Info: Creating NULL.NULL.Wait4TXEmpty.html
+[XMLDoc] Info: Creating NULL.NULL.InputInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.InputCalibrate.html
+[XMLDoc] Info: Creating NULL.NULL.InputProcessData.html
+[XMLDoc] Info: Creating NULL.NULL.InputPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.InitializePort.html
+[XMLDoc] Info: Creating NULL.NULL.InterruptVectorLow.html
+[XMLDoc] Info: Creating NULL.NULL.InterruptHandlerLow.html
+[XMLDoc] Info: Creating NULL.NULL.main.html
+[XMLDoc] Info: Creating NULL.NULL.RegisterHook.html
+[XMLDoc] Info: Creating NULL.NULL.InitHookTable.html
+[XMLDoc] Info: Creating NULL.NULL.ProcessHooks.html
+[XMLDoc] Info: Creating NULL.NULL.BaseInitialization.html
+[XMLDoc] Info: Creating NULL.NULL.PWMInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.PWMSetValues.html
+[XMLDoc] Info: Creating NULL.NULL.PWMPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOPrintDigitalIo.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOPrintRelay.html
+[XMLDoc] Info: Creating NULL.NULL.Serial1Initialize.html
+[XMLDoc] Info: Creating NULL.NULL.Serial2Initialize.html
+[XMLDoc] Info: Creating NULL.NULL.SerialGetByteCount.html
+[XMLDoc] Info: Creating NULL.NULL.SerialReadData.html
+[XMLDoc] Info: Creating NULL.NULL.SerialWriteData.html
+[XMLDoc] Info: Creating NULL.NULL._user_putc.html
+[XMLDoc] Info: Creating NULL.NULL.SerialRxIntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.SerialTxIntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.SerialInitPort.html
+[XMLDoc] Info: Creating NULL.NULL.SerialRxInterrupt.html
+[XMLDoc] Info: Creating NULL.NULL.SerialTxInterrupt.html
+[XMLDoc] Info: Creating NULL.NULL.ServoInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPid.html
+[XMLDoc] Info: Creating NULL.NULL.ServoInitMoveTo.html
+[XMLDoc] Info: Creating NULL.NULL.ServoMoveTo.html
+[XMLDoc] Info: Creating NULL.NULL.ServoCalibrate.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPrintPidParam.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPidDrive.html
+[XMLDoc] Info: Creating NULL._ADCChannel.html
+[XMLDoc] Info: Creating NULL._ADC.html
+[XMLDoc] Info: Creating NULL._Console.html
+[XMLDoc] Info: Creating NULL._ArgDef.html
+[XMLDoc] Info: Creating NULL._CmdEntry.html
+[XMLDoc] Info: Creating NULL._EncChannel.html
+[XMLDoc] Info: Creating NULL._Encoder.html
+[XMLDoc] Info: Creating NULL._Gyro.html
+[XMLDoc] Info: Creating NULL._GyroCal.html
+[XMLDoc] Info: Creating NULL._OiCalData.html
+[XMLDoc] Info: Creating NULL._PidParam.html
+[XMLDoc] Info: Creating NULL._Servo.html
+[XMLDoc] Info: Creating NULL._Drive.html
+[XMLDoc] Info: Creating NULL._MoveTo.html
+[XMLDoc] Info: Creating NULL.NULL.ADCInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.ADCDisable.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetValue.html
+[XMLDoc] Info: Creating NULL.NULL.ADCValueToMillivolt.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetValueRange.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetUpdateRate.html
+[XMLDoc] Info: Creating NULL.NULL.ADCGetUpdateCount.html
+[XMLDoc] Info: Creating NULL.NULL.ADCResetUpdateCount.html
+[XMLDoc] Info: Creating NULL.NULL.ADCPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.ADCIntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.ADCTimer2IntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.Timer2Initialize.html
+[XMLDoc] Info: Creating NULL.NULL.Timer2Disable.html
+[XMLDoc] Info: Creating NULL.NULL.ADCIndex.html
+[XMLDoc] Info: Creating NULL.NULL.BaseCmdConsoleInit.html
+[XMLDoc] Info: Creating NULL.NULL.BaseCmdConsoleTrace.html
+[XMLDoc] Info: Creating NULL.NULL.PrintStatus.html
+[XMLDoc] Info: Creating NULL.NULL.PrintRCIoData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintPwmData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintAdcData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintEncoderData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintGyroData.html
+[XMLDoc] Info: Creating NULL.NULL.PrintInputData.html
+[XMLDoc] Info: Creating NULL.NULL.CalibrateGyro.html
+[XMLDoc] Info: Creating NULL.NULL.CalibrateInput.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleProcessData.html
+[XMLDoc] Info: Creating NULL.NULL.ConsolePrintHelp.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleQuit.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleParseCommand.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleProcessCmd.html
+[XMLDoc] Info: Creating NULL.NULL.ConsoleParseCmdArgs.html
+[XMLDoc] Info: Creating NULL.NULL.ConsolePrintCmdHelp.html
+[XMLDoc] Info: Creating NULL.NULL.CopyPgmString.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderGetCount.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderResetCount.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderGetVelocity.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderTimerTick.html
+[XMLDoc] Info: Creating NULL.NULL.Encoder1_2IntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.Encoder3_6IntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.Encoder3_6Int.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderInterrupt.html
+[XMLDoc] Info: Creating NULL.NULL.EncoderIndex.html
+[XMLDoc] Info: Creating NULL.NULL.GyroInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.GyroCalibrate.html
+[XMLDoc] Info: Creating NULL.NULL.GyroGetRate.html
+[XMLDoc] Info: Creating NULL.NULL.GyroGetAngle.html
+[XMLDoc] Info: Creating NULL.NULL.GyroGetBias.html
+[XMLDoc] Info: Creating NULL.NULL.GyroSetBias.html
+[XMLDoc] Info: Creating NULL.NULL.GyroResetAngle.html
+[XMLDoc] Info: Creating NULL.NULL.GyroPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.GyroProcessData.html
+[XMLDoc] Info: Creating NULL.NULL._entry.html
+[XMLDoc] Info: Creating NULL.NULL._startup.html
+[XMLDoc] Info: Creating NULL.NULL._do_cinit.html
+[XMLDoc] Info: Creating NULL.NULL.Wait4TXEmpty.html
+[XMLDoc] Info: Creating NULL.NULL.InputInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.InputCalibrate.html
+[XMLDoc] Info: Creating NULL.NULL.InputProcessData.html
+[XMLDoc] Info: Creating NULL.NULL.InputPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.InitializePort.html
+[XMLDoc] Info: Creating NULL.NULL.InterruptVectorLow.html
+[XMLDoc] Info: Creating NULL.NULL.InterruptHandlerLow.html
+[XMLDoc] Info: Creating NULL.NULL.main.html
+[XMLDoc] Info: Creating NULL.NULL.RegisterHook.html
+[XMLDoc] Info: Creating NULL.NULL.InitHookTable.html
+[XMLDoc] Info: Creating NULL.NULL.ProcessHooks.html
+[XMLDoc] Info: Creating NULL.NULL.BaseInitialization.html
+[XMLDoc] Info: Creating NULL.NULL.PWMInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.PWMSetValues.html
+[XMLDoc] Info: Creating NULL.NULL.PWMPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOPrintDigitalIo.html
+[XMLDoc] Info: Creating NULL.NULL.RCIOPrintRelay.html
+[XMLDoc] Info: Creating NULL.NULL.Serial1Initialize.html
+[XMLDoc] Info: Creating NULL.NULL.Serial2Initialize.html
+[XMLDoc] Info: Creating NULL.NULL.SerialGetByteCount.html
+[XMLDoc] Info: Creating NULL.NULL.SerialReadData.html
+[XMLDoc] Info: Creating NULL.NULL.SerialWriteData.html
+[XMLDoc] Info: Creating NULL.NULL._user_putc.html
+[XMLDoc] Info: Creating NULL.NULL.SerialRxIntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.SerialTxIntHandler.html
+[XMLDoc] Info: Creating NULL.NULL.SerialInitPort.html
+[XMLDoc] Info: Creating NULL.NULL.SerialRxInterrupt.html
+[XMLDoc] Info: Creating NULL.NULL.SerialTxInterrupt.html
+[XMLDoc] Info: Creating NULL.NULL.ServoInitialize.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPid.html
+[XMLDoc] Info: Creating NULL.NULL.ServoInitMoveTo.html
+[XMLDoc] Info: Creating NULL.NULL.ServoMoveTo.html
+[XMLDoc] Info: Creating NULL.NULL.ServoCalibrate.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPrintPidParam.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPrintData.html
+[XMLDoc] Info: Creating NULL.NULL.ServoPidDrive.html
+[XMLDoc] Info: Creating NULL._ADCChannel.html
+[XMLDoc] Info: Creating NULL._ADC.html
+[XMLDoc] Info: Creating NULL._Console.html
+[XMLDoc] Info: Creating NULL._ArgDef.html
+[XMLDoc] Info: Creating NULL._CmdEntry.html
+[XMLDoc] Info: Creating NULL._EncChannel.html
+[XMLDoc] Info: Creating NULL._Encoder.html
+[XMLDoc] Info: Creating NULL._Gyro.html
+[XMLDoc] Info: Creating NULL._GyroCal.html
+[XMLDoc] Info: Creating NULL._OiCalData.html
+[XMLDoc] Info: Creating NULL._PidParam.html
+[XMLDoc] Info: Creating NULL._Servo.html
+[XMLDoc] Info: Creating NULL._Drive.html
+[XMLDoc] Info: Creating NULL._MoveTo.html
+[XMLDoc] Info: Creating PFNCMD_ns.html
+[XMLDoc] Info: Creating PFNPARSEARG_ns.html
+[XMLDoc] Info: Creating InternalSDK.hhp
+[XMLDoc] Info: Creating InternalSDK.hhk
+[XMLDoc] Info: Creating InternalSDK.hhc
+[XMLDoc] Info: Creating namespaces.html
+[XMLDoc] Info: Created Html output files in HTML

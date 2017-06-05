@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="F:QSTATE_NORMAL" source="c:\temp\Trc\BaseCode\serial_ports.c" >
+<summary >
+
+     FIFO queue state: the queue has characters in it.
+ 
+</summary >
+</member>
+<member name="F:QSTATE_EMPTY" source="c:\temp\Trc\BaseCode\serial_ports.c" >
+<summary >
+
+     FIFO queue state: the queue is empty.
+ 
+</summary >
+</member>
+<member name="F:QSTATE_FULL" source="c:\temp\Trc\BaseCode\serial_ports.c" >
+<summary >
+
+     FIFO queue state: the queue is full.
+ 
+</summary >
+</member>
+<member name="M:Serial1Initialize(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function initializes serial port one.
+ 
+</summary >
+<param name="bBaudRate" type="BYTE" >
+
+     Specifies the baud rate to initialize the serial port.
+ 
+</param >
+<param name="bFlags" type="BYTE" >
+
+     Specifies the option flags for initializing the serial port.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     This function must be called before you try to use serial port one.
+     By default, this serial port is set to 115200 baud with the
+     transmitter and receiver enabled. This is the rate IFI's terminal
+     program expects. The serial port's baud rate is programmed by
+     entering a value into the SPBRG1 register and possibly changing
+     the value of the BRGH bit. Several example values are included
+     in the serial_ports.h file. Numbers within brackets refer to the
+     PIC18F8722 data sheet page number where more information can be
+     found. This document can be found at microchip's website at
+     http://www.microchip.com or at the author's website at
+     http://www.kevin.org/frc.
+ 
+</remarks >
+</member>
+<member name="M:Serial2Initialize(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function initializes serial port two.
+ 
+</summary >
+<param name="bBaudRate" type="BYTE" >
+
+     Specifies the baud rate to initialize the serial port.
+ 
+</param >
+<param name="bFlags" type="BYTE" >
+
+     Specifies the option flags for initializing the serial port.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     This function must be called before you try to use serial port two.
+     By default, this serial port is set to 9600 baud with the
+     transmitter and receiver enabled. The serial port's baud rate is
+     programmed by entering a value into the SPBRG2 register and possibly
+     changing the value of the BRGH bit. Several example values are included
+     in the serial_ports.h file. Numbers within brackets refer to the
+     PIC18F8722 data sheet page number where more information can be
+     found. This document can be found at microchip's website at
+     http://www.microchip.com or at the author's website at
+     http://www.kevin.org/frc.
+ 
+</remarks >
+</member>
+<member name="M:SerialGetByteCount(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="BYTE">
+<summary >
+
+     This function returns the numbers of bytes in the receive queue.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port to get the byte count.
+ 
+</param >
+<returns >
+ Returns the number of bytes in the receive queue. 
+</returns >
+<remarks >
+
+     This function must be called to determine how much data, if any,
+     is present in serial port's received data queue. If the returned
+     number is greater than zero, then a call to SerialGetData can be
+     made to retrieve the next byte.
+ 
+</remarks >
+</member>
+<member name="M:SerialReadData(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="BYTE">
+<summary >
+
+     This function returns the next byte in the serial port's receive
+     queue.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port to get the byte count.
+ 
+</param >
+<returns >
+ Returns the next bytes in the receive queue. 
+</returns >
+</member>
+<member name="M:SerialWriteData(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function writes a byte to the serial port's transmit queue.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port to get the byte count.
+ 
+</param >
+<param name="bData" type="BYTE" >
+
+     Specifies the data to write to the serial port.
+ 
+</param >
+<returns >
+ Returns the next bytes in the receive queue. 
+</returns >
+<remarks >
+
+     If you don't initialize the serial port before calling this function,
+     the robot controller will stop functioning and you'll get the much
+     dreaded red-light-of-death. This is because the while() statement
+     below is waiting for the transmit circuitry to send another byte,
+     but if the serial port hasn't been configured, nothing will be
+     transmitted and we'll be stuck in the while() loop.
+ 
+</remarks >
+</member>
+<member name="M:_user_putc(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function overrides the putc() interface to C18 2.4 output
+     stream functions and writes a byte to the serial port's transmit
+     queue.
+ 
+</summary >
+<param name="bData" type="BYTE" >
+
+     Specifies the data to write to the serial port.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:SerialRxIntHandler(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function is called when there is a receive interrupt on
+     the serial port.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port to get the byte count.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     If the interrupt handler was installed correctly, this function will
+     be called every time a new byte of data is received by serial port.
+ 
+</remarks >
+</member>
+<member name="M:SerialTxIntHandler(BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function is called when there is a transmit empty interrupt on
+     the serial port.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port to get the byte count.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     If the interrupt handler was installed correctly, this function will
+     be called every time the serial port is ready to start sending a byte
+     of data.
+ 
+</remarks >
+</member>
+<member name="M:SerialInitPort(PSERIAL_PORT,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function initializes serial port structure.
+ 
+</summary >
+<param name="SerialPort" type="PSERIAL_PORT" >
+
+     Points to the SerialPort structure to be initialized.
+ 
+</param >
+<param name="bFlags" type="BYTE" >
+
+     Specifies the initialization flags.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:SerialRxInterrupt(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function enables or disable receive interrupt for the serial port.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port.
+ 
+</param >
+<param name="fEnable" type="BYTE" >
+
+     If 1, enable interrupt. If 0, disable interrupt.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:SerialTxInterrupt(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\serial_ports.c" type="void">
+<summary >
+
+     This function enables or disable transmit interrupt for the serial port.
+ 
+</summary >
+<param name="bSerialPort" type="BYTE" >
+
+     Specifies the serial port.
+ 
+</param >
+<param name="fEnable" type="BYTE" >
+
+     If 1, enable interrupt. If 0, disable interrupt.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

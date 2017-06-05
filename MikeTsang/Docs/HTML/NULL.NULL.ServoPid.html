@@ -1,0 +1,56 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>ServoPid Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>ServoPid Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function applies the PID algorithm to calculate the new drive
+     value.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">int ServoPid(
+	<a href="PSERVO.html" class="typeLink">PSERVO</a> Servo,
+	<a href="long.html" class="typeLink">long</a> lPos,
+	<a href="long.html" class="typeLink">long</a> lVel,
+	<a href="BOOL.html" class="typeLink">BOOL</a> fPosPid
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>Servo</i></dt><dd>
+
+     Points to the SERVO structure.
+ 
+</dd></dl><dl><dt><i>lPos</i></dt><dd>
+
+     Specifies the current position. This is ignore if fPosPid is FALSE.
+ 
+</dd></dl><dl><dt><i>lVel</i></dt><dd>
+
+     Specifies the current velocity.
+ 
+</dd></dl><dl><dt><i>fPosPid</i></dt><dd>
+
+     If TRUE, apply position PID, otherwise apply velocity PID.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ Returns the new drive value. 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\servo.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

@@ -1,0 +1,1209 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADC	C:\Temp\Trc\BaseCode\adc.c	124;"	t	line:124	file:
+ADCDisable	C:\Temp\Trc\BaseCode\adc.c	372;"	f	line:372	signature:( void )
+ADCDisable	C:\Temp\Trc\BaseCode\adc.h	63;"	p	line:63	signature:( void )
+ADCGetUpdateCount	C:\Temp\Trc\BaseCode\adc.c	479;"	f	line:479	signature:( void )
+ADCGetUpdateCount	C:\Temp\Trc\BaseCode\adc.h	88;"	p	line:88	signature:( void )
+ADCGetUpdateRate	C:\Temp\Trc\BaseCode\adc.c	465;"	f	line:465	signature:( void )
+ADCGetUpdateRate	C:\Temp\Trc\BaseCode\adc.h	83;"	p	line:83	signature:( void )
+ADCGetValue	C:\Temp\Trc\BaseCode\adc.c	403;"	f	line:403	signature:( __in BYTE bChannel )
+ADCGetValue	C:\Temp\Trc\BaseCode\adc.h	68;"	p	line:68	signature:( __in BYTE bChannel )
+ADCGetValueRange	C:\Temp\Trc\BaseCode\adc.c	451;"	f	line:451	signature:( void )
+ADCGetValueRange	C:\Temp\Trc\BaseCode\adc.h	78;"	p	line:78	signature:( void )
+ADCIndex	C:\Temp\Trc\BaseCode\adc.c	145;"	p	line:145	file:	signature:( __in BYTE bChannel )
+ADCIndex	C:\Temp\Trc\BaseCode\adc.c	798;"	f	line:798	file:	signature:( __in BYTE bChannel )
+ADCInitialize	C:\Temp\Trc\BaseCode\adc.c	207;"	f	line:207	signature:( __in WORD wSampleRate, __in WORD wSamplesPerUpdate, __in WORD wChannelMask )
+ADCInitialize	C:\Temp\Trc\BaseCode\adc.h	56;"	p	line:56	signature:( __in WORD wSampleRate, __in WORD wSamplesPerUpdate, __in WORD wChannelMask )
+ADCIntHandler	C:\Temp\Trc\BaseCode\adc.c	562;"	f	line:562	signature:( void )
+ADCIntHandler	C:\Temp\Trc\BaseCode\adc.h	103;"	p	line:103	signature:( void )
+ADCPrintData	C:\Temp\Trc\BaseCode\adc.c	534;"	f	line:534	signature:( __in BOOL fVerbose )
+ADCPrintData	C:\Temp\Trc\BaseCode\adc.h	98;"	p	line:98	signature:( __in BOOL fVerbose )
+ADCResetUpdateCount	C:\Temp\Trc\BaseCode\adc.c	505;"	f	line:505	signature:( void )
+ADCResetUpdateCount	C:\Temp\Trc\BaseCode\adc.h	93;"	p	line:93	signature:( void )
+ADCTimer2IntHandler	C:\Temp\Trc\BaseCode\adc.c	632;"	f	line:632	signature:( void )
+ADCTimer2IntHandler	C:\Temp\Trc\BaseCode\adc.h	108;"	p	line:108	signature:( void )
+ADCValueToMillivolt	C:\Temp\Trc\BaseCode\adc.c	437;"	f	line:437	signature:( __in WORD wADCValue )
+ADCValueToMillivolt	C:\Temp\Trc\BaseCode\adc.h	73;"	p	line:73	signature:( __in WORD wADCValue )
+ADC_CHANNEL	C:\Temp\Trc\BaseCode\adc.c	81;"	t	line:81	file:
+ADC_ELEV_POS::1	C:\Temp\Trc\2008\project.h	66;"	d	line:66
+ADC_MASK_10::0x0200	C:\Temp\Trc\BaseCode\adc.h	44;"	d	line:44
+ADC_MASK_11::0x0400	C:\Temp\Trc\BaseCode\adc.h	45;"	d	line:45
+ADC_MASK_12::0x0800	C:\Temp\Trc\BaseCode\adc.h	46;"	d	line:46
+ADC_MASK_13::0x1000	C:\Temp\Trc\BaseCode\adc.h	47;"	d	line:47
+ADC_MASK_14::0x2000	C:\Temp\Trc\BaseCode\adc.h	48;"	d	line:48
+ADC_MASK_15::0x4000	C:\Temp\Trc\BaseCode\adc.h	49;"	d	line:49
+ADC_MASK_16::0x8000	C:\Temp\Trc\BaseCode\adc.h	50;"	d	line:50
+ADC_MASK_1::0x0001	C:\Temp\Trc\BaseCode\adc.h	35;"	d	line:35
+ADC_MASK_2::0x0002	C:\Temp\Trc\BaseCode\adc.h	36;"	d	line:36
+ADC_MASK_3::0x0004	C:\Temp\Trc\BaseCode\adc.h	37;"	d	line:37
+ADC_MASK_5::0x0010	C:\Temp\Trc\BaseCode\adc.h	39;"	d	line:39
+ADC_MASK_6::0x0020	C:\Temp\Trc\BaseCode\adc.h	40;"	d	line:40
+ADC_MASK_7::0x0040	C:\Temp\Trc\BaseCode\adc.h	41;"	d	line:41
+ADC_MASK_8::0x0080	C:\Temp\Trc\BaseCode\adc.h	42;"	d	line:42
+ADC_MASK_9::0x0100	C:\Temp\Trc\BaseCode\adc.h	43;"	d	line:43
+ADC_MSAK_4::0x0008	C:\Temp\Trc\BaseCode\adc.h	38;"	d	line:38
+ADC_SAMPLE_RATE_1600HZ::1600	C:\Temp\Trc\BaseCode\adc.h	30;"	d	line:30
+ADC_SAMPLE_RATE_200HZ::200	C:\Temp\Trc\BaseCode\adc.h	27;"	d	line:27
+ADC_SAMPLE_RATE_3200HZ::3200	C:\Temp\Trc\BaseCode\adc.h	31;"	d	line:31
+ADC_SAMPLE_RATE_400HZ::400	C:\Temp\Trc\BaseCode\adc.h	28;"	d	line:28
+ADC_SAMPLE_RATE_6400HZ::6400	C:\Temp\Trc\BaseCode\adc.h	32;"	d	line:32
+ADC_SAMPLE_RATE_800HZ::800	C:\Temp\Trc\BaseCode\adc.h	29;"	d	line:29
+ADC_SAMPLE_RATE_DEFAULT::ADC_SAMPLE_RATE_200HZ	C:\Temp\Trc\BaseCode\adc.h	33;"	d	line:33
+ADXRS150::	C:\Temp\Trc\2008\project.h	90;"	d	line:90
+AEC_ADDRESS::0x10	C:\Temp\Trc\BaseCode\camera.h	129;"	d	line:129
+AEC_DEFAULT::1	C:\Temp\Trc\BaseCode\camera.h	58;"	d	line:58
+AGC_ADDRESS::0x00	C:\Temp\Trc\BaseCode\camera.h	124;"	d	line:124
+AGC_DEFAULT::0	C:\Temp\Trc\BaseCode\camera.h	53;"	d	line:53
+ARGDEF	C:\Temp\Trc\BaseCode\console.h	121;"	t	line:121
+ARGTYPE_CUSTOM::4	C:\Temp\Trc\BaseCode\console.h	47;"	d	line:47
+ARGTYPE_FLAGS::3	C:\Temp\Trc\BaseCode\console.h	43;"	d	line:43
+ARGTYPE_NUM::2	C:\Temp\Trc\BaseCode\console.h	39;"	d	line:39
+ARGTYPE_STRING::1	C:\Temp\Trc\BaseCode\console.h	35;"	d	line:35
+ARRAYSIZE::(x)(sizeof(x)/sizeof(x[0]))	C:\Temp\Trc\BaseCode\basecode.h	37;"	d	line:37
+Adc	C:\Temp\Trc\BaseCode\adc.c	129;"	v	line:129	file:
+ArgDefs	C:\Temp\Trc\BaseCode\console.h	139;"	m	line:139	struct:_CmdEntry
+ArgPidKi	C:\Temp\Trc\2008\projcmd.c	38;"	v	line:38	file:
+ArgPidKo	C:\Temp\Trc\2008\projcmd.c	39;"	v	line:39	file:
+ArgPidKp	C:\Temp\Trc\2008\projcmd.c	36;"	v	line:36	file:
+ArgPidKv	C:\Temp\Trc\2008\projcmd.c	37;"	v	line:37	file:
+ArgTraceAdc	C:\Temp\Trc\BaseCode\basecmd.c	73;"	v	line:73	file:
+ArgTraceEncoder	C:\Temp\Trc\BaseCode\basecmd.c	74;"	v	line:74	file:
+ArgTraceGyro	C:\Temp\Trc\BaseCode\basecmd.c	75;"	v	line:75	file:
+ArgTraceInput	C:\Temp\Trc\BaseCode\basecmd.c	76;"	v	line:76	file:
+ArgTraceInterval	C:\Temp\Trc\BaseCode\basecmd.c	78;"	v	line:78	file:
+ArgTracePwm	C:\Temp\Trc\BaseCode\basecmd.c	72;"	v	line:72	file:
+ArgTraceRCIo	C:\Temp\Trc\BaseCode\basecmd.c	71;"	v	line:71	file:
+ArgTraceServo	C:\Temp\Trc\BaseCode\basecmd.c	77;"	v	line:77	file:
+BAUD_115200::21	C:\Temp\Trc\BaseCode\serial_ports.h	39;"	d	line:39
+BAUD_14400::42	C:\Temp\Trc\BaseCode\serial_ports.h	35;"	d	line:35
+BAUD_19200::129	C:\Temp\Trc\BaseCode\serial_ports.h	36;"	d	line:36
+BAUD_230400::10	C:\Temp\Trc\BaseCode\serial_ports.h	40;"	d	line:40
+BAUD_38400::64	C:\Temp\Trc\BaseCode\serial_ports.h	37;"	d	line:37
+BAUD_4800::129	C:\Temp\Trc\BaseCode\serial_ports.h	33;"	d	line:33
+BAUD_57600::42	C:\Temp\Trc\BaseCode\serial_ports.h	38;"	d	line:38
+BAUD_9600::64	C:\Temp\Trc\BaseCode\serial_ports.h	34;"	d	line:34
+BLU_ADDRESS::0x01	C:\Temp\Trc\BaseCode\camera.h	125;"	d	line:125
+BLU_DEFAULT::128	C:\Temp\Trc\BaseCode\camera.h	54;"	d	line:54
+BOOL	C:\Temp\Trc\BaseCode\basecode.h	102;"	t	line:102
+BRT_ADDRESS::0x06	C:\Temp\Trc\BaseCode\camera.h	128;"	d	line:128
+BRT_DEFAULT::1	C:\Temp\Trc\BaseCode\camera.h	57;"	d	line:57
+BYTE	C:\Temp\Trc\BaseCode\basecode.h	99;"	t	line:99
+B_MAX_DEFAULT::145	C:\Temp\Trc\BaseCode\camera.h	51;"	d	line:51
+B_MIN_DEFAULT::100	C:\Temp\Trc\BaseCode\camera.h	50;"	d	line:50
+BaseCmdConsoleInit	C:\Temp\Trc\BaseCode\basecmd.c	123;"	f	line:123	signature:( __in BYTE bSerialPort, __in PCMDENTRY ProjCmdTable, __in BYTE bNumCmds )
+BaseCmdConsoleInit	C:\Temp\Trc\BaseCode\console.h	179;"	p	line:179	signature:( __in BYTE bSerialPort, __in PCMDENTRY ProjCmdTable, __in BYTE bNumCmds )
+BaseCmdConsoleTrace	C:\Temp\Trc\BaseCode\basecmd.c	142;"	f	line:142	signature:( void )
+BaseCmdConsoleTrace	C:\Temp\Trc\BaseCode\console.h	186;"	p	line:186	signature:( void )
+BaseCmdTable	C:\Temp\Trc\BaseCode\basecmd.c	79;"	v	line:79	file:
+BaseCmdTable	C:\Temp\Trc\BaseCode\console.c	62;"	m	line:62	struct:_Console	file:
+BaseInitialization	C:\Temp\Trc\BaseCode\main.c	270;"	f	line:270	file:	signature:( void )
+BaseInitialization	C:\Temp\Trc\BaseCode\main.c	58;"	p	line:58	file:	signature:( void )
+CALF_CALIBRATED::0x01	C:\Temp\Trc\BaseCode\input.c	42;"	d	line:42	file:
+CALF_CALIBRATING::0x80	C:\Temp\Trc\BaseCode\input.c	46;"	d	line:46	file:
+CAMERA_ON_TARGET::2	C:\Temp\Trc\BaseCode\tracking.h	137;"	d	line:137
+CAMERA_SERIAL_PORT_2	C:\Temp\Trc\BaseCode\camera.h	39;"	d	line:39
+CHANNELS_PER_ROW::8	C:\Temp\Trc\BaseCode\pwm.c	160;"	d	line:160	file:
+CMDENTRY	C:\Temp\Trc\BaseCode\console.h	148;"	t	line:148
+CMD_ATTENTION::'\r'	C:\Temp\Trc\BaseCode\console.h	30;"	d	line:30
+CMD_BUFF_LEN::64	C:\Temp\Trc\BaseCode\console.c	28;"	d	line:28	file:
+COMA_ADDRESS::0x12	C:\Temp\Trc\BaseCode\camera.h	130;"	d	line:130
+COMA_DEFAULT::32	C:\Temp\Trc\BaseCode\camera.h	59;"	d	line:59
+COMB_ADDRESS::0x13	C:\Temp\Trc\BaseCode\camera.h	131;"	d	line:131
+COMB_DEFAULT::32	C:\Temp\Trc\BaseCode\camera.h	60;"	d	line:60
+COMI_ADDRESS::0x29	C:\Temp\Trc\BaseCode\camera.h	132;"	d	line:132
+COMI_DEFAULT::128	C:\Temp\Trc\BaseCode\camera.h	61;"	d	line:61
+COMJ_ADDRESS::0x2D	C:\Temp\Trc\BaseCode\camera.h	135;"	d	line:135
+COMJ_DEFAULT::132	C:\Temp\Trc\BaseCode\camera.h	64;"	d	line:64
+CONFIDENCE_THRESHOLD_DEFAULT::20	C:\Temp\Trc\BaseCode\tracking.h	64;"	d	line:64
+CONSOLE	C:\Temp\Trc\BaseCode\console.c	71;"	t	line:71	file:
+CalibrateGyro	C:\Temp\Trc\BaseCode\basecmd.c	331;"	f	line:331	file:	signature:( __in PCMDENTRY pCmdEntry )
+CalibrateGyro	C:\Temp\Trc\BaseCode\basecmd.c	59;"	p	line:59	file:	signature:( __in PCMDENTRY pCmdEntry )
+CalibrateInput	C:\Temp\Trc\BaseCode\basecmd.c	350;"	f	line:350	file:	signature:( __in PCMDENTRY pCmdEntry )
+CalibrateInput	C:\Temp\Trc\BaseCode\basecmd.c	64;"	p	line:64	file:	signature:( __in PCMDENTRY pCmdEntry )
+CalibrationFuncs	C:\Temp\Trc\BaseCode\main.c	39;"	v	line:39	file:
+CalibrationHooks	C:\Temp\Trc\BaseCode\main.c	42;"	v	line:42	file:
+Camera_Handler	C:\Temp\Trc\BaseCode\camera.c	68;"	f	line:68	signature:(void)
+Camera_Handler	C:\Temp\Trc\BaseCode\camera.h	156;"	p	line:156	signature:(void)
+Camera_Idle	C:\Temp\Trc\BaseCode\camera.c	581;"	f	line:581	signature:(void)
+Camera_Idle	C:\Temp\Trc\BaseCode\camera.h	160;"	p	line:160	signature:(void)
+Camera_Serial_Port_Byte_Count	C:\Temp\Trc\BaseCode\camera.c	761;"	f	line:761	signature:(void)
+Camera_Serial_Port_Byte_Count	C:\Temp\Trc\BaseCode\camera.h	167;"	p	line:167	signature:(void)
+Camera_State_Machine	C:\Temp\Trc\BaseCode\camera.c	139;"	f	line:139	signature:(unsigned char byte)
+Camera_State_Machine	C:\Temp\Trc\BaseCode\camera.h	157;"	p	line:157	signature:(unsigned char)
+Channels	C:\Temp\Trc\BaseCode\adc.c	123;"	m	line:123	struct:_ADC	file:
+Channels	C:\Temp\Trc\BaseCode\encoder.c	112;"	m	line:112	struct:_Encoder	file:
+Clear_Memory	C:\Temp\Trc\BaseCode\ifi_startup.c	60;"	p	line:60	file:	signature:( void )
+CmdBuff	C:\Temp\Trc\BaseCode\console.c	54;"	m	line:54	struct:_Console	file:
+Console	C:\Temp\Trc\BaseCode\console.c	113;"	v	line:113	file:
+ConsoleInitialize	C:\Temp\Trc\BaseCode\console.c	138;"	f	line:138	signature:( __in BYTE bSerialPort, __in PCMDENTRY BaseCmdTable, __in BYTE bNumBaseCmds, __in PCMDENTRY ProjCmdTable, __in BYTE bNumProjCmds )
+ConsoleInitialize	C:\Temp\Trc\BaseCode\console.h	154;"	p	line:154	signature:( __in BYTE bSerialPort, __in PCMDENTRY BaseCmdTable, __in BYTE bNumBaseCmds, __in PCMDENTRY ProjCmdTable, __in BYTE bNumProjCmds )
+ConsoleParseCmdArgs	C:\Temp\Trc\BaseCode\console.c	443;"	f	line:443	file:	signature:( __in PARGDEF ArgDefs, __in PSTR *apszArgs, __in BYTE bcArgs )
+ConsoleParseCmdArgs	C:\Temp\Trc\BaseCode\console.c	92;"	p	line:92	file:	signature:( __in PARGDEF ArgDefs, __in PSTR *apszArgs, __in BYTE bcArgs )
+ConsoleParseCommand	C:\Temp\Trc\BaseCode\console.c	306;"	f	line:306	file:	signature:( __inout PSTR pszCmd, __in BYTE bCmdLen )
+ConsoleParseCommand	C:\Temp\Trc\BaseCode\console.c	77;"	p	line:77	file:	signature:( __inout PSTR pszCmd, __in BYTE bCmdLen )
+ConsolePrintCmdHelp	C:\Temp\Trc\BaseCode\console.c	540;"	f	line:540	file:	signature:( __in PCMDENTRY pCmdEntry )
+ConsolePrintCmdHelp	C:\Temp\Trc\BaseCode\console.c	99;"	p	line:99	file:	signature:( __in PCMDENTRY pCmdEntry )
+ConsolePrintHelp	C:\Temp\Trc\BaseCode\console.c	252;"	f	line:252	signature:( __in PCMDENTRY pCmdEntry )
+ConsolePrintHelp	C:\Temp\Trc\BaseCode\console.h	168;"	p	line:168	signature:( __in PCMDENTRY pCmdEntry )
+ConsoleProcessCmd	C:\Temp\Trc\BaseCode\console.c	386;"	f	line:386	file:	signature:( __in PSTR pszCmd, __in PCMDENTRY CmdTable, __in BYTE bNumCmds, __in PSTR *apszArgs, __in BYTE bcArgs )
+ConsoleProcessCmd	C:\Temp\Trc\BaseCode\console.c	83;"	p	line:83	file:	signature:( __in PSTR pszCmd, __in PCMDENTRY CmdTable, __in BYTE bNumCmds, __in PSTR *apszArgs, __in BYTE bcArgs )
+ConsoleProcessData	C:\Temp\Trc\BaseCode\console.c	162;"	f	line:162	signature:( void )
+ConsoleProcessData	C:\Temp\Trc\BaseCode\console.h	163;"	p	line:163	signature:( void )
+ConsoleQuit	C:\Temp\Trc\BaseCode\console.c	282;"	f	line:282	signature:( __in PCMDENTRY pCmdEntry )
+ConsoleQuit	C:\Temp\Trc\BaseCode\console.h	173;"	p	line:173	signature:( __in PCMDENTRY pCmdEntry )
+CopyPgmString	C:\Temp\Trc\BaseCode\console.c	104;"	p	line:104	file:	signature:( __out PSTR pszStr, __in BYTE bLen, __in const rom char *pszPgmStr )
+CopyPgmString	C:\Temp\Trc\BaseCode\console.c	613;"	f	line:613	file:	signature:( __out PSTR pszStr, __in BYTE bLen, __in const rom char *pszPgmStr )
+DATAF_CHAR::0	C:\Temp\Trc\BaseCode\console.h	52;"	d	line:52
+DATAF_LONG::2	C:\Temp\Trc\BaseCode\console.h	60;"	d	line:60
+DATAF_SHORT::1	C:\Temp\Trc\BaseCode\console.h	56;"	d	line:56
+DATA_SIZE::30	C:\Temp\Trc\BaseCode\ifi_default.h	26;"	d	line:26
+DEBUG::(x)	C:\Temp\Trc\BaseCode\camera.h	85;"	d	line:85
+DEBUG::(x)printfx	C:\Temp\Trc\BaseCode\camera.h	83;"	d	line:83
+DEF_TRACE_INTERVAL::15	C:\Temp\Trc\BaseCode\basecode.h	59;"	d	line:59
+DETERMINING_PACKET_TYPE::2	C:\Temp\Trc\BaseCode\camera.h	97;"	d	line:97
+DRIVE	C:\Temp\Trc\BaseCode\servo.h	135;"	t	line:135
+DRIVE_ACCEL_RATE::100	C:\Temp\Trc\2008\project.h	142;"	d	line:142
+DRIVE_DECEL_RATE::-100	C:\Temp\Trc\2008\project.h	143;"	d	line:143
+DRIVE_VEL_LIMIT::70	C:\Temp\Trc\2008\project.h	144;"	d	line:144
+DRIVE_WHEELBASE::DRIVE_WHEELBASE_NUMER/DRIVE_WH	C:\Temp\Trc\2008\project.h	148;"	d	line:148
+DRIVE_WHEELBASE_DENOM::2	C:\Temp\Trc\2008\project.h	147;"	d	line:147
+DRIVE_WHEELBASE_NUMER::49	C:\Temp\Trc\2008\project.h	146;"	d	line:146
+DWORD	C:\Temp\Trc\BaseCode\basecode.h	101;"	t	line:101
+Dislodger_Fwd::relay1_fwd	C:\Temp\Trc\2008\project.h	45;"	d	line:45
+Dislodger_Rev::relay1_rev	C:\Temp\Trc\2008\project.h	46;"	d	line:46
+EHSH_ADDRESS::0x2A	C:\Temp\Trc\BaseCode\camera.h	133;"	d	line:133
+EHSH_DEFAULT::128	C:\Temp\Trc\BaseCode\camera.h	62;"	d	line:62
+EHSL_ADDRESS::0x2B	C:\Temp\Trc\BaseCode\camera.h	134;"	d	line:134
+EHSL_DEFAULT::32	C:\Temp\Trc\BaseCode\camera.h	63;"	d	line:63
+ENABLE_SERIAL_RX::0x01	C:\Temp\Trc\BaseCode\serial_ports.h	28;"	d	line:28
+ENABLE_SERIAL_STDOUT::0x04	C:\Temp\Trc\BaseCode\serial_ports.h	30;"	d	line:30
+ENABLE_SERIAL_TX::0x02	C:\Temp\Trc\BaseCode\serial_ports.h	29;"	d	line:29
+ENCCHANNEL	C:\Temp\Trc\BaseCode\encoder.c	89;"	t	line:89	file:
+ENCODER	C:\Temp\Trc\BaseCode\encoder.c	113;"	t	line:113	file:
+ENCODER_1_PHASE_B_PIN::rc_dig_in11	C:\Temp\Trc\BaseCode\encoder.h	42;"	d	line:42
+ENCODER_2_PHASE_B_PIN::rc_dig_in12	C:\Temp\Trc\BaseCode\encoder.h	43;"	d	line:43
+ENCODER_3_PHASE_B_PIN::rc_dig_in13	C:\Temp\Trc\BaseCode\encoder.h	44;"	d	line:44
+ENCODER_4_PHASE_B_PIN::rc_dig_in14	C:\Temp\Trc\BaseCode\encoder.h	45;"	d	line:45
+ENCODER_5_PHASE_B_PIN::rc_dig_in15	C:\Temp\Trc\BaseCode\encoder.h	46;"	d	line:46
+ENCODER_6_PHASE_B_PIN::rc_dig_in16	C:\Temp\Trc\BaseCode\encoder.h	47;"	d	line:47
+ENCODER_CHANNEL_MASK::(ENCODER_MASK_1|\	C:\Temp\Trc\BaseCode\encoder.h	33;"	d	line:33
+ENCODER_LEFT::0	C:\Temp\Trc\2008\project.h	74;"	d	line:74
+ENCODER_MASK_1::0x01	C:\Temp\Trc\BaseCode\encoder.h	27;"	d	line:27
+ENCODER_MASK_2::0x02	C:\Temp\Trc\BaseCode\encoder.h	28;"	d	line:28
+ENCODER_MASK_3::0x04	C:\Temp\Trc\BaseCode\encoder.h	29;"	d	line:29
+ENCODER_MASK_4::0x08	C:\Temp\Trc\BaseCode\encoder.h	30;"	d	line:30
+ENCODER_MASK_5::0x10	C:\Temp\Trc\BaseCode\encoder.h	31;"	d	line:31
+ENCODER_MASK_6::0x20	C:\Temp\Trc\BaseCode\encoder.h	32;"	d	line:32
+ENCODER_RIGHT::1	C:\Temp\Trc\2008\project.h	75;"	d	line:75
+Encoder	C:\Temp\Trc\BaseCode\encoder.c	118;"	v	line:118	file:
+Encoder1_2IntHandler	C:\Temp\Trc\BaseCode\encoder.c	459;"	f	line:459	signature:( __in BYTE bChannel, __in BYTE bPhaseBPin )
+Encoder1_2IntHandler	C:\Temp\Trc\BaseCode\encoder.h	86;"	p	line:86	signature:( __in BYTE bChannel, __in BYTE bPhaseBPin )
+Encoder3_6Int	C:\Temp\Trc\BaseCode\encoder.c	124;"	p	line:124	file:	signature:( __in BYTE bChannel, __in BYTE bPhaseBPin, __in BYTE bState )
+Encoder3_6Int	C:\Temp\Trc\BaseCode\encoder.c	561;"	f	line:561	file:	signature:( __in BYTE bChannel, __in BYTE bPhaseBPin, __in BYTE bState )
+Encoder3_6IntHandler	C:\Temp\Trc\BaseCode\encoder.c	501;"	f	line:501	signature:( __in BYTE bPortB )
+Encoder3_6IntHandler	C:\Temp\Trc\BaseCode\encoder.h	92;"	p	line:92	signature:( __in BYTE bPortB )
+EncoderGetCount	C:\Temp\Trc\BaseCode\encoder.c	289;"	f	line:289	signature:( __in BYTE bChannel )
+EncoderGetCount	C:\Temp\Trc\BaseCode\encoder.h	61;"	p	line:61	signature:( __in BYTE bChannel )
+EncoderGetVelocity	C:\Temp\Trc\BaseCode\encoder.c	366;"	f	line:366	signature:( __in BYTE bChannel )
+EncoderGetVelocity	C:\Temp\Trc\BaseCode\encoder.h	71;"	p	line:71	signature:( __in BYTE bChannel )
+EncoderIndex	C:\Temp\Trc\BaseCode\encoder.c	137;"	p	line:137	file:	signature:( __in BYTE bChannel )
+EncoderIndex	C:\Temp\Trc\BaseCode\encoder.c	662;"	f	line:662	file:	signature:( __in BYTE bChannel )
+EncoderInitialize	C:\Temp\Trc\BaseCode\encoder.c	158;"	f	line:158	signature:( __in BYTE bChannelMask, __in BYTE bReverseMask, __in BYTE bVelInterval )
+EncoderInitialize	C:\Temp\Trc\BaseCode\encoder.h	54;"	p	line:54	signature:( __in BYTE bChannelMask, __in BYTE bReverseMask, __in BYTE bVelInterval )
+EncoderInterrupt	C:\Temp\Trc\BaseCode\encoder.c	131;"	p	line:131	file:	signature:( __in BYTE bChannel, __in BYTE fEnable )
+EncoderInterrupt	C:\Temp\Trc\BaseCode\encoder.c	623;"	f	line:623	file:	signature:( __in BYTE bChannel, __in BYTE fEnable )
+EncoderPrintData	C:\Temp\Trc\BaseCode\encoder.c	392;"	f	line:392	signature:( __in BOOL fVerbose )
+EncoderPrintData	C:\Temp\Trc\BaseCode\encoder.h	76;"	p	line:76	signature:( __in BOOL fVerbose )
+EncoderResetCount	C:\Temp\Trc\BaseCode\encoder.c	327;"	f	line:327	signature:( __in BYTE bChannel )
+EncoderResetCount	C:\Temp\Trc\BaseCode\encoder.h	66;"	p	line:66	signature:( __in BYTE bChannel )
+EncoderTimerTick	C:\Temp\Trc\BaseCode\encoder.c	423;"	f	line:423	signature:( void )
+EncoderTimerTick	C:\Temp\Trc\BaseCode\encoder.h	81;"	p	line:81	signature:( void )
+FALSE::0	C:\Temp\Trc\BaseCode\basecode.h	49;"	d	line:49
+FIRST_TIME	C:\Temp\Trc\BaseCode\ifi_default.h	148;"	m	line:148
+GYRO	C:\Temp\Trc\BaseCode\gyro.c	144;"	t	line:144	file:
+GYROCAL	C:\Temp\Trc\BaseCode\gyro.c	175;"	t	line:175	file:
+GYROF_CALIBRATED::0x01	C:\Temp\Trc\BaseCode\gyro.c	69;"	d	line:69	file:
+GYROF_CALIBRATING::0x80	C:\Temp\Trc\BaseCode\gyro.c	73;"	d	line:73	file:
+GYRO_ADC_CHANNEL::0	C:\Temp\Trc\2008\project.h	82;"	d	line:82
+GYRO_CAL_TICKS::300	C:\Temp\Trc\BaseCode\gyro.c	63;"	d	line:63	file:
+GYRO_NOISE_MARGIN::1	C:\Temp\Trc\2008\project.h	123;"	d	line:123
+GYRO_SCALE_FACTOR::1000	C:\Temp\Trc\2008\project.h	112;"	d	line:112
+GYRO_SENSITIVITY::GYRO_SENSITIVITY_DEG	C:\Temp\Trc\BaseCode\gyro.h	83;"	d	line:83
+GYRO_SENSITIVITY::GYRO_SENSITIVITY_RAD	C:\Temp\Trc\BaseCode\gyro.h	79;"	d	line:79
+GYRO_SENSITIVITY_DEG::2000L	C:\Temp\Trc\BaseCode\gyro.h	73;"	d	line:73
+GYRO_SENSITIVITY_DEG::286L	C:\Temp\Trc\BaseCode\gyro.h	37;"	d	line:37
+GYRO_SENSITIVITY_DEG::333L	C:\Temp\Trc\BaseCode\gyro.h	43;"	d	line:43
+GYRO_SENSITIVITY_DEG::400L	C:\Temp\Trc\BaseCode\gyro.h	49;"	d	line:49
+GYRO_SENSITIVITY_DEG::500L	C:\Temp\Trc\BaseCode\gyro.h	55;"	d	line:55
+GYRO_SENSITIVITY_DEG::667L	C:\Temp\Trc\BaseCode\gyro.h	61;"	d	line:61
+GYRO_SENSITIVITY_DEG::800L	C:\Temp\Trc\BaseCode\gyro.h	67;"	d	line:67
+GYRO_SENSITIVITY_RAD::1163L	C:\Temp\Trc\BaseCode\gyro.h	62;"	d	line:62
+GYRO_SENSITIVITY_RAD::1396L	C:\Temp\Trc\BaseCode\gyro.h	68;"	d	line:68
+GYRO_SENSITIVITY_RAD::3490L	C:\Temp\Trc\BaseCode\gyro.h	74;"	d	line:74
+GYRO_SENSITIVITY_RAD::499L	C:\Temp\Trc\BaseCode\gyro.h	38;"	d	line:38
+GYRO_SENSITIVITY_RAD::581L	C:\Temp\Trc\BaseCode\gyro.h	44;"	d	line:44
+GYRO_SENSITIVITY_RAD::698L	C:\Temp\Trc\BaseCode\gyro.h	50;"	d	line:50
+GYRO_SENSITIVITY_RAD::873L	C:\Temp\Trc\BaseCode\gyro.h	56;"	d	line:56
+G_MAX_DEFAULT::17	C:\Temp\Trc\BaseCode\camera.h	49;"	d	line:49
+G_MIN_DEFAULT::15	C:\Temp\Trc\BaseCode\camera.h	48;"	d	line:48
+Get_Camera_State	C:\Temp\Trc\BaseCode\camera.c	623;"	f	line:623	signature:(void)
+Get_Camera_State	C:\Temp\Trc\BaseCode\camera.h	162;"	p	line:162	signature:(void)
+Get_Tracking_State	C:\Temp\Trc\BaseCode\tracking.c	404;"	f	line:404	signature:(void)
+Get_Tracking_State	C:\Temp\Trc\BaseCode\tracking.h	142;"	p	line:142	signature:(void)
+Getdata	C:\Temp\Trc\BaseCode\ifi_default.h	207;"	p	line:207	signature:( __out rx_data_ptr RxData )
+Gyro	C:\Temp\Trc\BaseCode\gyro.c	180;"	v	line:180	file:
+GyroCal	C:\Temp\Trc\BaseCode\gyro.c	181;"	v	line:181	file:
+GyroCalibrate	C:\Temp\Trc\BaseCode\gyro.c	247;"	f	line:247	signature:( void )
+GyroCalibrate	C:\Temp\Trc\BaseCode\gyro.h	98;"	p	line:98	signature:( void )
+GyroGetAngle	C:\Temp\Trc\BaseCode\gyro.c	294;"	f	line:294	signature:( void )
+GyroGetAngle	C:\Temp\Trc\BaseCode\gyro.h	108;"	p	line:108	signature:( void )
+GyroGetBias	C:\Temp\Trc\BaseCode\gyro.c	310;"	f	line:310	signature:( void )
+GyroGetBias	C:\Temp\Trc\BaseCode\gyro.h	113;"	p	line:113	signature:( void )
+GyroGetRate	C:\Temp\Trc\BaseCode\gyro.c	277;"	f	line:277	signature:( void )
+GyroGetRate	C:\Temp\Trc\BaseCode\gyro.h	103;"	p	line:103	signature:( void )
+GyroInitialize	C:\Temp\Trc\BaseCode\gyro.c	206;"	f	line:206	signature:( __in BYTE bADCChannel, __in WORD wSensitivity, __in WORD wScaleFactor, __in WORD wNoiseMargin )
+GyroInitialize	C:\Temp\Trc\BaseCode\gyro.h	90;"	p	line:90	signature:( __in BYTE bADCChannel, __in WORD wSensitivity, __in WORD wScaleFactor, __in WORD wNoiseMargin )
+GyroPrintData	C:\Temp\Trc\BaseCode\gyro.c	358;"	f	line:358	signature:( void )
+GyroPrintData	C:\Temp\Trc\BaseCode\gyro.h	128;"	p	line:128	signature:( void )
+GyroProcessData	C:\Temp\Trc\BaseCode\gyro.c	376;"	f	line:376	signature:( void )
+GyroProcessData	C:\Temp\Trc\BaseCode\gyro.h	133;"	p	line:133	signature:( void )
+GyroResetAngle	C:\Temp\Trc\BaseCode\gyro.c	343;"	f	line:343	signature:( void )
+GyroResetAngle	C:\Temp\Trc\BaseCode\gyro.h	123;"	p	line:123	signature:( void )
+GyroSetBias	C:\Temp\Trc\BaseCode\gyro.c	328;"	f	line:328	signature:( __in WORD wBias )
+GyroSetBias	C:\Temp\Trc\BaseCode\gyro.h	118;"	p	line:118	signature:( __in WORD wBias )
+HIBYTE::(x)((BYTE)(((WORD)(x)>>8)&0xff	C:\Temp\Trc\BaseCode\basecode.h	38;"	d	line:38
+HIGH_INT_VECTOR::0x008	C:\Temp\Trc\BaseCode\ifi_default.h	32;"	d	line:32
+HIGH_INT_VECTOR::0x808	C:\Temp\Trc\BaseCode\ifi_default.h	36;"	d	line:36
+HIWORD::(x)((WORD)(((DWORD)(x)>>16)&0x	C:\Temp\Trc\BaseCode\basecode.h	40;"	d	line:40
+HOOKTABLE	C:\Temp\Trc\BaseCode\basecode.h	110;"	t	line:110
+HookFuncs	C:\Temp\Trc\BaseCode\basecode.h	107;"	m	line:107	struct:_HookTable
+IFI_Initialization	C:\Temp\Trc\BaseCode\ifi_default.h	185;"	p	line:185	signature:( void )
+IFI_PWM::0	C:\Temp\Trc\BaseCode\ifi_aliases.h	24;"	d	line:24
+IMAGE_HEIGHT::239	C:\Temp\Trc\BaseCode\tracking.h	126;"	d	line:126
+IMAGE_WIDTH::159	C:\Temp\Trc\BaseCode\tracking.h	125;"	d	line:125
+INPUT::1	C:\Temp\Trc\BaseCode\ifi_aliases.h	77;"	d	line:77
+INPUTDATA	C:\Temp\Trc\BaseCode\input.h	59;"	t	line:59
+IN_CCP2::PORTEbits.RE7	C:\Temp\Trc\BaseCode\ifi_aliases.h	248;"	d	line:248
+IN_CCP3::PORTGbits.RG0	C:\Temp\Trc\BaseCode\ifi_aliases.h	249;"	d	line:249
+IN_CCP4::PORTGbits.RG3	C:\Temp\Trc\BaseCode\ifi_aliases.h	250;"	d	line:250
+IN_CCP5::PORTGbits.RG4	C:\Temp\Trc\BaseCode\ifi_aliases.h	251;"	d	line:251
+IO_CCP2::TRISEbits.TRISE7	C:\Temp\Trc\BaseCode\ifi_aliases.h	242;"	d	line:242
+IO_CCP3::TRISGbits.TRISG0	C:\Temp\Trc\BaseCode\ifi_aliases.h	243;"	d	line:243
+IO_CCP4::TRISGbits.TRISG3	C:\Temp\Trc\BaseCode\ifi_aliases.h	244;"	d	line:244
+IO_CCP5::TRISGbits.TRISG4	C:\Temp\Trc\BaseCode\ifi_aliases.h	245;"	d	line:245
+IS_TRACE_ON::(g_dwSystemFlags&SYSF_TRACE_ON	C:\Temp\Trc\BaseCode\basecode.h	43;"	d	line:43
+InitHookTable	C:\Temp\Trc\BaseCode\main.c	213;"	f	line:213	file:	signature:( __in PHOOKTABLE HookTable )
+InitHookTable	C:\Temp\Trc\BaseCode\main.c	48;"	p	line:48	file:	signature:( __in PHOOKTABLE HookTable )
+InitializePort	C:\Temp\Trc\BaseCode\input.c	138;"	p	line:138	file:	signature:( __in BYTE bPort, __in BYTE bPortFlags )
+InitializePort	C:\Temp\Trc\BaseCode\input.c	590;"	f	line:590	file:	signature:( __in BYTE bPort, __in BYTE bPortFlags )
+Initialize_Camera	C:\Temp\Trc\BaseCode\camera.c	279;"	f	line:279	signature:(void)
+Initialize_Camera	C:\Temp\Trc\BaseCode\camera.h	158;"	p	line:158	signature:(void)
+Initialize_Registers	C:\Temp\Trc\BaseCode\ifi_default.h	179;"	p	line:179	signature:( void )
+InputCalibrate	C:\Temp\Trc\BaseCode\input.c	238;"	f	line:238	signature:( void )
+InputCalibrate	C:\Temp\Trc\BaseCode\input.h	73;"	p	line:73	signature:( void )
+InputInitialize	C:\Temp\Trc\BaseCode\input.c	168;"	f	line:168	signature:( __in BYTE bPort1Flags, __in BYTE bPort2Flags, __in BYTE bPort3Flags, __in BYTE bPort4Flags )
+InputInitialize	C:\Temp\Trc\BaseCode\input.h	65;"	p	line:65	signature:( __in BYTE bPort1Flags, __in BYTE bPort2Flags, __in BYTE bPort3Flags, __in BYTE bPort4Flags )
+InputPrintData	C:\Temp\Trc\BaseCode\input.c	526;"	f	line:526	signature:( void )
+InputPrintData	C:\Temp\Trc\BaseCode\input.h	83;"	p	line:83	signature:( void )
+InputProcessData	C:\Temp\Trc\BaseCode\input.c	280;"	f	line:280	signature:( void )
+InputProcessData	C:\Temp\Trc\BaseCode\input.h	78;"	p	line:78	signature:( void )
+InterruptHandlerHigh	C:\Temp\Trc\BaseCode\ifi_default.h	174;"	p	line:174	signature:( void )
+InterruptHandlerLow	C:\Temp\Trc\BaseCode\inthandler.c	25;"	p	line:25	file:	signature:( void )
+InterruptHandlerLow	C:\Temp\Trc\BaseCode\inthandler.c	66;"	f	line:66	signature:( void )
+InterruptVectorLow	C:\Temp\Trc\BaseCode\inthandler.c	38;"	f	line:38	signature:( void )
+JOYSTICK_NOISE_MARGIN::5	C:\Temp\Trc\BaseCode\input.c	35;"	d	line:35	file:
+JOYSTICK_X::g_InputData.Joysticks[1].ix	C:\Temp\Trc\2008\project.h	131;"	d	line:131
+JOYSTICK_Y::g_InputData.Joysticks[0].iy	C:\Temp\Trc\2008\project.h	132;"	d	line:132
+JOYSTICK_Z::g_InputData.Joysticks[2].iy	C:\Temp\Trc\2008\project.h	133;"	d	line:133
+Joysticks	C:\Temp\Trc\BaseCode\input.h	58;"	m	line:58	struct:_InputData
+Ki	C:\Temp\Trc\BaseCode\servo.h	68;"	m	line:68	struct:_PidParam
+Ko	C:\Temp\Trc\BaseCode\servo.h	72;"	m	line:72	struct:_PidParam
+Kp	C:\Temp\Trc\BaseCode\servo.h	60;"	m	line:60	struct:_PidParam
+Kv	C:\Temp\Trc\BaseCode\servo.h	64;"	m	line:64	struct:_PidParam
+LED_byte1	C:\Temp\Trc\BaseCode\ifi_default.h	111;"	m	line:111
+LED_byte2	C:\Temp\Trc\BaseCode\ifi_default.h	116;"	m	line:116
+LOBYTE::(x)((BYTE)(x))	C:\Temp\Trc\BaseCode\basecode.h	39;"	d	line:39
+LOWORD::(x)((WORD)(x))	C:\Temp\Trc\BaseCode\basecode.h	41;"	d	line:41
+LOW_INT_VECTOR::0x018	C:\Temp\Trc\BaseCode\ifi_default.h	33;"	d	line:33
+LOW_INT_VECTOR::0x818	C:\Temp\Trc\BaseCode\ifi_default.h	37;"	d	line:37
+L_MOTOR_1::pwm15	C:\Temp\Trc\2008\project.h	57;"	d	line:57
+L_MOTOR_2::pwm16	C:\Temp\Trc\2008\project.h	58;"	d	line:58
+L_MOTOR_DIR::-1	C:\Temp\Trc\2008\project.h	141;"	d	line:141
+Left	C:\Temp\Trc\BaseCode\servo.h	118;"	m	line:118	struct:_Drive
+MAX_ACK_LOOP_COUNT::10	C:\Temp\Trc\BaseCode\camera.h	68;"	d	line:68
+MAX_ADC_CHANNELS::16	C:\Temp\Trc\BaseCode\adc.h	25;"	d	line:25
+MAX_ARGS::8	C:\Temp\Trc\BaseCode\console.c	32;"	d	line:32	file:
+MAX_CALIBRATION_HOOKS::4	C:\Temp\Trc\BaseCode\basecode.h	62;"	d	line:62
+MAX_CMD_LEN::16	C:\Temp\Trc\BaseCode\console.h	24;"	d	line:24
+MAX_ENCODERS::6	C:\Temp\Trc\BaseCode\encoder.h	25;"	d	line:25
+MAX_HELPMSG_LEN::64	C:\Temp\Trc\BaseCode\console.h	25;"	d	line:25
+MAX_INPUTCAL_SAMPLES::20	C:\Temp\Trc\BaseCode\input.c	31;"	d	line:31	file:
+MAX_JOYSTICK_PORTS::4	C:\Temp\Trc\BaseCode\input.c	27;"	d	line:27	file:
+MAX_OI_ANALOG_CHANNELS::16	C:\Temp\Trc\BaseCode\basecode.h	55;"	d	line:55
+MAX_POSTPROCESS_HOOKS::4	C:\Temp\Trc\BaseCode\basecode.h	61;"	d	line:61
+MAX_PREPROCESS_HOOKS::4	C:\Temp\Trc\BaseCode\basecode.h	60;"	d	line:60
+MAX_RC_DIGITAL_IOS::18	C:\Temp\Trc\BaseCode\basecode.h	56;"	d	line:56
+MAX_RC_PWM_CHANNELS::16	C:\Temp\Trc\BaseCode\basecode.h	57;"	d	line:57
+MAX_SERIAL_PORTS::2	C:\Temp\Trc\BaseCode\serial_ports.h	25;"	d	line:25
+MOVETO	C:\Temp\Trc\BaseCode\servo.h	185;"	t	line:185
+MSTATE_MOVE_ENDZONE::1	C:\Temp\Trc\BaseCode\servo.c	27;"	d	line:27	file:
+MSTATE_MOVE_NORMAL::0	C:\Temp\Trc\BaseCode\servo.c	26;"	d	line:26	file:
+NEW_SPI_DATA	C:\Temp\Trc\BaseCode\ifi_default.h	146;"	m	line:146
+NF_DEFAULT::0	C:\Temp\Trc\BaseCode\camera.h	52;"	d	line:52
+NUM_ADC_CHANNELS::2	C:\Temp\Trc\2008\project.h	65;"	d	line:65
+NUM_ENCODERS::2	C:\Temp\Trc\2008\project.h	73;"	d	line:73
+NUM_JOYSTICKS::4	C:\Temp\Trc\2008\project.h	130;"	d	line:130
+Noise_Filter	C:\Temp\Trc\BaseCode\camera.c	677;"	f	line:677	signature:(unsigned char threshold)
+Noise_Filter	C:\Temp\Trc\BaseCode\camera.h	164;"	p	line:164	signature:(unsigned char)
+OICALDATA	C:\Temp\Trc\BaseCode\input.c	118;"	t	line:118	file:
+ORGANIZATION::"TitanRoboticsClub"	C:\Temp\Trc\2008\project.h	27;"	d	line:27
+OUTPUT::0	C:\Temp\Trc\BaseCode\ifi_aliases.h	78;"	d	line:78
+OUT_CCP2::LATEbits.LATE7	C:\Temp\Trc\BaseCode\ifi_aliases.h	254;"	d	line:254
+OUT_CCP3::LATGbits.LATG0	C:\Temp\Trc\BaseCode\ifi_aliases.h	255;"	d	line:255
+OUT_CCP4::LATGbits.LATG3	C:\Temp\Trc\BaseCode\ifi_aliases.h	256;"	d	line:256
+OUT_CCP5::LATGbits.LATG4	C:\Temp\Trc\BaseCode\ifi_aliases.h	257;"	d	line:257
+OiCalData	C:\Temp\Trc\BaseCode\input.c	132;"	v	line:132	file:
+PADC	C:\Temp\Trc\BaseCode\adc.c	124;"	t	line:124	file:
+PADC_CHANNEL	C:\Temp\Trc\BaseCode\adc.c	81;"	t	line:81	file:
+PAN_ALLOWABLE_ERROR_DEFAULT::6	C:\Temp\Trc\BaseCode\tracking.h	93;"	d	line:93
+PAN_CENTER_PWM_DEFAULT::124	C:\Temp\Trc\BaseCode\tracking.h	110;"	d	line:110
+PAN_GAIN_DEFAULT::3	C:\Temp\Trc\BaseCode\tracking.h	70;"	d	line:70
+PAN_MAX_PWM_DEFAULT::248	C:\Temp\Trc\BaseCode\tracking.h	99;"	d	line:99
+PAN_MIN_PWM_DEFAULT::0	C:\Temp\Trc\BaseCode\tracking.h	98;"	d	line:98
+PAN_ROTATION_SIGN_DEFAULT::-1	C:\Temp\Trc\BaseCode\tracking.h	76;"	d	line:76
+PAN_SEARCH_STEP_SIZE_DEFAULT::62	C:\Temp\Trc\BaseCode\tracking.h	105;"	d	line:105
+PAN_SERVO::pwm01	C:\Temp\Trc\BaseCode\tracking.h	48;"	d	line:48
+PAN_TARGET_PIXEL_DEFAULT::79	C:\Temp\Trc\BaseCode\tracking.h	82;"	d	line:82
+PARGDEF	C:\Temp\Trc\BaseCode\console.h	121;"	t	line:121
+PCMDENTRY	C:\Temp\Trc\BaseCode\console.h	148;"	t	line:148
+PCONSOLE	C:\Temp\Trc\BaseCode\console.c	71;"	t	line:71	file:
+PDRIVE	C:\Temp\Trc\BaseCode\servo.h	135;"	t	line:135
+PENCCHANNEL	C:\Temp\Trc\BaseCode\encoder.c	89;"	t	line:89	file:
+PENCODER	C:\Temp\Trc\BaseCode\encoder.c	113;"	t	line:113	file:
+PFNCMD	C:\Temp\Trc\BaseCode\console.h	69;"	t	line:69
+PFNHOOK	C:\Temp\Trc\BaseCode\basecode.h	104;"	t	line:104
+PFNPARSEARG	C:\Temp\Trc\BaseCode\console.h	74;"	t	line:74
+PGYRO	C:\Temp\Trc\BaseCode\gyro.c	144;"	t	line:144	file:
+PGYROCAL	C:\Temp\Trc\BaseCode\gyro.c	175;"	t	line:175	file:
+PHOOKTABLE	C:\Temp\Trc\BaseCode\basecode.h	110;"	t	line:110
+PI::PI_NUMER/PI_DENOM	C:\Temp\Trc\BaseCode\basecode.h	53;"	d	line:53
+PIDPARAM	C:\Temp\Trc\BaseCode\servo.h	73;"	t	line:73
+PINPUTDATA	C:\Temp\Trc\BaseCode\input.h	59;"	t	line:59
+PI_DENOM::113	C:\Temp\Trc\BaseCode\basecode.h	52;"	d	line:52
+PI_NUMER::355	C:\Temp\Trc\BaseCode\basecode.h	51;"	d	line:51
+PMOVETO	C:\Temp\Trc\BaseCode\servo.h	185;"	t	line:185
+POICALDATA	C:\Temp\Trc\BaseCode\input.c	118;"	t	line:118	file:
+PORTDATA	C:\Temp\Trc\BaseCode\input.h	53;"	t	line:53
+PORTF_ENABLE_AUX::0x08	C:\Temp\Trc\BaseCode\input.h	28;"	d	line:28
+PORTF_ENABLE_MASK::(PORTF_ENABLE_X|\	C:\Temp\Trc\BaseCode\input.h	29;"	d	line:29
+PORTF_ENABLE_WHEEL::0x04	C:\Temp\Trc\BaseCode\input.h	27;"	d	line:27
+PORTF_ENABLE_X::0x01	C:\Temp\Trc\BaseCode\input.h	25;"	d	line:25
+PORTF_ENABLE_Y::0x02	C:\Temp\Trc\BaseCode\input.h	26;"	d	line:26
+PPIDPARAM	C:\Temp\Trc\BaseCode\servo.h	73;"	t	line:73
+PPORTDATA	C:\Temp\Trc\BaseCode\input.h	53;"	t	line:53
+PROJECT::"Oceanus"	C:\Temp\Trc\2008\project.h	28;"	d	line:28
+PROJF_SERVO::0x00000001	C:\Temp\Trc\2008\project.h	34;"	d	line:34
+PSERIAL_PORT	C:\Temp\Trc\BaseCode\serial_ports.c	99;"	t	line:99	file:
+PSERVO	C:\Temp\Trc\BaseCode\servo.h	108;"	t	line:108
+PSTR	C:\Temp\Trc\BaseCode\basecode.h	103;"	t	line:103
+PWMInitialize	C:\Temp\Trc\BaseCode\pwm.c	40;"	f	line:40	signature:( __in void )
+PWMInitialize	C:\Temp\Trc\BaseCode\pwm.h	48;"	p	line:48	signature:( void )
+PWMPrintData	C:\Temp\Trc\BaseCode\pwm.c	156;"	f	line:156	signature:( void )
+PWMPrintData	C:\Temp\Trc\BaseCode\pwm.h	60;"	p	line:60	signature:( void )
+PWMSetValues	C:\Temp\Trc\BaseCode\pwm.c	89;"	f	line:89	signature:( __in BYTE bPWM13, __in BYTE bPWM14, __in BYTE bPWM15, __in BYTE bPWM16 )
+PWMSetValues	C:\Temp\Trc\BaseCode\pwm.h	52;"	p	line:52	signature:( __in BYTE bPWM13, __in BYTE bPWM14, __in BYTE bPWM15, __in BYTE bPWM16 )
+PWM_13_CENTER::15000	C:\Temp\Trc\BaseCode\pwm.h	39;"	d	line:39
+PWM_13_GAIN::50	C:\Temp\Trc\BaseCode\pwm.h	30;"	d	line:30
+PWM_14_CENTER::15000	C:\Temp\Trc\BaseCode\pwm.h	40;"	d	line:40
+PWM_14_GAIN::50	C:\Temp\Trc\BaseCode\pwm.h	31;"	d	line:31
+PWM_15_CENTER::15000	C:\Temp\Trc\BaseCode\pwm.h	41;"	d	line:41
+PWM_15_GAIN::50	C:\Temp\Trc\BaseCode\pwm.h	32;"	d	line:32
+PWM_16_CENTER::15000	C:\Temp\Trc\BaseCode\pwm.h	42;"	d	line:42
+PWM_16_GAIN::50	C:\Temp\Trc\BaseCode\pwm.h	33;"	d	line:33
+PidParam	C:\Temp\Trc\BaseCode\servo.h	83;"	m	line:83	struct:_Servo
+PneumaticSwitch::rc_dig_in18	C:\Temp\Trc\2008\project.h	44;"	d	line:44
+Port_B	C:\Temp\Trc\BaseCode\inthandler.c	156;"	l	line:156
+PostProcessFuncs	C:\Temp\Trc\BaseCode\main.c	38;"	v	line:38	file:
+PostProcessHooks	C:\Temp\Trc\BaseCode\main.c	41;"	v	line:41	file:
+PreProcessFuncs	C:\Temp\Trc\BaseCode\main.c	37;"	v	line:37	file:
+PreProcessHooks	C:\Temp\Trc\BaseCode\main.c	40;"	v	line:40	file:
+PrintAdcData	C:\Temp\Trc\BaseCode\basecmd.c	255;"	f	line:255	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintAdcData	C:\Temp\Trc\BaseCode\basecmd.c	39;"	p	line:39	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintDrivePid	C:\Temp\Trc\2008\projcmd.c	103;"	f	line:103	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintDrivePid	C:\Temp\Trc\2008\projcmd.c	24;"	p	line:24	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintEncoderData	C:\Temp\Trc\BaseCode\basecmd.c	274;"	f	line:274	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintEncoderData	C:\Temp\Trc\BaseCode\basecmd.c	44;"	p	line:44	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintGyroData	C:\Temp\Trc\BaseCode\basecmd.c	293;"	f	line:293	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintGyroData	C:\Temp\Trc\BaseCode\basecmd.c	49;"	p	line:49	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintInputData	C:\Temp\Trc\BaseCode\basecmd.c	312;"	f	line:312	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintInputData	C:\Temp\Trc\BaseCode\basecmd.c	54;"	p	line:54	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintPwmData	C:\Temp\Trc\BaseCode\basecmd.c	236;"	f	line:236	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintPwmData	C:\Temp\Trc\BaseCode\basecmd.c	34;"	p	line:34	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintRCIoData	C:\Temp\Trc\BaseCode\basecmd.c	217;"	f	line:217	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintRCIoData	C:\Temp\Trc\BaseCode\basecmd.c	29;"	p	line:29	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintServoData	C:\Temp\Trc\2008\projcmd.c	122;"	f	line:122	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintServoData	C:\Temp\Trc\2008\projcmd.c	29;"	p	line:29	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintStatus	C:\Temp\Trc\BaseCode\basecmd.c	195;"	f	line:195	file:	signature:( __in PCMDENTRY pCmdEntry )
+PrintStatus	C:\Temp\Trc\BaseCode\basecmd.c	24;"	p	line:24	file:	signature:( __in PCMDENTRY pCmdEntry )
+ProcessHooks	C:\Temp\Trc\BaseCode\main.c	239;"	f	line:239	file:	signature:( __in PHOOKTABLE HookTable )
+ProcessHooks	C:\Temp\Trc\BaseCode\main.c	53;"	p	line:53	file:	signature:( __in PHOOKTABLE HookTable )
+ProjAutonomousCode	C:\Temp\Trc\2008\project.c	243;"	f	line:243	signature:( void )
+ProjAutonomousCode	C:\Temp\Trc\2008\project.h	177;"	p	line:177	signature:( void )
+ProjCmdConsoleInit	C:\Temp\Trc\2008\projcmd.c	61;"	f	line:61	signature:( __in BYTE bSerialPort )
+ProjCmdConsoleInit	C:\Temp\Trc\2008\project.h	188;"	p	line:188	signature:( __in BYTE bSerialPort )
+ProjCmdConsoleTrace	C:\Temp\Trc\2008\projcmd.c	76;"	f	line:76	signature:( void )
+ProjCmdConsoleTrace	C:\Temp\Trc\2008\project.h	193;"	p	line:193	signature:( void )
+ProjCmdTable	C:\Temp\Trc\2008\projcmd.c	40;"	v	line:40	file:
+ProjCmdTable	C:\Temp\Trc\BaseCode\console.c	70;"	m	line:70	struct:_Console	file:
+ProjInitialize	C:\Temp\Trc\2008\project.c	47;"	f	line:47	signature:( void )
+ProjInitialize	C:\Temp\Trc\2008\project.h	167;"	p	line:167	signature:( void )
+ProjProcessData	C:\Temp\Trc\2008\project.c	161;"	f	line:161	signature:( void )
+ProjProcessData	C:\Temp\Trc\2008\project.h	172;"	p	line:172	signature:( void )
+ProjProcessLocalIO	C:\Temp\Trc\2008\project.c	345;"	f	line:345	signature:( void )
+ProjProcessLocalIO	C:\Temp\Trc\2008\project.h	182;"	p	line:182	signature:( void )
+Putdata	C:\Temp\Trc\BaseCode\ifi_default.h	200;"	p	line:200	signature:( __in tx_data_ptr TxData )
+Pwm1_green::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	209;"	d	line:209
+Pwm1_red::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	210;"	d	line:210
+Pwm2_green::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	211;"	d	line:211
+Pwm2_red::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	212;"	d	line:212
+QSTATE_EMPTY::1	C:\Temp\Trc\BaseCode\serial_ports.c	58;"	d	line:58	file:
+QSTATE_FULL::2	C:\Temp\Trc\BaseCode\serial_ports.c	62;"	d	line:62	file:
+QSTATE_NORMAL::0	C:\Temp\Trc\BaseCode\serial_ports.c	54;"	d	line:54	file:
+RCIOInitialize	C:\Temp\Trc\BaseCode\rcio.c	51;"	f	line:51	signature:( __in DWORD dwOutChannelMask )
+RCIOInitialize	C:\Temp\Trc\BaseCode\rcio.h	24;"	p	line:24	signature:( __in DWORD dwOutChannelMask )
+RCIOPrintData	C:\Temp\Trc\BaseCode\rcio.c	296;"	f	line:296	signature:( void )
+RCIOPrintData	C:\Temp\Trc\BaseCode\rcio.h	29;"	p	line:29	signature:( void )
+RCIOPrintDigitalIo	C:\Temp\Trc\BaseCode\rcio.c	25;"	p	line:25	file:	signature:( __in BYTE bIoChannel, __in BYTE bIoConfig, __in BYTE bInValue, __in BYTE bOutValue )
+RCIOPrintDigitalIo	C:\Temp\Trc\BaseCode\rcio.c	351;"	f	line:351	file:	signature:( __in BYTE bIoChannel, __in BYTE bIoConfig, __in BYTE bInValue, __in BYTE bOutValue )
+RCIOPrintRelay	C:\Temp\Trc\BaseCode\rcio.c	33;"	p	line:33	file:	signature:( __in BYTE bRelayChannel, __in BYTE bFwd, __in BYTE bRev )
+RCIOPrintRelay	C:\Temp\Trc\BaseCode\rcio.c	385;"	f	line:385	file:	signature:( __in BYTE bRelayChannel, __in BYTE bFwd, __in BYTE bRev )
+RC_DIGITAL_01::(1<<0)	C:\Temp\Trc\BaseCode\basecode.h	77;"	d	line:77
+RC_DIGITAL_02::(1<<1)	C:\Temp\Trc\BaseCode\basecode.h	78;"	d	line:78
+RC_DIGITAL_03::(1<<2)	C:\Temp\Trc\BaseCode\basecode.h	79;"	d	line:79
+RC_DIGITAL_04::(1<<3)	C:\Temp\Trc\BaseCode\basecode.h	80;"	d	line:80
+RC_DIGITAL_05::(1<<4)	C:\Temp\Trc\BaseCode\basecode.h	81;"	d	line:81
+RC_DIGITAL_06::(1<<5)	C:\Temp\Trc\BaseCode\basecode.h	82;"	d	line:82
+RC_DIGITAL_07::(1<<6)	C:\Temp\Trc\BaseCode\basecode.h	83;"	d	line:83
+RC_DIGITAL_08::(1<<7)	C:\Temp\Trc\BaseCode\basecode.h	84;"	d	line:84
+RC_DIGITAL_09::(1<<8)	C:\Temp\Trc\BaseCode\basecode.h	85;"	d	line:85
+RC_DIGITAL_10::(1<<9)	C:\Temp\Trc\BaseCode\basecode.h	86;"	d	line:86
+RC_DIGITAL_11::(1<<10)	C:\Temp\Trc\BaseCode\basecode.h	87;"	d	line:87
+RC_DIGITAL_12::(1<<11)	C:\Temp\Trc\BaseCode\basecode.h	88;"	d	line:88
+RC_DIGITAL_13::(1<<12)	C:\Temp\Trc\BaseCode\basecode.h	89;"	d	line:89
+RC_DIGITAL_14::(1<<13)	C:\Temp\Trc\BaseCode\basecode.h	90;"	d	line:90
+RC_DIGITAL_15::(1<<14)	C:\Temp\Trc\BaseCode\basecode.h	91;"	d	line:91
+RC_DIGITAL_16::(1<<15)	C:\Temp\Trc\BaseCode\basecode.h	92;"	d	line:92
+RC_DIGITAL_17::(1<<16)	C:\Temp\Trc\BaseCode\basecode.h	93;"	d	line:93
+RC_DIGITAL_18::(1<<17)	C:\Temp\Trc\BaseCode\basecode.h	94;"	d	line:94
+RECEIVING_ACK::5	C:\Temp\Trc\BaseCode\camera.h	100;"	d	line:100
+RECEIVING_NCK::6	C:\Temp\Trc\BaseCode\camera.h	101;"	d	line:101
+RECEIVING_T_PACKET::3	C:\Temp\Trc\BaseCode\camera.h	98;"	d	line:98
+RECEIVING_T_PACKET_BITMAP::4	C:\Temp\Trc\BaseCode\camera.h	99;"	d	line:99
+RED_ADDRESS::0x02	C:\Temp\Trc\BaseCode\camera.h	126;"	d	line:126
+RED_DEFAULT::128	C:\Temp\Trc\BaseCode\camera.h	55;"	d	line:55
+RESET_VECTOR::0x000	C:\Temp\Trc\BaseCode\ifi_default.h	31;"	d	line:31
+RESET_VECTOR::0x800	C:\Temp\Trc\BaseCode\ifi_default.h	35;"	d	line:35
+RND::6	C:\Temp\Trc\BaseCode\ifi_startup.c	19;"	d	line:19	file:
+RX_BUFFSELECT	C:\Temp\Trc\BaseCode\ifi_default.h	150;"	m	line:150
+RX_QUEUE_SIZE::32	C:\Temp\Trc\BaseCode\serial_ports.c	78;"	d	line:78	file:
+R_MAX_DEFAULT::115	C:\Temp\Trc\BaseCode\camera.h	47;"	d	line:47
+R_MIN_DEFAULT::85	C:\Temp\Trc\BaseCode\camera.h	46;"	d	line:46
+R_MOTOR_1::pwm13	C:\Temp\Trc\2008\project.h	55;"	d	line:55
+R_MOTOR_2::pwm14	C:\Temp\Trc\2008\project.h	56;"	d	line:56
+R_MOTOR_DIR::1	C:\Temp\Trc\2008\project.h	140;"	d	line:140
+Raw_Mode	C:\Temp\Trc\BaseCode\camera.c	649;"	f	line:649	signature:(unsigned char mode)
+Raw_Mode	C:\Temp\Trc\BaseCode\camera.h	163;"	p	line:163	signature:(unsigned char)
+Read_Camera_Serial_Port	C:\Temp\Trc\BaseCode\camera.c	792;"	f	line:792	signature:(void)
+Read_Camera_Serial_Port	C:\Temp\Trc\BaseCode\camera.h	168;"	p	line:168	signature:(void)
+Read_Terminal_Serial_Port	C:\Temp\Trc\BaseCode\camera.c	874;"	f	line:874	signature:(void)
+Read_Terminal_Serial_Port	C:\Temp\Trc\BaseCode\camera.h	171;"	p	line:171	signature:(void)
+RegisterHook	C:\Temp\Trc\BaseCode\basecode.h	116;"	p	line:116	signature:( __inout PHOOKTABLE HookTable, __in PFNHOOK pfnHook )
+RegisterHook	C:\Temp\Trc\BaseCode\main.c	177;"	f	line:177	signature:( __inout PHOOKTABLE HookTable, __in PFNHOOK pfnHook )
+Relay1_green::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	214;"	d	line:214
+Relay1_red::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	213;"	d	line:213
+Relay2_green::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	216;"	d	line:216
+Relay2_red::txdata.LED_byte1.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	215;"	d	line:215
+Restart_Camera	C:\Temp\Trc\BaseCode\camera.c	601;"	f	line:601	signature:(void)
+Restart_Camera	C:\Temp\Trc\BaseCode\camera.h	161;"	p	line:161	signature:(void)
+Right	C:\Temp\Trc\BaseCode\servo.h	122;"	m	line:122	struct:_Drive
+RxFramingErrors	C:\Temp\Trc\BaseCode\serial_ports.c	92;"	m	line:92	struct:_SerialPort	file:
+RxOverrunErrors	C:\Temp\Trc\BaseCode\serial_ports.c	91;"	m	line:91	struct:_SerialPort	file:
+RxQueue	C:\Temp\Trc\BaseCode\serial_ports.c	86;"	m	line:86	struct:_SerialPort	file:
+RxQueueByteCount	C:\Temp\Trc\BaseCode\serial_ports.c	90;"	m	line:90	struct:_SerialPort	file:
+RxQueueReadIndex	C:\Temp\Trc\BaseCode\serial_ports.c	88;"	m	line:88	struct:_SerialPort	file:
+RxQueueState	C:\Temp\Trc\BaseCode\serial_ports.c	87;"	m	line:87	struct:_SerialPort	file:
+RxQueueWriteIndex	C:\Temp\Trc\BaseCode\serial_ports.c	89;"	m	line:89	struct:_SerialPort	file:
+SAT_ADDRESS::0x03	C:\Temp\Trc\BaseCode\camera.h	127;"	d	line:127
+SAT_DEFAULT::128	C:\Temp\Trc\BaseCode\camera.h	56;"	d	line:56
+SEARCHING::0	C:\Temp\Trc\BaseCode\tracking.h	135;"	d	line:135
+SEARCH_DELAY_DEFAULT::6	C:\Temp\Trc\BaseCode\tracking.h	59;"	d	line:59
+SERIAL_PORT	C:\Temp\Trc\BaseCode\serial_ports.c	99;"	t	line:99	file:
+SERIAL_PORT_ONE::0	C:\Temp\Trc\BaseCode\serial_ports.h	43;"	d	line:43
+SERIAL_PORT_TWO::1	C:\Temp\Trc\BaseCode\serial_ports.h	44;"	d	line:44
+SERVO	C:\Temp\Trc\BaseCode\servo.h	108;"	t	line:108
+SIXTEEN_ANALOG::ADC_16ANA	C:\Temp\Trc\BaseCode\ifi_aliases.h	202;"	d	line:202
+SPI_SEMAPHORE	C:\Temp\Trc\BaseCode\ifi_default.h	151;"	m	line:151
+SPI_TRAILER_SIZE::2	C:\Temp\Trc\BaseCode\ifi_default.h	27;"	d	line:27
+SPI_XFER_SIZE::(DATA_SIZE+SPI_TRAILER_SIZE)	C:\Temp\Trc\BaseCode\ifi_default.h	28;"	d	line:28
+STATE_EIGHT::8	C:\Temp\Trc\BaseCode\camera.h	111;"	d	line:111
+STATE_EIGHTEEN::18	C:\Temp\Trc\BaseCode\camera.h	121;"	d	line:121
+STATE_ELEVEN::11	C:\Temp\Trc\BaseCode\camera.h	114;"	d	line:114
+STATE_FIFTEEN::15	C:\Temp\Trc\BaseCode\camera.h	118;"	d	line:118
+STATE_FIVE::5	C:\Temp\Trc\BaseCode\camera.h	108;"	d	line:108
+STATE_FOUR::4	C:\Temp\Trc\BaseCode\camera.h	107;"	d	line:107
+STATE_FOURTEEN::14	C:\Temp\Trc\BaseCode\camera.h	117;"	d	line:117
+STATE_NINE::9	C:\Temp\Trc\BaseCode\camera.h	112;"	d	line:112
+STATE_ONE::1	C:\Temp\Trc\BaseCode\camera.h	104;"	d	line:104
+STATE_PAN_ON_TARGET::2	C:\Temp\Trc\BaseCode\tracking.h	131;"	d	line:131
+STATE_SEARCHING::0	C:\Temp\Trc\BaseCode\tracking.h	129;"	d	line:129
+STATE_SEVEN::7	C:\Temp\Trc\BaseCode\camera.h	110;"	d	line:110
+STATE_SEVENTEEN::17	C:\Temp\Trc\BaseCode\camera.h	120;"	d	line:120
+STATE_SIX::6	C:\Temp\Trc\BaseCode\camera.h	109;"	d	line:109
+STATE_SIXTEEN::16	C:\Temp\Trc\BaseCode\camera.h	119;"	d	line:119
+STATE_TARGET_IN_VIEW::1	C:\Temp\Trc\BaseCode\tracking.h	130;"	d	line:130
+STATE_TEN::10	C:\Temp\Trc\BaseCode\camera.h	113;"	d	line:113
+STATE_THIRTEEN::13	C:\Temp\Trc\BaseCode\camera.h	116;"	d	line:116
+STATE_THREE::3	C:\Temp\Trc\BaseCode\camera.h	106;"	d	line:106
+STATE_TILT_ON_TARGET::4	C:\Temp\Trc\BaseCode\tracking.h	132;"	d	line:132
+STATE_TWELVE::12	C:\Temp\Trc\BaseCode\camera.h	115;"	d	line:115
+STATE_TWO::2	C:\Temp\Trc\BaseCode\camera.h	105;"	d	line:105
+SYSF_CALIBRATION_MODE::0x20000000	C:\Temp\Trc\BaseCode\basecode.h	72;"	d	line:72
+SYSF_CONSOLE_MODE::0x40000000	C:\Temp\Trc\BaseCode\basecode.h	73;"	d	line:73
+SYSF_TRACE_ADC::0x00000004	C:\Temp\Trc\BaseCode\basecode.h	67;"	d	line:67
+SYSF_TRACE_ENCODER::0x00000008	C:\Temp\Trc\BaseCode\basecode.h	68;"	d	line:68
+SYSF_TRACE_GYRO::0x00000010	C:\Temp\Trc\BaseCode\basecode.h	69;"	d	line:69
+SYSF_TRACE_INPUT::0x00000020	C:\Temp\Trc\BaseCode\basecode.h	70;"	d	line:70
+SYSF_TRACE_ON::0x80000000	C:\Temp\Trc\BaseCode\basecode.h	74;"	d	line:74
+SYSF_TRACE_PWM::0x00000002	C:\Temp\Trc\BaseCode\basecode.h	66;"	d	line:66
+SYSF_TRACE_RCIO::0x00000001	C:\Temp\Trc\BaseCode\basecode.h	65;"	d	line:65
+SYSF_TRACE_SERVO::0x00000040	C:\Temp\Trc\BaseCode\basecode.h	71;"	d	line:71
+Serial1Initialize	C:\Temp\Trc\BaseCode\serial_ports.c	155;"	f	line:155	signature:( __in BYTE bBaudRate, __in BYTE bFlags )
+Serial1Initialize	C:\Temp\Trc\BaseCode\serial_ports.h	51;"	p	line:51	signature:( __in BYTE bBaudRate, __in BYTE bFlags )
+Serial2Initialize	C:\Temp\Trc\BaseCode\serial_ports.c	303;"	f	line:303	signature:( __in BYTE bBaudRate, __in BYTE bFlags )
+Serial2Initialize	C:\Temp\Trc\BaseCode\serial_ports.h	57;"	p	line:57	signature:( __in BYTE bBaudRate, __in BYTE bFlags )
+SerialGetByteCount	C:\Temp\Trc\BaseCode\serial_ports.c	442;"	f	line:442	signature:( __in BYTE bSerialPort )
+SerialGetByteCount	C:\Temp\Trc\BaseCode\serial_ports.h	63;"	p	line:63	signature:( __in BYTE bSerialPort )
+SerialInitPort	C:\Temp\Trc\BaseCode\serial_ports.c	110;"	p	line:110	file:	signature:( __out PSERIAL_PORT SerialPort, __in BYTE bPortFlags )
+SerialInitPort	C:\Temp\Trc\BaseCode\serial_ports.c	841;"	f	line:841	file:	signature:( __out PSERIAL_PORT SerialPort, __in BYTE bFlags )
+SerialPorts	C:\Temp\Trc\BaseCode\serial_ports.c	104;"	v	line:104
+SerialReadData	C:\Temp\Trc\BaseCode\serial_ports.c	474;"	f	line:474	signature:( __in BYTE bSerialPort )
+SerialReadData	C:\Temp\Trc\BaseCode\serial_ports.h	68;"	p	line:68	signature:( __in BYTE bSerialPort )
+SerialRxIntHandler	C:\Temp\Trc\BaseCode\serial_ports.c	647;"	f	line:647	signature:( __in BYTE bSerialPort )
+SerialRxIntHandler	C:\Temp\Trc\BaseCode\serial_ports.h	84;"	p	line:84	signature:( __in BYTE bSerialPort )
+SerialRxInterrupt	C:\Temp\Trc\BaseCode\serial_ports.c	116;"	p	line:116	file:	signature:( __in BYTE bSerialPort, __in BYTE fEnable )
+SerialRxInterrupt	C:\Temp\Trc\BaseCode\serial_ports.c	870;"	f	line:870	file:	signature:( __in BYTE bSerialPort, __in BYTE fEnable )
+SerialTxIntHandler	C:\Temp\Trc\BaseCode\serial_ports.c	771;"	f	line:771	signature:( __in BYTE bSerialPort )
+SerialTxIntHandler	C:\Temp\Trc\BaseCode\serial_ports.h	89;"	p	line:89	signature:( __in BYTE bSerialPort )
+SerialTxInterrupt	C:\Temp\Trc\BaseCode\serial_ports.c	122;"	p	line:122	file:	signature:( __in BYTE bSerialPort, __in BYTE fEnable )
+SerialTxInterrupt	C:\Temp\Trc\BaseCode\serial_ports.c	904;"	f	line:904	file:	signature:( __in BYTE bSerialPort, __in BYTE fEnable )
+SerialWriteData	C:\Temp\Trc\BaseCode\serial_ports.c	548;"	f	line:548	signature:( __in BYTE bSerialPort, __in BYTE bData )
+SerialWriteData	C:\Temp\Trc\BaseCode\serial_ports.h	73;"	p	line:73	signature:( __in BYTE bSerialPort, __in BYTE bData )
+ServoCalibrate	C:\Temp\Trc\BaseCode\servo.c	374;"	f	line:374	signature:( __out PDRIVE Drive )
+ServoInitMoveTo	C:\Temp\Trc\BaseCode\servo.c	187;"	f	line:187	signature:( __out PMOVETO MoveTo, __in PDRIVE Drive, __in long lHeading, __in long lDistance, __in int iTurnVel, __in int iDriveVel, __in int iEndVel, __in long lTurnThreshold, __in long lAngleTolerance )
+ServoInitMoveTo	C:\Temp\Trc\BaseCode\servo.h	208;"	p	line:208	signature:( __out PMOVETO MoveTo, __in PDRIVE Drive, __in long lHeading, __in long lDistance, __in int iTurnVel, __in int iDriveVel, __in int iEndVel, __in long lTurnThreshold, __in long lAngleTolerance )
+ServoInitialize	C:\Temp\Trc\BaseCode\servo.c	52;"	f	line:52	signature:( __out PSERVO Servo, __in PPIDPARAM PidParam, __in BYTE bEncoder, __in int iVelLimit, __in int iMotorDir )
+ServoInitialize	C:\Temp\Trc\BaseCode\servo.h	191;"	p	line:191	signature:( __out PSERVO Servo, __in PPIDPARAM PidParam, __in BYTE bEncoder, __in int iVelLimit, __in int iMotorDir )
+ServoMoveTo	C:\Temp\Trc\BaseCode\servo.c	256;"	f	line:256	signature:( __inout PMOVETO MoveTo, __in PDRIVE Drive )
+ServoMoveTo	C:\Temp\Trc\BaseCode\servo.h	221;"	p	line:221	signature:( __inout PMOVETO MoveTo, __in PDRIVE Drive )
+ServoPid	C:\Temp\Trc\BaseCode\servo.c	91;"	f	line:91	signature:( __inout PSERVO Servo, __in long lPos, __in long lVel, __in BOOL fPosPid )
+ServoPid	C:\Temp\Trc\BaseCode\servo.h	200;"	p	line:200	signature:( __inout PSERVO Servo, __in long lPos, __in long lVel, __in BOOL fPosPid )
+ServoPidDrive::(Servo,lPos,lVel,fPosPid)\	C:\Temp\Trc\BaseCode\servo.h	45;"	d	line:45
+ServoPrintData	C:\Temp\Trc\BaseCode\servo.c	419;"	f	line:419	signature:( __in PSTR pszName, __in PSERVO Servo )
+ServoPrintData	C:\Temp\Trc\BaseCode\servo.h	232;"	p	line:232	signature:( __in PSTR pszName, __in PSERVO Servo )
+ServoPrintPidParam	C:\Temp\Trc\BaseCode\servo.c	396;"	f	line:396	signature:( __in PPIDPARAM PidParam )
+ServoPrintPidParam	C:\Temp\Trc\BaseCode\servo.h	227;"	p	line:227	signature:( __in PPIDPARAM PidParam )
+Servo_Track	C:\Temp\Trc\BaseCode\tracking.c	73;"	f	line:73	signature:(void)
+Servo_Track	C:\Temp\Trc\BaseCode\tracking.h	141;"	p	line:141	signature:(void)
+Set_Pan_Servo_Position	C:\Temp\Trc\BaseCode\tracking.c	439;"	f	line:439	signature:(unsigned char new_pan_position)
+Set_Pan_Servo_Position	C:\Temp\Trc\BaseCode\tracking.h	143;"	p	line:143	signature:(unsigned char)
+Set_Tilt_Servo_Position	C:\Temp\Trc\BaseCode\tracking.c	459;"	f	line:459	signature:(unsigned char new_tilt_position)
+Set_Tilt_Servo_Position	C:\Temp\Trc\BaseCode\tracking.h	144;"	p	line:144	signature:(unsigned char)
+Setup_PWM_Output_Type	C:\Temp\Trc\BaseCode\ifi_default.h	212;"	p	line:212	signature:( __in int pwmSpec1, __in int pwmSpec2, __in int pwmSpec3, __in int pwmSpec4 )
+Switch1_LED::txdata.LED_byte2.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	218;"	d	line:218
+Switch2_LED::txdata.LED_byte2.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	219;"	d	line:219
+Switch3_LED::txdata.LED_byte2.bitselect.bit	C:\Temp\Trc\BaseCode\ifi_aliases.h	220;"	d	line:220
+TARGET_IN_VIEW::1	C:\Temp\Trc\BaseCode\tracking.h	136;"	d	line:136
+TENTHS_OF_A_DEGREE	C:\Temp\Trc\BaseCode\gyro.h	25;"	d	line:25
+TERMINAL_SERIAL_PORT_1	C:\Temp\Trc\BaseCode\camera.h	92;"	d	line:92
+TERMINAL_SERIAL_PORT_2	C:\Temp\Trc\BaseCode\camera.h	90;"	d	line:90
+TILT_ALLOWABLE_ERROR_DEFAULT::6	C:\Temp\Trc\BaseCode\tracking.h	94;"	d	line:94
+TILT_CENTER_PWM_DEFAULT::144	C:\Temp\Trc\BaseCode\tracking.h	111;"	d	line:111
+TILT_GAIN_DEFAULT::8	C:\Temp\Trc\BaseCode\tracking.h	71;"	d	line:71
+TILT_MAX_PWM_DEFAULT::194	C:\Temp\Trc\BaseCode\tracking.h	116;"	d	line:116
+TILT_MIN_PWM_DEFAULT::94	C:\Temp\Trc\BaseCode\tracking.h	115;"	d	line:115
+TILT_ROTATION_SIGN_DEFAULT::1	C:\Temp\Trc\BaseCode\tracking.h	77;"	d	line:77
+TILT_SEARCH_STEP_SIZE_DEFAULT::50	C:\Temp\Trc\BaseCode\tracking.h	122;"	d	line:122
+TILT_SERVO::pwm02	C:\Temp\Trc\BaseCode\tracking.h	53;"	d	line:53
+TILT_TARGET_PIXEL_DEFAULT::119	C:\Temp\Trc\BaseCode\tracking.h	83;"	d	line:83
+TPRINTF::(x){if(IS_TRACE_ON)printfx;}	C:\Temp\Trc\BaseCode\basecode.h	44;"	d	line:44
+TRUE::!FALSE	C:\Temp\Trc\BaseCode\basecode.h	50;"	d	line:50
+TURN_VEL_LIMIT::40	C:\Temp\Trc\2008\project.h	145;"	d	line:145
+TXINTF::PIR1bits.TXIF	C:\Temp\Trc\BaseCode\ifi_utilities.h	22;"	d	line:22
+TXINTF::PIR3bits.TX2IF	C:\Temp\Trc\BaseCode\ifi_utilities.h	20;"	d	line:20
+TX_BUFFSELECT	C:\Temp\Trc\BaseCode\ifi_default.h	149;"	m	line:149
+TX_QUEUE_SIZE::32	C:\Temp\Trc\BaseCode\serial_ports.c	79;"	d	line:79	file:
+TX_UPDATED	C:\Temp\Trc\BaseCode\ifi_default.h	147;"	m	line:147
+T_Packet_Data	C:\Temp\Trc\BaseCode\camera.c	47;"	v	line:47
+T_Packet_Data_Type	C:\Temp\Trc\BaseCode\camera.h	148;"	t	line:148
+Terminal_Serial_Port_Byte_Count	C:\Temp\Trc\BaseCode\camera.c	843;"	f	line:843	signature:(void)
+Terminal_Serial_Port_Byte_Count	C:\Temp\Trc\BaseCode\camera.h	170;"	p	line:170	signature:(void)
+Timer2Disable	C:\Temp\Trc\BaseCode\adc.c	140;"	p	line:140	file:	signature:( void )
+Timer2Disable	C:\Temp\Trc\BaseCode\adc.c	769;"	f	line:769	file:	signature:( void )
+Timer2Initialize	C:\Temp\Trc\BaseCode\adc.c	135;"	p	line:135	file:	signature:( __in WORD wSampleReate )
+Timer2Initialize	C:\Temp\Trc\BaseCode\adc.c	656;"	f	line:656	file:	signature:( __in WORD wSampleRate )
+Track_Color	C:\Temp\Trc\BaseCode\camera.c	550;"	f	line:550	signature:(unsigned char Rmin, unsigned char Rmax, unsigned char Gmin, unsigned char Gmax, unsigned char Bmin, unsigned char Bmax)
+Track_Color	C:\Temp\Trc\BaseCode\camera.h	159;"	p	line:159	signature:(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+Tracking_Info_Terminal	C:\Temp\Trc\BaseCode\terminal.c	51;"	f	line:51	signature:(void)
+Tracking_Info_Terminal	C:\Temp\Trc\BaseCode\terminal.h	32;"	p	line:32	signature:(void)
+Tracking_Initialized	C:\Temp\Trc\BaseCode\tracking.c	75;"	l	line:75	file:
+Tracking_State	C:\Temp\Trc\BaseCode\tracking.c	48;"	v	line:48
+Turn	C:\Temp\Trc\BaseCode\servo.h	126;"	m	line:126	struct:_Drive
+TxQueue	C:\Temp\Trc\BaseCode\serial_ports.c	93;"	m	line:93	struct:_SerialPort	file:
+TxQueueByteCount	C:\Temp\Trc\BaseCode\serial_ports.c	97;"	m	line:97	struct:_SerialPort	file:
+TxQueueReadIndex	C:\Temp\Trc\BaseCode\serial_ports.c	95;"	m	line:95	struct:_SerialPort	file:
+TxQueueState	C:\Temp\Trc\BaseCode\serial_ports.c	94;"	m	line:94	struct:_SerialPort	file:
+TxQueueWriteIndex	C:\Temp\Trc\BaseCode\serial_ports.c	96;"	m	line:96	struct:_SerialPort	file:
+UNCHANGEABLE_DEFINITION_AREA::1	C:\Temp\Trc\BaseCode\ifi_default.h	21;"	d	line:21
+UNSYNCHRONIZED::1	C:\Temp\Trc\BaseCode\camera.h	96;"	d	line:96
+USER_CCP::1	C:\Temp\Trc\BaseCode\ifi_aliases.h	25;"	d	line:25
+User_Byte1::txdata.user_byte1.allbits	C:\Temp\Trc\BaseCode\ifi_aliases.h	222;"	d	line:222
+User_Byte2::txdata.user_byte2.allbits	C:\Temp\Trc\BaseCode\ifi_aliases.h	223;"	d	line:223
+User_Byte3::txdata.user_byte3	C:\Temp\Trc\BaseCode\ifi_aliases.h	224;"	d	line:224
+User_Byte4::txdata.user_byte4	C:\Temp\Trc\BaseCode\ifi_aliases.h	225;"	d	line:225
+User_Byte5::txdata.user_byte5	C:\Temp\Trc\BaseCode\ifi_aliases.h	226;"	d	line:226
+User_Byte6::txdata.user_byte6	C:\Temp\Trc\BaseCode\ifi_aliases.h	227;"	d	line:227
+User_Mode_byte::txdata.LED_byte1.data	C:\Temp\Trc\BaseCode\ifi_aliases.h	207;"	d	line:207
+User_Proc_Is_Ready	C:\Temp\Trc\BaseCode\ifi_default.h	193;"	p	line:193	signature:( void )
+VERSION_MAJOR::0	C:\Temp\Trc\2008\project.h	30;"	d	line:30
+VERSION_MINOR::5	C:\Temp\Trc\2008\project.h	31;"	d	line:31
+VERSION_RELEASE::1	C:\Temp\Trc\2008\project.h	32;"	d	line:32
+VREF_NEG_MV::0L	C:\Temp\Trc\BaseCode\adc.c	54;"	d	line:54	file:
+VREF_POS_MV::5000L	C:\Temp\Trc\BaseCode\adc.c	50;"	d	line:50	file:
+VREF_RANGE_MV::(VREF_POS_MV-VREF_NEG_MV)	C:\Temp\Trc\BaseCode\adc.c	58;"	d	line:58	file:
+Virtual_Window	C:\Temp\Trc\BaseCode\camera.c	705;"	f	line:705	signature:(unsigned char x, unsigned char y, unsigned char x2, unsigned char y2)
+Virtual_Window	C:\Temp\Trc\BaseCode\camera.h	165;"	p	line:165	signature:(unsigned char, unsigned char, unsigned char, unsigned char)
+WORD	C:\Temp\Trc\BaseCode\basecode.h	100;"	t	line:100
+Wait4TXEmpty	C:\Temp\Trc\BaseCode\ifi_utilities.c	31;"	f	line:31	signature:( void )
+Wait4TXEmpty	C:\Temp\Trc\BaseCode\ifi_utilities.h	29;"	p	line:29	signature:( void )
+Write_Camera_Module_Register	C:\Temp\Trc\BaseCode\camera.c	735;"	f	line:735	signature:(unsigned char reg, unsigned char value)
+Write_Camera_Module_Register	C:\Temp\Trc\BaseCode\camera.h	166;"	p	line:166	signature:(unsigned char, unsigned char)
+Write_Camera_Serial_Port	C:\Temp\Trc\BaseCode\camera.c	817;"	f	line:817	signature:(unsigned char value)
+Write_Camera_Serial_Port	C:\Temp\Trc\BaseCode\camera.h	169;"	p	line:169	signature:(unsigned char)
+Write_Terminal_Serial_Port	C:\Temp\Trc\BaseCode\camera.c	899;"	f	line:899	signature:(unsigned char value)
+Write_Terminal_Serial_Port	C:\Temp\Trc\BaseCode\camera.h	172;"	p	line:172	signature:(unsigned char)
+YEAR::2008	C:\Temp\Trc\2008\project.h	29;"	d	line:29
+_ADC	C:\Temp\Trc\BaseCode\adc.c	86;"	s	line:86	file:
+_ADCChannel	C:\Temp\Trc\BaseCode\adc.c	67;"	s	line:67	file:
+_ArgDef	C:\Temp\Trc\BaseCode\console.h	79;"	s	line:79
+_CAMERA_H	C:\Temp\Trc\BaseCode\camera.h	32;"	d	line:32
+_CmdEntry	C:\Temp\Trc\BaseCode\console.h	126;"	s	line:126
+_Console	C:\Temp\Trc\BaseCode\console.c	41;"	s	line:41	file:
+_Drive	C:\Temp\Trc\BaseCode\servo.h	113;"	s	line:113
+_EncChannel	C:\Temp\Trc\BaseCode\encoder.c	60;"	s	line:60	file:
+_Encoder	C:\Temp\Trc\BaseCode\encoder.c	94;"	s	line:94	file:
+_Fwd::relay4_fwd	C:\Temp\Trc\2008\project.h	47;"	d	line:47
+_Gyro	C:\Temp\Trc\BaseCode\gyro.c	82;"	s	line:82	file:
+_GyroCal	C:\Temp\Trc\BaseCode\gyro.c	149;"	s	line:149	file:
+_HookTable	C:\Temp\Trc\BaseCode\basecode.h	105;"	s	line:105
+_InputData	C:\Temp\Trc\BaseCode\input.h	55;"	s	line:55
+_MoveTo	C:\Temp\Trc\BaseCode\servo.h	140;"	s	line:140
+_OiCalData	C:\Temp\Trc\BaseCode\input.c	55;"	s	line:55	file:
+_PWM_H	C:\Temp\Trc\BaseCode\pwm.h	20;"	d	line:20
+_PidParam	C:\Temp\Trc\BaseCode\servo.h	55;"	s	line:55
+_PortData	C:\Temp\Trc\BaseCode\input.h	37;"	s	line:37
+_Rev::relay4_rev	C:\Temp\Trc\2008\project.h	48;"	d	line:48
+_SerialPort	C:\Temp\Trc\BaseCode\serial_ports.c	84;"	s	line:84	file:
+_Servo	C:\Temp\Trc\BaseCode\servo.h	78;"	s	line:78
+_TERMINAL_H	C:\Temp\Trc\BaseCode\terminal.h	29;"	d	line:29
+_TRACKING_H	C:\Temp\Trc\BaseCode\tracking.h	43;"	d	line:43
+_USE_CONSOLE_	C:\Temp\Trc\2008\project.h	22;"	d	line:22
+__ifi_aliases_h_	C:\Temp\Trc\BaseCode\ifi_aliases.h	19;"	d	line:19
+__ifi_default_h_	C:\Temp\Trc\BaseCode\ifi_default.h	17;"	d	line:17
+__ifi_utilities_h_	C:\Temp\Trc\BaseCode\ifi_utilities.h	17;"	d	line:17
+__in	C:\Temp\Trc\BaseCode\basecode.h	29;"	d	line:29
+__inout	C:\Temp\Trc\BaseCode\basecode.h	35;"	d	line:35
+__out	C:\Temp\Trc\BaseCode\basecode.h	32;"	d	line:32
+_adc_h	C:\Temp\Trc\BaseCode\adc.h	20;"	d	line:20
+_basecode_h_	C:\Temp\Trc\BaseCode\basecode.h	19;"	d	line:19
+_console_h	C:\Temp\Trc\BaseCode\console.h	18;"	d	line:18
+_do_cinit	C:\Temp\Trc\BaseCode\ifi_startup.c	52;"	p	line:52	file:	signature:( void )
+_encoder_h	C:\Temp\Trc\BaseCode\encoder.h	20;"	d	line:20
+_entry	C:\Temp\Trc\BaseCode\ifi_startup.c	42;"	p	line:42	file:	signature:( void )
+_entry	C:\Temp\Trc\BaseCode\ifi_startup.c	89;"	f	line:89	signature:( void )
+_gyro_h	C:\Temp\Trc\BaseCode\gyro.h	20;"	d	line:20
+_init_entry	C:\Temp\Trc\BaseCode\ifi_startup.c	30;"	s	line:30	file:
+_input_h	C:\Temp\Trc\BaseCode\input.h	18;"	d	line:18
+_project_h	C:\Temp\Trc\2008\project.h	20;"	d	line:20
+_rcio_h_	C:\Temp\Trc\BaseCode\rcio.h	18;"	d	line:18
+_serial_ports_h	C:\Temp\Trc\BaseCode\serial_ports.h	20;"	d	line:20
+_servo_h	C:\Temp\Trc\BaseCode\servo.h	19;"	d	line:19
+_startup	C:\Temp\Trc\BaseCode\ifi_startup.c	47;"	p	line:47	file:	signature:( void )
+_user_putc	C:\Temp\Trc\BaseCode\serial_ports.c	614;"	f	line:614	signature:( __in BYTE bData )
+_user_putc	C:\Temp\Trc\BaseCode\serial_ports.h	79;"	p	line:79	signature:( __in BYTE bData )
+abs::(x)(((x)>=0)?(x):-(x))	C:\Temp\Trc\BaseCode\basecode.h	42;"	d	line:42
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	120;"	m	line:120
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	125;"	m	line:125
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	75;"	m	line:75
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	80;"	m	line:80
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	85;"	m	line:85
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	90;"	m	line:90
+allbits	C:\Temp\Trc\BaseCode\ifi_default.h	95;"	m	line:95
+apszArgs	C:\Temp\Trc\BaseCode\console.c	312;"	l	line:312	file:
+autonomous	C:\Temp\Trc\BaseCode\ifi_default.h	49;"	m	line:49
+autonomous_mode::rxdata.rc_mode_byte.mode.auton	C:\Temp\Trc\BaseCode\ifi_aliases.h	279;"	d	line:279
+auxPorts	C:\Temp\Trc\BaseCode\input.c	131;"	v	line:131	file:
+bADCChannel	C:\Temp\Trc\BaseCode\gyro.c	91;"	m	line:91	struct:_Gyro	file:
+bByteCount	C:\Temp\Trc\BaseCode\serial_ports.c	446;"	l	line:446
+bCalFlags	C:\Temp\Trc\BaseCode\input.c	61;"	m	line:61	struct:_OiCalData	file:
+bCalPortIndex	C:\Temp\Trc\BaseCode\input.c	65;"	m	line:65	struct:_OiCalData	file:
+bChannel	C:\Temp\Trc\BaseCode\adc.c	72;"	m	line:72	struct:_ADCChannel	file:
+bChannel	C:\Temp\Trc\BaseCode\encoder.c	65;"	m	line:65	struct:_EncChannel	file:
+bChannelIndex	C:\Temp\Trc\BaseCode\adc.c	119;"	m	line:119	struct:_ADC	file:
+bCmdLen	C:\Temp\Trc\BaseCode\console.c	50;"	m	line:50	struct:_Console	file:
+bData	C:\Temp\Trc\BaseCode\serial_ports.c	478;"	l	line:478
+bDeltaPackets	C:\Temp\Trc\BaseCode\main.c	74;"	l	line:74
+bEncoder	C:\Temp\Trc\BaseCode\servo.h	87;"	m	line:87	struct:_Servo
+bFlags	C:\Temp\Trc\BaseCode\gyro.c	87;"	m	line:87	struct:_Gyro	file:
+bIsOut	C:\Temp\Trc\BaseCode\rcio.c	56;"	l	line:56
+bNumArgDefs	C:\Temp\Trc\BaseCode\console.h	135;"	m	line:135	struct:_CmdEntry
+bNumBaseCmds	C:\Temp\Trc\BaseCode\console.c	58;"	m	line:58	struct:_Console	file:
+bNumChannels	C:\Temp\Trc\BaseCode\adc.c	107;"	m	line:107	struct:_ADC	file:
+bNumChannels	C:\Temp\Trc\BaseCode\encoder.c	99;"	m	line:99	struct:_Encoder	file:
+bNumFuncs	C:\Temp\Trc\BaseCode\basecode.h	109;"	m	line:109	struct:_HookTable
+bNumPorts	C:\Temp\Trc\BaseCode\input.h	57;"	m	line:57	struct:_InputData
+bNumProjCmds	C:\Temp\Trc\BaseCode\console.c	66;"	m	line:66	struct:_Console	file:
+bNumSlots	C:\Temp\Trc\BaseCode\basecode.h	108;"	m	line:108	struct:_HookTable
+bOldPortB	C:\Temp\Trc\BaseCode\encoder.c	108;"	m	line:108	struct:_Encoder	file:
+bParam	C:\Temp\Trc\BaseCode\console.h	116;"	m	line:116	struct:_ArgDef
+bPort	C:\Temp\Trc\BaseCode\input.c	285;"	l	line:285
+bPort	C:\Temp\Trc\BaseCode\input.h	39;"	m	line:39	struct:_PortData
+bPortBDelta	C:\Temp\Trc\BaseCode\encoder.c	505;"	l	line:505
+bPortFlags	C:\Temp\Trc\BaseCode\input.h	40;"	m	line:40	struct:_PortData
+bPortFlags	C:\Temp\Trc\BaseCode\serial_ports.c	98;"	m	line:98	struct:_SerialPort	file:
+bPrevPacketNum	C:\Temp\Trc\BaseCode\main.c	73;"	l	line:73
+bSerialPort	C:\Temp\Trc\BaseCode\console.c	46;"	m	line:46	struct:_Console	file:
+bState	C:\Temp\Trc\BaseCode\encoder.c	70;"	m	line:70	struct:_EncChannel	file:
+bState	C:\Temp\Trc\BaseCode\servo.h	145;"	m	line:145	struct:_MoveTo
+bType	C:\Temp\Trc\BaseCode\console.h	84;"	m	line:84	struct:_ArgDef
+bUpdateCount	C:\Temp\Trc\BaseCode\adc.c	115;"	m	line:115	struct:_ADC	file:
+bUpdateCount	C:\Temp\Trc\BaseCode\adc.c	483;"	l	line:483
+bValueDivisor	C:\Temp\Trc\BaseCode\adc.c	103;"	m	line:103	struct:_ADC	file:
+bVelInterval	C:\Temp\Trc\BaseCode\encoder.c	104;"	m	line:104	struct:_Encoder	file:
+backup_voltage::rxdata.rc_backup_batt*15.64/25	C:\Temp\Trc\BaseCode\ifi_aliases.h	271;"	d	line:271
+battery_voltage::rxdata.rc_main_batt*15.64/256	C:\Temp\Trc\BaseCode\ifi_aliases.h	270;"	d	line:270
+bauxNoiseMax	C:\Temp\Trc\BaseCode\input.c	117;"	m	line:117	struct:_OiCalData	file:
+bauxNoiseMin	C:\Temp\Trc\BaseCode\input.c	113;"	m	line:113	struct:_OiCalData	file:
+bcArgs	C:\Temp\Trc\BaseCode\console.c	313;"	l	line:313
+bit0	C:\Temp\Trc\BaseCode\ifi_default.h	56;"	m	line:56
+bit1	C:\Temp\Trc\BaseCode\ifi_default.h	57;"	m	line:57
+bit2	C:\Temp\Trc\BaseCode\ifi_default.h	58;"	m	line:58
+bit3	C:\Temp\Trc\BaseCode\ifi_default.h	59;"	m	line:59
+bit4	C:\Temp\Trc\BaseCode\ifi_default.h	60;"	m	line:60
+bit5	C:\Temp\Trc\BaseCode\ifi_default.h	61;"	m	line:61
+bit6	C:\Temp\Trc\BaseCode\ifi_default.h	62;"	m	line:62
+bit7	C:\Temp\Trc\BaseCode\ifi_default.h	63;"	m	line:63
+bitid	C:\Temp\Trc\BaseCode\ifi_default.h	64;"	t	line:64
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	109;"	m	line:109
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	114;"	m	line:114
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	119;"	m	line:119
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	124;"	m	line:124
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	73;"	m	line:73
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	79;"	m	line:79
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	84;"	m	line:84
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	89;"	m	line:89
+bitselect	C:\Temp\Trc\BaseCode\ifi_default.h	94;"	m	line:94
+boot_initialization_flag	C:\Temp\Trc\BaseCode\camera.c	281;"	l	line:281	file:
+bwheelNoiseMax	C:\Temp\Trc\BaseCode\input.c	109;"	m	line:109	struct:_OiCalData	file:
+bwheelNoiseMin	C:\Temp\Trc\BaseCode\input.c	105;"	m	line:105	struct:_OiCalData	file:
+bxNoiseMax	C:\Temp\Trc\BaseCode\input.c	93;"	m	line:93	struct:_OiCalData	file:
+bxNoiseMin	C:\Temp\Trc\BaseCode\input.c	89;"	m	line:89	struct:_OiCalData	file:
+byNoiseMax	C:\Temp\Trc\BaseCode\input.c	101;"	m	line:101	struct:_OiCalData	file:
+byNoiseMin	C:\Temp\Trc\BaseCode\input.c	97;"	m	line:97	struct:_OiCalData	file:
+byte	C:\Temp\Trc\BaseCode\camera.c	72;"	l	line:72
+byte_count	C:\Temp\Trc\BaseCode\camera.c	71;"	l	line:71
+c	C:\Temp\Trc\BaseCode\console.c	166;"	l	line:166
+camera_acks	C:\Temp\Trc\BaseCode\camera.c	43;"	v	line:43
+camera_initialized	C:\Temp\Trc\BaseCode\camera.c	40;"	v	line:40
+camera_ncks	C:\Temp\Trc\BaseCode\camera.c	44;"	v	line:44
+camera_t_packets	C:\Temp\Trc\BaseCode\camera.c	42;"	v	line:42
+cmd_byte1	C:\Temp\Trc\BaseCode\ifi_default.h	130;"	m	line:130
+compMode	C:\Temp\Trc\2008\project.c	174;"	l	line:174	file:
+confidence	C:\Temp\Trc\BaseCode\camera.h	147;"	m	line:147
+control	C:\Temp\Trc\BaseCode\ifi_default.h	140;"	m	line:140
+current_mode	C:\Temp\Trc\BaseCode\ifi_default.h	139;"	m	line:139
+data	C:\Temp\Trc\BaseCode\ifi_default.h	110;"	m	line:110
+data	C:\Temp\Trc\BaseCode\ifi_default.h	115;"	m	line:115
+digital_io_01::TRISBbits.TRISB2	C:\Temp\Trc\BaseCode\ifi_aliases.h	82;"	d	line:82
+digital_io_02::TRISBbits.TRISB3	C:\Temp\Trc\BaseCode\ifi_aliases.h	83;"	d	line:83
+digital_io_03::TRISBbits.TRISB4	C:\Temp\Trc\BaseCode\ifi_aliases.h	84;"	d	line:84
+digital_io_04::TRISBbits.TRISB5	C:\Temp\Trc\BaseCode\ifi_aliases.h	85;"	d	line:85
+digital_io_05::TRISBbits.TRISB6	C:\Temp\Trc\BaseCode\ifi_aliases.h	86;"	d	line:86
+digital_io_06::TRISBbits.TRISB7	C:\Temp\Trc\BaseCode\ifi_aliases.h	87;"	d	line:87
+digital_io_07::TRISHbits.TRISH0	C:\Temp\Trc\BaseCode\ifi_aliases.h	88;"	d	line:88
+digital_io_08::TRISHbits.TRISH1	C:\Temp\Trc\BaseCode\ifi_aliases.h	89;"	d	line:89
+digital_io_09::TRISHbits.TRISH2	C:\Temp\Trc\BaseCode\ifi_aliases.h	90;"	d	line:90
+digital_io_10::TRISHbits.TRISH3	C:\Temp\Trc\BaseCode\ifi_aliases.h	91;"	d	line:91
+digital_io_11::TRISJbits.TRISJ1	C:\Temp\Trc\BaseCode\ifi_aliases.h	92;"	d	line:92
+digital_io_12::TRISJbits.TRISJ2	C:\Temp\Trc\BaseCode\ifi_aliases.h	93;"	d	line:93
+digital_io_13::TRISJbits.TRISJ3	C:\Temp\Trc\BaseCode\ifi_aliases.h	94;"	d	line:94
+digital_io_14::TRISCbits.TRISC0	C:\Temp\Trc\BaseCode\ifi_aliases.h	95;"	d	line:95
+digital_io_15::TRISJbits.TRISJ4	C:\Temp\Trc\BaseCode\ifi_aliases.h	96;"	d	line:96
+digital_io_16::TRISJbits.TRISJ5	C:\Temp\Trc\BaseCode\ifi_aliases.h	97;"	d	line:97
+digital_io_17::TRISJbits.TRISJ6	C:\Temp\Trc\BaseCode\ifi_aliases.h	98;"	d	line:98
+digital_io_18::TRISJbits.TRISJ7	C:\Temp\Trc\BaseCode\ifi_aliases.h	99;"	d	line:99
+disabled	C:\Temp\Trc\BaseCode\ifi_default.h	50;"	m	line:50
+disabled_mode::rxdata.rc_mode_byte.mode.disab	C:\Temp\Trc\BaseCode\ifi_aliases.h	280;"	d	line:280
+dwAccum	C:\Temp\Trc\BaseCode\adc.c	76;"	m	line:76	struct:_ADCChannel	file:
+dwAccum	C:\Temp\Trc\BaseCode\gyro.c	170;"	m	line:170	struct:_GyroCal	file:
+dwPrevTicks	C:\Temp\Trc\BaseCode\gyro.c	162;"	m	line:162	struct:_GyroCal	file:
+entries	C:\Temp\Trc\BaseCode\ifi_startup.c	35;"	m	line:35	file:
+error_code	C:\Temp\Trc\BaseCode\ifi_default.h	137;"	m	line:137
+fEncoder_3_6_Inited	C:\Temp\Trc\BaseCode\encoder.c	165;"	l	line:165
+fFound	C:\Temp\Trc\BaseCode\console.c	394;"	l	line:394
+fReverse	C:\Temp\Trc\BaseCode\encoder.c	74;"	m	line:74	struct:_EncChannel	file:
+firstRunFlag	C:\Temp\Trc\2008\project.c	173;"	l	line:173	file:
+from	C:\Temp\Trc\BaseCode\ifi_startup.c	32;"	m	line:32	struct:<anonymous>::_init_entry	file:
+g_Drive	C:\Temp\Trc\2008\project.c	37;"	v	line:37
+g_DrivePid	C:\Temp\Trc\2008\project.c	32;"	v	line:32
+g_InputData	C:\Temp\Trc\BaseCode\input.c	123;"	v	line:123
+g_LeftMotor	C:\Temp\Trc\2008\project.c	34;"	v	line:34
+g_RightMotor	C:\Temp\Trc\2008\project.c	35;"	v	line:35
+g_TurnPid	C:\Temp\Trc\2008\project.c	33;"	v	line:33
+g_TurnServo	C:\Temp\Trc\2008\project.c	36;"	v	line:36
+g_bTraceInterval	C:\Temp\Trc\BaseCode\main.c	30;"	v	line:30
+g_dwCurrentTicks	C:\Temp\Trc\BaseCode\main.c	28;"	v	line:28
+g_dwFastLoops	C:\Temp\Trc\BaseCode\main.c	32;"	v	line:32
+g_dwLostPackets	C:\Temp\Trc\BaseCode\main.c	29;"	v	line:29
+g_dwProjFlags	C:\Temp\Trc\2008\project.c	25;"	v	line:25
+g_dwSysFlags	C:\Temp\Trc\BaseCode\main.c	31;"	v	line:31
+i	C:\Temp\Trc\BaseCode\adc.c	213;"	l	line:213
+i	C:\Temp\Trc\BaseCode\adc.c	538;"	l	line:538
+i	C:\Temp\Trc\BaseCode\adc.c	600;"	l	line:600
+i	C:\Temp\Trc\BaseCode\adc.c	803;"	l	line:803
+i	C:\Temp\Trc\BaseCode\camera.c	73;"	l	line:73
+i	C:\Temp\Trc\BaseCode\console.c	256;"	l	line:256
+i	C:\Temp\Trc\BaseCode\console.c	329;"	l	line:329
+i	C:\Temp\Trc\BaseCode\console.c	395;"	l	line:395
+i	C:\Temp\Trc\BaseCode\console.c	544;"	l	line:544
+i	C:\Temp\Trc\BaseCode\encoder.c	164;"	l	line:164
+i	C:\Temp\Trc\BaseCode\encoder.c	396;"	l	line:396
+i	C:\Temp\Trc\BaseCode\encoder.c	427;"	l	line:427
+i	C:\Temp\Trc\BaseCode\encoder.c	667;"	l	line:667
+i	C:\Temp\Trc\BaseCode\input.c	175;"	l	line:175
+i	C:\Temp\Trc\BaseCode\input.c	284;"	l	line:284
+i	C:\Temp\Trc\BaseCode\input.c	530;"	l	line:530
+i	C:\Temp\Trc\BaseCode\main.c	183;"	l	line:183
+i	C:\Temp\Trc\BaseCode\main.c	217;"	l	line:217
+i	C:\Temp\Trc\BaseCode\main.c	243;"	l	line:243
+i	C:\Temp\Trc\BaseCode\main.c	274;"	l	line:274
+i	C:\Temp\Trc\BaseCode\pwm.c	161;"	l	line:161
+i	C:\Temp\Trc\BaseCode\rcio.c	55;"	l	line:55
+i	C:\Temp\Trc\BaseCode\terminal.c	53;"	l	line:53	file:
+iAccelRate	C:\Temp\Trc\BaseCode\servo.h	130;"	m	line:130	struct:_Drive
+iDecelRate	C:\Temp\Trc\BaseCode\servo.h	134;"	m	line:134	struct:_Drive
+iDrive	C:\Temp\Trc\BaseCode\servo.c	99;"	l	line:99
+iDriveVel	C:\Temp\Trc\BaseCode\servo.h	161;"	m	line:161	struct:_MoveTo
+iEndVel	C:\Temp\Trc\BaseCode\servo.h	165;"	m	line:165	struct:_MoveTo
+iMotorDir	C:\Temp\Trc\BaseCode\servo.h	107;"	m	line:107	struct:_Servo
+iPWM13	C:\Temp\Trc\BaseCode\pwm.c	96;"	l	line:96
+iPWM14	C:\Temp\Trc\BaseCode\pwm.c	96;"	l	line:96
+iPWM15	C:\Temp\Trc\BaseCode\pwm.c	96;"	l	line:96
+iPWM16	C:\Temp\Trc\BaseCode\pwm.c	96;"	l	line:96
+iRate	C:\Temp\Trc\BaseCode\gyro.c	139;"	m	line:139	struct:_Gyro	file:
+iTargetVel	C:\Temp\Trc\BaseCode\servo.h	169;"	m	line:169	struct:_MoveTo
+iTimeDiff	C:\Temp\Trc\BaseCode\servo.c	200;"	l	line:200
+iTurnVel	C:\Temp\Trc\BaseCode\servo.h	157;"	m	line:157	struct:_MoveTo
+iVelDiff	C:\Temp\Trc\BaseCode\servo.c	199;"	l	line:199
+iVelDiff	C:\Temp\Trc\BaseCode\servo.c	330;"	l	line:330
+iVelErr	C:\Temp\Trc\BaseCode\servo.c	98;"	l	line:98
+iVelLimit	C:\Temp\Trc\BaseCode\servo.h	103;"	m	line:103	struct:_Servo
+iVelSp	C:\Temp\Trc\BaseCode\servo.h	95;"	m	line:95	struct:_Servo
+iaux	C:\Temp\Trc\BaseCode\input.h	52;"	m	line:52	struct:_PortData
+iauxBias	C:\Temp\Trc\BaseCode\input.h	44;"	m	line:44	struct:_PortData
+iauxNoiseThreshold	C:\Temp\Trc\BaseCode\input.h	48;"	m	line:48	struct:_PortData
+icCalSamples	C:\Temp\Trc\BaseCode\input.c	69;"	m	line:69	struct:_OiCalData	file:
+index	C:\Temp\Trc\BaseCode\adc.c	408;"	l	line:408
+index	C:\Temp\Trc\BaseCode\adc.c	802;"	l	line:802
+index	C:\Temp\Trc\BaseCode\encoder.c	294;"	l	line:294
+index	C:\Temp\Trc\BaseCode\encoder.c	331;"	l	line:331
+index	C:\Temp\Trc\BaseCode\encoder.c	371;"	l	line:371
+index	C:\Temp\Trc\BaseCode\encoder.c	464;"	l	line:464
+index	C:\Temp\Trc\BaseCode\encoder.c	567;"	l	line:567
+index	C:\Temp\Trc\BaseCode\encoder.c	666;"	l	line:666
+initialize_flag	C:\Temp\Trc\BaseCode\camera.c	282;"	l	line:282	file:
+iwheel	C:\Temp\Trc\BaseCode\input.h	51;"	m	line:51	struct:_PortData
+iwheelBias	C:\Temp\Trc\BaseCode\input.h	43;"	m	line:43	struct:_PortData
+iwheelNoiseThreshold	C:\Temp\Trc\BaseCode\input.h	47;"	m	line:47	struct:_PortData
+ix	C:\Temp\Trc\BaseCode\input.h	49;"	m	line:49	struct:_PortData
+ixBias	C:\Temp\Trc\BaseCode\input.h	41;"	m	line:41	struct:_PortData
+ixNoiseThreshold	C:\Temp\Trc\BaseCode\input.h	45;"	m	line:45	struct:_PortData
+iy	C:\Temp\Trc\BaseCode\input.h	50;"	m	line:50	struct:_PortData
+iyBias	C:\Temp\Trc\BaseCode\input.h	42;"	m	line:42	struct:_PortData
+iyNoiseThreshold	C:\Temp\Trc\BaseCode\input.h	46;"	m	line:46	struct:_PortData
+j	C:\Temp\Trc\BaseCode\terminal.c	54;"	l	line:54	file:
+lAngle	C:\Temp\Trc\BaseCode\gyro.c	143;"	m	line:143	struct:_Gyro	file:
+lAngleTolerance	C:\Temp\Trc\BaseCode\servo.h	178;"	m	line:178	struct:_MoveTo
+lCount	C:\Temp\Trc\BaseCode\encoder.c	293;"	l	line:293
+lCount	C:\Temp\Trc\BaseCode\encoder.c	428;"	l	line:428
+lCount	C:\Temp\Trc\BaseCode\encoder.c	84;"	m	line:84	struct:_EncChannel	file:
+lDelta	C:\Temp\Trc\BaseCode\encoder.c	468;"	l	line:468
+lDelta	C:\Temp\Trc\BaseCode\encoder.c	571;"	l	line:571
+lEndZonePos	C:\Temp\Trc\BaseCode\servo.h	184;"	m	line:184	struct:_MoveTo
+lHeading	C:\Temp\Trc\BaseCode\servo.c	263;"	l	line:263
+lIntErr	C:\Temp\Trc\BaseCode\servo.h	99;"	m	line:99	struct:_Servo
+lPos	C:\Temp\Trc\BaseCode\servo.c	262;"	l	line:262
+lPosSp	C:\Temp\Trc\BaseCode\servo.h	91;"	m	line:91	struct:_Servo
+lPrevCount	C:\Temp\Trc\BaseCode\encoder.c	80;"	m	line:80	struct:_EncChannel	file:
+lTargetHeading	C:\Temp\Trc\BaseCode\servo.h	149;"	m	line:149	struct:_MoveTo
+lTargetPos	C:\Temp\Trc\BaseCode\servo.h	153;"	m	line:153	struct:_MoveTo
+lTurnThreshold	C:\Temp\Trc\BaseCode\servo.h	173;"	m	line:173	struct:_MoveTo
+lVelocity	C:\Temp\Trc\BaseCode\encoder.c	370;"	l	line:370
+lVelocity	C:\Temp\Trc\BaseCode\encoder.c	88;"	m	line:88	struct:_EncChannel	file:
+lauxAccum	C:\Temp\Trc\BaseCode\input.c	85;"	m	line:85	struct:_OiCalData	file:
+loop_count	C:\Temp\Trc\BaseCode\camera.c	285;"	l	line:285	file:
+loop_count	C:\Temp\Trc\BaseCode\tracking.c	78;"	l	line:78	file:
+lwheelAccum	C:\Temp\Trc\BaseCode\input.c	81;"	m	line:81	struct:_OiCalData	file:
+lxAccum	C:\Temp\Trc\BaseCode\input.c	73;"	m	line:73	struct:_OiCalData	file:
+lyAccum	C:\Temp\Trc\BaseCode\input.c	77;"	m	line:77	struct:_OiCalData	file:
+main	C:\Temp\Trc\BaseCode\ifi_startup.c	65;"	p	line:65	file:	signature:( void )
+main	C:\Temp\Trc\BaseCode\main.c	69;"	f	line:69	signature:( void )
+mode	C:\Temp\Trc\BaseCode\ifi_default.h	74;"	m	line:74
+modebits	C:\Temp\Trc\BaseCode\ifi_default.h	51;"	t	line:51
+mx	C:\Temp\Trc\BaseCode\camera.h	140;"	m	line:140
+my	C:\Temp\Trc\BaseCode\camera.h	141;"	m	line:141
+new_search	C:\Temp\Trc\BaseCode\tracking.c	77;"	l	line:77	file:
+num_init	C:\Temp\Trc\BaseCode\ifi_startup.c	29;"	m	line:29	file:
+oi_analog	C:\Temp\Trc\BaseCode\ifi_default.h	97;"	m	line:97
+oi_swA_byte	C:\Temp\Trc\BaseCode\ifi_default.h	81;"	m	line:81
+oi_swB_byte	C:\Temp\Trc\BaseCode\ifi_default.h	86;"	m	line:86
+old_camera_t_packets	C:\Temp\Trc\BaseCode\terminal.c	55;"	l	line:55	file:
+old_camera_t_packets	C:\Temp\Trc\BaseCode\tracking.c	76;"	l	line:76	file:
+p1_aux::rxdata.oi_analog[12]	C:\Temp\Trc\BaseCode\ifi_aliases.h	42;"	d	line:42
+p1_sw_aux1::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	55;"	d	line:55
+p1_sw_aux2::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	56;"	d	line:56
+p1_sw_top::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	54;"	d	line:54
+p1_sw_trig::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	53;"	d	line:53
+p1_wheel::rxdata.oi_analog[8]	C:\Temp\Trc\BaseCode\ifi_aliases.h	38;"	d	line:38
+p1_x::rxdata.oi_analog[4]	C:\Temp\Trc\BaseCode\ifi_aliases.h	34;"	d	line:34
+p1_y::rxdata.oi_analog[0]	C:\Temp\Trc\BaseCode\ifi_aliases.h	30;"	d	line:30
+p2_aux::rxdata.oi_analog[13]	C:\Temp\Trc\BaseCode\ifi_aliases.h	43;"	d	line:43
+p2_sw_aux1::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	65;"	d	line:65
+p2_sw_aux2::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	66;"	d	line:66
+p2_sw_top::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	64;"	d	line:64
+p2_sw_trig::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	63;"	d	line:63
+p2_wheel::rxdata.oi_analog[9]	C:\Temp\Trc\BaseCode\ifi_aliases.h	39;"	d	line:39
+p2_x::rxdata.oi_analog[5]	C:\Temp\Trc\BaseCode\ifi_aliases.h	35;"	d	line:35
+p2_y::rxdata.oi_analog[1]	C:\Temp\Trc\BaseCode\ifi_aliases.h	31;"	d	line:31
+p3_aux::rxdata.oi_analog[14]	C:\Temp\Trc\BaseCode\ifi_aliases.h	44;"	d	line:44
+p3_sw_aux1::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	60;"	d	line:60
+p3_sw_aux2::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	61;"	d	line:61
+p3_sw_top::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	59;"	d	line:59
+p3_sw_trig::rxdata.oi_swA_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	58;"	d	line:58
+p3_wheel::rxdata.oi_analog[10]	C:\Temp\Trc\BaseCode\ifi_aliases.h	40;"	d	line:40
+p3_x::rxdata.oi_analog[6]	C:\Temp\Trc\BaseCode\ifi_aliases.h	36;"	d	line:36
+p3_y::rxdata.oi_analog[2]	C:\Temp\Trc\BaseCode\ifi_aliases.h	32;"	d	line:32
+p4_aux::rxdata.oi_analog[15]	C:\Temp\Trc\BaseCode\ifi_aliases.h	45;"	d	line:45
+p4_sw_aux1::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	70;"	d	line:70
+p4_sw_aux2::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	71;"	d	line:71
+p4_sw_top::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	69;"	d	line:69
+p4_sw_trig::rxdata.oi_swB_byte.bitselect.b	C:\Temp\Trc\BaseCode\ifi_aliases.h	68;"	d	line:68
+p4_wheel::rxdata.oi_analog[11]	C:\Temp\Trc\BaseCode\ifi_aliases.h	41;"	d	line:41
+p4_x::rxdata.oi_analog[7]	C:\Temp\Trc\BaseCode\ifi_aliases.h	37;"	d	line:37
+p4_y::rxdata.oi_analog[3]	C:\Temp\Trc\BaseCode\ifi_aliases.h	33;"	d	line:33
+packed_struct	C:\Temp\Trc\BaseCode\ifi_default.h	153;"	t	line:153
+packet_buffer	C:\Temp\Trc\BaseCode\camera.c	142;"	l	line:142	file:
+packet_buffer_index	C:\Temp\Trc\BaseCode\camera.c	143;"	l	line:143	file:
+packet_char_count	C:\Temp\Trc\BaseCode\camera.c	144;"	l	line:144	file:
+packet_num	C:\Temp\Trc\BaseCode\ifi_default.h	70;"	m	line:70
+packetnum	C:\Temp\Trc\BaseCode\ifi_default.h	138;"	m	line:138
+pan_error	C:\Temp\Trc\BaseCode\tracking.c	84;"	l	line:84
+pan_servo_position	C:\Temp\Trc\BaseCode\tracking.c	79;"	l	line:79	file:
+pfnCmd	C:\Temp\Trc\BaseCode\console.h	143;"	m	line:143	struct:_CmdEntry
+pixels	C:\Temp\Trc\BaseCode\camera.h	146;"	m	line:146
+prevTmr	C:\Temp\Trc\2008\project.c	253;"	l	line:253	file:
+psz	C:\Temp\Trc\BaseCode\console.c	314;"	l	line:314
+pszArgHelp	C:\Temp\Trc\BaseCode\console.h	120;"	m	line:120	struct:_ArgDef
+pszCmdHelp	C:\Temp\Trc\BaseCode\console.h	147;"	m	line:147	struct:_CmdEntry
+pszCmdString	C:\Temp\Trc\BaseCode\console.h	131;"	m	line:131	struct:_CmdEntry
+pszPrompt	C:\Temp\Trc\BaseCode\console.c	167;"	l	line:167	file:
+pvData	C:\Temp\Trc\BaseCode\console.h	100;"	m	line:100	struct:_ArgDef
+pwm01::txdata.rc_pwm[0]	C:\Temp\Trc\BaseCode\ifi_aliases.h	144;"	d	line:144
+pwm02::txdata.rc_pwm[1]	C:\Temp\Trc\BaseCode\ifi_aliases.h	145;"	d	line:145
+pwm03::txdata.rc_pwm[2]	C:\Temp\Trc\BaseCode\ifi_aliases.h	146;"	d	line:146
+pwm04::txdata.rc_pwm[3]	C:\Temp\Trc\BaseCode\ifi_aliases.h	147;"	d	line:147
+pwm05::txdata.rc_pwm[4]	C:\Temp\Trc\BaseCode\ifi_aliases.h	148;"	d	line:148
+pwm06::txdata.rc_pwm[5]	C:\Temp\Trc\BaseCode\ifi_aliases.h	149;"	d	line:149
+pwm07::txdata.rc_pwm[6]	C:\Temp\Trc\BaseCode\ifi_aliases.h	150;"	d	line:150
+pwm08::txdata.rc_pwm[7]	C:\Temp\Trc\BaseCode\ifi_aliases.h	151;"	d	line:151
+pwm09::txdata.rc_pwm[8]	C:\Temp\Trc\BaseCode\ifi_aliases.h	152;"	d	line:152
+pwm10::txdata.rc_pwm[9]	C:\Temp\Trc\BaseCode\ifi_aliases.h	153;"	d	line:153
+pwm11::txdata.rc_pwm[10]	C:\Temp\Trc\BaseCode\ifi_aliases.h	154;"	d	line:154
+pwm12::txdata.rc_pwm[11]	C:\Temp\Trc\BaseCode\ifi_aliases.h	155;"	d	line:155
+pwm13::txdata.rc_pwm[12]	C:\Temp\Trc\BaseCode\ifi_aliases.h	156;"	d	line:156
+pwm14::txdata.rc_pwm[13]	C:\Temp\Trc\BaseCode\ifi_aliases.h	157;"	d	line:157
+pwm15::txdata.rc_pwm[14]	C:\Temp\Trc\BaseCode\ifi_aliases.h	158;"	d	line:158
+pwm16::txdata.rc_pwm[15]	C:\Temp\Trc\BaseCode\ifi_aliases.h	159;"	d	line:159
+pwm_mask	C:\Temp\Trc\BaseCode\ifi_default.h	131;"	m	line:131
+rc	C:\Temp\Trc\BaseCode\console.c	449;"	l	line:449
+rc	C:\Temp\Trc\BaseCode\main.c	182;"	l	line:182
+rc	C:\Temp\Trc\BaseCode\servo.c	261;"	l	line:261
+rc	C:\Temp\Trc\BaseCode\servo.c	378;"	l	line:378
+rc_ana_in01::ADC_CH0	C:\Temp\Trc\BaseCode\ifi_aliases.h	185;"	d	line:185
+rc_ana_in02::ADC_CH1	C:\Temp\Trc\BaseCode\ifi_aliases.h	186;"	d	line:186
+rc_ana_in03::ADC_CH2	C:\Temp\Trc\BaseCode\ifi_aliases.h	187;"	d	line:187
+rc_ana_in04::ADC_CH3	C:\Temp\Trc\BaseCode\ifi_aliases.h	188;"	d	line:188
+rc_ana_in05::ADC_CH4	C:\Temp\Trc\BaseCode\ifi_aliases.h	189;"	d	line:189
+rc_ana_in06::ADC_CH5	C:\Temp\Trc\BaseCode\ifi_aliases.h	190;"	d	line:190
+rc_ana_in07::ADC_CH6	C:\Temp\Trc\BaseCode\ifi_aliases.h	191;"	d	line:191
+rc_ana_in08::ADC_CH7	C:\Temp\Trc\BaseCode\ifi_aliases.h	192;"	d	line:192
+rc_ana_in09::ADC_CH8	C:\Temp\Trc\BaseCode\ifi_aliases.h	193;"	d	line:193
+rc_ana_in10::ADC_CH9	C:\Temp\Trc\BaseCode\ifi_aliases.h	194;"	d	line:194
+rc_ana_in11::ADC_CH10	C:\Temp\Trc\BaseCode\ifi_aliases.h	195;"	d	line:195
+rc_ana_in12::ADC_CH11	C:\Temp\Trc\BaseCode\ifi_aliases.h	196;"	d	line:196
+rc_ana_in13::ADC_CH12	C:\Temp\Trc\BaseCode\ifi_aliases.h	197;"	d	line:197
+rc_ana_in14::ADC_CH13	C:\Temp\Trc\BaseCode\ifi_aliases.h	198;"	d	line:198
+rc_ana_in15::ADC_CH14	C:\Temp\Trc\BaseCode\ifi_aliases.h	199;"	d	line:199
+rc_ana_in16::ADC_CH15	C:\Temp\Trc\BaseCode\ifi_aliases.h	200;"	d	line:200
+rc_backup_batt	C:\Temp\Trc\BaseCode\ifi_default.h	99;"	m	line:99
+rc_dig_in01::PORTBbits.RB2	C:\Temp\Trc\BaseCode\ifi_aliases.h	102;"	d	line:102
+rc_dig_in02::PORTBbits.RB3	C:\Temp\Trc\BaseCode\ifi_aliases.h	103;"	d	line:103
+rc_dig_in03::PORTBbits.RB4	C:\Temp\Trc\BaseCode\ifi_aliases.h	104;"	d	line:104
+rc_dig_in04::PORTBbits.RB5	C:\Temp\Trc\BaseCode\ifi_aliases.h	105;"	d	line:105
+rc_dig_in05::PORTBbits.RB6	C:\Temp\Trc\BaseCode\ifi_aliases.h	106;"	d	line:106
+rc_dig_in06::PORTBbits.RB7	C:\Temp\Trc\BaseCode\ifi_aliases.h	107;"	d	line:107
+rc_dig_in07::PORTHbits.RH0	C:\Temp\Trc\BaseCode\ifi_aliases.h	108;"	d	line:108
+rc_dig_in08::PORTHbits.RH1	C:\Temp\Trc\BaseCode\ifi_aliases.h	109;"	d	line:109
+rc_dig_in09::PORTHbits.RH2	C:\Temp\Trc\BaseCode\ifi_aliases.h	110;"	d	line:110
+rc_dig_in10::PORTHbits.RH3	C:\Temp\Trc\BaseCode\ifi_aliases.h	111;"	d	line:111
+rc_dig_in11::PORTJbits.RJ1	C:\Temp\Trc\BaseCode\ifi_aliases.h	112;"	d	line:112
+rc_dig_in12::PORTJbits.RJ2	C:\Temp\Trc\BaseCode\ifi_aliases.h	113;"	d	line:113
+rc_dig_in13::PORTJbits.RJ3	C:\Temp\Trc\BaseCode\ifi_aliases.h	114;"	d	line:114
+rc_dig_in14::PORTCbits.RC0	C:\Temp\Trc\BaseCode\ifi_aliases.h	115;"	d	line:115
+rc_dig_in15::PORTJbits.RJ4	C:\Temp\Trc\BaseCode\ifi_aliases.h	116;"	d	line:116
+rc_dig_in16::PORTJbits.RJ5	C:\Temp\Trc\BaseCode\ifi_aliases.h	117;"	d	line:117
+rc_dig_in17::PORTJbits.RJ6	C:\Temp\Trc\BaseCode\ifi_aliases.h	118;"	d	line:118
+rc_dig_in18::PORTJbits.RJ7	C:\Temp\Trc\BaseCode\ifi_aliases.h	119;"	d	line:119
+rc_dig_out01::LATBbits.LATB2	C:\Temp\Trc\BaseCode\ifi_aliases.h	122;"	d	line:122
+rc_dig_out02::LATBbits.LATB3	C:\Temp\Trc\BaseCode\ifi_aliases.h	123;"	d	line:123
+rc_dig_out03::LATBbits.LATB4	C:\Temp\Trc\BaseCode\ifi_aliases.h	124;"	d	line:124
+rc_dig_out04::LATBbits.LATB5	C:\Temp\Trc\BaseCode\ifi_aliases.h	125;"	d	line:125
+rc_dig_out05::LATBbits.LATB6	C:\Temp\Trc\BaseCode\ifi_aliases.h	126;"	d	line:126
+rc_dig_out06::LATBbits.LATB7	C:\Temp\Trc\BaseCode\ifi_aliases.h	127;"	d	line:127
+rc_dig_out07::LATHbits.LATH0	C:\Temp\Trc\BaseCode\ifi_aliases.h	128;"	d	line:128
+rc_dig_out08::LATHbits.LATH1	C:\Temp\Trc\BaseCode\ifi_aliases.h	129;"	d	line:129
+rc_dig_out09::LATHbits.LATH2	C:\Temp\Trc\BaseCode\ifi_aliases.h	130;"	d	line:130
+rc_dig_out10::LATHbits.LATH3	C:\Temp\Trc\BaseCode\ifi_aliases.h	131;"	d	line:131
+rc_dig_out11::LATJbits.LATJ1	C:\Temp\Trc\BaseCode\ifi_aliases.h	132;"	d	line:132
+rc_dig_out12::LATJbits.LATJ2	C:\Temp\Trc\BaseCode\ifi_aliases.h	133;"	d	line:133
+rc_dig_out13::LATJbits.LATJ3	C:\Temp\Trc\BaseCode\ifi_aliases.h	134;"	d	line:134
+rc_dig_out14::LATCbits.LATC0	C:\Temp\Trc\BaseCode\ifi_aliases.h	135;"	d	line:135
+rc_dig_out15::LATJbits.LATJ4	C:\Temp\Trc\BaseCode\ifi_aliases.h	136;"	d	line:136
+rc_dig_out16::LATJbits.LATJ5	C:\Temp\Trc\BaseCode\ifi_aliases.h	137;"	d	line:137
+rc_dig_out17::LATJbits.LATJ6	C:\Temp\Trc\BaseCode\ifi_aliases.h	138;"	d	line:138
+rc_dig_out18::LATJbits.LATJ7	C:\Temp\Trc\BaseCode\ifi_aliases.h	139;"	d	line:139
+rc_main_batt	C:\Temp\Trc\BaseCode\ifi_default.h	98;"	m	line:98
+rc_mode_byte	C:\Temp\Trc\BaseCode\ifi_default.h	76;"	m	line:76
+rc_pwm	C:\Temp\Trc\BaseCode\ifi_default.h	127;"	m	line:127
+rc_swA_byte	C:\Temp\Trc\BaseCode\ifi_default.h	91;"	m	line:91
+rc_swB_byte	C:\Temp\Trc\BaseCode\ifi_default.h	96;"	m	line:96
+relay1_fwd::LATEbits.LATE0	C:\Temp\Trc\BaseCode\ifi_aliases.h	165;"	d	line:165
+relay1_rev::LATDbits.LATD0	C:\Temp\Trc\BaseCode\ifi_aliases.h	166;"	d	line:166
+relay2_fwd::LATEbits.LATE1	C:\Temp\Trc\BaseCode\ifi_aliases.h	167;"	d	line:167
+relay2_rev::LATDbits.LATD1	C:\Temp\Trc\BaseCode\ifi_aliases.h	168;"	d	line:168
+relay3_fwd::LATEbits.LATE2	C:\Temp\Trc\BaseCode\ifi_aliases.h	169;"	d	line:169
+relay3_rev::LATDbits.LATD2	C:\Temp\Trc\BaseCode\ifi_aliases.h	170;"	d	line:170
+relay4_fwd::LATEbits.LATE3	C:\Temp\Trc\BaseCode\ifi_aliases.h	171;"	d	line:171
+relay4_rev::LATDbits.LATD3	C:\Temp\Trc\BaseCode\ifi_aliases.h	172;"	d	line:172
+relay5_fwd::LATEbits.LATE4	C:\Temp\Trc\BaseCode\ifi_aliases.h	173;"	d	line:173
+relay5_rev::LATDbits.LATD4	C:\Temp\Trc\BaseCode\ifi_aliases.h	174;"	d	line:174
+relay6_fwd::LATEbits.LATE5	C:\Temp\Trc\BaseCode\ifi_aliases.h	175;"	d	line:175
+relay6_rev::LATDbits.LATD5	C:\Temp\Trc\BaseCode\ifi_aliases.h	176;"	d	line:176
+relay7_fwd::LATEbits.LATE6	C:\Temp\Trc\BaseCode\ifi_aliases.h	177;"	d	line:177
+relay7_rev::LATDbits.LATD6	C:\Temp\Trc\BaseCode\ifi_aliases.h	178;"	d	line:178
+relay8_fwd::LATJbits.LATJ0	C:\Temp\Trc\BaseCode\ifi_aliases.h	179;"	d	line:179
+relay8_rev::LATDbits.LATD7	C:\Temp\Trc\BaseCode\ifi_aliases.h	180;"	d	line:180
+reserve	C:\Temp\Trc\BaseCode\ifi_default.h	100;"	m	line:100
+return_value	C:\Temp\Trc\BaseCode\camera.c	286;"	l	line:286	file:
+return_value	C:\Temp\Trc\BaseCode\camera.c	70;"	l	line:70
+return_value	C:\Temp\Trc\BaseCode\tracking.c	406;"	l	line:406
+returned_value	C:\Temp\Trc\BaseCode\camera.c	287;"	l	line:287
+rx_data_ptr	C:\Temp\Trc\BaseCode\ifi_default.h	101;"	t	line:101
+rx_data_record	C:\Temp\Trc\BaseCode\ifi_default.h	101;"	t	line:101
+rxdata	C:\Temp\Trc\BaseCode\main.c	24;"	v	line:24
+samplesCount	C:\Temp\Trc\2008\project.c	172;"	l	line:172	file:
+servo_step	C:\Temp\Trc\BaseCode\tracking.c	83;"	l	line:83
+size	C:\Temp\Trc\BaseCode\ifi_startup.c	34;"	m	line:34	struct:<anonymous>::_init_entry	file:
+state	C:\Temp\Trc\2008\project.c	252;"	l	line:252	file:
+state	C:\Temp\Trc\BaseCode\camera.c	141;"	l	line:141	file:
+state	C:\Temp\Trc\BaseCode\camera.c	283;"	l	line:283	file:
+statusflag	C:\Temp\Trc\BaseCode\main.c	26;"	v	line:26
+szCmd	C:\Temp\Trc\BaseCode\console.c	330;"	l	line:330	file:
+szCmd	C:\Temp\Trc\BaseCode\console.c	349;"	l	line:349	file:
+szCmd	C:\Temp\Trc\BaseCode\console.c	396;"	l	line:396	file:
+szCmd	C:\Temp\Trc\BaseCode\console.c	545;"	l	line:545	file:
+szHelp	C:\Temp\Trc\BaseCode\console.c	546;"	l	line:546	file:
+szInput	C:\Temp\Trc\BaseCode\rcio.c	358;"	l	line:358	file:
+szOff	C:\Temp\Trc\BaseCode\console.c	451;"	l	line:451	file:
+szOn	C:\Temp\Trc\BaseCode\console.c	450;"	l	line:450	file:
+szOrg	C:\Temp\Trc\2008\project.c	51;"	l	line:51	file:
+szOutput	C:\Temp\Trc\BaseCode\rcio.c	359;"	l	line:359	file:
+szProject	C:\Temp\Trc\2008\project.c	52;"	l	line:52	file:
+szSep	C:\Temp\Trc\BaseCode\console.c	311;"	l	line:311	file:
+temp_pan_servo	C:\Temp\Trc\BaseCode\tracking.c	81;"	l	line:81
+temp_tilt_servo	C:\Temp\Trc\BaseCode\tracking.c	82;"	l	line:82
+tilt_error	C:\Temp\Trc\BaseCode\tracking.c	85;"	l	line:85
+tilt_servo_position	C:\Temp\Trc\BaseCode\tracking.c	80;"	l	line:80	file:
+to	C:\Temp\Trc\BaseCode\ifi_startup.c	33;"	m	line:33	struct:<anonymous>::_init_entry	file:
+tx_data_ptr	C:\Temp\Trc\BaseCode\ifi_default.h	141;"	t	line:141
+tx_data_record	C:\Temp\Trc\BaseCode\ifi_default.h	141;"	t	line:141
+txdata	C:\Temp\Trc\BaseCode\main.c	25;"	v	line:25
+usart2_RX::PORTGbits.RG2	C:\Temp\Trc\BaseCode\ifi_aliases.h	263;"	d	line:263
+usart2_TX::LATGbits.LATG1	C:\Temp\Trc\BaseCode\ifi_aliases.h	262;"	d	line:262
+user_byte1	C:\Temp\Trc\BaseCode\ifi_default.h	121;"	m	line:121
+user_byte2	C:\Temp\Trc\BaseCode\ifi_default.h	126;"	m	line:126
+user_byte3	C:\Temp\Trc\BaseCode\ifi_default.h	133;"	m	line:133
+user_byte4	C:\Temp\Trc\BaseCode\ifi_default.h	134;"	m	line:134
+user_byte5	C:\Temp\Trc\BaseCode\ifi_default.h	135;"	m	line:135
+user_byte6	C:\Temp\Trc\BaseCode\ifi_default.h	136;"	m	line:136
+user_cmd	C:\Temp\Trc\BaseCode\ifi_default.h	129;"	m	line:129
+user_display	C:\Temp\Trc\BaseCode\ifi_default.h	48;"	m	line:48
+user_display_mode::rxdata.rc_mode_byte.mode.user_	C:\Temp\Trc\BaseCode\ifi_aliases.h	278;"	d	line:278
+wADCUpdateRate	C:\Temp\Trc\BaseCode\gyro.c	127;"	m	line:127	struct:_Gyro	file:
+wADCValue	C:\Temp\Trc\BaseCode\adc.c	407;"	l	line:407
+wADCValue	C:\Temp\Trc\BaseCode\adc.c	566;"	l	line:566
+wADCValueRange	C:\Temp\Trc\BaseCode\gyro.c	123;"	m	line:123	struct:_Gyro	file:
+wBias	C:\Temp\Trc\BaseCode\gyro.c	131;"	m	line:131	struct:_Gyro	file:
+wCalTicksLeft	C:\Temp\Trc\BaseCode\gyro.c	166;"	m	line:166	struct:_GyroCal	file:
+wElapsedTicks	C:\Temp\Trc\BaseCode\gyro.c	382;"	l	line:382
+wNoiseMargin	C:\Temp\Trc\BaseCode\gyro.c	119;"	m	line:119	struct:_Gyro	file:
+wNoiseMaxValue	C:\Temp\Trc\BaseCode\gyro.c	158;"	m	line:158	struct:_GyroCal	file:
+wNoiseMinValue	C:\Temp\Trc\BaseCode\gyro.c	154;"	m	line:154	struct:_GyroCal	file:
+wNoiseThreshold	C:\Temp\Trc\BaseCode\gyro.c	135;"	m	line:135	struct:_Gyro	file:
+wSampleRate	C:\Temp\Trc\BaseCode\adc.c	91;"	m	line:91	struct:_ADC	file:
+wSamples	C:\Temp\Trc\BaseCode\adc.c	111;"	m	line:111	struct:_ADC	file:
+wSamples	C:\Temp\Trc\BaseCode\gyro.c	174;"	m	line:174	struct:_GyroCal	file:
+wSamplesPerUpdate	C:\Temp\Trc\BaseCode\adc.c	95;"	m	line:95	struct:_ADC	file:
+wScaleFactor	C:\Temp\Trc\BaseCode\gyro.c	115;"	m	line:115	struct:_Gyro	file:
+wSensitivity	C:\Temp\Trc\BaseCode\gyro.c	95;"	m	line:95	struct:_Gyro	file:
+wValue	C:\Temp\Trc\BaseCode\adc.c	80;"	m	line:80	struct:_ADCChannel	file:
+wValue	C:\Temp\Trc\BaseCode\gyro.c	387;"	l	line:387
+wValueRange	C:\Temp\Trc\BaseCode\adc.c	99;"	m	line:99	struct:_ADC	file:
+wait_for_ack	C:\Temp\Trc\BaseCode\camera.c	284;"	l	line:284	file:
+warning_code	C:\Temp\Trc\BaseCode\ifi_default.h	132;"	m	line:132
+wheelPorts	C:\Temp\Trc\BaseCode\input.c	130;"	v	line:130	file:
+x	C:\Temp\Trc\2008\project.c	175;"	l	line:175
+x1	C:\Temp\Trc\BaseCode\camera.h	142;"	m	line:142
+x2	C:\Temp\Trc\BaseCode\camera.h	144;"	m	line:144
+xPorts	C:\Temp\Trc\BaseCode\input.c	128;"	v	line:128	file:
+y	C:\Temp\Trc\2008\project.c	175;"	l	line:175
+y1	C:\Temp\Trc\BaseCode\camera.h	143;"	m	line:143
+y2	C:\Temp\Trc\BaseCode\camera.h	145;"	m	line:145
+yPorts	C:\Temp\Trc\BaseCode\input.c	129;"	v	line:129	file:
+z	C:\Temp\Trc\2008\project.c	175;"	l	line:175

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="F:CMD_ATTENTION" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     This console key will enter the console mode.
+ 
+</summary >
+</member>
+<member name="F:ARGTYPE_STRING" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     Specifies the argument is a string.
+ 
+</summary >
+</member>
+<member name="F:ARGTYPE_NUM" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     Specifies the argument is numeric value.
+ 
+</summary >
+</member>
+<member name="F:ARGTYPE_FLAGS" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     Specifies the argument is to enable or disable the given bits of a flag variable.
+ 
+</summary >
+</member>
+<member name="F:ARGTYPE_CUSTOM" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     Specifies the caller is handling the argument parsing.
+ 
+</summary >
+</member>
+<member name="F:DATAF_CHAR" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     The data flag specifies the data is an 8-bit byte.
+ 
+</summary >
+</member>
+<member name="F:DATAF_SHORT" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     The data flag specifies the data is a 16-bit word.
+ 
+</summary >
+</member>
+<member name="F:DATAF_LONG" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     The data flag specifies the data is a 32-bit dword.
+ 
+</summary >
+</member>
+<member name="T:PFNCMD" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     This function callback is called to process the command.
+ 
+</summary >
+</member>
+<member name="T:PFNPARSEARG" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     This function callback is called to parse custom arguments.
+ 
+</summary >
+</member>
+<member name="T:_ArgDef" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     This structure is used to describe a command argument.
+ 
+</summary >
+</member>
+<member name="F:_ArgDef.bType" source="c:\temp\Trc\BaseCode\console.h" type="BYTE">
+<summary >
+
+     Specifies the argument type (see ARGTYPE_* flags for details).
+ 
+</summary >
+</member>
+<member name="F:_ArgDef.pvData" source="c:\temp\Trc\BaseCode\console.h" type="void">
+<summary >
+
+     Points to a variable to hold the parsed data.
+ 
+<para >
+
+       ARGTYPE_STRING: pvData points to a string pointer.
+ 
+</para >
+
+ 
+<para >
+
+       ARGTYPE_NUM: pvData points to a variable to hold the numeric value.
+ 
+</para >
+
+ 
+<para >
+
+       ARGTYPE_FLAGS: pvData points to a variable containing the flag bits.
+ 
+</para >
+
+ 
+<para >
+
+       ARGTYPE_CUSTOM: pvData points to the function for parsing the arguments.
+ 
+</para >
+
+ 
+</summary >
+</member>
+<member name="F:_ArgDef.bParam" source="c:\temp\Trc\BaseCode\console.h" type="BYTE">
+<summary >
+
+     Specifies the parameter for parsing the argument.
+ 
+<para >
+
+       ARGTYPE_STRING: none.
+ 
+</para >
+
+ 
+<para >
+
+       ARGTYPE_NUM: specifies the size of the value variable.
+ 
+</para >
+
+ 
+<para >
+
+       ARGTYPE_FLAGS: specifies the bit mask of the flag variable.
+ 
+</para >
+
+ 
+<para >
+
+       ARGTYPE_CUSTOM: none.
+ 
+</para >
+
+ 
+</summary >
+</member>
+<member name="F:_ArgDef.pszArgHelp" source="c:\temp\Trc\BaseCode\console.h" type="const rom char">
+<summary >
+
+     Points to the help message for the argument.
+ 
+</summary >
+</member>
+<member name="T:_CmdEntry" source="c:\temp\Trc\BaseCode\console.h" >
+<summary >
+
+     This structure is used to describe a command.
+ 
+</summary >
+</member>
+<member name="F:_CmdEntry.pszCmdString" source="c:\temp\Trc\BaseCode\console.h" type="const rom char">
+<summary >
+
+     Specifies the command string.
+ 
+</summary >
+</member>
+<member name="F:_CmdEntry.bNumArgDefs" source="c:\temp\Trc\BaseCode\console.h" type="BYTE">
+<summary >
+
+     Specifies the number of arguments for the command.
+ 
+</summary >
+</member>
+<member name="F:_CmdEntry.ArgDefs" source="c:\temp\Trc\BaseCode\console.h" type="PARGDEF">
+<summary >
+
+     Points to the table of argument definitions.
+ 
+</summary >
+</member>
+<member name="F:_CmdEntry.pfnCmd" source="c:\temp\Trc\BaseCode\console.h" type="PFNCMD">
+<summary >
+
+     Points to callback function to process the command.
+ 
+</summary >
+</member>
+<member name="F:_CmdEntry.pszCmdHelp" source="c:\temp\Trc\BaseCode\console.h" type="const rom char">
+<summary >
+
+     Points to the help message for the command.
+ 
+</summary >
+</member>
+</members>
+</doc>

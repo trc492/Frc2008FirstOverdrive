@@ -1,0 +1,60 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>ServoInitialize Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>ServoInitialize Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function initializes a servo motor structure.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">void ServoInitialize(
+	<a href="PSERVO.html" class="typeLink">PSERVO</a> Servo,
+	<a href="PPIDPARAM.html" class="typeLink">PPIDPARAM</a> PidParam,
+	<a href="BYTE.html" class="typeLink">BYTE</a> bEncoder,
+	<a href="int.html" class="typeLink">int</a> iVelLimit,
+	<a href="int.html" class="typeLink">int</a> iMotorDir
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>Servo</i></dt><dd>
+
+     Points to the SERVO structure to be initialized.
+ 
+</dd></dl><dl><dt><i>PidParam</i></dt><dd>
+
+     Points to the PIDPARAM structure for use with this Servo.
+ 
+</dd></dl><dl><dt><i>bEncoder</i></dt><dd>
+
+     Specifies the encoder channel.
+ 
+</dd></dl><dl><dt><i>iVelLimit</i></dt><dd>
+
+     Specifies velocity limit. If 0, it means no limit.
+ 
+</dd></dl><dl><dt><i>iMotorDir</i></dt><dd>
+
+     Specifies the direction of the motor.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ None. 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\servo.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

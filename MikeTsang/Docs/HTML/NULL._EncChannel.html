@@ -1,0 +1,59 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>_EncChannel Class</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <h1>_EncChannel</h1>
+        <dl>
+          <table>
+            <tr valign="top">
+              <td>
+
+     This structure stores the states of an encoder channel.
+ 
+<dt><h4>Fields</h4></dt><dd><dl><dt><i>bChannel</i></dt><dd>
+
+     Stores the encoder channel number (0-based).
+ 
+</dd><dt><i>bState</i></dt><dd>
+
+     Stores the phase A pin state. This field is only used for
+     encoder channels 3-6.
+ 
+</dd><dt><i>fReverse</i></dt><dd>
+
+     Specifies if the encoder direction is reversed.
+ 
+</dd><dt><i>lPrevCount</i></dt><dd>
+
+     Stores the previous encoder count. This field is used for
+     calculating the velocity by calculating the difference
+     between the current and previous encoder counts.
+ 
+</dd><dt><i>lCount</i></dt><dd>
+
+     Stores the current encoder count.
+ 
+</dd><dt><i>lVelocity</i></dt><dd>
+
+     Stores the calculated velocity for the current system timer tick.
+ 
+</dd></dl></dd></td>
+            </tr>
+          </table>
+        </dl>
+        <p>
+          <font color="#888888">
+					Source File: c:\temp\Trc\BaseCode\encoder.c</font>
+        </p>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

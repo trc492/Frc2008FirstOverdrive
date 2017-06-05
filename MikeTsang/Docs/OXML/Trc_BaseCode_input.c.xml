@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<doc>
+<members>
+<member name="F:MAX_JOYSTICK_PORTS" source="c:\temp\Trc\BaseCode\input.c" >
+<summary >
+
+     The maximum number of joystick ports on the Operating Interface.
+ 
+</summary >
+</member>
+<member name="F:MAX_INPUTCAL_SAMPLES" source="c:\temp\Trc\BaseCode\input.c" >
+<summary >
+
+     The number of samples used for each joystick calibration.
+ 
+</summary >
+</member>
+<member name="F:JOYSTICK_NOISE_MARGIN" source="c:\temp\Trc\BaseCode\input.c" >
+<summary >
+
+     Noise margin value added to calibrated noise range.
+ 
+</summary >
+</member>
+<member name="F:CALF_CALIBRATED" source="c:\temp\Trc\BaseCode\input.c" >
+<summary >
+
+     All inputs have been calibrated.
+ 
+</summary >
+</member>
+<member name="F:CALF_CALIBRATING" source="c:\temp\Trc\BaseCode\input.c" >
+<summary >
+
+     Inputs are being calibrated.
+ 
+</summary >
+</member>
+<member name="T:_OiCalData" source="c:\temp\Trc\BaseCode\input.c" >
+<summary >
+
+     This structure stores the temporary data during input calibration.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bCalFlags" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Indicates whether we are in calibration mode or we are done
+     with calibration.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bCalPortIndex" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the current calibrating port index.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.icCalSamples" source="c:\temp\Trc\BaseCode\input.c" type="int">
+<summary >
+
+     Stores the number of calibration sample accumulated so far.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.lxAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+<summary >
+
+     Accumulates the input X value for averaging.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.lyAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+<summary >
+
+     Accumulates the input Y value for averaging.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.lwheelAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+<summary >
+
+     Accumulates the input Wheel value for averaging.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.lauxAccum" source="c:\temp\Trc\BaseCode\input.c" type="long">
+<summary >
+
+     Accumulates the input Aux value for averaging.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bxNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the minimum noise value for X.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bxNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the maximum noise value for X.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.byNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the minimum noise value for Y.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.byNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the maximum noise value for Y.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bwheelNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the minimum noise value for Wheel.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bwheelNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the maximum noise value for Wheel.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bauxNoiseMin" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the minimum noise value for Aux.
+ 
+</summary >
+</member>
+<member name="F:_OiCalData.bauxNoiseMax" source="c:\temp\Trc\BaseCode\input.c" type="BYTE">
+<summary >
+
+     Stores the maximum noise value for Aux.
+ 
+</summary >
+</member>
+<member name="M:InputInitialize(BYTE,BYTE,BYTE,BYTE)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+<summary >
+
+     This function initializes the input data. This includes calibrating
+     all in-use analog channels. The Operator Interface has 4 joystick
+     ports and each has 4 analog channels totalling 16 analog channels.
+     This function allows specifying which joystick ports and which analog
+     channels are in used so that only those channels are initialized
+     and calibrated.
+ 
+</summary >
+<param name="bPort1Flags" type="BYTE" >
+
+     Specifies which analog channels of joystick 1 are in use.
+ 
+</param >
+<param name="bPort2Flags" type="BYTE" >
+
+     Specifies which analog channels of joystick 2 are in use.
+ 
+</param >
+<param name="bPort3Flags" type="BYTE" >
+
+     Specifies which analog channels of joystick 3 are in use.
+ 
+</param >
+<param name="bPort4Flags" type="BYTE" >
+
+     Specifies which analog channels of joystick 4 are in use.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:InputCalibrate(void)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+<summary >
+
+     This function initializes for joystick calibration.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:InputProcessData(void)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+<summary >
+
+     This function processes the input data from the Operator Interface.
+     If we are in calibration mode, it will perform the calibration cycle.
+     Otherwise, it will adjust the input data according to the calibration
+     data.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+<remarks >
+
+     After the Robot Controller is reset, the initialization routine should
+     initialize the InputData structure specifying which joystick ports are
+     in use and which analog channels of each port are in use. Then it
+     should set the OiCalData.bCalFlags to start the calibration
+     cycles.
+ 
+</remarks >
+</member>
+<member name="M:InputPrintData(void)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+<summary >
+
+     This function prints the input data to the debug console.
+ 
+</summary >
+<returns >
+ None. 
+</returns >
+</member>
+<member name="M:InitializePort(BYTE,BYTE)" source="c:\temp\Trc\BaseCode\input.c" type="void">
+<summary >
+
+     This function initializes the joystick port and prepare for
+     calibration. It specifies which analog channels of the joystick
+     port are in use.
+ 
+</summary >
+<param name="bPort" type="BYTE" >
+
+     Specifies the joystick port for calibration.
+     Note: port number is 0-based.
+ 
+</param >
+<param name="bPortFlags" type="BYTE" >
+
+     Specifies which analog channels of the joystick port should be
+     calibrated.
+ 
+</param >
+<returns >
+ None. 
+</returns >
+</member>
+</members>
+</doc>

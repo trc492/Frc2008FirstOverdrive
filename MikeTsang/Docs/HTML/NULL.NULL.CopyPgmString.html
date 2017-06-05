@@ -1,0 +1,52 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>CopyPgmString Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>CopyPgmString Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function copies a string from program memory to data memory.
+     String literals are allocated in program memory. A lot of library
+     functions can only access data memory.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">PSTR CopyPgmString(
+	<a href="PSTR.html" class="typeLink">PSTR</a> pszStr,
+	<a href="BYTE.html" class="typeLink">BYTE</a> bLen,
+	<a href="const rom char *.html" class="typeLink">const rom char *</a> pszPgmStr
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>pszStr</i></dt><dd>
+
+     Points to string buffer in data memory.
+ 
+</dd></dl><dl><dt><i>bLen</i></dt><dd>
+
+     Specifies the size of the string buffer.
+ 
+</dd></dl><dl><dt><i>pszPgmStr</i></dt><dd>
+
+     Points to string in program memory.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ Returns a copy of the string in data memory. 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\console.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

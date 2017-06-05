@@ -1,0 +1,132 @@
+
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=InternalSDK.chm
+Contents file=InternalSDK.hhc
+Default Window=Nav Pane
+Default topic=C:\Temp\Trc\Docs\HTML\namespaces.html
+Display compile progress=No
+Full-text search=Yes
+Index file=InternalSDK.hhk
+Language=0x409 English (United States)
+Title=Internal SDK
+
+[WINDOWS]
+Nav Pane="Internal SDK","InternalSDK.hhc","InternalSDK.hhk","C:\Temp\Trc\Docs\HTML\namespaces.html","C:\Temp\Trc\Docs\HTML\namespaces.html",,,,,0x63420,300,0x386e,[25,50,1025,650],,,,,,,0
+
+[FILES]
+C:\Temp\Trc\Docs\HTML\namespaces.html
+            C:\Temp\Trc\Docs\HTML\NULL._ADC.html
+    C:\Temp\Trc\Docs\HTML\NULL._ADCChannel.html
+    C:\Temp\Trc\Docs\HTML\NULL._ArgDef.html
+    C:\Temp\Trc\Docs\HTML\NULL._CmdEntry.html
+    C:\Temp\Trc\Docs\HTML\NULL._Console.html
+    C:\Temp\Trc\Docs\HTML\NULL._Drive.html
+    C:\Temp\Trc\Docs\HTML\NULL._EncChannel.html
+    C:\Temp\Trc\Docs\HTML\NULL._Encoder.html
+    C:\Temp\Trc\Docs\HTML\NULL._Gyro.html
+    C:\Temp\Trc\Docs\HTML\NULL._GyroCal.html
+    C:\Temp\Trc\Docs\HTML\NULL._MoveTo.html
+    C:\Temp\Trc\Docs\HTML\NULL._OiCalData.html
+    C:\Temp\Trc\Docs\HTML\NULL._PidParam.html
+    C:\Temp\Trc\Docs\HTML\NULL._Servo.html
+    C:\Temp\Trc\Docs\HTML\NULL.NULL._do_cinit.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL._entry.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL._startup.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL._user_putc.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCDisable.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCGetUpdateCount.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCGetUpdateRate.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCGetValue.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCGetValueRange.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCIndex.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCIntHandler.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCResetUpdateCount.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCTimer2IntHandler.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ADCValueToMillivolt.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.BaseCmdConsoleInit.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.BaseCmdConsoleTrace.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.BaseInitialization.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.CalibrateGyro.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.CalibrateInput.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsoleInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsoleParseCmdArgs.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsoleParseCommand.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsolePrintCmdHelp.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsolePrintHelp.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsoleProcessCmd.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsoleProcessData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ConsoleQuit.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.CopyPgmString.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Encoder1_2IntHandler.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Encoder3_6Int.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Encoder3_6IntHandler.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderGetCount.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderGetVelocity.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderIndex.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderInterrupt.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderResetCount.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.EncoderTimerTick.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroCalibrate.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroGetAngle.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroGetBias.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroGetRate.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroProcessData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroResetAngle.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.GyroSetBias.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InitHookTable.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InitializePort.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InputCalibrate.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InputInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InputPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InputProcessData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InterruptHandlerLow.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.InterruptVectorLow.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.main.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintAdcData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintEncoderData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintGyroData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintInputData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintPwmData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintRCIoData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PrintStatus.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ProcessHooks.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PWMInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PWMPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.PWMSetValues.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.RCIOInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.RCIOPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.RCIOPrintDigitalIo.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.RCIOPrintRelay.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.RegisterHook.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Serial1Initialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Serial2Initialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialGetByteCount.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialInitPort.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialReadData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialRxInterrupt.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialRxIntHandler.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialTxInterrupt.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialTxIntHandler.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.SerialWriteData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoCalibrate.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoInitialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoInitMoveTo.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoMoveTo.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoPid.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoPidDrive.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoPrintData.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.ServoPrintPidParam.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Timer2Disable.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Timer2Initialize.html
+      C:\Temp\Trc\Docs\HTML\NULL.NULL.Wait4TXEmpty.html
+      C:\Temp\Trc\Docs\HTML\PFNCMD_ns.html
+    C:\Temp\Trc\Docs\HTML\PFNPARSEARG_ns.html
+    

@@ -1,0 +1,58 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>GyroInitialize Function
+		</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <table>
+          <h1>GyroInitialize Function
+		    </h1>
+          <tr valign="top">
+            <td>
+
+     This function initializes the gyro component.
+ 
+<dl><dt><h4>Syntax</h4></dt><dd><pre class="syntax">void GyroInitialize(
+	<a href="BYTE.html" class="typeLink">BYTE</a> bADCChannel,
+	<a href="WORD.html" class="typeLink">WORD</a> wSensitivity,
+	<a href="WORD.html" class="typeLink">WORD</a> wScaleFactor,
+	<a href="WORD.html" class="typeLink">WORD</a> wNoiseMargin
+);</pre></dd><dt><h4>Parameters</h4></dt><dd><dl><dt><i>bADCChannel</i></dt><dd>
+
+     Specifies the ADC channel the gyro is hooked up to.
+ 
+</dd></dl><dl><dt><i>wSensitivity</i></dt><dd>
+
+     Specifies the gyro sensitivity in the unit of 0.1 degree/sec/volt or
+     milliradians/sec/volt. The unit of sensitivity affects the unit
+     returned by GyroGetRate.
+ 
+</dd></dl><dl><dt><i>wScaleFactor</i></dt><dd>
+
+     Specifies the gyro scale factory. This is a manual calibration
+     constant. By default it starts with a value of 1000.
+ 
+</dd></dl><dl><dt><i>wNoiseMargin</i></dt><dd>
+
+     Specifies the noise margin on top of the calibrated noise threshold.
+ 
+</dd></dl></dd><dt><h4>Return Value</h4></dt><dd>
+ None. 
+</dd></dl></td>
+          </tr>
+          <tr>
+            <td>
+        Source File: c:\temp\Trc\BaseCode\gyro.c</td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>

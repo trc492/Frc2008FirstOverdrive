@@ -1,0 +1,80 @@
+<HTML xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:msnia="urn:microsoft-msn-ia">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <TITLE>_ArgDef Class</TITLE>
+    <link rel="stylesheet" type="text/css" href="msdn.css">
+  </HEAD>
+  <BODY>
+    <dl>
+      <dt>
+        <br>
+      </dt>
+      <dd>
+        <h1>_ArgDef</h1>
+        <dl>
+          <table>
+            <tr valign="top">
+              <td>
+
+     This structure is used to describe a command argument.
+ 
+<dt><h4>Fields</h4></dt><dd><dl><dt><i>bType</i></dt><dd>
+
+     Specifies the argument type (see ARGTYPE_* flags for details).
+ 
+</dd><dt><i>pvData</i></dt><dd>
+
+     Points to a variable to hold the parsed data.
+ 
+<br>
+
+       ARGTYPE_STRING: pvData points to a string pointer.
+ 
+<br>
+
+       ARGTYPE_NUM: pvData points to a variable to hold the numeric value.
+ 
+<br>
+
+       ARGTYPE_FLAGS: pvData points to a variable containing the flag bits.
+ 
+<br>
+
+       ARGTYPE_CUSTOM: pvData points to the function for parsing the arguments.
+ 
+</dd><dt><i>bParam</i></dt><dd>
+
+     Specifies the parameter for parsing the argument.
+ 
+<br>
+
+       ARGTYPE_STRING: none.
+ 
+<br>
+
+       ARGTYPE_NUM: specifies the size of the value variable.
+ 
+<br>
+
+       ARGTYPE_FLAGS: specifies the bit mask of the flag variable.
+ 
+<br>
+
+       ARGTYPE_CUSTOM: none.
+ 
+</dd><dt><i>pszArgHelp</i></dt><dd>
+
+     Points to the help message for the argument.
+ 
+</dd></dl></dd></td>
+            </tr>
+          </table>
+        </dl>
+        <p>
+          <font color="#888888">
+					Source File: c:\temp\Trc\BaseCode\console.h</font>
+        </p>
+      </dd>
+    </dl>
+  </BODY>
+</HTML>
